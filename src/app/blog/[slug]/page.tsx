@@ -7,9 +7,11 @@ type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({ params }: Props) {
-  const pa = await params;
-  const slug = pa.slug;
+type Params = Promise<{ slug: string }>
+
+export async function generateMetadata(props: { params: Params }) {
+  const params = await props.params;
+  const slug = params.slug;
   const post = await getPostBySlug(slug);
   if (!post) return {};
   return {
@@ -26,9 +28,9 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function BlogDetailPage({ params }: Props) {
-  const pa = await params;
-  const slug = pa.slug;
+export default async function BlogDetailPage(props: { params: Params }) {
+  const params = await props.params;
+  const slug = params.slug;
   const post = await getPostBySlug(slug);
   if (!post) return notFound();
 
