@@ -12,7 +12,7 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
     <header className="sticky top-0 z-50 w-full px-4 py-3 border-b border-gray-200 bg-white backdrop-blur supports-[backdrop-filter]:bg-white/70">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
 
-        <Link href="/" className="text-2xl font-bold text-gray-900">
+        <Link href="/" className="text-xl font-bold text-gray-900">
           Multi Hats
         </Link>
 
@@ -30,7 +30,7 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
           />
         )}
 
-        <div className="flex space-x-6">
+        <div className="flex space-x-2">
           <Link href="https://www.youtube.com/@mh-344" target="_blank" aria-label="YouTube">
             <Youtube className="h-6 w-6 text-gray-600 hover:text-red-600 transition-colors" />
           </Link>
