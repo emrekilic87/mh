@@ -102,7 +102,207 @@ export const posts = [
         <p>Tokyo is a city of contrasts, where skyscrapers rise beside ancient temples, and futuristic technology coexists with centuries-old customs. Whether you're exploring its lively neighborhoods, indulging in iconic cuisine, or uncovering its historical treasures — Tokyo promises an unforgettable journey.</p>
       `,
       image: "/images/tokyo.jpg",
-    }
+    },
+    {
+      slug: "discover-mexico",
+      title: "Discover Mexico",
+      keywords: "Mexico travel guide, Best places to visit in Mexico, Mexican street food, Mexican historical sites, What to eat in Mexico, Popular Mexican souvenirs, Mexican culture travel, Famous places in Mexico, Mexican cuisine, Historical landmarks in Mexico",
+      summary: "Mexico is a vibrant and colorful country known for its rich history, delicious food, stunning landscapes, and lively culture. From ancient ruins to modern cities, street tacos to artisan crafts, Mexico has something for every traveler. Discover the best of Mexico’s areas, products, foods, and historical places in this guide.",
+      content: `
+        <p>Mexico is a vibrant and colorful country known for its rich history, delicious food, stunning landscapes, and lively culture. From ancient ruins to modern cities, street tacos to artisan crafts, Mexico has something for every traveler. Discover the best of Mexico’s areas, products, foods, and historical places in this guide.</p>
+    
+        <h2>Popular Areas in Mexico</h2>
+        <ul>
+          <li><strong>Mexico City:</strong> The capital blends colonial architecture, vibrant street life, and world-class museums like the National Museum of Anthropology.</li>
+          <li><strong>Cancún:</strong> Known for its beautiful beaches, luxurious resorts, and nightlife on the Yucatán Peninsula.</li>
+          <li><strong>Guadalajara:</strong> The birthplace of mariachi music and tequila, full of cultural events and historic buildings.</li>
+          <li><strong>Oaxaca:</strong> A city rich in indigenous culture, colorful markets, and traditional crafts.</li>
+          <li><strong>San Miguel de Allende:</strong> A UNESCO World Heritage Site with charming colonial streets and art galleries.</li>
+          <li><strong>Tulum:</strong> A coastal town known for its bohemian vibe, Mayan ruins, and eco-resorts.</li>
+        </ul>
+    
+        <h2>Popular Products from Mexico</h2>
+        <ul>
+          <li><strong>Tequila and Mezcal:</strong> Traditional Mexican spirits made from agave, widely produced in Jalisco and Oaxaca.</li>
+          <li><strong>Talavera Pottery:</strong> Hand-painted ceramics with intricate patterns, especially from Puebla.</li>
+          <li><strong>Silver Jewelry:</strong> Especially from Taxco, known for high-quality craftsmanship and elegant designs.</li>
+          <li><strong>Embroidered Textiles:</strong> Colorful garments and fabrics handcrafted by indigenous communities.</li>
+          <li><strong>Mexican Chocolate:</strong> Rich, spiced chocolate often used in drinks or mole sauces.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Mexico</h2>
+        <ul>
+          <li><strong>Tacos al Pastor:</strong> Marinated pork cooked on a spit, served in warm tortillas with pineapple, onions, and cilantro.</li>
+          <li><strong>Guacamole:</strong> A creamy avocado dip often served with tortilla chips.</li>
+          <li><strong>Mole:</strong> A complex sauce made from chiles, chocolate, nuts, and spices — a staple in Oaxaca.</li>
+          <li><strong>Chiles en Nogada:</strong> A patriotic dish with stuffed poblano chiles topped with walnut sauce and pomegranate seeds.</li>
+          <li><strong>Tamales:</strong> Corn dough filled with meat or cheese, wrapped in banana leaves or corn husks, then steamed.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Mexico</h2>
+        <ul>
+          <li><strong>Teotihuacán:</strong> Home to the massive Pyramids of the Sun and Moon, built before the Aztecs.</li>
+          <li><strong>Chichén Itzá:</strong> A UNESCO World Heritage Site and one of the New Seven Wonders of the World, showcasing Mayan architecture.</li>
+          <li><strong>Templo Mayor:</strong> The ruins of a major Aztec temple in the heart of Mexico City.</li>
+          <li><strong>Monte Albán:</strong> Ancient Zapotec city located near Oaxaca with panoramic views and stone carvings.</li>
+          <li><strong>Palacio de Bellas Artes:</strong> A cultural icon of Mexico City that hosts art exhibits and performances.</li>
+        </ul>
+    
+        <hr/>
+        <p>Mexico is a land of contrasts — ancient civilizations and modern life, spicy street food and gourmet cuisine, bustling cities and quiet villages. Whether you're exploring Mayan ruins, sampling authentic tacos, or shopping for handmade crafts, Mexico will inspire your senses and stay in your heart forever.</p>
+      `,
+      image: "/images/mexico.jpg",
+    },
+    {
+      slug: "discover-paris",
+      title: "Discover Paris",
+      keywords: "Paris travel guide, Best places to visit in Paris, Paris attractions, Paris historical landmarks, What to eat in Paris, French cuisine, Paris shopping guide, Famous streets in Paris, Paris souvenirs, Cultural experiences in Paris",
+      summary: "Paris, the City of Light, is a timeless destination known for its romantic atmosphere, stunning architecture, world-class cuisine, and rich history. Whether you're exploring cobblestone streets or savoring a fresh croissant by the Seine, Paris offers an unforgettable experience. Let’s explore the most iconic areas, products, foods, and historical places in this enchanting city.",
+      content: `
+        <p>Paris, the City of Light, is a timeless destination known for its romantic atmosphere, stunning architecture, world-class cuisine, and rich history. Whether you're exploring cobblestone streets or savoring a fresh croissant by the Seine, Paris offers an unforgettable experience. Let’s explore the most iconic areas, products, foods, and historical places in this enchanting city.</p>
+    
+        <h2>Popular Areas in Paris</h2>
+        <ul>
+          <li><strong>Champs-Élysées:</strong> A world-famous avenue lined with theaters, cafés, and luxury shops, leading to the Arc de Triomphe.</li>
+          <li><strong>Montmartre:</strong> A bohemian neighborhood known for the Sacré-Cœur Basilica and its artistic history.</li>
+          <li><strong>Le Marais:</strong> A trendy area full of boutiques, art galleries, and historic mansions.</li>
+          <li><strong>Latin Quarter:</strong> A lively district with narrow streets, student life, and classic Parisian charm.</li>
+          <li><strong>Saint-Germain-des-Prés:</strong> Known for its intellectual and literary heritage, cozy cafés, and chic boutiques.</li>
+          <li><strong>La Défense:</strong> The modern business district, filled with skyscrapers and futuristic architecture.</li>
+        </ul>
+    
+        <h2>Popular Products from Paris</h2>
+        <ul>
+          <li><strong>French Perfume:</strong> Paris is the heart of luxury fragrance with iconic brands like Chanel, Dior, and Guerlain.</li>
+          <li><strong>Fashion and Couture:</strong> Home to global fashion houses, Paris offers haute couture and stylish streetwear.</li>
+          <li><strong>Macarons:</strong> Colorful and delicate pastries available at famous patisseries like Ladurée and Pierre Hermé.</li>
+          <li><strong>French Wine and Champagne:</strong> Widely sold in Paris from every region of France, perfect for gifts or personal enjoyment.</li>
+          <li><strong>Art Prints and Books:</strong> Montmartre and Shakespeare & Co. are perfect places for unique art and literature finds.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Paris</h2>
+        <ul>
+          <li><strong>Croissant:</strong> A buttery, flaky pastry that defines the Parisian breakfast.</li>
+          <li><strong>Escargots:</strong> Snails cooked with garlic and parsley butter — a delicacy of French cuisine.</li>
+          <li><strong>Coq au Vin:</strong> A hearty dish made with chicken braised in wine, mushrooms, and onions.</li>
+          <li><strong>Crêpes:</strong> Thin pancakes filled with sweet or savory ingredients, sold in cafés and street stands alike.</li>
+          <li><strong>French Cheese:</strong> From Brie to Roquefort, Paris is heaven for cheese lovers, best enjoyed with a baguette and wine.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Paris</h2>
+        <ul>
+          <li><strong>Eiffel Tower:</strong> The iconic symbol of Paris offering panoramic views of the city.</li>
+          <li><strong>Notre-Dame Cathedral:</strong> A masterpiece of Gothic architecture with a history dating back to the 12th century.</li>
+          <li><strong>Louvre Museum:</strong> The world's largest art museum, home to the Mona Lisa and countless masterpieces.</li>
+          <li><strong>Palace of Versailles:</strong> Just outside Paris, this former royal residence boasts stunning gardens and opulent halls.</li>
+          <li><strong>Panthéon:</strong> A neoclassical monument housing the remains of famous French figures like Voltaire and Marie Curie.</li>
+        </ul>
+    
+        <hr/>
+        <p>Paris is more than just a destination — it's an experience that touches every sense. From romantic walks along the Seine to culinary delights and timeless monuments, Paris captures the heart of every traveler. Whether you're visiting for the first time or returning once again, the magic of Paris never fades.</p>
+      `,
+      image: "/images/paris.jpg"
+    },
+    {
+      slug: "discover-puerto-vallarta",
+      title: "Discover Puerto Vallarta",
+      keywords: "Puerto Vallarta travel guide, Best places to visit in Puerto Vallarta, Puerto Vallarta beaches, Mexican coastal towns, What to eat in Puerto Vallarta, Puerto Vallarta souvenirs, Puerto Vallarta attractions, Puerto Vallarta food guide, Historical places in Puerto Vallarta, Puerto Vallarta culture",
+      summary: "Puerto Vallarta, located on Mexico’s Pacific coast, is a charming beach town known for its stunning sunsets, vibrant local culture, delicious cuisine, and rich history. Whether you're strolling through cobblestone streets or relaxing on golden beaches, this coastal gem offers something for every kind of traveler. Discover the top areas, products, foods, and historical sites in Puerto Vallarta.",
+      content: `
+        <p>Puerto Vallarta, located on Mexico’s Pacific coast, is a charming beach town known for its stunning sunsets, vibrant local culture, delicious cuisine, and rich history. Whether you're strolling through cobblestone streets or relaxing on golden beaches, this coastal gem offers something for every kind of traveler. Discover the top areas, products, foods, and historical sites in Puerto Vallarta.</p>
+    
+        <h2>Popular Areas in Puerto Vallarta</h2>
+        <ul>
+          <li><strong>Zona Romántica (Romantic Zone):</strong> A lively neighborhood with colorful buildings, beach bars, LGBTQ+ friendly venues, and charming boutiques.</li>
+          <li><strong>Malecón:</strong> A scenic oceanfront boardwalk lined with sculptures, shops, street performers, and restaurants.</li>
+          <li><strong>Marina Vallarta:</strong> A luxurious area with upscale hotels, yachts, golf courses, and fine dining.</li>
+          <li><strong>Conchas Chinas:</strong> A quiet, upscale residential area known for beautiful beaches and oceanfront villas.</li>
+          <li><strong>Centro (Downtown):</strong> The heart of the city, full of colonial architecture, churches, and local markets.</li>
+        </ul>
+    
+        <h2>Popular Products from Puerto Vallarta</h2>
+        <ul>
+          <li><strong>Handmade Jewelry:</strong> Artisans create unique silver and beaded jewelry, often sold in open-air markets and galleries.</li>
+          <li><strong>Huichol Art:</strong> Intricate beadwork and yarn paintings made by the local indigenous Huichol people.</li>
+          <li><strong>Mexican Vanilla:</strong> A sweet and fragrant culinary ingredient found in many local markets.</li>
+          <li><strong>Tequila and Raicilla:</strong> Local agave-based spirits produced in the surrounding region of Jalisco.</li>
+          <li><strong>Handcrafted Pottery:</strong> Colorful, traditional ceramics perfect as decorative souvenirs or gifts.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Puerto Vallarta</h2>
+        <ul>
+          <li><strong>Birria Tacos:</strong> A savory, spicy stew meat taco, often served with consommé for dipping.</li>
+          <li><strong>Mariscos (Seafood):</strong> Ceviche, shrimp tacos, and grilled fish are staples of the coastal cuisine.</li>
+          <li><strong>Tamal de Elote:</strong> A sweet corn tamale, usually eaten as a snack or dessert.</li>
+          <li><strong>Tuba Drink:</strong> A traditional drink made from fermented coconut sap, served over ice with nuts and fruit.</li>
+          <li><strong>Churros:</strong> Fried dough pastries dusted with sugar and sometimes filled with caramel or chocolate.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Puerto Vallarta</h2>
+        <ul>
+          <li><strong>Parroquia de Nuestra Señora de Guadalupe:</strong> The iconic crown-topped church and the spiritual heart of Puerto Vallarta.</li>
+          <li><strong>Isla Cuale:</strong> A small island in the middle of the Cuale River, featuring museums, artisan markets, and quiet walkways.</li>
+          <li><strong>Casa Kimberly:</strong> The former home of Elizabeth Taylor and Richard Burton, now a boutique hotel and restaurant.</li>
+          <li><strong>El Faro Lighthouse (Marina):</strong> A small lighthouse with panoramic views over the marina and ocean.</li>
+          <li><strong>Plaza de Armas:</strong> The main town square, often hosting music, festivals, and community events.</li>
+        </ul>
+    
+        <hr/>
+        <p>Puerto Vallarta combines natural beauty with rich traditions and welcoming locals. From its vibrant Romantic Zone to traditional seafood dishes and stunning historical landmarks, the city is a unique fusion of beach paradise and cultural richness. Whether you're an adventurer, foodie, or history lover — Puerto Vallarta is a destination you won't forget.</p>
+      `,
+      image: "/images/puerto-vallarta.jpg"
+    },
+    {
+      slug: "discover-france",
+      title: "Discover France",
+      keywords: "France travel guide, Best places to visit in France, French cuisine, French historical landmarks, Shopping in France, What to eat in France, Famous cities in France, French culture and heritage, French souvenirs, France tourist attractions",
+      summary: "France is a country of elegance, art, history, and culinary excellence. From the romantic streets of Paris to the sun-drenched coasts of the French Riviera, France offers a rich tapestry of experiences. Dive into the popular regions, iconic products, must-try foods, and historic landmarks that make France a dream destination for travelers worldwide.",
+      content: `
+        <p>France is a country of elegance, art, history, and culinary excellence. From the romantic streets of Paris to the sun-drenched coasts of the French Riviera, France offers a rich tapestry of experiences. Dive into the popular regions, iconic products, must-try foods, and historic landmarks that make France a dream destination for travelers worldwide.</p>
+    
+        <h2>Popular Areas in France</h2>
+        <ul>
+          <li><strong>Paris:</strong> The capital city, known for the Eiffel Tower, art museums, luxury shopping, and romantic ambiance.</li>
+          <li><strong>Provence:</strong> A scenic region famous for lavender fields, vineyards, hilltop villages, and Mediterranean flair.</li>
+          <li><strong>French Riviera (Côte d’Azur):</strong> Glamorous coastal towns like Nice, Cannes, and Saint-Tropez with beautiful beaches and nightlife.</li>
+          <li><strong>Loire Valley:</strong> Renowned for its fairytale castles, charming countryside, and world-class wines.</li>
+          <li><strong>Alsace:</strong> A unique blend of French and German influences, with half-timbered houses and fantastic Christmas markets.</li>
+          <li><strong>Normandy:</strong> A coastal region steeped in WWII history, with stunning cliffs and the famous Mont-Saint-Michel.</li>
+        </ul>
+    
+        <h2>Popular Products from France</h2>
+        <ul>
+          <li><strong>French Wine:</strong> Bordeaux, Burgundy, Champagne — France is a global leader in fine wines.</li>
+          <li><strong>Perfume:</strong> Iconic fragrances from brands like Chanel, Dior, and Guerlain.</li>
+          <li><strong>Luxury Fashion:</strong> Paris is home to haute couture fashion houses such as Louis Vuitton, Hermès, and Yves Saint Laurent.</li>
+          <li><strong>French Cheese:</strong> Over 400 varieties, including Brie, Camembert, Roquefort, and Comté.</li>
+          <li><strong>Macarons and Chocolates:</strong> Sweet treats that are both gourmet and beautiful to gift or enjoy.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in France</h2>
+        <ul>
+          <li><strong>Baguette:</strong> A symbol of French culture, perfect when paired with cheese and wine.</li>
+          <li><strong>Croissant:</strong> Buttery, flaky, and essential for a French breakfast.</li>
+          <li><strong>Boeuf Bourguignon:</strong> A slow-cooked beef stew made with red wine, vegetables, and herbs from Burgundy.</li>
+          <li><strong>Duck Confit:</strong> Crispy duck leg cooked in its own fat, served with potatoes or lentils.</li>
+          <li><strong>Crème Brûlée:</strong> A creamy vanilla custard with a caramelized sugar crust — a French dessert classic.</li>
+        </ul>
+    
+        <h2>Special Historical Places in France</h2>
+        <ul>
+          <li><strong>Eiffel Tower (Paris):</strong> The most iconic structure in France, offering panoramic views of the capital.</li>
+          <li><strong>Palace of Versailles:</strong> A symbol of royal grandeur, with stunning gardens and opulent interiors.</li>
+          <li><strong>Mont-Saint-Michel (Normandy):</strong> A medieval abbey perched on a rocky island, a UNESCO World Heritage Site.</li>
+          <li><strong>Carcassonne:</strong> A fortified city with medieval walls and towers, offering a step back in time.</li>
+          <li><strong>Notre-Dame de Paris:</strong> Though under restoration, it remains a masterpiece of Gothic architecture and French history.</li>
+        </ul>
+    
+        <hr/>
+        <p>Whether you’re tasting your way through French cuisine, strolling through lavender fields, exploring historic châteaux, or relaxing on Mediterranean beaches, France captivates visitors with its timeless charm and cultural richness. It’s a country where every region tells a story — and every visit becomes a cherished memory.</p>
+      `,
+      image: "/images/france.jpg"
+    },    
+    
 
   ];
   

@@ -21,7 +21,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
 
   const searchParams = useSearchParams();
   const currentPage = Number(searchParams.get("page") || 1);
-  const postsPerPage = 5;
+  const postsPerPage = 10;
 
   const [search, setSearch] = useState("");
   const [filteredPosts, setFilteredPosts] = useState(posts);
