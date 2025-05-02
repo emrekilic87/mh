@@ -301,8 +301,156 @@ export const posts = [
         <p>Whether you’re tasting your way through French cuisine, strolling through lavender fields, exploring historic châteaux, or relaxing on Mediterranean beaches, France captivates visitors with its timeless charm and cultural richness. It’s a country where every region tells a story — and every visit becomes a cherished memory.</p>
       `,
       image: "/images/france.jpg"
-    },    
+    },
+    {
+      slug: "discover-south-korea",
+      title: "Discover South Korea",
+      keywords: "South Korea travel guide, Best places to visit in South Korea, Korean street food, Korean skincare products, Historical sites in Korea, Korean culture travel, Shopping in Seoul, Korean traditional food, Popular cities in Korea, Korea tourist attractions",
+      summary: "South Korea is a dynamic country where ancient history and cutting-edge technology coexist. From bustling cityscapes to serene palaces and temples, Korea offers a rich cultural experience. Explore its popular destinations, famous products, flavorful dishes, and iconic historical landmarks.",
+      content: `
+        <p>South Korea is a dynamic country where ancient history and cutting-edge technology coexist. From bustling cityscapes to serene palaces and temples, Korea offers a rich cultural experience. Explore its popular destinations, famous products, flavorful dishes, and iconic historical landmarks.</p>
     
+        <h2>Popular Areas in South Korea</h2>
+        <ul>
+          <li><strong>Seoul:</strong> The capital city filled with modern skyscrapers, historical palaces, shopping streets, and K-pop culture.</li>
+          <li><strong>Busan:</strong> A coastal city known for its beaches, seafood markets, and vibrant nightlife.</li>
+          <li><strong>Jeju Island:</strong> A volcanic island popular for its natural beauty, waterfalls, lava tubes, and honeymoon resorts.</li>
+          <li><strong>Gyeongju:</strong> Known as "the museum without walls," featuring many relics from the Silla Dynasty.</li>
+          <li><strong>Incheon:</strong> A major port city with historical sites and modern architecture, also home to Korea’s largest airport.</li>
+          <li><strong>Suwon:</strong> Famous for the Hwaseong Fortress and traditional Korean culture experiences.</li>
+        </ul>
+    
+        <h2>Popular Products from South Korea</h2>
+        <ul>
+          <li><strong>K-beauty Products:</strong> Skincare and cosmetic items from brands like Innisfree, Laneige, and Etude House are globally popular.</li>
+          <li><strong>K-pop Merchandise:</strong> Albums, posters, clothing, and light sticks from famous groups like BTS and BLACKPINK.</li>
+          <li><strong>Electronics:</strong> High-tech gadgets and appliances from brands like Samsung and LG.</li>
+          <li><strong>Hanbok:</strong> Traditional Korean clothing, often purchased as souvenirs or worn during cultural experiences.</li>
+          <li><strong>Traditional Crafts:</strong> Lacquerware, celadon pottery, and handmade fans reflecting Korea’s heritage.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in South Korea</h2>
+        <ul>
+          <li><strong>Kimchi:</strong> Spicy fermented cabbage that accompanies nearly every Korean meal.</li>
+          <li><strong>Bibimbap:</strong> A mixed rice dish with vegetables, beef, egg, and chili paste (gochujang).</li>
+          <li><strong>Korean BBQ:</strong> Grilled meats cooked at the table and enjoyed with dipping sauces and side dishes.</li>
+          <li><strong>Tteokbokki:</strong> Spicy rice cakes often sold as street food, with a chewy texture and sweet-heat flavor.</li>
+          <li><strong>Samgyetang:</strong> Ginseng chicken soup traditionally eaten for health and stamina.</li>
+        </ul>
+    
+        <h2>Special Historical Places in South Korea</h2>
+        <ul>
+          <li><strong>Gyeongbokgung Palace (Seoul):</strong> The largest of the Five Grand Palaces built during the Joseon Dynasty.</li>
+          <li><strong>Changdeokgung Palace:</strong> A UNESCO World Heritage Site with a famous Secret Garden.</li>
+          <li><strong>Bulguksa Temple (Gyeongju):</strong> An iconic Buddhist temple and another UNESCO World Heritage Site.</li>
+          <li><strong>Suwon Hwaseong Fortress:</strong> A beautifully preserved 18th-century fortress built by King Jeongjo.</li>
+          <li><strong>DMZ (Demilitarized Zone):</strong> A unique historical area that separates North and South Korea, open for guided tours.</li>
+        </ul>
+    
+        <hr/>
+        <p>South Korea captivates visitors with its fast-paced cities, serene landscapes, rich cultural heritage, and global influence in music, fashion, and technology. Whether you're wandering historic palaces, tasting sizzling street food, or shopping for beauty products, Korea promises an unforgettable experience.</p>
+      `,
+      image: "/images/south-korea.jpg"
+    },
+    {
+      slug: "discover-gyeongju",
+      title: "Discover Gyeongju",
+      keywords: "Gyeongju travel guide, Historical places in Gyeongju, Things to do in Gyeongju, Korean heritage sites, Gyeongju traditional food, Best places in Gyeongju, Gyeongju souvenirs, South Korea historical cities, Silla dynasty sites, Gyeongju tourism",
+      summary: "Gyeongju, often called 'the museum without walls', is one of South Korea’s most culturally rich and historically significant cities. Once the capital of the ancient Silla Kingdom, Gyeongju is filled with royal tombs, ancient temples, and UNESCO World Heritage Sites. Here's everything you need to know about exploring this fascinating city.",
+      content: `
+        <p>Gyeongju, often called "the museum without walls", is one of South Korea’s most culturally rich and historically significant cities. Once the capital of the ancient Silla Kingdom (57 BC – 935 AD), Gyeongju is filled with royal tombs, ancient temples, and UNESCO World Heritage Sites. Here's everything you need to know about exploring this fascinating city.</p>
+    
+        <h2>Popular Areas in Gyeongju</h2>
+        <ul>
+          <li><strong>Downtown Gyeongju:</strong> Offers a mix of modern cafes and cultural sites, great for shopping and local food.</li>
+          <li><strong>Bomun Lake Resort:</strong> A scenic area popular for family trips, cherry blossoms in spring, and luxury resorts.</li>
+          <li><strong>Yangdong Folk Village:</strong> A preserved traditional village and UNESCO World Heritage Site showcasing Joseon-era houses.</li>
+          <li><strong>Woljeonggyo Bridge Area:</strong> A beautifully reconstructed historical bridge and riverside path perfect for evening walks.</li>
+          <li><strong>Cheomseongdae District:</strong> Near the famous observatory, filled with open parks, cafes, and ancient burial mounds.</li>
+        </ul>
+    
+        <h2>Popular Products from Gyeongju</h2>
+        <ul>
+          <li><strong>Gyeongju Bread (Hwangnam-ppang):</strong> A red bean-filled pastry that is a beloved local souvenir.</li>
+          <li><strong>Traditional Crafts:</strong> Handcrafted fans, ceramics, and Silla-inspired jewelry.</li>
+          <li><strong>Buddhist Art:</strong> Reproductions of temple paintings, statues, and calligraphy scrolls.</li>
+          <li><strong>Rice Wine (Makgeolli):</strong> Locally brewed varieties often sold in traditional pottery containers.</li>
+          <li><strong>Gyeongju Green Tea:</strong> Sourced from nearby farms, known for its quality and aroma.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Gyeongju</h2>
+        <ul>
+          <li><strong>Hwangnam-ppang:</strong> The signature Gyeongju bread with sweet red bean paste, soft and lightly baked.</li>
+          <li><strong>Ssambap (Wrap Rice):</strong> Various vegetables, meats, and sauces wrapped in leafy greens — a local specialty.</li>
+          <li><strong>Kongguksu:</strong> Cold soybean noodle soup, especially popular in summer.</li>
+          <li><strong>Bulgogi Jeongol:</strong> A spicy beef stew with vegetables, ideal for sharing.</li>
+          <li><strong>Yakgwa and Hangwa:</strong> Traditional Korean sweets often enjoyed with tea in historic teahouses.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Gyeongju</h2>
+        <ul>
+          <li><strong>Bulguksa Temple:</strong> A UNESCO World Heritage Site and masterpiece of Buddhist art and architecture.</li>
+          <li><strong>Seokguram Grotto:</strong> A stunning 8th-century stone temple housing a serene Buddha statue facing the sea.</li>
+          <li><strong>Cheomseongdae Observatory:</strong> The oldest surviving astronomical observatory in East Asia, built in the 7th century.</li>
+          <li><strong>Daereungwon Tomb Complex:</strong> Royal burial mounds from the Silla period, including King Michu’s tomb.</li>
+          <li><strong>Anapji Pond (Donggung Palace):</strong> A beautifully restored Silla-era garden palace that is especially magical at night.</li>
+        </ul>
+    
+        <hr/>
+        <p>Gyeongju is a treasure trove of Korean history, offering a serene escape into the ancient past. Whether you’re exploring its royal tombs, savoring its signature sweets, or visiting its world-renowned temples, Gyeongju invites you to walk through centuries of heritage in one unforgettable journey.</p>
+      `,
+      image: "/images/gyeongju.jpg"
+    },
+    {
+      slug: "discover-tanzania",
+      title: "Discover Tanzania",
+      keywords: "Tanzania travel guide, Best places to visit in Tanzania, Safari destinations Tanzania, Tanzanian food, Zanzibar attractions, Historical places in Tanzania, Local products from Tanzania, Cultural tourism in Tanzania, Mount Kilimanjaro travel, Tanzania souvenirs",
+      summary: "Tanzania is a land of breathtaking landscapes, rich culture, and diverse wildlife. From the iconic Mount Kilimanjaro to the spice-scented alleys of Zanzibar, Tanzania offers unforgettable experiences. Here's a look at its most popular areas, unique products, delicious cuisine, and important historical landmarks.",
+      content: `
+        <p>Tanzania is a land of breathtaking landscapes, rich culture, and diverse wildlife. From the iconic Mount Kilimanjaro to the spice-scented alleys of Zanzibar, Tanzania offers unforgettable experiences. Here's a look at its most popular areas, unique products, delicious cuisine, and important historical landmarks.</p>
+    
+        <h2>Popular Areas in Tanzania</h2>
+        <ul>
+          <li><strong>Serengeti National Park:</strong> World-renowned for the Great Migration and abundant wildlife, including the Big Five.</li>
+          <li><strong>Zanzibar Island:</strong> A tropical paradise with white-sand beaches, coral reefs, and the UNESCO-listed Stone Town.</li>
+          <li><strong>Mount Kilimanjaro:</strong> Africa’s highest peak and a popular destination for trekkers and adventurers.</li>
+          <li><strong>Ngorongoro Crater:</strong> A vast volcanic caldera teeming with wildlife and incredible landscapes.</li>
+          <li><strong>Arusha:</strong> A lively city and gateway to northern safaris, with a strong Maasai cultural presence.</li>
+          <li><strong>Dar es Salaam:</strong> Tanzania’s largest city and economic hub, offering bustling markets and coastal charm.</li>
+        </ul>
+    
+        <h2>Popular Products from Tanzania</h2>
+        <ul>
+          <li><strong>Tanzanite:</strong> A rare and precious gemstone found only in Tanzania, often used in fine jewelry.</li>
+          <li><strong>Spices:</strong> Especially from Zanzibar, including cloves, cinnamon, and cardamom.</li>
+          <li><strong>Kitenge and Kanga Fabrics:</strong> Vibrant, patterned textiles used for clothing and accessories.</li>
+          <li><strong>Hand-carved Wooden Art:</strong> Makonde carvings, masks, and sculptures reflecting traditional African artistry.</li>
+          <li><strong>Coffee and Tea:</strong> Grown in the highlands of Kilimanjaro and Mbeya, known for rich flavor and quality.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Tanzania</h2>
+        <ul>
+          <li><strong>Ugali:</strong> A staple maize flour dish, usually served with meat, vegetables, or beans.</li>
+          <li><strong>Nyama Choma:</strong> Grilled meat, often goat or beef, served with spicy sauces and salad.</li>
+          <li><strong>Chapati:</strong> A soft, pan-fried flatbread brought from Indian influence, eaten with stews and tea.</li>
+          <li><strong>Pilau:</strong> Spiced rice dish, especially popular in coastal and Swahili cuisine.</li>
+          <li><strong>Zanzibar Seafood:</strong> Fresh lobster, prawns, octopus, and fish prepared with aromatic spices.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Tanzania</h2>
+        <ul>
+          <li><strong>Stone Town (Zanzibar):</strong> A UNESCO World Heritage Site, rich in Swahili, Arab, and colonial history.</li>
+          <li><strong>Olduvai Gorge:</strong> One of the most important paleoanthropological sites in the world, known as the “Cradle of Mankind.”</li>
+          <li><strong>Bagamoyo:</strong> A historical town that was once a center of the East African slave trade and German colonial capital.</li>
+          <li><strong>Kondoa Rock Art Sites:</strong> Ancient cave paintings listed as a UNESCO World Heritage Site, depicting early African life.</li>
+          <li><strong>Kilwa Kisiwani:</strong> A former powerful trading city-state with ruins dating back to the 9th century.</li>
+        </ul>
+    
+        <hr/>
+        <p>From stunning safaris and majestic peaks to rich history and vibrant cultures, Tanzania is a diverse and captivating destination. Whether you're exploring spice markets, trekking through national parks, or experiencing traditional Swahili hospitality, Tanzania promises a travel experience like no other.</p>
+      `,
+      image: "/images/tanzania.jpg"
+    }        
 
   ];
   
