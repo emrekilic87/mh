@@ -21,7 +21,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
 
   const searchParams = useSearchParams();
   const currentPage = Number(searchParams.get("page") || 1);
-  const postsPerPage = 10;
+  const postsPerPage = 20;
 
   const [search, setSearch] = useState("");
   const [filteredPosts, setFilteredPosts] = useState(posts);
@@ -54,7 +54,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
 
   return (
     <>
-      <main className="max-w-4xl mx-auto p-4">
+      <main className="max-w-4xl mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {paginatedPosts.map((post) => (
             <Card key={post.slug} className="mb-4 h-full flex flex-col justify-between">
