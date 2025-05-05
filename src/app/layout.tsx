@@ -3,6 +3,7 @@ import "./globals.css";
 import HeaderWrapper from "@/components/headerWrapper";
 import BackToTop from "@/components/backToTop";
 import Footer from "@/components/footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-FVTNCZ7LSF" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
