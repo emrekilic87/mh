@@ -1589,7 +1589,106 @@ export const posts = [
         <p>Hvar is a destination that blends ancient history, Mediterranean beauty, and modern luxury. Whether you're enjoying its scenic views, tasting its exquisite local dishes, or soaking up the island's rich culture, Hvar promises to be an unforgettable experience.</p>
       `,
       image: "/images/hvar.jpg"
+    },
+    {
+      slug: "discover-montenegro",
+      title: "Discover Montenegro",
+      keywords: "Montenegro travel guide, Best places in Montenegro, Montenegro cuisine, Montenegro historical sites, Montenegro coast, What to eat in Montenegro, Shopping in Montenegro, Montenegro culture, Montenegro mountains, Visit Kotor",
+      summary: "Montenegro, a hidden gem in the Balkans, offers a stunning blend of coastal charm, mountainous landscapes, and rich historical heritage. From the Adriatic Sea to medieval towns and scenic national parks, this small country delivers a grand experience for every traveler.",
+      content: `
+        <p>Montenegro, a hidden gem in the Balkans, offers a stunning blend of coastal charm, mountainous landscapes, and rich historical heritage. From the Adriatic Sea to medieval towns and scenic national parks, this small country delivers a grand experience for every traveler.</p>
+    
+        <h2>Popular Areas in Montenegro</h2>
+        <ul>
+          <li><strong>Kotor:</strong> A UNESCO World Heritage Site nestled in a bay, known for its medieval architecture, winding streets, and the dramatic Kotor Fortress view.</li>
+          <li><strong>Budva:</strong> A bustling coastal town famous for its beaches, nightlife, and well-preserved Old Town with Venetian walls and charm.</li>
+          <li><strong>Herceg Novi:</strong> Located at the entrance to the Bay of Kotor, this town is known for its lush greenery, historical fortresses, and spa resorts.</li>
+          <li><strong>Podgorica:</strong> The capital city, offering modern development alongside Ottoman and socialist-era architectural influences.</li>
+          <li><strong>Durmitor National Park:</strong> A natural wonder with dramatic mountains, glacial lakes, and deep canyons — ideal for hiking and adventure tourism.</li>
+        </ul>
+    
+        <h2>Popular Products from Montenegro</h2>
+        <ul>
+          <li><strong>Handcrafted Wool and Textiles:</strong> Traditional Montenegrin wool products like blankets, shawls, and caps reflect the country's mountain heritage.</li>
+          <li><strong>Wine:</strong> Montenegro produces excellent wines, especially the Vranac red wine from the Lake Skadar region.</li>
+          <li><strong>Rakija:</strong> A strong fruit brandy commonly homemade and often offered as a symbol of hospitality.</li>
+          <li><strong>Olive Oil:</strong> The coastal areas, especially around Bar, produce quality olive oil with a rich Mediterranean flavor.</li>
+          <li><strong>Local Art and Souvenirs:</strong> From hand-painted ceramics to woodcarvings and traditional folk costumes, Montenegro’s artisanal market is vibrant.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Montenegro</h2>
+        <ul>
+          <li><strong>Cevapi:</strong> Grilled minced meat sausages served with flatbread, chopped onions, and creamy kaymak — a Balkan favorite.</li>
+          <li><strong>Njeguški Pršut:</strong> A smoked and dried ham from the village of Njeguši, known for its distinct aroma and flavor.</li>
+          <li><strong>Kacamak:</strong> A traditional dish made from cornmeal, potatoes, and cheese — warm, hearty, and rustic.</li>
+          <li><strong>Seafood:</strong> On the coast, enjoy fresh catches like grilled squid, octopus salad, and black risotto made with cuttlefish ink.</li>
+          <li><strong>Baklava:</strong> A sweet, layered pastry with nuts and syrup, showing Montenegro’s Ottoman culinary influence.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Montenegro</h2>
+        <ul>
+          <li><strong>Kotor Old Town:</strong> Enclosed in ancient walls, this labyrinth of stone streets and squares is home to churches, palaces, and the majestic Kotor Fortress.</li>
+          <li><strong>Cetinje Monastery:</strong> A religious and cultural center, housing important relics and manuscripts from Montenegro’s history.</li>
+          <li><strong>Ostrog Monastery:</strong> Built into a vertical cliff, this Orthodox monastery is a pilgrimage site and architectural marvel.</li>
+          <li><strong>Stari Bar (Old Bar):</strong> A historical site with ruins from Roman, Byzantine, and Ottoman periods, surrounded by mountains and olive groves.</li>
+          <li><strong>Perast and Our Lady of the Rocks:</strong> A small, elegant town near Kotor, famous for its baroque architecture and the man-made island with a Catholic church.</li>
+        </ul>
+    
+        <hr/>
+        <p>Montenegro may be small, but its diversity in landscapes, culture, and history makes it a captivating destination. Whether you're wandering through medieval towns, savoring mountain dishes, or admiring the Adriatic coastline, Montenegro offers an unforgettable travel experience.</p>
+      `,
+      image: "/images/montenegro.jpg"
+    },
+    {
+      slug: "discover-kotor",
+      title: "Discover Kotor",
+      keywords: "Kotor travel guide, Best places in Kotor, Kotor historical sites, What to eat in Kotor, Things to do in Kotor, Kotor Old Town, Montenegro coastal towns, Kotor souvenirs, Kotor food specialties, Visit Kotor Montenegro",
+      summary: "Kotor, a UNESCO-listed town on Montenegro’s Adriatic coast, is famed for its medieval architecture, scenic bay, and mountainous backdrop. From its ancient walls to charming alleyways and delicious coastal cuisine, Kotor promises a uniquely enchanting experience.",
+      content: `
+        <p>Kotor, a UNESCO-listed town on Montenegro’s Adriatic coast, is famed for its medieval architecture, scenic bay, and mountainous backdrop. From its ancient walls to charming alleyways and delicious coastal cuisine, Kotor promises a uniquely enchanting experience.</p>
+    
+        <h2>Popular Areas in Kotor</h2>
+        <ul>
+          <li><strong>Old Town (Stari Grad):</strong> A well-preserved medieval town with narrow stone streets, churches, and charming squares surrounded by fortress walls.</li>
+          <li><strong>Kotor Bay (Boka Bay):</strong> Often compared to a fjord, this bay offers stunning views, tranquil waters, and access to surrounding villages.</li>
+          <li><strong>Ladder of Kotor:</strong> A historical hiking trail offering panoramic views of the bay and town from the mountains above.</li>
+          <li><strong>Dobrota:</strong> A quiet seaside area just outside the Old Town, known for its waterfront paths and luxury stays.</li>
+          <li><strong>Muo and Prčanj:</strong> Traditional coastal villages near Kotor with stone houses and scenic promenades.</li>
+        </ul>
+    
+        <h2>Popular Products from Kotor</h2>
+        <ul>
+          <li><strong>Handmade Jewelry:</strong> Local artisans craft silver and coral jewelry, often inspired by traditional Balkan and coastal designs.</li>
+          <li><strong>Olive Oil:</strong> Cold-pressed olive oil from the surrounding region, often sold in small artisanal shops.</li>
+          <li><strong>Local Wine:</strong> Montenegrin wines such as Vranac are widely available and make a great souvenir.</li>
+          <li><strong>Embroidered Linens:</strong> Hand-stitched tablecloths, doilies, and napkins reflecting traditional Montenegrin patterns.</li>
+          <li><strong>Religious Icons and Art:</strong> Orthodox Christian iconography and local art are found in many small galleries and shops.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Kotor</h2>
+        <ul>
+          <li><strong>Black Risotto:</strong> A seafood risotto made with cuttlefish ink — rich, flavorful, and traditional to the Adriatic coast.</li>
+          <li><strong>Buzara:</strong> A seafood stew with shrimp or mussels cooked in white wine, garlic, and parsley.</li>
+          <li><strong>Njeguski Pršut:</strong> Smoked ham from the nearby village of Njeguši, often served with cheese and olives.</li>
+          <li><strong>Baklava:</strong> A sweet pastry of Turkish influence, filled with nuts and honey syrup.</li>
+          <li><strong>Fresh Fish:</strong> Sea bream, sea bass, and squid grilled and served with seasonal vegetables and olive oil.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Kotor</h2>
+        <ul>
+          <li><strong>Kotor Fortress (San Giovanni Fortress):</strong> Climb over 1,300 steps for a breathtaking view of the bay and Old Town from this ancient hilltop fortification.</li>
+          <li><strong>St. Tryphon Cathedral:</strong> A Romanesque cathedral dating back to the 12th century, housing relics of Kotor’s patron saint.</li>
+          <li><strong>Maritime Museum of Montenegro:</strong> Housed in a historic palace, showcasing Kotor’s naval legacy and seafaring artifacts.</li>
+          <li><strong>Church of Our Lady of Health:</strong> Located on the way up to the fortress, a small 15th-century church offering beautiful views.</li>
+          <li><strong>City Walls:</strong> Walk along parts of the defensive walls surrounding the Old Town — an immersive experience of the city’s medieval past.</li>
+        </ul>
+    
+        <hr/>
+        <p>Kotor’s blend of dramatic landscapes, coastal charm, and rich heritage make it a must-visit in the Balkans. Whether you’re exploring its historic streets, savoring seafood on the waterfront, or hiking above the bay, Kotor invites you to step back in time while enjoying timeless beauty.</p>
+      `,
+      image: "/images/kotor.jpg"
     }
+        
     
     
 
