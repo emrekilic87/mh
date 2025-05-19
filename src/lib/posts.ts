@@ -1687,7 +1687,108 @@ export const posts = [
         <p>Kotor’s blend of dramatic landscapes, coastal charm, and rich heritage make it a must-visit in the Balkans. Whether you’re exploring its historic streets, savoring seafood on the waterfront, or hiking above the bay, Kotor invites you to step back in time while enjoying timeless beauty.</p>
       `,
       image: "/images/kotor.jpg"
+    },
+    {
+      slug: "discover-tulum",
+      title: "Discover Tulum",
+      keywords: "Tulum travel guide, Best places in Tulum, Tulum Mayan ruins, What to eat in Tulum, Things to do in Tulum, Tulum beaches, Tulum eco tourism, Tulum souvenirs, Tulum food guide, Visit Tulum Mexico",
+      summary: "Tulum, located on Mexico’s Caribbean coast, is a bohemian paradise blending ancient Mayan history with white-sand beaches, lush jungles, and eco-conscious living. Whether you're into yoga retreats, cenote diving, or exploring ruins, Tulum offers something magical for every traveler.",
+      content: `
+        <p>Tulum, located on Mexico’s Caribbean coast, is a bohemian paradise blending ancient Mayan history with white-sand beaches, lush jungles, and eco-conscious living. Whether you're into yoga retreats, cenote diving, or exploring ruins, Tulum offers something magical for every traveler.</p>
+    
+        <h2>Popular Areas in Tulum</h2>
+        <ul>
+          <li><strong>Tulum Beach (Zona Hotelera):</strong> A scenic stretch of beachfront resorts, boutique hotels, and eco-lodges lining the turquoise sea.</li>
+          <li><strong>Tulum Pueblo (Downtown):</strong> The town center where you'll find local eateries, shops, and a more authentic Mexican vibe.</li>
+          <li><strong>Aldea Zama:</strong> A trendy, rapidly developing area between the beach and downtown with upscale accommodations and cafes.</li>
+          <li><strong>La Veleta:</strong> A residential area with a growing number of vacation rentals and a peaceful atmosphere.</li>
+          <li><strong>Sian Ka’an Biosphere Reserve:</strong> A UNESCO World Heritage site offering untouched nature, mangroves, and guided eco-tours.</li>
+        </ul>
+    
+        <h2>Popular Products from Tulum</h2>
+        <ul>
+          <li><strong>Handwoven Textiles:</strong> Colorful hammocks, throws, and rugs made by local artisans using traditional techniques.</li>
+          <li><strong>Natural Skincare Products:</strong> Eco-friendly lotions, oils, and soaps made with local ingredients like coconut, aloe vera, and cacao.</li>
+          <li><strong>Bohemian Fashion:</strong> Flowing dresses, handmade jewelry, and sandals found in chic beach boutiques.</li>
+          <li><strong>Ceramics and Pottery:</strong> Handcrafted pieces inspired by Mayan motifs and coastal life.</li>
+          <li><strong>Dreamcatchers and Macrame Decor:</strong> Popular boho home items handmade by local artists.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Tulum</h2>
+        <ul>
+          <li><strong>Ceviche:</strong> Fresh fish or shrimp marinated in citrus with tomato, onion, and cilantro — best enjoyed beachside.</li>
+          <li><strong>Tacos al Pastor:</strong> Flavorful pork tacos cooked on a vertical spit, served with pineapple and onion.</li>
+          <li><strong>Cochinita Pibil:</strong> A Yucatán specialty — slow-roasted pork marinated in achiote and citrus, wrapped in banana leaves.</li>
+          <li><strong>Chilaquiles:</strong> A traditional Mexican breakfast dish made with fried tortilla chips, salsa, cheese, and eggs or chicken.</li>
+          <li><strong>Agua de Chaya:</strong> A healthy green drink made from chaya leaves, native to the Yucatán Peninsula.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Tulum</h2>
+        <ul>
+          <li><strong>Tulum Ruins:</strong> A dramatic clifftop Mayan archaeological site overlooking the Caribbean Sea — one of the few coastal ruin sites.</li>
+          <li><strong>El Castillo:</strong> The main pyramid at the Tulum ruins, once used as a lighthouse and religious temple.</li>
+          <li><strong>Templo del Dios del Viento (God of Wind Temple):</strong> A small but iconic ruin with panoramic views of the ocean.</li>
+          <li><strong>Gran Cenote:</strong> A stunning natural swimming hole where you can snorkel among stalactites and turtles.</li>
+          <li><strong>Muyil Ruins:</strong> Lesser-known Mayan ruins nestled in the jungle and connected to the Sian Ka’an lagoon system.</li>
+        </ul>
+    
+        <hr/>
+        <p>Tulum combines natural beauty, historical intrigue, and modern wellness culture into one unforgettable destination. Whether you're lounging by the sea, exploring ancient ruins, or indulging in local cuisine, Tulum promises a soulful and scenic adventure.</p>
+      `,
+      image: "/images/tulum.jpg"
+    },
+    {
+      slug: "discover-sydney",
+      title: "Discover Sydney",
+      keywords: "Sydney travel guide, Best places in Sydney, Sydney tourist attractions, What to eat in Sydney, Sydney historical sites, Sydney neighborhoods, Sydney beaches, Australian souvenirs, Sydney food culture, Visit Sydney Australia",
+      summary: "Sydney, the sparkling harbour city of Australia, is renowned for its stunning beaches, iconic landmarks, and rich multicultural charm. Whether you're exploring the famous Opera House, relaxing on Bondi Beach, or diving into its diverse culinary scene, Sydney offers an unforgettable blend of natural beauty and vibrant city life.",
+      content: `
+        <p>Sydney, the sparkling harbour city of Australia, is renowned for its stunning beaches, iconic landmarks, and rich multicultural charm. Whether you're exploring the famous Opera House, relaxing on Bondi Beach, or diving into its diverse culinary scene, Sydney offers an unforgettable blend of natural beauty and vibrant city life.</p>
+    
+        <h2>Popular Areas in Sydney</h2>
+        <ul>
+          <li><strong>Sydney Harbour:</strong> Home to the iconic Sydney Opera House and Harbour Bridge — a must-visit for first-time travelers.</li>
+          <li><strong>Bondi Beach:</strong> A world-famous beach for surfing, sunbathing, and the scenic Bondi to Coogee coastal walk.</li>
+          <li><strong>Darling Harbour:</strong> A lively entertainment precinct with shops, restaurants, museums, and the SEA LIFE Aquarium.</li>
+          <li><strong>Surry Hills:</strong> A trendy inner-city suburb known for its creative vibe, cafes, and boutique shops.</li>
+          <li><strong>The Rocks:</strong> A historic area with cobblestone streets, heritage pubs, and weekend markets near the Harbour Bridge.</li>
+          <li><strong>Newtown:</strong> A bohemian district full of street art, vintage stores, and international eateries.</li>
+        </ul>
+    
+        <h2>Popular Products from Sydney</h2>
+        <ul>
+          <li><strong>Opals:</strong> Australia’s national gemstone, available in jewellery shops throughout the city.</li>
+          <li><strong>Aboriginal Art:</strong> Authentic dot paintings and crafts representing Australia’s indigenous culture.</li>
+          <li><strong>Ugg Boots:</strong> Iconic Australian footwear made from sheepskin — comfortable and stylish.</li>
+          <li><strong>Tim Tams and Aussie Snacks:</strong> Delicious chocolate biscuits and local snacks perfect as gifts.</li>
+          <li><strong>Natural Skincare Products:</strong> Eco-friendly and botanical skincare brands sourced from native ingredients like eucalyptus and tea tree.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Sydney</h2>
+        <ul>
+          <li><strong>Meat Pie:</strong> A savory Aussie classic often enjoyed with tomato sauce, found in bakeries and pubs.</li>
+          <li><strong>Barramundi:</strong> A popular local fish served grilled or fried, often with a side of salad or chips.</li>
+          <li><strong>Avocado Toast:</strong> A breakfast staple in Sydney's many cafes, often topped with feta, eggs, or chili flakes.</li>
+          <li><strong>Pavlova:</strong> A meringue-based dessert with a crisp crust and soft center, topped with fruit and cream.</li>
+          <li><strong>Flat White:</strong> Australia’s signature coffee, smoother than a cappuccino and stronger than a latte.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Sydney</h2>
+        <ul>
+          <li><strong>Sydney Opera House:</strong> One of the world's most iconic buildings, showcasing arts, music, and architecture.</li>
+          <li><strong>Sydney Harbour Bridge:</strong> Opened in 1932, this engineering marvel offers bridge climbs with panoramic views.</li>
+          <li><strong>The Rocks:</strong> Sydney’s oldest neighborhood with historic pubs, colonial buildings, and convict history.</li>
+          <li><strong>Hyde Park Barracks:</strong> A UNESCO World Heritage site offering insights into Sydney's colonial and convict past.</li>
+          <li><strong>Macquarie Street Historic Precinct:</strong> Home to significant buildings like the State Library, Parliament House, and the Mint.</li>
+        </ul>
+    
+        <hr/>
+        <p>Sydney is a dynamic city where surf culture, indigenous heritage, colonial history, and global influences converge. Whether you’re strolling along the harbour, trying Australian cuisine, or uncovering hidden gems, Sydney promises a memorable and enriching journey.</p>
+      `,
+      image: "/images/sydney.jpg"
     }
+        
+
         
     
     
