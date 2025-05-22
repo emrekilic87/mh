@@ -12,7 +12,7 @@ const YesimBanner = () => {
         rel="noopener noreferrer"
       >
         <Image
-          src="/images/yesim.jpg"
+          src="/images/yesim-banner.jpg"
           alt="Yesim eSIM - Global Data Plans"
           width={500}
           height={100}
