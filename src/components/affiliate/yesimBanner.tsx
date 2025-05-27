@@ -7,7 +7,7 @@ const YesimBanner = () => {
   return (
     <div className="w-full py-2 flex justify-center">
       <Link
-        href="https://yesim.tp.st/RSJemv3j"
+        href="https://yesim.tp.st/VhVvw6Nw"
         target="_blank"
         rel="noopener noreferrer"
       >
