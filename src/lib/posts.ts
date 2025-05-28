@@ -1786,11 +1786,107 @@ export const posts = [
         <p>Sydney is a dynamic city where surf culture, indigenous heritage, colonial history, and global influences converge. Whether you’re strolling along the harbour, trying Australian cuisine, or uncovering hidden gems, Sydney promises a memorable and enriching journey.</p>
       `,
       image: "/images/sydney.jpg"
-    }
-        
-
-        
+    },
+    {
+      slug: "discover-thailand",
+      title: "Discover Thailand",
+      keywords: "Thailand travel guide, Best places in Thailand, Things to do in Thailand, Thai food, Thai culture, Historical sites in Thailand, Shopping in Thailand, Thailand beaches, Thailand temples, Thai souvenirs",
+      summary: "Thailand, the Land of Smiles, offers a captivating mix of bustling cities, tropical islands, ancient temples, and rich cultural heritage. From the vibrant streets of Bangkok to the serene beaches of the south, Thailand is a destination that enchants every traveler.",
+      content: `
+        <p>Thailand, the Land of Smiles, offers a captivating mix of bustling cities, tropical islands, ancient temples, and rich cultural heritage. From the vibrant streets of Bangkok to the serene beaches of the south, Thailand is a destination that enchants every traveler.</p>
     
+        <h2>Popular Areas in Thailand</h2>
+        <ul>
+          <li><strong>Bangkok:</strong> The capital city full of temples, street food, markets, and modern skyscrapers.</li>
+          <li><strong>Chiang Mai:</strong> Northern Thailand's cultural heart known for its temples, night bazaars, and mountainous landscapes.</li>
+          <li><strong>Phuket:</strong> A tropical island with beautiful beaches, nightlife, and luxury resorts.</li>
+          <li><strong>Ayutthaya:</strong> A UNESCO World Heritage site featuring impressive ruins of Thailand’s former capital.</li>
+          <li><strong>Krabi:</strong> Known for its stunning limestone cliffs, crystal-clear waters, and island-hopping adventures.</li>
+          <li><strong>Pattaya:</strong> A beachside city with vibrant nightlife, shopping, and family-friendly attractions.</li>
+        </ul>
+    
+        <h2>Popular Products from Thailand</h2>
+        <ul>
+          <li><strong>Thai Silk:</strong> High-quality silk fabrics and garments are iconic Thai souvenirs.</li>
+          <li><strong>Handmade Crafts:</strong> Intricate wood carvings, silver jewelry, and pottery from local artisans.</li>
+          <li><strong>Spices and Herbs:</strong> Curry pastes, dried lemongrass, and herbal balms found in markets across the country.</li>
+          <li><strong>Thai Skincare Products:</strong> Natural soaps, oils, and beauty products made from tropical ingredients.</li>
+          <li><strong>Elephant-Themed Souvenirs:</strong> Symbolic and often handcrafted items ranging from keychains to home decor.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Thailand</h2>
+        <ul>
+          <li><strong>Pad Thai:</strong> Stir-fried rice noodles with shrimp, tofu, peanuts, and lime — a must-eat dish.</li>
+          <li><strong>Tom Yum Goong:</strong> Spicy and sour shrimp soup with lemongrass and chili.</li>
+          <li><strong>Green Curry (Gaeng Keow Wan):</strong> A creamy coconut-based curry with chicken, eggplant, and basil.</li>
+          <li><strong>Som Tum:</strong> Spicy green papaya salad with a mix of sweet, salty, and sour flavors.</li>
+          <li><strong>Mango Sticky Rice:</strong> A beloved dessert made with sweet coconut rice and fresh mango slices.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Thailand</h2>
+        <ul>
+          <li><strong>Wat Phra Kaew (Bangkok):</strong> The Temple of the Emerald Buddha, located within the Grand Palace complex.</li>
+          <li><strong>Sukhothai Historical Park:</strong> Ancient ruins from Thailand's first capital, a UNESCO World Heritage Site.</li>
+          <li><strong>Doi Suthep Temple (Chiang Mai):</strong> A sacred mountain temple offering panoramic views and spiritual importance.</li>
+          <li><strong>Wat Arun (Bangkok):</strong> The Temple of Dawn, known for its striking riverside location and ornate spires.</li>
+          <li><strong>Bridge on the River Kwai (Kanchanaburi):</strong> A WWII-era site with a tragic history and scenic surroundings.</li>
+        </ul>
+    
+        <hr/>
+        <p>Thailand’s charm lies in its contrasts — peaceful temples beside buzzing markets, pristine beaches near jungle-covered hills. Whether you're tasting street food in Bangkok, diving in the Andaman Sea, or exploring ancient cities, Thailand offers an unforgettable cultural and sensory adventure.</p>
+      `,
+      image: "/images/thailand.jpg"
+    },    
+    {
+      slug: "discover-phuket",
+      title: "Discover Phuket",
+      keywords: "Phuket travel guide, Best places in Phuket, Things to do in Phuket, Phuket beaches, Phuket food, Thai souvenirs, Phuket attractions, Historical places in Phuket, What to eat in Phuket, Shopping in Phuket",
+      summary: "Phuket, Thailand’s largest island, is a tropical paradise known for its stunning beaches, vibrant markets, flavorful cuisine, and rich cultural heritage. From sun-soaked coasts to historic temples, Phuket is the perfect blend of relaxation and exploration.",
+      content: `
+        <p>Phuket, Thailand’s largest island, is a tropical paradise known for its stunning beaches, vibrant markets, flavorful cuisine, and rich cultural heritage. From sun-soaked coasts to historic temples, Phuket is the perfect blend of relaxation and exploration.</p>
+    
+        <h2>Popular Areas in Phuket</h2>
+        <ul>
+          <li><strong>Patong Beach:</strong> The most famous beach area, known for nightlife, water sports, and bustling Bangla Road.</li>
+          <li><strong>Old Phuket Town:</strong> Full of Sino-Portuguese architecture, vibrant cafes, and historical streets.</li>
+          <li><strong>Karon Beach:</strong> A more relaxed beach perfect for families and quieter stays.</li>
+          <li><strong>Kata Beach:</strong> Great for surfing and known for a charming village feel.</li>
+          <li><strong>Rawai:</strong> A local fishing village that offers island-hopping access and authentic experiences.</li>
+          <li><strong>Phang Nga Bay:</strong> Famous for its limestone cliffs and emerald-green waters, great for boat tours.</li>
+        </ul>
+    
+        <h2>Popular Products from Phuket</h2>
+        <ul>
+          <li><strong>Pearl Jewelry:</strong> Locally farmed pearls make for elegant souvenirs.</li>
+          <li><strong>Batik Fabrics:</strong> Hand-painted textiles with beautiful tropical and cultural designs.</li>
+          <li><strong>Thai Spices and Herbal Products:</strong> Curry pastes, lemongrass, and balms popular with visitors.</li>
+          <li><strong>Handicrafts:</strong> Wood carvings, coconut shell goods, and woven baskets sold at local markets.</li>
+          <li><strong>Sarongs and Beachwear:</strong> Colorful, lightweight clothing perfect for island life.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Phuket</h2>
+        <ul>
+          <li><strong>Pad Thai:</strong> Stir-fried noodles with shrimp, tofu, and a tangy-sweet sauce — a Thai favorite.</li>
+          <li><strong>Tom Yum Goong:</strong> A spicy shrimp soup flavored with lemongrass, galangal, and lime juice.</li>
+          <li><strong>Massaman Curry:</strong> A rich curry with Muslim influence, made with potatoes and peanuts.</li>
+          <li><strong>Moo Hong:</strong> A slow-braised pork belly dish local to Phuket’s Peranakan culture.</li>
+          <li><strong>Roti:</strong> Flaky fried bread often served with condensed milk or curry — perfect street food.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Phuket</h2>
+        <ul>
+          <li><strong>Wat Chalong:</strong> The most important Buddhist temple on the island, known for its peaceful ambiance and relics.</li>
+          <li><strong>Big Buddha:</strong> A 45-meter-high white marble statue offering panoramic views of the island.</li>
+          <li><strong>Thalang National Museum:</strong> Showcasing artifacts and history of Phuket’s role in resisting Burmese invasions.</li>
+          <li><strong>Sino-Portuguese Mansions:</strong> Elegant colonial-era houses in Old Town reflecting Phuket’s multicultural heritage.</li>
+          <li><strong>Jui Tui Shrine:</strong> A key center of Phuket’s annual Vegetarian Festival and Chinese cultural celebrations.</li>
+        </ul>
+    
+        <hr/>
+        <p>Phuket offers more than just beachside bliss — it’s a destination filled with cultural richness, delicious cuisine, local artistry, and unforgettable adventures. Whether you're diving into its markets, visiting temples, or enjoying island-hopping excursions, Phuket welcomes you with warm hospitality and vibrant charm.</p>
+      `,
+      image: "/images/phuket.jpg"
+    }    
     
 
   ];
