@@ -1886,7 +1886,107 @@ export const posts = [
         <p>Phuket offers more than just beachside bliss — it’s a destination filled with cultural richness, delicious cuisine, local artistry, and unforgettable adventures. Whether you're diving into its markets, visiting temples, or enjoying island-hopping excursions, Phuket welcomes you with warm hospitality and vibrant charm.</p>
       `,
       image: "/images/phuket.jpg"
-    }    
+    },
+    {
+      slug: "discover-miami",
+      title: "Discover Miami",
+      keywords: "Miami travel guide, Best places in Miami, Things to do in Miami, Miami beaches, Miami Cuban food, Shopping in Miami, Miami culture, Miami nightlife, Historical sites in Miami, Miami tourism",
+      summary: "Miami, Florida’s vibrant coastal city, is a colorful blend of Latin culture, beach life, art, and architecture. Known for its lively neighborhoods, beautiful coastlines, and rich Cuban influence, Miami offers a tropical experience with urban sophistication. Explore the city’s top areas, foods, local products, and historical landmarks.",
+      content: `
+        <p>Miami, Florida’s vibrant coastal city, is a colorful blend of Latin culture, beach life, art, and architecture. Known for its lively neighborhoods, beautiful coastlines, and rich Cuban influence, Miami offers a tropical experience with urban sophistication. Explore the city’s top areas, foods, local products, and historical landmarks.</p>
+    
+        <h2>Popular Areas in Miami</h2>
+        <ul>
+          <li><strong>South Beach:</strong> Famous for its white sand beaches, Art Deco architecture, nightlife, and Ocean Drive.</li>
+          <li><strong>Wynwood:</strong> A trendy arts district known for massive murals, galleries, and a creative vibe.</li>
+          <li><strong>Little Havana:</strong> A cultural hotspot reflecting Cuban heritage, music, cigars, and lively streets.</li>
+          <li><strong>Downtown Miami:</strong> A bustling hub for business, shopping, dining, and waterfront parks like Bayfront Park.</li>
+          <li><strong>Coconut Grove:</strong> A lush, historic neighborhood with a bohemian feel, outdoor cafes, and marinas.</li>
+          <li><strong>Brickell:</strong> Miami’s financial district with luxury high-rises, rooftop bars, and upscale restaurants.</li>
+        </ul>
+    
+        <h2>Popular Products from Miami</h2>
+        <ul>
+          <li><strong>Hand-Rolled Cigars:</strong> Especially from Little Havana, where Cuban cigar culture is alive and well.</li>
+          <li><strong>Art & Streetwear:</strong> Unique prints, street art, and fashion inspired by Wynwood’s vibrant art scene.</li>
+          <li><strong>Beachwear:</strong> Trendy swimwear and resort-style clothing from local Miami designers.</li>
+          <li><strong>Latin Spices & Sauces:</strong> A variety of Cuban and Caribbean flavors available in local markets.</li>
+          <li><strong>Craft Jewelry:</strong> Handmade coastal-inspired accessories found in boutiques across the city.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Miami</h2>
+        <ul>
+          <li><strong>Cuban Sandwich:</strong> Pressed sandwich with ham, roast pork, Swiss cheese, pickles, and mustard.</li>
+          <li><strong>Stone Crabs:</strong> A seasonal delicacy served with mustard dipping sauce, popular at Joe’s Stone Crab.</li>
+          <li><strong>Ceviche:</strong> Fresh seafood marinated in citrus, often served Peruvian-style with a Miami twist.</li>
+          <li><strong>Arepas:</strong> Cornmeal patties filled with cheese, meat, or avocado, reflecting Venezuelan and Colombian influence.</li>
+          <li><strong>Cafecito:</strong> A sweet Cuban espresso that’s a daily ritual across the city.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Miami</h2>
+        <ul>
+          <li><strong>Vizcaya Museum and Gardens:</strong> A European-style villa built in 1916 with lush gardens and antique collections.</li>
+          <li><strong>Freedom Tower:</strong> A symbol of Cuban immigration and Miami’s Ellis Island.</li>
+          <li><strong>Art Deco Historic District:</strong> A preserved area in South Beach with iconic pastel buildings from the 1930s.</li>
+          <li><strong>Coral Castle:</strong> A mysterious structure built by one man with no modern machinery in the early 1900s.</li>
+          <li><strong>Little Havana’s Calle Ocho:</strong> A historic street filled with cultural landmarks, murals, and walk-of-fame tributes.</li>
+        </ul>
+    
+        <hr/>
+        <p>From its sun-soaked beaches to its rich Cuban heritage and artistic soul, Miami is a city that sizzles with energy and diversity. Whether you’re strolling through colorful neighborhoods, sampling Latin flavors, or exploring historic sites, Miami promises a vibrant and unforgettable escape.</p>
+      `,
+      image: "/images/miami.jpg"
+    },
+    {
+      slug: "discover-havana",
+      title: "Discover Havana",
+      keywords: "Havana travel guide, Best places in Havana, Things to do in Havana, Cuban food in Havana, Havana historical sites, Old Havana attractions, Havana culture, Shopping in Havana, Cuban cigars, Havana tourism",
+      summary: "Havana, the capital of Cuba, is a city frozen in time — where classic cars cruise along colorful streets and the rhythms of salsa echo from every corner. Rich in culture, history, and charm, Havana invites visitors to explore its vibrant neighborhoods, taste its authentic cuisine, and discover its iconic heritage.",
+      content: `
+        <p>Havana, the capital of Cuba, is a city frozen in time — where classic cars cruise along colorful streets and the rhythms of salsa echo from every corner. Rich in culture, history, and charm, Havana invites visitors to explore its vibrant neighborhoods, taste its authentic cuisine, and discover its iconic heritage.</p>
+    
+        <h2>Popular Areas in Havana</h2>
+        <ul>
+          <li><strong>Old Havana (Habana Vieja):</strong> A UNESCO World Heritage site filled with colonial architecture, cobbled streets, and lively plazas.</li>
+          <li><strong>Vedado:</strong> A modern district known for 20th-century mansions, trendy restaurants, and the iconic Hotel Nacional.</li>
+          <li><strong>Centro Habana:</strong> Bustling and authentic, this area offers local life, historic buildings, and hidden gems.</li>
+          <li><strong>Miramar:</strong> An upscale area with embassies, luxury hotels, and seaside villas.</li>
+          <li><strong>Malecón:</strong> The famous seaside boulevard that stretches along the coast, perfect for walks, sunsets, and music.</li>
+        </ul>
+    
+        <h2>Popular Products from Havana</h2>
+        <ul>
+          <li><strong>Cuban Cigars:</strong> World-renowned hand-rolled cigars such as Cohiba and Montecristo, often sold in official casas del habano.</li>
+          <li><strong>Rum:</strong> High-quality Cuban rum brands like Havana Club are a must-buy souvenir.</li>
+          <li><strong>Handmade Art & Crafts:</strong> Paintings, wood carvings, and recycled art reflecting Cuba’s creativity and culture.</li>
+          <li><strong>Guayabera Shirts:</strong> Traditional Cuban shirts that are stylish and culturally significant.</li>
+          <li><strong>Music CDs & Instruments:</strong> Local artists and rhythms like son, salsa, and bolero captured in authentic recordings.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Havana</h2>
+        <ul>
+          <li><strong>Ropa Vieja:</strong> Shredded beef cooked in a savory tomato-based sauce, often served with rice and plantains.</li>
+          <li><strong>Moros y Cristianos:</strong> A classic Cuban dish of black beans and white rice.</li>
+          <li><strong>Tostones:</strong> Fried green plantains, crispy and savory, often eaten as a snack or side.</li>
+          <li><strong>Cuban Sandwich:</strong> Ham, roasted pork, Swiss cheese, pickles, and mustard on pressed Cuban bread.</li>
+          <li><strong>Flan:</strong> A creamy caramel custard dessert popular across the island.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Havana</h2>
+        <ul>
+          <li><strong>El Capitolio:</strong> Once the seat of government, this majestic building resembles the U.S. Capitol and is now home to Cuba’s National Assembly.</li>
+          <li><strong>Castillo del Morro:</strong> A 16th-century fortress guarding Havana Bay, offering panoramic views and pirate history.</li>
+          <li><strong>Plaza de la Catedral:</strong> A beautiful baroque square home to the Havana Cathedral and colonial charm.</li>
+          <li><strong>Revolution Museum:</strong> Located in the former Presidential Palace, it showcases Cuba’s revolutionary past.</li>
+          <li><strong>Finca Vigía:</strong> The home of Ernest Hemingway, preserved as it was when he lived and wrote in Cuba.</li>
+        </ul>
+    
+        <hr/>
+        <p>Havana is more than a destination; it’s a cultural experience. With its vibrant streets, warm people, historical richness, and irresistible rhythms, the city welcomes travelers seeking beauty, authenticity, and timeless charm.</p>
+      `,
+      image: "/images/havana.jpg"
+    }
+        
     
 
   ];
