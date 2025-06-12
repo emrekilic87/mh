@@ -1985,8 +1985,57 @@ export const posts = [
         <p>Havana is more than a destination; it’s a cultural experience. With its vibrant streets, warm people, historical richness, and irresistible rhythms, the city welcomes travelers seeking beauty, authenticity, and timeless charm.</p>
       `,
       image: "/images/havana.jpg"
+    },
+    {
+      slug: "discover-vienna",
+      title: "Discover Vienna",
+      keywords: "Vienna travel guide, Best places to visit in Vienna, Things to do in Vienna, Vienna traditional foods, Vienna historical landmarks, Popular Vienna districts, Shopping in Vienna, Viennese culture, Vienna classical music, Austria tourism",
+      summary: "Vienna, the capital of Austria, is a city where imperial history meets modern elegance. Known for its grand palaces, musical heritage, and vibrant cultural scene, Vienna offers an unforgettable journey through art, architecture, and traditional flavors.",
+      content: `
+        <p>Vienna, the capital of Austria, is a city where imperial history meets modern elegance. Known for its grand palaces, musical heritage, and vibrant cultural scene, Vienna offers an unforgettable journey through art, architecture, and traditional flavors.</p>
+    
+        <h2>Popular Areas in Vienna</h2>
+        <ul>
+          <li><strong>Innere Stadt:</strong> The historic city center, home to St. Stephen’s Cathedral, the Hofburg Palace, and upscale shopping streets.</li>
+          <li><strong>Leopoldstadt:</strong> Located between the Danube and the Donaukanal, it's known for the Prater park and the iconic Ferris wheel.</li>
+          <li><strong>Neubau:</strong> A trendy district filled with museums, boutiques, and cafes, especially along the MuseumsQuartier.</li>
+          <li><strong>Wieden:</strong> A charming area with Art Nouveau architecture, cozy restaurants, and the famous Naschmarkt.</li>
+          <li><strong>Hietzing:</strong> A quieter residential district, home to Schönbrunn Palace and beautiful gardens.</li>
+        </ul>
+    
+        <h2>Popular Products from Vienna</h2>
+        <ul>
+          <li><strong>Porcelain & Crystal:</strong> Viennese porcelain and Swarovski crystal make elegant souvenirs.</li>
+          <li><strong>Mozartkugeln:</strong> Chocolate confections filled with marzipan and nougat, named after Mozart.</li>
+          <li><strong>Vienna Coffee:</strong> Traditional coffee beans and accessories from historic coffeehouses like Café Central.</li>
+          <li><strong>Austrian Wine:</strong> Particularly white wines from regions near Vienna, available in many specialty shops.</li>
+          <li><strong>Traditional Clothing:</strong> Items like dirndls and lederhosen are sold in artisan boutiques and markets.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Vienna</h2>
+        <ul>
+          <li><strong>Wiener Schnitzel:</strong> Breaded and fried veal cutlet, often served with potato salad or lingonberry jam.</li>
+          <li><strong>Sachertorte:</strong> A rich chocolate cake with apricot jam, originally created by the Sacher Hotel.</li>
+          <li><strong>Apfelstrudel:</strong> A classic apple-filled pastry dusted with powdered sugar and often served warm.</li>
+          <li><strong>Tafelspitz:</strong> Boiled beef in broth, served with horseradish, apple sauce, and root vegetables.</li>
+          <li><strong>Kaiserschmarrn:</strong> Shredded sweet pancakes topped with powdered sugar and served with plum compote.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Vienna</h2>
+        <ul>
+          <li><strong>Schönbrunn Palace:</strong> A former imperial summer residence with magnificent gardens and baroque interiors.</li>
+          <li><strong>Hofburg Palace:</strong> The historic seat of the Habsburg dynasty, now housing museums and the Austrian president’s office.</li>
+          <li><strong>St. Stephen's Cathedral:</strong> A gothic masterpiece located at the heart of the city.</li>
+          <li><strong>Belvedere Palace:</strong> A baroque palace complex that includes art galleries with works by Klimt and other masters.</li>
+          <li><strong>Vienna State Opera:</strong> One of the world’s most famous opera houses, offering a rich calendar of performances.</li>
+        </ul>
+    
+        <hr/>
+        <p>Vienna captivates with its elegant streets, imperial heritage, world-class music, and delectable cuisine. Whether you're admiring royal palaces, savoring a slice of Sachertorte, or enjoying a concert in a historic venue — Vienna is a city that gracefully blends the past with the present.</p>
+      `,
+      image: "/images/vienna.jpg"
     }
-        
+            
     
 
   ];
