@@ -2034,8 +2034,56 @@ export const posts = [
         <p>Vienna captivates with its elegant streets, imperial heritage, world-class music, and delectable cuisine. Whether you're admiring royal palaces, savoring a slice of Sachertorte, or enjoying a concert in a historic venue — Vienna is a city that gracefully blends the past with the present.</p>
       `,
       image: "/images/vienna.jpg"
-    }
-            
+    },
+    {
+      slug: "discover-istanbul",
+      title: "Discover Istanbul",
+      keywords: "Istanbul travel guide, Best places to visit in Istanbul, Things to do in Istanbul, Turkish street food, Istanbul historical landmarks, Popular Istanbul neighborhoods, Shopping in Istanbul, What to eat in Istanbul, Istanbul cultural sites, Istanbul tourist attractions",
+      summary: "Istanbul, the vibrant heart of Turkey, bridges two continents and countless centuries of history. From bustling bazaars and grand mosques to modern art galleries and seaside cafes, the city offers an unforgettable blend of East and West.",
+      content: `
+        <p>Istanbul, the vibrant heart of Turkey, bridges two continents and countless centuries of history. From bustling bazaars and grand mosques to modern art galleries and seaside cafes, the city offers an unforgettable blend of East and West.</p>
+    
+        <h2>Popular Areas in Istanbul</h2>
+        <ul>
+          <li><strong>Sultanahmet:</strong> The historical center featuring Hagia Sophia, the Blue Mosque, and Topkapi Palace.</li>
+          <li><strong>Taksim & Istiklal Street:</strong> A modern hub filled with shops, cafes, nightlife, and cultural venues.</li>
+          <li><strong>Karaköy:</strong> A trendy neighborhood with galleries, street art, boutique hotels, and seaside eateries.</li>
+          <li><strong>Ortaköy:</strong> Known for its charming mosque on the Bosphorus and vibrant weekend markets.</li>
+          <li><strong>Üsküdar & Kadıköy:</strong> Located on the Asian side, offering traditional Turkish life, scenic views, and local flavors.</li>
+        </ul>
+    
+        <h2>Popular Products from Istanbul</h2>
+        <ul>
+          <li><strong>Turkish Delight (Lokum):</strong> A classic sweet in many flavors, perfect as a gift or souvenir.</li>
+          <li><strong>Handmade Ceramics:</strong> Traditional Iznik patterns and colorful pottery can be found in the Grand Bazaar.</li>
+          <li><strong>Spices:</strong> From saffron to sumac, Istanbul’s Spice Bazaar is a treasure trove for food lovers.</li>
+          <li><strong>Textiles and Carpets:</strong> Authentic Turkish rugs, towels, and scarves are globally admired.</li>
+          <li><strong>Gold and Jewelry:</strong> Intricately designed pieces, often handmade and inspired by Ottoman motifs.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Istanbul</h2>
+        <ul>
+          <li><strong>Kebabs:</strong> From döner to şiş kebab, Istanbul offers a rich variety of grilled meats.</li>
+          <li><strong>Simit:</strong> A sesame-coated bread ring, perfect with Turkish tea.</li>
+          <li><strong>Balık Ekmek:</strong> Grilled fish sandwich, often sold near Eminönü by the Bosphorus.</li>
+          <li><strong>Meze:</strong> Small appetizers served with rakı, including hummus, stuffed vine leaves, and ezme.</li>
+          <li><strong>Künefe & Baklava:</strong> Rich desserts made with cheese or nuts, soaked in syrup and loved by locals and tourists alike.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Istanbul</h2>
+        <ul>
+          <li><strong>Hagia Sophia:</strong> Once a church, then a mosque, and now a museum-mosque hybrid, it reflects the city’s layered past.</li>
+          <li><strong>Topkapi Palace:</strong> The opulent home of Ottoman sultans with priceless artifacts and royal chambers.</li>
+          <li><strong>Blue Mosque (Sultanahmet Camii):</strong> Famous for its six minarets and exquisite blue tiles.</li>
+          <li><strong>Basilica Cistern:</strong> A vast underground water reservoir dating back to Byzantine times.</li>
+          <li><strong>Galata Tower:</strong> A medieval stone tower with panoramic views over Istanbul’s skyline.</li>
+        </ul>
+    
+        <hr/>
+        <p>Istanbul is a city of contrasts and harmony — where ancient empires meet modern life, where a call to prayer echoes alongside clinking tea glasses. With its stunning views, rich cuisine, and historical grandeur, it offers a cultural experience like no other.</p>
+      `,
+      image: "/images/istanbul.jpg"
+    }                
     
 
   ];
