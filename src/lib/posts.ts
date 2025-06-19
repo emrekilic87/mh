@@ -2083,7 +2083,56 @@ export const posts = [
         <p>Istanbul is a city of contrasts and harmony — where ancient empires meet modern life, where a call to prayer echoes alongside clinking tea glasses. With its stunning views, rich cuisine, and historical grandeur, it offers a cultural experience like no other.</p>
       `,
       image: "/images/istanbul.jpg"
-    }                
+    },
+    {
+      slug: "discover-antalya",
+      title: "Discover Antalya",
+      keywords: "Antalya travel guide, Best places in Antalya, Things to do in Antalya, Antalya beaches, Antalya historical sites, Turkish cuisine in Antalya, Antalya shopping, Antalya cultural attractions, Antalya old town, Mediterranean Turkey",
+      summary: "Antalya, the jewel of Turkey's Mediterranean coast, offers a stunning mix of sun-soaked beaches, ancient ruins, vibrant bazaars, and scenic mountains. With its rich history and modern resorts, Antalya is a perfect destination for both relaxation and exploration.",
+      content: `
+        <p>Antalya, the jewel of Turkey's Mediterranean coast, offers a stunning mix of sun-soaked beaches, ancient ruins, vibrant bazaars, and scenic mountains. With its rich history and modern resorts, Antalya is a perfect destination for both relaxation and exploration.</p>
+    
+        <h2>Popular Areas in Antalya</h2>
+        <ul>
+          <li><strong>Kaleiçi (Old Town):</strong> A charming historic district with narrow cobbled streets, Ottoman-era houses, boutique hotels, and the iconic Hadrian’s Gate.</li>
+          <li><strong>Lara Beach:</strong> A long, sandy beach lined with luxury resorts and lively beach clubs.</li>
+          <li><strong>Konyaaltı Beach:</strong> A pebbled coastline backed by the Taurus Mountains, perfect for swimming and relaxing.</li>
+          <li><strong>Belek:</strong> Known for its upscale golf resorts and all-inclusive hotels, popular with international visitors.</li>
+          <li><strong>Side:</strong> A seaside town with Roman ruins and beautiful beaches, perfect for day trips from the city center.</li>
+        </ul>
+    
+        <h2>Popular Products from Antalya</h2>
+        <ul>
+          <li><strong>Turkish Carpets and Kilims:</strong> Handwoven rugs from local villages featuring traditional Anatolian patterns.</li>
+          <li><strong>Olive Oil Products:</strong> Locally made soaps, oils, and cosmetics using high-quality Mediterranean olives.</li>
+          <li><strong>Handcrafted Jewelry:</strong> Silver and gemstone pieces often inspired by ancient Lycian and Ottoman designs.</li>
+          <li><strong>Spices and Dried Fruits:</strong> Colorful bazaars offer saffron, dried figs, apricots, and more.</li>
+          <li><strong>Onyx and Marble Souvenirs:</strong> Antalya is known for decorative items carved from local stone.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Antalya</h2>
+        <ul>
+          <li><strong>Piyaz:</strong> A local bean salad made with tahini, garlic, and vinegar — unique to the Antalya region.</li>
+          <li><strong>Tandır Kebabı:</strong> Slow-cooked lamb served with flatbread and spices.</li>
+          <li><strongGözleme:</strong> Thin savory flatbreads filled with cheese, spinach, or potatoes, often made fresh at markets.</li>
+          <li><strong>Seafood:</strong> Fresh grilled fish, calamari, and shrimp are staples along the coast.</li>
+          <li><strong>Dondurma (Turkish Ice Cream):</strong> Known for its chewy texture and made with goat milk and mastic.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Antalya</h2>
+        <ul>
+          <li><strong>Hadrian’s Gate:</strong> A triumphal arch built in honor of the Roman Emperor Hadrian’s visit to the city.</li>
+          <li><strong>Aspendos Theater:</strong> One of the best-preserved Roman theaters in the world, still used for performances today.</li>
+          <li><strong>Perge Ancient City:</strong> A sprawling archaeological site with a stadium, baths, columns, and Roman gates.</li>
+          <li><strong>Termessos:</strong> A mountain-top city with dramatic ruins and panoramic views, located in a national park.</li>
+          <li><strong>Antalya Museum:</strong> One of Turkey’s most important museums, featuring artifacts from the surrounding region’s ancient civilizations.</li>
+        </ul>
+    
+        <hr/>
+        <p>Antalya combines natural beauty with deep-rooted history, offering visitors turquoise waters, flavorful cuisine, and ancient wonders. Whether you’re sunbathing by the sea or walking through centuries-old ruins, Antalya provides a rich and refreshing Mediterranean experience.</p>
+      `,
+      image: "/images/antalya.jpg"
+    }
     
 
   ];
