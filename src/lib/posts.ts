@@ -2132,6 +2132,106 @@ export const posts = [
         <p>Antalya combines natural beauty with deep-rooted history, offering visitors turquoise waters, flavorful cuisine, and ancient wonders. Whether you’re sunbathing by the sea or walking through centuries-old ruins, Antalya provides a rich and refreshing Mediterranean experience.</p>
       `,
       image: "/images/antalya.jpg"
+    },
+    {
+      slug: "discover-turkey",
+      title: "Discover Turkey",
+      keywords: "Turkey travel guide, Best places in Turkey, Turkish food, Historical sites in Turkey, Things to do in Turkey, Turkish souvenirs, Popular Turkish destinations, Culture of Turkey, UNESCO sites in Turkey, Travel Turkey tips",
+      summary: "Turkey, where East meets West, is a country full of breathtaking landscapes, ancient civilizations, rich cuisine, and warm hospitality. From its coastal towns to bustling cities and remote mountains, Turkey offers an unforgettable journey through history and culture.",
+      content: `
+        <p>Turkey, where East meets West, is a country full of breathtaking landscapes, ancient civilizations, rich cuisine, and warm hospitality. From its coastal towns to bustling cities and remote mountains, Turkey offers an unforgettable journey through history and culture.</p>
+    
+        <h2>Popular Areas in Turkey</h2>
+        <ul>
+          <li><strong>Istanbul:</strong> A mesmerizing city straddling Europe and Asia, home to landmarks like Hagia Sophia and the Grand Bazaar.</li>
+          <li><strong>Cappadocia:</strong> Famous for its fairy chimneys, underground cities, and hot air balloon rides over surreal landscapes.</li>
+          <li><strong>Antalya:</strong> A Mediterranean gem with sandy beaches, ancient ruins, and luxury resorts.</li>
+          <li><strong>Izmir:</strong> A coastal city with a relaxed vibe, historic sites like Ephesus, and vibrant bazaars.</li>
+          <li><strong>Bodrum:</strong> A lively seaside town known for its nightlife, beaches, and the remains of the Mausoleum of Halicarnassus.</li>
+        </ul>
+    
+        <h2>Popular Products from Turkey</h2>
+        <ul>
+          <li><strong>Turkish Carpets & Kilims:</strong> Handwoven textiles known for their unique patterns and symbolism.</li>
+          <li><strong>Olive Oil & Soaps:</strong> Natural and aromatic, produced especially in the Aegean region.</li>
+          <li><strong>Ceramics & Pottery:</strong> Colorful handmade items with intricate Ottoman and Seljuk designs.</li>
+          <li><strong>Spices & Teas:</strong> Rich blends including sumac, pul biber, and fragrant apple or black tea.</li>
+          <li><strong>Jewelry & Evil Eye Charms:</strong> Traditional silver and gold jewelry, and “nazar boncuğu” for protection.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Turkey</h2>
+        <ul>
+          <li><strong>Kebabs:</strong> From Adana to Urfa, every region has its own version of grilled meat dishes.</li>
+          <li><strong>Meze:</strong> Small appetizer plates that include eggplant salad, haydari, and stuffed grape leaves.</li>
+          <li><strong>Baklava:</strong> Rich layered pastry made with pistachios or walnuts, soaked in syrup.</li>
+          <li><strong>Menemen:</strong> A Turkish-style scrambled egg dish with tomatoes, peppers, and spices.</li>
+          <li><strong>Manti:</strong> Tiny dumplings filled with meat and served with yogurt and garlic butter.</li>
+          <li><strong>Simit & Çay:</strong> A sesame-covered bread ring often paired with a glass of black tea.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Turkey</h2>
+        <ul>
+          <li><strong>Ephesus:</strong> One of the best-preserved Roman cities, home to the Temple of Artemis and the Library of Celsus.</li>
+          <li><strong>Göbekli Tepe:</strong> The world’s oldest known temple complex, dating back over 11,000 years.</li>
+          <li><strong>Troy:</strong> The legendary ancient city associated with Homer’s Iliad, located near Çanakkale.</li>
+          <li><strong>Mount Nemrut:</strong> A mysterious site with giant statues and royal tombs on a mountain summit.</li>
+          <li><strong>Pamukkale & Hierapolis:</strong> Thermal terraces of white travertine alongside Roman ruins.</li>
+          <li><strong>Sumela Monastery:</strong> A stunning cliffside Greek Orthodox monastery in the Black Sea region.</li>
+        </ul>
+    
+        <hr/>
+        <p>From the ruins of empires to vibrant bazaars and unforgettable cuisine, Turkey’s depth of culture and history is unmatched. Whether you're drifting above Cappadocia at sunrise or sipping tea beside the Bosphorus, Turkey invites you to explore its timeless beauty.</p>
+      `,
+      image: "/images/turkey.jpg"
+    },
+    {
+      slug: "discover-dublin",
+      title: "Discover Dublin",
+      keywords: "Dublin travel guide, Best places to visit in Dublin, Things to do in Dublin, Irish food in Dublin, Dublin historical landmarks, Popular Dublin neighborhoods, Shopping in Dublin, Irish culture, Dublin pubs, Dublin tourist attractions",
+      summary: "Dublin, the lively capital of Ireland, is a city rich in literary history, friendly pubs, Georgian architecture, and cultural charm. With a mix of medieval landmarks and modern city life, Dublin invites you to explore its unique character and welcoming spirit.",
+      content: `
+        <p>Dublin, the lively capital of Ireland, is a city rich in literary history, friendly pubs, Georgian architecture, and cultural charm. With a mix of medieval landmarks and modern city life, Dublin invites you to explore its unique character and welcoming spirit.</p>
+    
+        <h2>Popular Areas in Dublin</h2>
+        <ul>
+          <li><strong>Temple Bar:</strong> The cultural heart of Dublin, known for its cobblestone streets, art galleries, live music, and bustling pubs.</li>
+          <li><strong>Trinity College Area:</strong> Home to Ireland's oldest university and the famous Book of Kells exhibit.</li>
+          <li><strong>Grafton Street:</strong> A lively shopping street filled with boutiques, cafes, and street performers.</li>
+          <li><strong>St. Stephen’s Green:</strong> A peaceful park surrounded by Georgian buildings and shopping districts.</li>
+          <li><strong>Docklands:</strong> A redeveloped waterfront district with modern architecture, tech companies, and riverside dining.</li>
+        </ul>
+    
+        <h2>Popular Products from Dublin</h2>
+        <ul>
+          <li><strong>Irish Whiskey:</strong> Dublin is home to iconic distilleries like Jameson and Teeling — offering tastings and tours.</li>
+          <li><strong>Aran Woolens:</strong> Traditional Irish knitwear, scarves, and sweaters made from local wool.</li>
+          <li><strong>Books & Literature:</strong> The city of Joyce, Beckett, and Yeats offers literary-themed souvenirs and classics.</li>
+          <li><strong>Celtic Jewelry:</strong> Handmade silver and gold pieces featuring traditional Irish symbols.</li>
+          <li><strong>Irish Crystal & Pottery:</strong> Beautifully crafted glassware and ceramics, perfect for gifts or keepsakes.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Dublin</h2>
+        <ul>
+          <li><strong>Irish Stew:</strong> A hearty dish made with lamb, potatoes, carrots, and onions.</li>
+          <li><strong>Boxty:</strong> A traditional Irish potato pancake, served with meat or smoked salmon.</li>
+          <li><strong>Full Irish Breakfast:</strong> A filling start to the day with sausages, bacon, eggs, beans, and black pudding.</li>
+          <li><strong>Seafood Chowder:</strong> Creamy and flavorful, made with fresh local fish and shellfish.</li>
+          <li><strong>Guinness:</strong> The iconic Irish stout is best enjoyed at the Guinness Storehouse or a cozy pub.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Dublin</h2>
+        <ul>
+          <li><strong>Trinity College & The Book of Kells:</strong> A stunning university campus and home to a world-famous illuminated manuscript.</li>
+          <li><strong>Dublin Castle:</strong> A historic seat of British rule in Ireland, now open for public tours.</li>
+          <li><strong>Christ Church Cathedral:</strong> A medieval cathedral with crypts, relics, and beautiful architecture.</li>
+          <li><strong>Kilmainham Gaol:</strong> A former prison turned museum, telling stories of Ireland’s fight for independence.</li>
+          <li><strong>General Post Office (GPO):</strong> Site of the 1916 Easter Rising, now a symbol of Irish nationalism.</li>
+        </ul>
+    
+        <hr/>
+        <p>Dublin is a city that blends storytelling, music, and history with a modern, energetic pace. Whether you're exploring ancient manuscripts, sipping pints with locals, or tracing literary legends, Dublin offers a heartwarming and enriching experience.</p>
+      `,
+      image: "/images/dublin.jpg"
     }
     
 
