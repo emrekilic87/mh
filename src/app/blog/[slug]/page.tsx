@@ -2,7 +2,7 @@ import { getPostBySlug } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { BASE_URL } from "@/lib/config";
-import HotelLook from "@/components/affiliate/hotelLook";
+import Widget from "@/components/affiliate/widget";
 type Props = {
   params: { slug: string };
 };
@@ -49,9 +49,17 @@ export default async function BlogDetailPage(props: { params: Params }) {
         />
       )}
 
+      <Widget
+        id="hotel-look-widget"
+        scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&show_hotels=false&powered_by=true&locale=en&searchUrl=search.hotellook.com&primary_override=%23FF8E01&color_button=%23FF8E01&color_icons=%23FF8E01&secondary=%23FFFFFF&dark=%23262626&light=%23FFFFFF&special=%23C4C4C4&color_focused=%23FF8E01&border_radius=5&plain=false&promo_id=7873&campaign_id=101"
+      />
+
       <div className="text-gray-800 leading-7 mb-6" dangerouslySetInnerHTML={{ __html: post.content }} />
 
-      <HotelLook />
+      <Widget
+        id="kiwi-taxi-widget"
+        scriptSrc="https://tpwgt.com/content?trs=414250&powered_by=true&shmarker=629078&language=en&display_currency=USD&transfer_type=any&hide_form_extras=false&hide_external_links=false&disable_currency_selector=false&campaign_id=1&promo_id=691"
+      />
     </div>
   );
 }
