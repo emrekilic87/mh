@@ -65,14 +65,16 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
         {paginatedPosts.map((post) => (
           <Card key={post.slug} className="mb-4 h-full flex flex-col justify-between">
             {post.image && (
-              <Image
-                src={post.image}
-                alt={post.title}
-                width={600}
-                height={300}
-                priority
-                className="w-full h-48 object-cover rounded-t-xl"
-              />
+              <Link href={`/blog/${post.slug}`}>
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={600}
+                  height={300}
+                  priority
+                  className="w-full h-48 object-cover rounded-t-xl"
+                />
+              </Link>
             )}
             <CardContent>
               <h2 className="text-2xl font-semibold text-center">{post.title}</h2>
