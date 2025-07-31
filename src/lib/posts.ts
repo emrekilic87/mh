@@ -2430,8 +2430,57 @@ export const posts = [
         <p>Ho Chi Minh City is a vibrant mix of history and modernity. From savoring a bowl of phở at a street stall to exploring colonial buildings and wartime relics, the city invites visitors to immerse themselves in Vietnam’s past, present, and ever-changing future.</p>
       `,
       image: "/images/ho-chi-minh-city.jpg"
+    },
+    {
+      slug: "discover-athens",
+      title: "Discover Athens",
+      keywords: "Athens travel guide, Best areas in Athens, Athens historical sites, Greek food in Athens, Athens souvenirs, Acropolis tour, Plaka district Athens, Greek olive oil, Things to do in Athens, Ancient ruins Greece",
+      summary: "Athens, the historic capital of Greece, is a captivating blend of ancient ruins, vibrant neighborhoods, and Mediterranean flavors. With its iconic landmarks and cultural richness, Athens remains a timeless destination for travelers.",
+      content: `
+        <p>Athens, the cradle of Western civilization, offers a journey through time. From ancient ruins that tell the story of democracy and philosophy to buzzing markets and cozy tavernas, Athens balances its past and present with flair.</p>
+    
+        <h2>Popular Areas in Athens</h2>
+        <ul>
+          <li><strong>Plaka:</strong> The old town beneath the Acropolis, full of narrow streets, traditional shops, and family-run restaurants.</li>
+          <li><strong>Monastiraki:</strong> Known for its flea market, lively squares, and view of ancient ruins.</li>
+          <li><strong>Syntagma:</strong> Central square and political hub of Athens, home to the Parliament and luxury shopping.</li>
+          <li><strong>Psyri:</strong> A bohemian district filled with street art, bars, and local artisan shops.</li>
+          <li><strong>Kolonaki:</strong> An upscale neighborhood known for boutique fashion, galleries, and elegant cafes.</li>
+        </ul>
+    
+        <h2>Popular Products from Athens</h2>
+        <ul>
+          <li><strong>Olive Oil:</strong> High-quality extra virgin olive oil, a staple of Greek cuisine.</li>
+          <li><strong>Komboloi (Worry Beads):</strong> A traditional Greek item used for relaxation or as a keepsake.</li>
+          <li><strong>Handmade Leather Sandals:</strong> Durable and stylish, crafted in traditional designs.</li>
+          <li><strong>Greek Honey:</strong> Particularly thyme honey, prized for its rich flavor and purity.</li>
+          <li><strong>Ceramics and Pottery:</strong> Replicas of ancient Greek vases and artwork.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Athens</h2>
+        <ul>
+          <li><strong>Souvlaki:</strong> Grilled meat skewers often served in pita with tzatziki, tomato, and onion.</li>
+          <li><strong>Moussaka:</strong> A layered eggplant dish baked with minced meat and béchamel sauce.</li>
+          <li><strong>Dolmades:</strong> Vine leaves stuffed with rice, herbs, and sometimes meat.</li>
+          <li><strong>Spanakopita:</strong> A spinach and feta cheese pie wrapped in crispy phyllo dough.</li>
+          <li><strong>Loukoumades:</strong> Greek-style doughnuts soaked in honey and sprinkled with cinnamon or sesame.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Athens</h2>
+        <ul>
+          <li><strong>The Acropolis:</strong> A UNESCO World Heritage Site and symbol of ancient Greece, featuring the iconic Parthenon.</li>
+          <li><strong>Ancient Agora:</strong> Once the heart of public life, filled with ruins and ancient marketplaces.</li>
+          <li><strong>Temple of Olympian Zeus:</strong> One of the largest temples of the ancient world, dedicated to the king of the gods.</li>
+          <li><strong>Theatre of Dionysus:</strong> The birthplace of Greek drama, situated at the foot of the Acropolis.</li>
+          <li><strong>Panathenaic Stadium:</strong> The only stadium in the world built entirely of marble, and site of the first modern Olympics.</li>
+        </ul>
+    
+        <hr/>
+        <p>Athens is not just a city—it's a living museum, a culinary heaven, and a cultural experience all in one. Whether you're walking through the footsteps of philosophers or enjoying fresh feta under the sun, Athens leaves a lasting impression.</p>
+      `,
+      image: "/images/athens.jpg"
     }
-        
+            
         
 
   ];
