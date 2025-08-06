@@ -2479,8 +2479,57 @@ export const posts = [
         <p>Athens is not just a city—it's a living museum, a culinary heaven, and a cultural experience all in one. Whether you're walking through the footsteps of philosophers or enjoying fresh feta under the sun, Athens leaves a lasting impression.</p>
       `,
       image: "/images/athens.jpg"
+    },
+    {
+      slug: "discover-split",
+      title: "Discover Split",
+      keywords: "Split travel guide, Best areas in Split Croatia, Diocletian’s Palace, Croatian food Split, Souvenirs from Split, Split Old Town, Beaches in Split, Split historical sites, Dalmatian coast cities, What to eat in Split",
+      summary: "Split, Croatia’s stunning coastal city, blends ancient Roman history with Adriatic beauty. From Diocletian’s Palace to sun-kissed beaches, Split offers a mix of cultural charm, Mediterranean cuisine, and seaside relaxation.",
+      content: `
+        <p>Located on the Dalmatian coast, Split is Croatia’s second-largest city and one of the most vibrant destinations in the Balkans. With its UNESCO-listed Roman palace, scenic waterfront, and lively local life, Split is both a historical treasure and a modern getaway.</p>
+    
+        <h2>Popular Areas in Split</h2>
+        <ul>
+          <li><strong>Old Town (Stari Grad):</strong> A maze of narrow cobblestone streets surrounding Diocletian’s Palace, filled with cafes, bars, and history.</li>
+          <li><strong>Riva Promenade:</strong> The seaside boardwalk lined with palm trees, restaurants, and perfect spots to watch the sunset.</li>
+          <li><strong>Bačvice:</strong> Famous for its sandy beach and lively nightlife, popular with locals and tourists alike.</li>
+          <li><strong>Veli Varoš:</strong> A traditional neighborhood with stone houses and authentic Croatian charm.</li>
+          <li><strong>Marjan Hill:</strong> A forested park ideal for hiking and panoramic views of the city and sea.</li>
+        </ul>
+    
+        <h2>Popular Products from Split</h2>
+        <ul>
+          <li><strong>Olive Oil:</strong> Locally made extra virgin olive oil is a prized Croatian product.</li>
+          <li><strong>Lavender Products:</strong> Soaps, oils, and sachets from nearby Hvar and Dalmatian coast.</li>
+          <li><strong>Traditional Lace:</strong> Handmade lace from Croatian islands, especially Pag and Hvar.</li>
+          <li><strong>Rakija:</strong> A strong fruit brandy, often homemade, especially from figs or plums.</li>
+          <li><strong>Coral Jewelry:</strong> Locally crafted red coral pieces, especially from the Adriatic coast.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Split</h2>
+        <ul>
+          <li><strong>Pasticada:</strong> A slow-cooked beef stew marinated in vinegar and spices, served with gnocchi.</li>
+          <li><strong>Black Risotto (Crni Rižot):</strong> A squid ink seafood risotto rich in Mediterranean flavor.</li>
+          <li><strong>Grilled Fish:</strong> Fresh catch of the day, often served with Swiss chard and potatoes.</li>
+          <li><strong>Peka:</strong> Meat or seafood and vegetables slow-cooked under a bell-like dome.</li>
+          <li><strong>Fritule:</strong> Mini Croatian doughnuts dusted with sugar, especially popular during holidays.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Split</h2>
+        <ul>
+          <li><strong>Diocletian’s Palace:</strong> A UNESCO World Heritage Site built by Roman Emperor Diocletian in the 4th century—it's the heart of Old Town today.</li>
+          <li><strong>Cathedral of Saint Domnius:</strong> One of the oldest Catholic cathedrals still in use, originally Diocletian’s mausoleum.</li>
+          <li><strong>Peristyle Square:</strong> A central open-air courtyard surrounded by Roman columns—perfect for photos and live music in the evening.</li>
+          <li><strong>Temple of Jupiter:</strong> A well-preserved Roman temple now converted into a baptistery.</li>
+          <li><strong>Marjan Hill Lookout:</strong> Offers not only nature and walking trails but also spectacular views of the old city and Adriatic Sea.</li>
+        </ul>
+    
+        <hr/>
+        <p>Whether you're wandering ancient alleys, tasting fresh seafood by the sea, or diving into Roman history, Split invites you to experience the best of Croatia in one unforgettable coastal city.</p>
+      `,
+      image: "/images/split.jpg"
     }
-            
+                
         
 
   ];
