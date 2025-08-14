@@ -2626,7 +2626,106 @@ export const posts = [
         <p>Whether you're strolling along lively streets, swimming in crystal-clear waters, or exploring ancient Mayan sites, Playa del Carmen offers the perfect balance of relaxation and adventure on Mexico’s Caribbean coast.</p>
       `,
       image: "/images/playa-del-carmen.jpg"
-    }    
+    },
+    {
+      slug: "discover-kuala-lumpur",
+      title: "Discover Kuala Lumpur",
+      keywords: "Kuala Lumpur travel guide, Best areas in Kuala Lumpur Malaysia, Kuala Lumpur shopping, Malaysian food Kuala Lumpur, Souvenirs from Kuala Lumpur, Petronas Towers, Batu Caves, Kuala Lumpur historical sites, What to eat in Kuala Lumpur",
+      summary: "Kuala Lumpur, Malaysia’s bustling capital, blends modern skyscrapers, colonial architecture, lush parks, and vibrant street markets. From iconic landmarks like the Petronas Towers to traditional Malay cuisine, the city offers a unique mix of cultures and experiences.",
+      content: `
+        <p>Situated at the heart of Malaysia, Kuala Lumpur is a dynamic city where tradition meets modernity. Known for its soaring skyline, diverse neighborhoods, and rich cultural heritage, it attracts travelers seeking both urban excitement and authentic local charm.</p>
+    
+        <h2>Popular Areas in Kuala Lumpur</h2>
+        <ul>
+          <li><strong>Bukit Bintang:</strong> The city’s entertainment and shopping hub, filled with malls, restaurants, and nightlife.</li>
+          <li><strong>Chinatown (Petaling Street):</strong> A vibrant market area famous for street food, bargain shopping, and cultural landmarks.</li>
+          <li><strong>Kuala Lumpur City Centre (KLCC):</strong> Home to the Petronas Twin Towers, luxury hotels, and the beautiful KLCC Park.</li>
+          <li><strong>Little India (Brickfields):</strong> A colorful district with Indian restaurants, spice shops, and traditional clothing stores.</li>
+          <li><strong>Kampung Baru:</strong> A preserved Malay village offering a glimpse into traditional architecture and cuisine.</li>
+        </ul>
+    
+        <h2>Popular Products from Kuala Lumpur</h2>
+        <ul>
+          <li><strong>Batik Fabric:</strong> Hand-painted or printed textiles featuring traditional Malaysian patterns.</li>
+          <li><strong>Pewter Ware:</strong> Elegant homeware and souvenirs from Royal Selangor, the world’s largest pewter manufacturer.</li>
+          <li><strong>White Coffee:</strong> A uniquely roasted coffee from Malaysia, smooth and aromatic.</li>
+          <li><strong>Spices and Sauces:</strong> Local spice blends, sambal chili paste, and curry powders.</li>
+          <li><strong>Traditional Handicrafts:</strong> Woven baskets, wooden carvings, and rattan products.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Kuala Lumpur</h2>
+        <ul>
+          <li><strong>Nasi Lemak:</strong> Malaysia’s national dish with coconut rice, sambal, fried anchovies, peanuts, cucumber, and egg.</li>
+          <li><strong>Satay:</strong> Skewered and grilled meat served with peanut sauce.</li>
+          <li><strong>Char Kway Teow:</strong> Stir-fried flat rice noodles with prawns, eggs, and bean sprouts.</li>
+          <li><strong>Roti Canai:</strong> Flaky flatbread served with dhal or curry.</li>
+          <li><strong>Teh Tarik:</strong> A frothy pulled tea, sweet and comforting.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Kuala Lumpur</h2>
+        <ul>
+          <li><strong>Sultan Abdul Samad Building:</strong> A colonial-era landmark with Moorish architecture.</li>
+          <li><strong>Batu Caves:</strong> A Hindu temple complex set inside limestone caves, famous for its giant Murugan statue.</li>
+          <li><strong>Jamek Mosque:</strong> One of the oldest mosques in the city, located at the confluence of two rivers.</li>
+          <li><strong>Central Market:</strong> A heritage building turned cultural hub for arts, crafts, and performances.</li>
+          <li><strong>Thean Hou Temple:</strong> A stunning Chinese temple dedicated to the goddess of the sea.</li>
+        </ul>
+    
+        <hr/>
+        <p>From its bustling street markets and world-class shopping to its flavorful cuisine and historical treasures, Kuala Lumpur offers a colorful journey through Malaysia’s diverse culture and modern spirit.</p>
+      `,
+      image: "/images/kuala-lumpur.jpg"
+    },
+    {
+      slug: "discover-mumbai",
+      title: "Discover Mumbai",
+      keywords: "Mumbai travel guide, Best areas in Mumbai India, Mumbai shopping, Indian food Mumbai, Souvenirs from Mumbai, Gateway of India, Elephanta Caves, Mumbai historical sites, What to eat in Mumbai",
+      summary: "Mumbai, India’s financial and entertainment capital, is a vibrant metropolis where colonial architecture, Bollywood glamour, bustling markets, and street food culture come together in a dazzling mix.",
+      content: `
+        <p>Mumbai, formerly known as Bombay, is a city of contrasts — where colonial-era buildings stand beside modern skyscrapers, and luxury malls neighbor lively street markets. Known as the 'City of Dreams', it’s a melting pot of cultures, flavors, and experiences.</p>
+    
+        <h2>Popular Areas in Mumbai</h2>
+        <ul>
+          <li><strong>Colaba:</strong> A historic area famous for the Gateway of India, luxury hotels, and lively street shopping.</li>
+          <li><strong>Bandra:</strong> Trendy cafes, art galleries, and Bollywood celebrity homes make this suburb a hotspot for visitors.</li>
+          <li><strong>Marine Drive:</strong> The iconic seaside promenade with Art Deco buildings and stunning sunset views.</li>
+          <li><strong>Juhu:</strong> Known for its beach, upscale restaurants, and film industry connections.</li>
+          <li><strong>Crawford Market:</strong> A bustling market for fresh produce, spices, and local goods.</li>
+        </ul>
+    
+        <h2>Popular Products from Mumbai</h2>
+        <ul>
+          <li><strong>Kolhapuri Chappals:</strong> Handmade leather sandals from Maharashtra.</li>
+          <li><strong>Spices:</strong> A variety of aromatic masalas and spice blends used in Indian cooking.</li>
+          <li><strong>Jewelry:</strong> From gold ornaments to colorful costume pieces.</li>
+          <li><strong>Handicrafts:</strong> Wooden carvings, textiles, and decorative items.</li>
+          <li><strong>Bollywood Memorabilia:</strong> Posters, DVDs, and souvenirs celebrating India’s film industry.</li>
+        </ul>
+    
+        <h2>Must-Try Foods in Mumbai</h2>
+        <ul>
+          <li><strong>Vada Pav:</strong> The city's signature street snack — spicy potato fritter in a bread bun.</li>
+          <li><strong>Pav Bhaji:</strong> A spicy vegetable mash served with buttery bread rolls.</li>
+          <li><strong>Bhel Puri:</strong> A tangy, crunchy chaat made with puffed rice, vegetables, and chutneys.</li>
+          <li><strong>Kebabs:</strong> Flavorful skewered meats grilled to perfection.</li>
+          <li><strong>Bombay Sandwich:</strong> A layered vegetarian sandwich with chutney and masala spices.</li>
+        </ul>
+    
+        <h2>Special Historical Places in Mumbai</h2>
+        <ul>
+          <li><strong>Gateway of India:</strong> An iconic colonial-era arch overlooking the Arabian Sea.</li>
+          <li><strong>Chhatrapati Shivaji Maharaj Terminus:</strong> A UNESCO-listed railway station with Victorian Gothic architecture.</li>
+          <li><strong>Elephanta Caves:</strong> Ancient rock-cut temples on Elephanta Island.</li>
+          <li><strong>Haji Ali Dargah:</strong> A beautiful mosque located on a tiny islet in the Arabian Sea.</li>
+          <li><strong>Flora Fountain:</strong> A heritage landmark surrounded by historic buildings in the Fort area.</li>
+        </ul>
+    
+        <hr/>
+        <p>Whether it’s exploring colorful markets, tasting legendary street food, or discovering colonial-era landmarks, Mumbai offers a vibrant and unforgettable Indian experience.</p>
+      `,
+      image: "/images/mumbai.jpg"
+    }
+        
 
   ];
   
