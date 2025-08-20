@@ -2724,8 +2724,58 @@ export const posts = [
         <p>Whether it’s exploring colorful markets, tasting legendary street food, or discovering colonial-era landmarks, Mumbai offers a vibrant and unforgettable Indian experience.</p>
       `,
       image: "/images/mumbai.jpg"
+    },
+    {
+      slug: "discover-london",
+      title: "Discover London",
+      keywords: "London travel guide, Best areas in London, London shopping, British food London, Souvenirs from London, Big Ben, Buckingham Palace, Tower of London, London historical sites, What to eat in London",
+      summary: "London, the capital of the United Kingdom, blends royal traditions, modern culture, iconic landmarks, and world-class shopping in one of the most visited cities in the world.",
+      content: `
+        <p>London is a global city renowned for its rich history, multicultural vibe, and dynamic mix of old and new. From historic palaces and theaters to bustling markets and international cuisine, the city has something for everyone.</p>
+
+        <h2>Popular Areas in London</h2>
+        <ul>
+          <li><strong>Westminster:</strong> Home to Big Ben, the Houses of Parliament, and Westminster Abbey.</li>
+          <li><strong>Camden:</strong> Famous for its alternative markets, street food, and music scene.</li>
+          <li><strong>Soho:</strong> A lively area with restaurants, nightlife, and theaters.</li>
+          <li><strong>South Bank:</strong> A riverside hub with the London Eye, cultural venues, and stunning views of the Thames.</li>
+          <li><strong>Kensington & Chelsea:</strong> Known for luxury shopping, museums, and elegant streets.</li>
+        </ul>
+
+        <h2>Popular Products from London</h2>
+        <ul>
+          <li><strong>Tea:</strong> Traditional English tea, often sold in decorative tins.</li>
+          <li><strong>Harry Potter Merchandise:</strong> Souvenirs inspired by the famous book and film series.</li>
+          <li><strong>British Fashion:</strong> Iconic items from brands like Burberry and Vivienne Westwood.</li>
+          <li><strong>Books & Literature:</strong> Special editions and collectibles from historic bookstores.</li>
+          <li><strong>Royal Memorabilia:</strong> Items celebrating the British monarchy, from mugs to coins.</li>
+        </ul>
+
+        <h2>Must-Try Foods in London</h2>
+        <ul>
+          <li><strong>Fish and Chips:</strong> The UK's most famous comfort food, best enjoyed at a local pub.</li>
+          <li><strong>Full English Breakfast:</strong> A hearty meal with eggs, sausages, bacon, beans, and toast.</li>
+          <li><strong>Sunday Roast:</strong> Traditional roast meat served with vegetables, potatoes, and Yorkshire pudding.</li>
+          <li><strong>Pies:</strong> Savory meat pies and the famous steak & kidney pie.</li>
+          <li><strong>Afternoon Tea:</strong> Tea served with scones, sandwiches, and pastries.</li>
+        </ul>
+
+        <h2>Special Historical Places in London</h2>
+        <ul>
+          <li><strong>Tower of London:</strong> A UNESCO World Heritage site and home to the Crown Jewels.</li>
+          <li><strong>Buckingham Palace:</strong> The official residence of the British monarch.</li>
+          <li><strong>Westminster Abbey:</strong> A historic church where kings and queens are crowned.</li>
+          <li><strong>St. Paul’s Cathedral:</strong> An iconic Baroque cathedral with a magnificent dome.</li>
+          <li><strong>British Museum:</strong> One of the world’s greatest museums with treasures from around the globe.</li>
+        </ul>
+
+        <hr/>
+        <p>From historic landmarks and royal traditions to modern shopping and diverse food experiences, London captures the heart of every traveler.</p>
+      `,
+      image: "/images/london.jpg"
     }
-        
+
+            
 
   ];
   
