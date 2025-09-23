@@ -50,15 +50,15 @@ export default async function BlogDetailPage(props: { params: Params }) {
       )}
 
       <Widget
-        id="hotel-look-widget"
-        scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&show_hotels=false&powered_by=true&locale=en&searchUrl=search.hotellook.com&primary_override=%23FF8E01&color_button=%23FF8E01&color_icons=%23FF8E01&secondary=%23FFFFFF&dark=%23262626&light=%23FFFFFF&special=%23C4C4C4&color_focused=%23FF8E01&border_radius=5&plain=false&promo_id=7873&campaign_id=101"
+        id="kiwi-flights-widget"
+        scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&locale=en&stops=any&show_hotels=false&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
       />
 
       <div className="text-gray-800 leading-7 mb-6" dangerouslySetInnerHTML={{ __html: post.content }} />
 
       <Widget
         id="kiwi-taxi-widget"
-        scriptSrc="https://tpwgt.com/content?trs=414250&powered_by=true&shmarker=629078&language=en&display_currency=USD&transfer_type=any&hide_form_extras=false&hide_external_links=false&disable_currency_selector=false&campaign_id=1&promo_id=691"
+        scriptSrc="https://tpwgt.com/content?currency=USD&trs=414250&shmarker=629078&language=en&theme=1&powered_by=true&campaign_id=1&promo_id=1486"
       />
     </div>
   );

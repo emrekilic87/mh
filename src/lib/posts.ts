@@ -2969,7 +2969,107 @@ export const posts = [
         <p>Whether you’re riding the scenic railway, tasting local delicacies, or exploring centuries-old farmsteads, Flam offers an authentic Norwegian fjord experience that blends natural wonders with cultural heritage.</p>
       `,
       image: "/images/flam.jpg"
+    },
+    {
+      slug: "discover-malaga",
+      title: "Discover Malaga",
+      keywords: "Malaga travel guide, Best areas in Malaga Spain, Costa del Sol, Spanish food Malaga, Souvenirs from Malaga, Malaga Old Town, Picasso Museum Malaga, Malaga historical sites, Andalusian cities, What to eat in Malaga",
+      summary: "Malaga, the vibrant port city of Spain’s Costa del Sol, blends sun-soaked beaches with rich Andalusian culture and history. From the birthplace of Picasso to Moorish fortresses and lively tapas bars, Malaga offers a perfect Mediterranean escape.",
+      content: `
+        <p>Located on Spain’s southern coast, Malaga is a cosmopolitan city where history, art, and seaside leisure meet. With its historic old town, thriving arts scene, and golden beaches, it’s a gateway to the Costa del Sol and Andalusian charm.</p>
+
+        <h2>Popular Areas in Malaga</h2>
+        <ul>
+          <li><strong>Old Town (Centro Histórico):</strong> A maze of pedestrian streets lined with cafes, shops, and historic landmarks.</li>
+          <li><strong>La Malagueta Beach:</strong> One of Malaga’s most popular city beaches, perfect for sunbathing and seafood dining.</li>
+          <li><strong>Soho District:</strong> An urban art neighborhood with colorful street murals and creative spaces.</li>
+          <li><strong>El Palo:</strong> A traditional fishing neighborhood known for its authentic seaside restaurants.</li>
+          <li><strong>Muelle Uno:</strong> A modern waterfront promenade with shops, restaurants, and stunning views of the port.</li>
+        </ul>
+
+        <h2>Popular Products from Malaga</h2>
+        <ul>
+          <li><strong>Sweet Malaga Wine:</strong> A renowned fortified wine made from local Pedro Ximénez or Moscatel grapes.</li>
+          <li><strong>Ceramics:</strong> Hand-painted Andalusian tiles, plates, and pottery featuring bright patterns.</li>
+          <li><strong>Olive Oil:</strong> High-quality extra virgin olive oil from Andalusia’s fertile groves.</li>
+          <li><strong>Esparto Grass Crafts:</strong> Traditional woven baskets, bags, and decor items.</li>
+          <li><strong>Picasso-Themed Souvenirs:</strong> Inspired by Malaga’s most famous son, from prints to mugs and notebooks.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Malaga</h2>
+        <ul>
+          <li><strong>Espetos de Sardinas:</strong> Skewered sardines grilled over open fires on the beach.</li>
+          <li><strong>Gazpachuelo:</strong> A warm, creamy soup with fish and mayonnaise, a local twist on gazpacho.</li>
+          <li><strong>Boquerones en Vinagre:</strong> Fresh anchovies marinated in vinegar, garlic, and parsley.</li>
+          <li><strong>Fritura Malagueña:</strong> A mix of lightly fried seafood served as a sharing platter.</li>
+          <li><strong>Churros con Chocolate:</strong> Fried dough sticks served with thick hot chocolate for dipping.</li>
+        </ul>
+
+        <h2>Special Historical Places in Malaga</h2>
+        <ul>
+          <li><strong>Alcazaba of Malaga:</strong> A well-preserved Moorish fortress offering panoramic views of the city and port.</li>
+          <li><strong>Castillo de Gibralfaro:</strong> A hilltop castle dating back to the 10th century, connected to the Alcazaba.</li>
+          <li><strong>Malaga Cathedral:</strong> Known as “La Manquita” (the One-Armed Lady) for its unfinished second tower.</li>
+          <li><strong>Roman Theatre:</strong> Ancient ruins at the foot of the Alcazaba, still used for performances today.</li>
+          <li><strong>Picasso Museum:</strong> Celebrating the life and works of Pablo Picasso in his birthplace.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you’re strolling through historic streets, tasting seafood by the Mediterranean, or exploring Moorish landmarks, Malaga captures the essence of Andalusia’s coastal beauty and cultural richness.</p>
+      `,
+      image: "/images/malaga.jpg"
+    },
+    {
+      slug: "discover-prague",
+      title: "Discover Prague",
+      keywords: "Prague travel guide, Best areas in Prague, Czech Republic tourism, Czech food, Souvenirs from Prague, Prague Old Town, Prague Castle, Charles Bridge, Historical sites Prague, What to eat in Prague",
+      summary: "Prague, the fairy-tale capital of the Czech Republic, is famous for its cobblestone streets, Gothic architecture, and vibrant culture. From medieval bridges to hearty cuisine, it’s a city where history and modern life blend seamlessly.",
+      content: `
+        <p>Prague, known as the “City of a Hundred Spires,” enchants visitors with its stunning skyline, grand castles, and lively squares. As one of Europe’s most picturesque cities, it offers a unique mix of history, art, and cuisine.</p>
+
+        <h2>Popular Areas in Prague</h2>
+        <ul>
+          <li><strong>Old Town (Staré Město):</strong> The heart of Prague with the Astronomical Clock, colorful buildings, and bustling squares.</li>
+          <li><strong>Charles Bridge:</strong> The city’s iconic pedestrian bridge lined with statues and artists, connecting Old Town with Lesser Town.</li>
+          <li><strong>Lesser Town (Malá Strana):</strong> A charming district with baroque architecture, gardens, and stunning views of the castle.</li>
+          <li><strong>Wenceslas Square:</strong> A major shopping and entertainment boulevard filled with history and vibrant nightlife.</li>
+          <li><strong>Josefov:</strong> Prague’s historic Jewish Quarter, home to centuries-old synagogues and the Old Jewish Cemetery.</li>
+        </ul>
+
+        <h2>Popular Products from Prague</h2>
+        <ul>
+          <li><strong>Bohemian Crystal:</strong> Elegant hand-cut glassware and decorative pieces, a hallmark of Czech craftsmanship.</li>
+          <li><strong>Garnet Jewelry:</strong> Deep red Czech garnet stones set in traditional designs.</li>
+          <li><strong>Marionettes:</strong> Handcrafted wooden puppets, a unique Czech folk art tradition.</li>
+          <li><strong>Beer Steins:</strong> Decorative mugs and steins celebrating the Czech beer culture.</li>
+          <li><strong>Traditional Wooden Toys:</strong> Colorful, hand-painted toys reflecting old-world craftsmanship.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Prague</h2>
+        <ul>
+          <li><strong>Svíčková:</strong> A creamy beef sirloin dish served with bread dumplings and cranberry sauce.</li>
+          <li><strong>Goulash:</strong> Hearty beef stew with paprika, often paired with bread dumplings.</li>
+          <li><strong>Trdelník:</strong> A sweet, cinnamon-coated chimney pastry often filled with chocolate or ice cream.</li>
+          <li><strong>Vepřo-knedlo-zelo:</strong> Roast pork with dumplings and sauerkraut, a Czech classic.</li>
+          <li><strong>Pilsner Beer:</strong> The Czech Republic’s famous golden lager, best enjoyed in a local pub.</li>
+        </ul>
+
+        <h2>Special Historical Places in Prague</h2>
+        <ul>
+          <li><strong>Prague Castle:</strong> A sprawling complex including St. Vitus Cathedral and the Old Royal Palace, overlooking the city.</li>
+          <li><strong>Charles Bridge:</strong> A medieval stone bridge adorned with statues and steeped in history.</li>
+          <li><strong>Old Town Square:</strong> Home to the Astronomical Clock and a lively gathering spot for centuries.</li>
+          <li><strong>Vyšehrad:</strong> A historic fortress offering panoramic views of the Vltava River and city skyline.</li>
+          <li><strong>Strahov Monastery:</strong> An ancient monastery with a stunning library and rare manuscripts.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you’re wandering through Gothic alleys, sampling hearty Czech dishes, or exploring grand castles, Prague promises a timeless journey through Europe’s cultural heart.</p>
+      `,
+      image: "/images/prague.jpg"
     }
+
+
 
 
 
