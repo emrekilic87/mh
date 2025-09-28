@@ -3069,12 +3069,6 @@ export const posts = [
       image: "/images/prague.jpg"
     }
 
-
-
-
-
-            
-
   ];
   
   export async function getPostBySlug(slug: string) {
