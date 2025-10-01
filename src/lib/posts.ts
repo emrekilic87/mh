@@ -3067,7 +3067,57 @@ export const posts = [
         <p>Whether you’re wandering through Gothic alleys, sampling hearty Czech dishes, or exploring grand castles, Prague promises a timeless journey through Europe’s cultural heart.</p>
       `,
       image: "/images/prague.jpg"
+    },
+    {
+      slug: "discover-ella",
+      title: "Discover Ella",
+      keywords: "Ella travel guide, Best areas in Ella Sri Lanka, Sri Lankan tea plantations, Ella foods, Souvenirs from Ella, Little Adam’s Peak, Nine Arches Bridge, Historical sites Ella, What to eat in Ella, Ella attractions",
+      summary: "Ella, a serene mountain town in Sri Lanka, is surrounded by tea plantations, lush green hills, and iconic landmarks. From hiking trails to cultural sites, Ella offers a perfect mix of nature, history, and authentic Sri Lankan lifestyle.",
+      content: `
+        <p>Nestled in the central highlands of Sri Lanka, Ella is a paradise for nature lovers, adventurers, and culture seekers. Known for its breathtaking views, tea estates, and laid-back charm, Ella provides an authentic escape into Sri Lanka’s hill country.</p>
+
+        <h2>Popular Areas in Ella</h2>
+        <ul>
+          <li><strong>Little Adam’s Peak:</strong> A scenic and relatively easy hike offering stunning panoramic views of the surrounding valleys and mountains.</li>
+          <li><strong>Nine Arches Bridge:</strong> One of Sri Lanka’s most photographed landmarks, famous for its colonial-era architecture and passing trains.</li>
+          <li><strong>Ella Rock:</strong> A more challenging hike that rewards visitors with spectacular sunrise views.</li>
+          <li><strong>Ravana Falls:</strong> A majestic waterfall named after the legendary King Ravana, perfect for cooling off on a hot day.</li>
+          <li><strong>Tea Plantations:</strong> Rolling hills covered in tea bushes, where visitors can tour factories and sample world-famous Ceylon tea.</li>
+        </ul>
+
+        <h2>Popular Products from Ella</h2>
+        <ul>
+          <li><strong>Ceylon Tea:</strong> Freshly harvested and world-renowned Sri Lankan tea, available in many varieties.</li>
+          <li><strong>Handloom Textiles:</strong> Colorful handmade fabrics and scarves showcasing traditional Sri Lankan weaving techniques.</li>
+          <li><strong>Wooden Crafts:</strong> Locally made carvings and household items from sustainable wood.</li>
+          <li><strong>Ayurvedic Products:</strong> Herbal oils, balms, and natural skincare inspired by Sri Lanka’s ancient healing traditions.</li>
+          <li><strong>Spices:</strong> Fragrant cinnamon, cardamom, and cloves, staples of Sri Lankan cuisine.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Ella</h2>
+        <ul>
+          <li><strong>Kottu Roti:</strong> A delicious street food made from chopped flatbread, vegetables, egg, and meat, stir-fried with spices.</li>
+          <li><strong>Rice and Curry:</strong> Sri Lanka’s signature dish with rice served alongside a variety of flavorful curries.</li>
+          <li><strong>Hoppers (Appa):</strong> Bowl-shaped pancakes made from fermented rice flour, often enjoyed with curry or eggs.</li>
+          <li><strong>Pol Sambol:</strong> A spicy coconut relish that accompanies many meals.</li>
+          <li><strong>String Hoppers:</strong> Steamed rice noodles typically served with dhal and curries.</li>
+        </ul>
+
+        <h2>Special Historical Places in Ella</h2>
+        <ul>
+          <li><strong>Ravana Cave:</strong> A legendary cave linked to the Ramayana epic, believed to have been used by King Ravana.</li>
+          <li><strong>Dhowa Rock Temple:</strong> A 2000-year-old Buddhist temple featuring an unfinished ancient rock carving of Buddha.</li>
+          <li><strong>Ella Rock:</strong> Besides being a trekking spot, it carries cultural significance for local communities.</li>
+          <li><strong>Ravana Falls:</strong> Associated with myths and legends from Sri Lankan history.</li>
+          <li><strong>Old Tea Factories:</strong> Colonial-era tea estates that preserve the history of Sri Lanka’s tea industry.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether hiking through lush hills, savoring Sri Lankan flavors, or exploring sites tied to legends, Ella offers a tranquil yet adventurous experience in the heart of Sri Lanka’s hill country.</p>
+      `,
+      image: "/images/ella.jpg"
     }
+
 
   ];
   
