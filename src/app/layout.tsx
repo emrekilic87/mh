@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/images/multihats.png" type="image/png" sizes="32x32" />
       <head>
       <Script
           id="travelpayouts-script"
