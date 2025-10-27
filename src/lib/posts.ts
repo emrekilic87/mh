@@ -3263,11 +3263,56 @@ export const posts = [
         <p>Whether you’re strolling along the Elbe River, exploring the canals of Speicherstadt, or enjoying live music in St. Pauli, Hamburg captivates visitors with its blend of maritime heritage, cultural depth, and cosmopolitan flair.</p>
       `,
       image: "/images/hamburg.jpg"
+    },
+    {
+      slug: "discover-canggu",
+      title: "Discover Canggu",
+      keywords: "Canggu travel guide, Best areas in Canggu Bali, Bali surf spots, Indonesian food Canggu, Souvenirs from Canggu, Canggu beaches, Tanah Lot Temple, Bali historical sites, Canggu cafes, What to eat in Canggu",
+      summary: "Canggu, Bali’s bohemian coastal gem, is a perfect blend of surf culture, rice fields, and vibrant cafes. From trendy beach clubs to sacred temples, Canggu offers a laid-back yet stylish experience that captures the spirit of modern Bali.",
+      content: `
+        <p>Located on Bali’s southwest coast, Canggu has transformed from a quiet fishing village into one of the island’s most popular destinations. Known for its surf beaches, digital nomad vibe, and lush rice paddies, Canggu is where tropical tranquility meets creativity and culture.</p>
+
+        <h2>Popular Areas in Canggu</h2>
+        <ul>
+          <li><strong>Echo Beach:</strong> A famous surf spot with lively beach bars and stunning sunsets.</li>
+          <li><strong>Batu Bolong:</strong> The heart of Canggu, filled with boutique shops, hip cafes, and yoga studios.</li>
+          <li><strong>Berawa:</strong> Home to luxury villas and beach clubs like Finns and Atlas, perfect for sunset cocktails.</li>
+          <li><strong>Pererenan:</strong> A quieter area with scenic rice fields and a growing local art scene.</li>
+          <li><strong>Nelayan Beach:</strong> A relaxed beach ideal for morning walks and peaceful ocean views.</li>
+        </ul>
+
+        <h2>Popular Products from Canggu</h2>
+        <ul>
+          <li><strong>Batik Clothing:</strong> Hand-dyed traditional Indonesian fabrics available in modern designs.</li>
+          <li><strong>Eco-Friendly Accessories:</strong> Bamboo straws, organic skincare, and sustainable beachwear from local artisans.</li>
+          <li><strong>Silver Jewelry:</strong> Handmade Balinese silver crafted in nearby Celuk village.</li>
+          <li><strong>Surf Gear:</strong> Custom surfboards, swimwear, and accessories made by Bali’s surf community.</li>
+          <li><strong>Home Décor:</strong> Rattan furniture and handcrafted decorations reflecting Bali’s tropical aesthetic.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Canggu</h2>
+        <ul>
+          <li><strong>Nasi Campur:</strong> A plate of rice served with small portions of vegetables, meat, and sambal.</li>
+          <li><strong>Mie Goreng:</strong> Stir-fried noodles with chicken, shrimp, or tofu, a true Balinese comfort food.</li>
+          <li><strong>Nasi Goreng:</strong> Indonesia’s signature fried rice topped with a fried egg.</li>
+          <li><strong>Sate Lilit:</strong> Minced seafood or chicken satay wrapped around lemongrass sticks, grilled to perfection.</li>
+          <li><strong>Balinese Smoothie Bowls:</strong> Fresh tropical fruit blends served with granola, coconut, and chia seeds, popular in Canggu’s cafes.</li>
+        </ul>
+
+        <h2>Special Historical Places in Canggu</h2>
+        <ul>
+          <li><strong>Tanah Lot Temple:</strong> One of Bali’s most iconic sea temples located near Canggu, offering breathtaking sunset views.</li>
+          <li><strong>Petitenget Temple:</strong> An ancient Balinese temple known for its traditional ceremonies and ocean proximity.</li>
+          <li><strong>Subak Rice Terraces:</strong> Scenic rice fields reflecting Bali’s ancient irrigation system and agricultural heritage.</li>
+          <li><strong>Taman Ayun Temple:</strong> A royal family temple complex located a short drive from Canggu, surrounded by water gardens.</li>
+          <li><strong>Old Batu Bolong Shrine:</strong> A small seaside temple built into the rocks, symbolizing the spiritual heart of Canggu.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you’re riding waves at Echo Beach, shopping for handmade crafts, or soaking in temple sunsets, Canggu offers a perfect blend of Balinese culture, coastal relaxation, and contemporary lifestyle.</p>
+      `,
+      image: "/images/canggu.jpg"
     }
-
-
-
-
   ];
   
   export async function getPostBySlug(slug: string) {
