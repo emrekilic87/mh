@@ -3312,7 +3312,57 @@ export const posts = [
         <p>Whether you’re riding waves at Echo Beach, shopping for handmade crafts, or soaking in temple sunsets, Canggu offers a perfect blend of Balinese culture, coastal relaxation, and contemporary lifestyle.</p>
       `,
       image: "/images/canggu.jpg"
+    },
+    {
+      slug: "discover-sevilla",
+      title: "Discover Sevilla",
+      keywords: "Seville travel guide, Best areas in Seville, Sevilla attractions, Andalusian food, Spanish souvenirs, Seville tapas, Flamenco culture, Seville Cathedral, Plaza de España, Alcázar of Seville, What to eat in Seville",
+      summary: "Sevilla, the heart of Andalusia, radiates passion, color, and history. From its lively flamenco rhythms to its magnificent Moorish palaces and sun-soaked plazas, this Spanish gem offers a perfect mix of cultural depth and southern charm.",
+      content: `
+        <p>Located in southern Spain, <strong>Sevilla</strong> is one of the most captivating cities in Europe, blending Moorish heritage, Renaissance architecture, and the joyful energy of Andalusian life. Known for flamenco, orange trees, and timeless traditions, Sevilla enchants visitors with its warm atmosphere and architectural beauty.</p>
+
+        <h2>Popular Areas in Sevilla</h2>
+        <ul>
+          <li><strong>Santa Cruz:</strong> The city’s old Jewish quarter, filled with narrow streets, hidden courtyards, and flowered balconies.</li>
+          <li><strong>Triana:</strong> The birthplace of flamenco and ceramic art, located across the Guadalquivir River.</li>
+          <li><strong>El Arenal:</strong> A historic district home to the bullring and vibrant tapas bars.</li>
+          <li><strong>La Alameda de Hércules:</strong> A lively area known for its bohemian cafes, nightlife, and creative scene.</li>
+          <li><strong>Nervión:</strong> A modern shopping and business district with upscale boutiques and restaurants.</li>
+        </ul>
+
+        <h2>Popular Products from Sevilla</h2>
+        <ul>
+          <li><strong>Ceramics:</strong> Hand-painted azulejos (tiles) and pottery, especially from Triana district.</li>
+          <li><strong>Flamenco Accessories:</strong> Colorful fans, dresses, shawls, and castanets symbolizing Andalusian culture.</li>
+          <li><strong>Olive Oil:</strong> Premium Andalusian olive oil, often considered the best in Spain.</li>
+          <li><strong>Leather Goods:</strong> Handcrafted belts, shoes, and handbags made by local artisans.</li>
+          <li><strong>Orange Marmalade:</strong> Made from Sevilla’s famous bitter oranges, a classic local delicacy.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Sevilla</h2>
+        <ul>
+          <li><strong>Tapas:</strong> Small plates of Andalusian dishes like croquetas, jamón ibérico, and marinated olives.</li>
+          <li><strong>Gazpacho:</strong> A cold tomato soup perfect for hot Andalusian summers.</li>
+          <li><strong>Salmorejo:</strong> A thicker, creamier version of gazpacho served with ham and egg on top.</li>
+          <li><strong>Espinacas con Garbanzos:</strong> A traditional spinach and chickpea stew inspired by Moorish cuisine.</li>
+          <li><strong>Torrijas:</strong> A sweet Spanish dessert similar to French toast, often enjoyed during Holy Week.</li>
+        </ul>
+
+        <h2>Special Historical Places in Sevilla</h2>
+        <ul>
+          <li><strong>Alcázar of Seville:</strong> A UNESCO World Heritage palace blending Moorish and Christian architecture, originally built by Muslim kings.</li>
+          <li><strong>Seville Cathedral:</strong> One of the largest Gothic cathedrals in the world and the resting place of Christopher Columbus.</li>
+          <li><strong>Plaza de España:</strong> A magnificent semi-circular plaza built for the 1929 Ibero-American Exposition, surrounded by canals and bridges.</li>
+          <li><strong>Metropol Parasol:</strong> A modern architectural marvel offering panoramic views of the city.</li>
+          <li><strong>Torre del Oro:</strong> A 13th-century watchtower that once protected the port and stored treasures from the New World.</li>
+        </ul>
+
+        <hr/>
+        <p>From flamenco rhythms echoing through Triana to the golden glow of Plaza de España at sunset, Sevilla captures the soul of Andalusia. It’s a city where every street, dish, and melody tells a story of passion and history.</p>
+      `,
+      image: "/images/sevilla.jpg"
     }
+
   ];
   
   export async function getPostBySlug(slug: string) {
