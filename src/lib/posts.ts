@@ -3410,7 +3410,57 @@ export const posts = [
         <p>Whether you're exploring ancient plazas, relaxing by the Mediterranean, or tasting authentic paella where it originated, Valencia offers a rich blend of history, flavor, and modern beauty that delights every traveler.</p>
       `,
       image: "/images/valencia.jpg"
+    },
+    {
+      slug: "discover-krakow",
+      title: "Discover Krakow",
+      keywords: "Krakow travel guide, Best areas in Krakow Poland, Wawel Castle, Polish food Krakow, Souvenirs from Krakow, Krakow Old Town, Kazimierz district, Krakow historical sites, Lesser Poland cities, What to eat in Krakow",
+      summary: "Krakow, one of Europe’s most enchanting cities, blends medieval architecture, vibrant cultural life, and deep historical significance. From its royal castle to lively squares and traditional Polish cuisine, Krakow offers a captivating journey through time.",
+      content: `
+        <p><strong>Krakow</strong>, located in southern Poland, is a city where history, culture, and charm meet effortlessly. With its well-preserved medieval core, atmospheric neighborhoods, and rich Polish traditions, Krakow stands as one of Europe’s most beloved destinations.</p>
+
+        <h2>Popular Areas in Krakow</h2>
+        <ul>
+          <li><strong>Old Town (Stare Miasto):</strong> A UNESCO World Heritage Site filled with historic buildings, cobbled streets, and the famous Main Market Square.</li>
+          <li><strong>Kazimierz:</strong> The former Jewish Quarter, known for its cultural heritage, trendy cafes, and artistic atmosphere.</li>
+          <li><strong>Podgórze:</strong> A district deeply connected to World War II history, home to Schindler’s Factory Museum.</li>
+          <li><strong>Wawel Hill:</strong> The symbolic heart of Poland featuring the iconic castle and cathedral.</li>
+          <li><strong>Nowa Huta:</strong> A planned socialist-era district offering a different perspective on Krakow’s urban history.</li>
+        </ul>
+
+        <h2>Popular Products from Krakow</h2>
+        <ul>
+          <li><strong>Amber Jewelry:</strong> High-quality Baltic amber crafted into rings, necklaces, and souvenirs.</li>
+          <li><strong>Wooden Handicrafts:</strong> Intricate carvings, folk art items, and traditional Christmas decorations.</li>
+          <li><strong>Polish Pottery:</strong> Beautifully patterned ceramics from the region.</li>
+          <li><strong>Krakow Papal Souvenirs:</strong> Items related to Pope John Paul II, who lived and studied in the city.</li>
+          <li><strong>Oscypek Cheese:</strong> Smoked sheep’s cheese from the Tatra region, often sold at local markets.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Krakow</h2>
+        <ul>
+          <li><strong>Pierogi:</strong> Poland’s beloved dumplings filled with cheese, meat, potatoes, mushrooms, or fruit.</li>
+          <li><strong>Zurek:</strong> A sour rye soup served with sausage and egg—comforting and traditional.</li>
+          <li><strong>Obwarzanek Krakowski:</strong> Krakow’s iconic braided bread ring, sold fresh from street carts.</li>
+          <li><strong>Placki Ziemniaczane:</strong> Crispy potato pancakes served with sour cream or goulash.</li>
+          <li><strong>Bigos:</strong> A hearty “hunter’s stew” made with cabbage, meat, and spices.</li>
+        </ul>
+
+        <h2>Special Historical Places in Krakow</h2>
+        <ul>
+          <li><strong>Wawel Castle:</strong> A symbol of Polish royalty and one of the country’s most important cultural landmarks.</li>
+          <li><strong>Main Market Square (Rynek Główny):</strong> Europe’s largest medieval square, home to St. Mary’s Basilica and the Cloth Hall.</li>
+          <li><strong>Schindler’s Factory:</strong> A museum documenting Krakow during World War II.</li>
+          <li><strong>St. Mary’s Basilica:</strong> Famous for its Gothic architecture and the hourly trumpet call from its tower.</li>
+          <li><strong>Planty Park:</strong> A green belt surrounding the Old Town where medieval walls once stood.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you're exploring royal halls, tasting comforting Polish dishes, or wandering atmospheric neighborhoods, Krakow welcomes you with timeless beauty and a rich cultural soul.</p>
+      `,
+      image: "/images/krakow.jpg"
     }
+
 
 
   ];
