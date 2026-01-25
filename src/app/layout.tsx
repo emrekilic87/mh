@@ -5,7 +5,7 @@ import BackToTop from "@/components/backToTop";
 import Footer from "@/components/footer";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from "next/script";
-import DrimsimBanner from "@/components/affiliate/drimsimBanner";
+import AirhelpBanner from "@/components/affiliate/airhelpBanner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,7 +49,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <HeaderWrapper />
-        <DrimsimBanner />
+        <AirhelpBanner />
         {children}
         <BackToTop />
         <Footer />
