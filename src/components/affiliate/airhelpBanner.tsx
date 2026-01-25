@@ -12,7 +12,7 @@ const AirhelpBanner = () => {
         rel="noopener noreferrer"
       >
         <Image
-          src="/images/airhelp-banner.png"
+          src="/images/air-help-banner.png"
           alt="Air Help"
           width={500}
           height={100}
