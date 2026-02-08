@@ -3459,10 +3459,56 @@ export const posts = [
         <p>Whether you're exploring royal halls, tasting comforting Polish dishes, or wandering atmospheric neighborhoods, Krakow welcomes you with timeless beauty and a rich cultural soul.</p>
       `,
       image: "/images/krakow.jpg"
+    },
+    {
+      slug: "discover-cape-town",
+      title: "Discover Cape Town",
+      keywords: "Cape Town travel guide, Best areas in Cape Town, Table Mountain, South African food Cape Town, Souvenirs from Cape Town, Cape Town beaches, V&A Waterfront, Cape Town historical sites, Western Cape tourism, What to eat in Cape Town",
+      summary: "Cape Town is one of the world’s most scenic cities, famous for its dramatic landscapes, rich cultural heritage, and diverse cuisine. From iconic mountains to historic landmarks and vibrant coastal districts, Cape Town offers an unforgettable travel experience.",
+      content: `
+        <p><strong>Cape Town</strong>, located at the southern tip of Africa, is a city where natural beauty meets deep history and multicultural life. With its stunning coastline, iconic Table Mountain, and lively neighborhoods, Cape Town captivates visitors from all over the world.</p>
+
+        <h2>Popular Areas in Cape Town</h2>
+        <ul>
+          <li><strong>V&A Waterfront:</strong> A lively harbor area with shopping, dining, entertainment, and ocean views.</li>
+          <li><strong>Camps Bay:</strong> Famous for its white-sand beach, palm-lined promenade, and sunset views.</li>
+          <li><strong>Bo-Kaap:</strong> Known for its colorful houses and Cape Malay cultural heritage.</li>
+          <li><strong>Sea Point:</strong> A coastal suburb with a scenic promenade popular for walking and cycling.</li>
+          <li><strong>City Bowl:</strong> The city center nestled between mountains, rich in history and nightlife.</li>
+        </ul>
+
+        <h2>Popular Products from Cape Town</h2>
+        <ul>
+          <li><strong>Rooibos Tea:</strong> A caffeine-free herbal tea native to South Africa.</li>
+          <li><strong>South African Wine:</strong> World-renowned wines from nearby Stellenbosch and Franschhoek.</li>
+          <li><strong>African Art & Crafts:</strong> Handcrafted beadwork, carvings, and textiles.</li>
+          <li><strong>Diamonds:</strong> Ethically sourced diamonds and jewelry.</li>
+          <li><strong>Protea-Inspired Souvenirs:</strong> Items featuring South Africa’s national flower.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Cape Town</h2>
+        <ul>
+          <li><strong>Bobotie:</strong> A Cape Malay dish made of spiced minced meat topped with egg custard.</li>
+          <li><strong>Biltong:</strong> Dried, cured meat similar to jerky, popular across South Africa.</li>
+          <li><strong>Braai:</strong> Traditional South African barbecue enjoyed as a social ritual.</li>
+          <li><strong>Gatsby Sandwich:</strong> A massive sandwich filled with fries, meat, and sauces.</li>
+          <li><strong>Malva Pudding:</strong> A sweet baked dessert served with warm custard or cream.</li>
+        </ul>
+
+        <h2>Special Historical Places in Cape Town</h2>
+        <ul>
+          <li><strong>Table Mountain:</strong> An iconic natural landmark and UNESCO World Heritage Site.</li>
+          <li><strong>Robben Island:</strong> The former prison where Nelson Mandela was held, now a museum.</li>
+          <li><strong>Castle of Good Hope:</strong> South Africa’s oldest surviving colonial building.</li>
+          <li><strong>District Six Museum:</strong> Documenting forced removals during apartheid.</li>
+          <li><strong>Company’s Garden:</strong> A historic park established in the 17th century.</li>
+        </ul>
+
+        <hr/>
+        <p>From breathtaking landscapes to powerful historical stories and vibrant local flavors, Cape Town offers a rich and unforgettable journey for every traveler.</p>
+      `,
+      image: "/images/cape-town.jpg"
     }
-
-
-
   ];
   
   export async function getPostBySlug(slug: string) {
