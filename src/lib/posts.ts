@@ -3507,7 +3507,7 @@ export const posts = [
         <hr/>
         <p>From breathtaking landscapes to powerful historical stories and vibrant local flavors, Cape Town offers a rich and unforgettable journey for every traveler.</p>
       `,
-      image: "/images/cape-town.jpg"
+      image: "/images/cape-town.webp"
     }
   ];
   
