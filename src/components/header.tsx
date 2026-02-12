@@ -41,9 +41,17 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
           <Link href="https://www.youtube.com/@multihatsvideo" target="_blank" aria-label="YouTube">
             <Youtube className="h-6 w-6 text-gray-600 hover:text-red-600 transition-colors" />
           </Link>
-          <Link href="https://www.instagram.com/multi.hats/" target="_blank" rel="noopener" aria-label="Instagram">
+          {/* <Link href="https://www.instagram.com/multi.hats/" target="_blank" rel="noopener" aria-label="Instagram">
             <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
-          </Link>
+          </Link> */}
+          <a 
+            href="https://instagram.com/multi.hats" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            aria-label="Instagram"
+          >
+            <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
+          </a>
         </div>
       </div>
     </header>
