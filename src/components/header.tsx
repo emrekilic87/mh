@@ -41,7 +41,7 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
           <Link href="https://www.youtube.com/@multihatsvideo" target="_blank" aria-label="YouTube">
             <Youtube className="h-6 w-6 text-gray-600 hover:text-red-600 transition-colors" />
           </Link>
-          <Link href="https://instagram.com/multi.hats" target="_blank" rel="noopener" aria-label="Instagram">
+          <Link href="https://instagram.com/multi.hats" onclick="window.location.href='instagram://user?username=multi.hats'; return false;" target="_blank" rel="noopener" aria-label="Instagram">
             <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
           </Link>
         </div>
