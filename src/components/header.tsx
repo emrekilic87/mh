@@ -45,9 +45,12 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
             <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
           </Link> */}
           <a 
-            href="https://instagram.com/multi.hats" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href="instagram://user?username=multi.hats"
+            onClick={(e) => {
+              setTimeout(() => {
+                window.location.href = "https://instagram.com/multi.hats";
+              }, 500);
+            }}
             aria-label="Instagram"
           >
             <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
