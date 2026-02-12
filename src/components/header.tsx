@@ -7,6 +7,18 @@ type HeaderProps = {
   onSearchChange?: (value: string) => void;
 };
 
+const openInstagram = () => {
+  const appLink = "instagram://user?username=multi.hats";
+  const webLink = "https://instagram.com/multi.hats";
+
+  window.location.href = appLink;
+
+  setTimeout(() => {
+    window.location.href = webLink;
+  }, 1000);
+};
+
+
 export default function Header({ showSearch = false }: { showSearch?: boolean }) {
   return (
     <header className="sticky top-0 z-50 w-full px-4 py-3 border-b border-gray-200 bg-white backdrop-blur supports-[backdrop-filter]:bg-white/70">
@@ -44,12 +56,15 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
           {/* <Link href="https://www.instagram.com/multi.hats/" target="_blank" rel="noopener" aria-label="Instagram">
             <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
           </Link> */}
-          <a
+          {/* <a
             href="https://instagram.com/multi.hats"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
+            <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
+          </a> */}
+          <a onClick={openInstagram}>
             <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-500 transition-colors" />
           </a>
         </div>
