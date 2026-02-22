@@ -3508,7 +3508,57 @@ export const posts = [
         <p>From breathtaking landscapes to powerful historical stories and vibrant local flavors, Cape Town offers a rich and unforgettable journey for every traveler.</p>
       `,
       image: "/images/cape-town.webp"
+    },
+    {
+      slug: "discover-boracay",
+      title: "Discover Boracay",
+      keywords: "Boracay travel guide, Best areas in Boracay Philippines, White Beach Boracay, Boracay island food, Souvenirs from Boracay, Boracay beaches, Ariel’s Point, Boracay historical sites, What to eat in Boracay, Filipino island cuisine",
+      summary: "Boracay, one of the Philippines’ most famous tropical islands, is known for its powdery white sand beaches, crystal-clear waters, vibrant nightlife, and laid-back island culture. It is a paradise destination blending relaxation, adventure, and Filipino hospitality.",
+      content: `
+        <p><strong>Boracay</strong>, located in the central Philippines, is a small island that has gained worldwide fame for its breathtaking beaches and lively atmosphere. With turquoise waters, spectacular sunsets, and a welcoming local community, Boracay offers a perfect tropical escape.</p>
+
+        <h2>Popular Areas in Boracay</h2>
+        <ul>
+          <li><strong>White Beach (Stations 1, 2 & 3):</strong> The island’s most famous stretch of sand, known for its soft powdery beach, beachfront resorts, and sunset views.</li>
+          <li><strong>D’Mall:</strong> A central shopping and dining area filled with restaurants, souvenir shops, and local boutiques.</li>
+          <li><strong>Bulabog Beach:</strong> A hotspot for kiteboarding and windsurfing, especially during windy seasons.</li>
+          <li><strong>Puka Shell Beach:</strong> A quieter beach famous for natural shells and a more peaceful atmosphere.</li>
+          <li><strong>Mount Luho:</strong> The highest point on the island offering panoramic views of Boracay.</li>
+        </ul>
+
+        <h2>Popular Products from Boracay</h2>
+        <ul>
+          <li><strong>Puka Shell Jewelry:</strong> Handmade necklaces and bracelets crafted from local shells.</li>
+          <li><strong>Handwoven Bags:</strong> Colorful Filipino-made beach bags and accessories.</li>
+          <li><strong>Dried Mangoes:</strong> A popular Philippine snack and easy-to-carry souvenir.</li>
+          <li><strong>Coconut Oil Products:</strong> Natural oils, soaps, and skincare items made from local coconuts.</li>
+          <li><strong>Beachwear & Handmade Sandals:</strong> Lightweight clothing and sandals inspired by island style.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Boracay</h2>
+        <ul>
+          <li><strong>Grilled Seafood:</strong> Fresh fish, shrimp, squid, and crabs grilled right by the beach.</li>
+          <li><strong>Chicken Inasal:</strong> Marinated and grilled chicken served with rice and dipping sauce.</li>
+          <li><strong>Adobo:</strong> A classic Filipino dish made with chicken or pork simmered in soy sauce and vinegar.</li>
+          <li><strong>Sinigang:</strong> A sour tamarind-based soup with seafood or meat.</li>
+          <li><strong>Halo-Halo:</strong> A refreshing dessert made with crushed ice, sweet beans, fruits, and ice cream.</li>
+        </ul>
+
+        <h2>Special Historical Places in Boracay</h2>
+        <ul>
+          <li><strong>Willy’s Rock:</strong> A volcanic rock formation on White Beach with a small shrine, one of Boracay’s iconic landmarks.</li>
+          <li><strong>Mount Luho Viewpoint:</strong> Offers scenic views and insight into the island’s geography.</li>
+          <li><strong>Motag Living Museum (nearby mainland):</strong> Showcasing traditional Filipino rural life and heritage.</li>
+          <li><strong>Ariel’s Point:</strong> A popular cliff-diving and snorkeling destination with natural beauty.</li>
+          <li><strong>Local Ati Community Villages:</strong> Representing the island’s indigenous roots and cultural history.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you're relaxing on White Beach, enjoying fresh seafood by the sea, or watching a breathtaking sunset over the horizon, Boracay delivers an unforgettable tropical island experience filled with beauty and warmth.</p>
+      `,
+      image: "/images/boracay.jpg"
     }
+
   ];
   
   export async function getPostBySlug(slug: string) {
