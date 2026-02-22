@@ -22,6 +22,7 @@ export async function generateMetadata(props: { params: Params }) {
       title: post.title,
       description: post.summary,
       url: `${BASE_URL}/blog/${slug}`,
+      images: post.image,
       locale: "en_US",
       type: "website",
     },

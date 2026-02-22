@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description:
       "Explore travel guides, tips, and inspiring stories for adventurers around the globe.",
     url: `${BASE_URL}`,
+    images: "/images/multihats.png",
     locale: "en_US",
     type: "website",
   },
