@@ -1,7 +1,7 @@
 export const posts = [
     {
       slug: "discover-japan",
-      title: "Discover Japan",
+      title: "Japan",
       keywords: "Japan travel guide, Best places to visit in Japan, Popular Japanese foods, Famous historical sites in Japan, Top cities to visit in Japan, What to buy in Japan, Traditional Japanese products, Japanese culture and tourism, Japan must-try foods, Historic places to see in Japan",
       summary:
       "Japan is a country where ancient traditions meet futuristic innovation, offering travelers a unique and unforgettable experience. From bustling cities to serene temples, vibrant shopping districts to mouth-watering cuisine, Japan has something for every kind of visitor. Let’s dive into some of the most popular areas, products, foods, and special historical sites that make Japan a top travel destination.",
@@ -56,7 +56,7 @@ export const posts = [
     },
     {
       slug: "discover-tokyo",
-      title: "Discover Tokyo",
+      title: "Tokyo",
       keywords: "Tokyo travel guide, Best places to visit in Tokyo, Things to do in Tokyo, Tokyo street food, Tokyo historical sites, Popular Tokyo neighborhoods, What to eat in Tokyo, Shopping in Tokyo, Tokyo tourist attractions, Tokyo cultural experiences",
       summary:"Tokyo, the capital city of Japan, is a vibrant metropolis where ultra-modern life blends seamlessly with deep-rooted traditions. Whether you’re fascinated by neon-lit skyscrapers or serene temples, Tokyo offers a rich and dynamic experience. Here's a closer look at the most popular areas, products, foods, and historical sites in this incredible city.",
       content: `
@@ -105,7 +105,7 @@ export const posts = [
     },
     {
       slug: "discover-mexico",
-      title: "Discover Mexico",
+      title: "Mexico",
       keywords: "Mexico travel guide, Best places to visit in Mexico, Mexican street food, Mexican historical sites, What to eat in Mexico, Popular Mexican souvenirs, Mexican culture travel, Famous places in Mexico, Mexican cuisine, Historical landmarks in Mexico",
       summary: "Mexico is a vibrant and colorful country known for its rich history, delicious food, stunning landscapes, and lively culture. From ancient ruins to modern cities, street tacos to artisan crafts, Mexico has something for every traveler. Discover the best of Mexico’s areas, products, foods, and historical places in this guide.",
       content: `
@@ -155,7 +155,7 @@ export const posts = [
     },
     {
       slug: "discover-paris",
-      title: "Discover Paris",
+      title: "Paris",
       keywords: "Paris travel guide, Best places to visit in Paris, Paris attractions, Paris historical landmarks, What to eat in Paris, French cuisine, Paris shopping guide, Famous streets in Paris, Paris souvenirs, Cultural experiences in Paris",
       summary: "Paris, the City of Light, is a timeless destination known for its romantic atmosphere, stunning architecture, world-class cuisine, and rich history. Whether you're exploring cobblestone streets or savoring a fresh croissant by the Seine, Paris offers an unforgettable experience. Let’s explore the most iconic areas, products, foods, and historical places in this enchanting city.",
       content: `
@@ -205,7 +205,7 @@ export const posts = [
     },
     {
       slug: "discover-puerto-vallarta",
-      title: "Discover Puerto Vallarta",
+      title: "Puerto Vallarta",
       keywords: "Puerto Vallarta travel guide, Best places to visit in Puerto Vallarta, Puerto Vallarta beaches, Mexican coastal towns, What to eat in Puerto Vallarta, Puerto Vallarta souvenirs, Puerto Vallarta attractions, Puerto Vallarta food guide, Historical places in Puerto Vallarta, Puerto Vallarta culture",
       summary: "Puerto Vallarta, located on Mexico’s Pacific coast, is a charming beach town known for its stunning sunsets, vibrant local culture, delicious cuisine, and rich history. Whether you're strolling through cobblestone streets or relaxing on golden beaches, this coastal gem offers something for every kind of traveler. Discover the top areas, products, foods, and historical sites in Puerto Vallarta.",
       content: `
@@ -254,7 +254,7 @@ export const posts = [
     },
     {
       slug: "discover-france",
-      title: "Discover France",
+      title: "France",
       keywords: "France travel guide, Best places to visit in France, French cuisine, French historical landmarks, Shopping in France, What to eat in France, Famous cities in France, French culture and heritage, French souvenirs, France tourist attractions",
       summary: "France is a country of elegance, art, history, and culinary excellence. From the romantic streets of Paris to the sun-drenched coasts of the French Riviera, France offers a rich tapestry of experiences. Dive into the popular regions, iconic products, must-try foods, and historic landmarks that make France a dream destination for travelers worldwide.",
       content: `
@@ -304,7 +304,7 @@ export const posts = [
     },
     {
       slug: "discover-south-korea",
-      title: "Discover South Korea",
+      title: "South Korea",
       keywords: "South Korea travel guide, Best places to visit in South Korea, Korean street food, Korean skincare products, Historical sites in Korea, Korean culture travel, Shopping in Seoul, Korean traditional food, Popular cities in Korea, Korea tourist attractions",
       summary: "South Korea is a dynamic country where ancient history and cutting-edge technology coexist. From bustling cityscapes to serene palaces and temples, Korea offers a rich cultural experience. Explore its popular destinations, famous products, flavorful dishes, and iconic historical landmarks.",
       content: `
@@ -354,7 +354,7 @@ export const posts = [
     },
     {
       slug: "discover-gyeongju",
-      title: "Discover Gyeongju",
+      title: "Gyeongju",
       keywords: "Gyeongju travel guide, Historical places in Gyeongju, Things to do in Gyeongju, Korean heritage sites, Gyeongju traditional food, Best places in Gyeongju, Gyeongju souvenirs, South Korea historical cities, Silla dynasty sites, Gyeongju tourism",
       summary: "Gyeongju, often called 'the museum without walls', is one of South Korea’s most culturally rich and historically significant cities. Once the capital of the ancient Silla Kingdom, Gyeongju is filled with royal tombs, ancient temples, and UNESCO World Heritage Sites. Here's everything you need to know about exploring this fascinating city.",
       content: `
@@ -403,7 +403,7 @@ export const posts = [
     },
     {
       slug: "discover-tanzania",
-      title: "Discover Tanzania",
+      title: "Tanzania",
       keywords: "Tanzania travel guide, Best places to visit in Tanzania, Safari destinations Tanzania, Tanzanian food, Zanzibar attractions, Historical places in Tanzania, Local products from Tanzania, Cultural tourism in Tanzania, Mount Kilimanjaro travel, Tanzania souvenirs",
       summary: "Tanzania is a land of breathtaking landscapes, rich culture, and diverse wildlife. From the iconic Mount Kilimanjaro to the spice-scented alleys of Zanzibar, Tanzania offers unforgettable experiences. Here's a look at its most popular areas, unique products, delicious cuisine, and important historical landmarks.",
       content: `
@@ -453,7 +453,7 @@ export const posts = [
     },
     {
       slug: "discover-zanzibar",
-      title: "Discover Zanzibar",
+      title: "Zanzibar",
       keywords: "Zanzibar travel guide, Best beaches in Zanzibar, Zanzibar historical places, Zanzibar spices, Zanzibar street food, Things to do in Zanzibar, Zanzibar Stone Town, Zanzibar souvenirs, Swahili culture, Zanzibar tourism",
       summary: "Zanzibar, an archipelago off the coast of Tanzania, is famed for its white-sand beaches, vibrant Swahili culture, and centuries-old trade history. Whether you're exploring the historic alleys of Stone Town or relaxing on palm-fringed shores, Zanzibar offers a unique blend of natural beauty and rich heritage.",
       content: `
@@ -502,7 +502,7 @@ export const posts = [
     },
     {
       slug: "discover-new-zealand",
-      title: "Discover New Zealand",
+      title: "New Zealand",
       keywords: "New Zealand travel guide, Best places to visit in New Zealand, New Zealand tourist attractions, Maori culture, New Zealand souvenirs, New Zealand cuisine, New Zealand historical sites, Adventure travel New Zealand, North Island highlights, South Island nature",
       summary: "New Zealand, known for its dramatic landscapes, rich Maori heritage, and world-class outdoor adventures, is a destination that blends nature, culture, and history beautifully. From vibrant cities to peaceful fjords, here's what makes New Zealand a must-visit destination.",
       content: `
@@ -552,7 +552,7 @@ export const posts = [
     },
     {
       slug: "discover-auckland",
-      title: "Discover Auckland",
+      title: "Auckland",
       keywords: "Auckland travel guide, Best places to visit in Auckland, Auckland tourist attractions, Things to do in Auckland, Auckland food, Auckland souvenirs, Maori culture Auckland, Auckland neighborhoods, Auckland history, Auckland shopping",
       summary: "Auckland, New Zealand’s largest city, is a bustling harbor metropolis where urban energy meets natural beauty. Surrounded by volcanoes, beaches, and islands, Auckland offers a dynamic blend of Maori heritage, modern culture, and diverse cuisine. Here's what makes it a must-visit destination.",
       content: `
@@ -602,7 +602,7 @@ export const posts = [
     },
     {
       slug: "discover-chile",
-      title: "Discover Chile",
+      title: "Chile",
       keywords: "Chile travel guide, Best places to visit in Chile, Chile tourist attractions, Chilean food, Historical sites in Chile, Chile souvenirs, Chilean culture, Patagonia Chile, Santiago travel tips, Chile must-see destinations",
       summary: "Chile, a long and narrow country stretching along South America’s western edge, boasts a rich tapestry of landscapes, cultures, and history. From the Atacama Desert in the north to the glaciers of Patagonia in the south, Chile offers diverse experiences for every kind of traveler. Here’s an in-depth look at the most popular areas, products, foods, and historical sites across the country.",
       content: `
@@ -652,7 +652,7 @@ export const posts = [
     },
     {
       slug: "discover-valparaiso",
-      title: "Discover Valparaíso",
+      title: "Valparaíso",
       keywords: "Valparaíso travel guide, Best places to visit in Valparaíso, Valparaíso Chile attractions, Valparaíso historical sites, Street art in Valparaíso, Chile coastal cities, What to eat in Valparaíso, Valparaíso culture, Chile bohemian cities, Valparaíso travel tips",
       summary: "Valparaíso, often called the cultural capital of Chile, is a vibrant port city famous for its steep hills, colorful houses, street art, and bohemian atmosphere. This UNESCO World Heritage Site blends maritime history with contemporary creativity, making it a must-see destination along Chile’s coast.",
       content: `
@@ -701,7 +701,7 @@ export const posts = [
     },
     {
       slug: "discover-portugal",
-      title: "Discover Portugal",
+      title: "Portugal",
       keywords: "Portugal travel guide, Best places to visit in Portugal, Portugal tourist attractions, Portuguese food, Historical sites in Portugal, Lisbon travel tips, Portuguese souvenirs, Algarve beaches, Porto wine culture, Portugal must-see cities",
       summary: "Portugal, located on the Iberian Peninsula in southwestern Europe, is a captivating blend of scenic coastlines, charming cities, rich traditions, and deep historical roots. From the cobblestone streets of Lisbon to the vineyards of the Douro Valley, Portugal offers a unique and unforgettable travel experience.",
       content: `
@@ -751,7 +751,7 @@ export const posts = [
     },
     {
       slug: "discover-faro",
-      title: "Discover Faro",
+      title: "Faro",
       keywords: "Faro travel guide, Things to do in Faro, Algarve capital city, Faro historical attractions, Faro Portugal food, Faro old town, Faro sightseeing tips, Best places in Faro, Faro cultural sites, Faro local products",
       summary: "Faro, the capital of Portugal's Algarve region, is a charming coastal city that combines history, nature, and traditional Portuguese culture. With its preserved Old Town, nearby islands, and warm hospitality, Faro is more than just a gateway to the Algarve — it’s a destination worth exploring.",
       content: `
@@ -800,7 +800,7 @@ export const posts = [
     },
     {
       slug: "discover-argentina",
-      title: "Discover Argentina",
+      title: "Argentina",
       keywords: "Argentina travel guide, Best places in Argentina, Argentina food culture, Buenos Aires attractions, Patagonia travel, Argentine wine, Historical sites in Argentina, Argentina tourism, What to eat in Argentina, Traditional Argentine products",
       summary: "Argentina, the second-largest country in South America, is a land of dramatic contrasts — from snow-capped Andes to subtropical rainforests and vibrant cities. Known for its tango, wine, and legendary beef, Argentina is a captivating destination filled with culture, nature, and history.",
       content: `
@@ -850,7 +850,7 @@ export const posts = [
     },
     {
       slug: "discover-mendoza",
-      title: "Discover Mendoza",
+      title: "Mendoza",
       keywords: "Mendoza Argentina travel, Mendoza wine region, Things to do in Mendoza, Mendoza vineyards, Mendoza Malbec, Mendoza food guide, Historical places in Mendoza, Mendoza city attractions, Argentine wine country, Mendoza cultural highlights",
       summary: "Mendoza, nestled at the foothills of the Andes, is Argentina’s premier wine region and a paradise for outdoor enthusiasts and food lovers. Known globally for its Malbec wines, stunning mountain views, and warm hospitality, Mendoza is a captivating blend of nature, flavor, and culture.",
       content: `
@@ -899,7 +899,7 @@ export const posts = [
     },
     {
       slug: "discover-australia",
-      title: "Discover Australia",
+      title: "Australia",
       keywords: "Australia travel guide, Best places to visit in Australia, Australian foods, Historical sites in Australia, Sydney attractions, Outback tourism, Australian souvenirs, What to eat in Australia, Aboriginal heritage, Unique places in Australia",
       summary: "Australia, the land Down Under, offers a stunning blend of vibrant cities, dramatic landscapes, unique wildlife, and rich cultural heritage. From the beaches of Sydney to the ancient lands of Uluru, Australia captivates travelers with its natural beauty and laid-back lifestyle.",
       content: `
@@ -949,7 +949,7 @@ export const posts = [
     },
     {
       slug: "discover-brazil",
-      title: "Discover Brazil",
+      title: "Brazil",
       keywords: "Brazil travel guide, Best places to visit in Brazil, Brazilian food culture, Historical sites in Brazil, Rio de Janeiro attractions, Brazilian souvenirs, Brazilian coffee, What to eat in Brazil, Amazon rainforest tourism, Brazil cultural heritage",
       summary: "Brazil is a vast and vibrant country known for its natural beauty, rhythmic culture, and iconic cities. From the festive streets of Rio de Janeiro to the lush Amazon rainforest and colonial towns rich in history, Brazil offers a colorful and diverse experience for every traveler.",
       content: `
@@ -999,7 +999,7 @@ export const posts = [
     },
     {
       slug: "discover-rio-de-janeiro",
-      title: "Discover Rio de Janeiro",
+      title: "Rio de Janeiro",
       keywords: "Rio de Janeiro travel guide, Best places in Rio, Rio beaches, Brazilian street food, Historical sites in Rio, What to eat in Rio de Janeiro, Christ the Redeemer, Rio Carnival, Rio souvenirs, Brazilian culture",
       summary: "Rio de Janeiro is Brazil’s most iconic city, known for its golden beaches, festive spirit, dramatic landscapes, and vibrant culture. From the world-famous Christ the Redeemer to the sounds of samba in Lapa, Rio enchants visitors with its energy and beauty.",
       content: `
@@ -1049,7 +1049,7 @@ export const posts = [
     },
     {
       slug: "discover-italy",
-      title: "Discover Italy",
+      title: "Italy",
       keywords: "Italy travel guide, Best places in Italy, Italian food culture, Historical sites in Italy, What to eat in Italy, Italian souvenirs, Italian fashion and wine, Rome tourist attractions, Venice and Florence, Italy cultural experiences",
       summary: "Italy is a country of timeless charm, where art, history, gastronomy, and fashion intertwine in every corner. From Rome’s ancient ruins to Venice’s dreamy canals and Tuscany’s rolling hills, Italy offers an unforgettable journey through culture and beauty.",
       content: `
@@ -1098,7 +1098,7 @@ export const posts = [
       image: "/images/italy.jpg"
     },{
       slug: "discover-rome",
-      title: "Discover Rome",
+      title: "Rome",
       keywords: "Rome travel guide, Best places in Rome, Roman historical sites, What to eat in Rome, Rome tourist attractions, Ancient Rome landmarks, Italian food in Rome, Rome shopping, Rome culture, Rome neighborhoods",
       summary: "Rome, the Eternal City, is a captivating blend of ancient history, Renaissance beauty, and vibrant street life. From iconic ruins and churches to charming piazzas and trattorias, Rome offers travelers a journey through time and taste.",
       content: `
@@ -1147,7 +1147,7 @@ export const posts = [
     },
     {
       slug: "discover-peru",
-      title: "Discover Peru",
+      title: "Peru",
       keywords: "Peru travel guide, Best places in Peru, Machu Picchu, Peruvian food, Peru souvenirs, Sacred Valley, Cusco attractions, Incan ruins, What to eat in Peru, Peru cultural experiences",
       summary: "Peru is a land of ancient civilizations, dramatic landscapes, and rich cultural traditions. From the mystical ruins of Machu Picchu to the bustling streets of Lima and colorful Andean markets, Peru offers a vibrant and unforgettable travel experience.",
       content: `
@@ -1196,7 +1196,7 @@ export const posts = [
     },
     {
       slug: "discover-spain",
-      title: "Discover Spain",
+      title: "Spain",
       keywords: "Spain travel guide, Best places in Spain, Spanish cuisine, Historical places in Spain, Spain tourist attractions, Spanish culture, Tapas in Spain, Spanish souvenirs, Flamenco and festivals, Spain sightseeing",
       summary: "Spain is a land of vibrant culture, diverse landscapes, world-famous cuisine, and rich historical heritage. From the beaches of Costa del Sol to the art of Barcelona and the palaces of Andalusia, Spain offers unforgettable experiences at every turn.",
       content: `
@@ -1246,7 +1246,7 @@ export const posts = [
     },
     {
       slug: "discover-barcelona",
-      title: "Discover Barcelona",
+      title: "Barcelona",
       keywords: "Barcelona travel guide, Best places in Barcelona, What to do in Barcelona, Barcelona cuisine, Gaudi architecture, Barcelona shopping, Tapas in Barcelona, Historical places in Barcelona, Barcelona food culture, Things to see in Barcelona",
       summary: "Barcelona, the vibrant capital of Catalonia, is a city where art, architecture, cuisine, and seaside charm blend into a uniquely Mediterranean experience. Whether you're drawn by Gaudí's iconic works or bustling local markets, Barcelona has something for every traveler.",
       content: `
@@ -1295,7 +1295,7 @@ export const posts = [
     },
     {
       slug: "discover-ecuador",
-      title: "Discover Ecuador",
+      title: "Ecuador",
       keywords: "Ecuador travel guide, Best places in Ecuador, What to do in Ecuador, Ecuadorian food, Ecuador souvenirs, Ecuador historical sites, Galápagos Islands travel, Quito Old Town, Ecuadorian markets, Traditional foods in Ecuador",
       summary: "Ecuador, a small yet incredibly diverse country in South America, offers travelers an extraordinary mix of natural beauty, cultural heritage, and historical significance. From Andean highlands to the Amazon rainforest and the famous Galápagos Islands, Ecuador invites exploration on all levels.",
       content: `
@@ -1344,7 +1344,7 @@ export const posts = [
     },
     {
       slug: "discover-guayaquil",
-      title: "Discover Guayaquil",
+      title: "Guayaquil",
       keywords: "Guayaquil travel guide, Best places in Guayaquil, What to do in Guayaquil, Guayaquil food, Guayaquil souvenirs, Guayaquil historical sites, Malecon 2000, Las Peñas neighborhood, Ecuadorian coastal cuisine, Guayaquil attractions",
       summary: "Guayaquil, Ecuador’s largest city and main port, is a bustling coastal hub known for its vibrant culture, modern riverfront, and historic charm. Whether you’re drawn by its history, cuisine, or urban energy, Guayaquil offers a unique perspective on Ecuadorian life.",
       content: `
@@ -1393,7 +1393,7 @@ export const posts = [
     },
     {
       slug: "discover-indonesia",
-      title: "Discover Indonesia",
+      title: "Indonesia",
       keywords: "Indonesia travel guide, Best places in Indonesia, Indonesian food, Indonesia tourist attractions, Bali travel tips, Indonesian souvenirs, Jakarta sightseeing, Yogyakarta culture, Borobudur Temple, Indonesia island hopping",
       summary: "Indonesia, a vast archipelago of over 17,000 islands, is a land of immense cultural diversity, natural beauty, and ancient history. From the tropical beaches of Bali to the spiritual temples of Java, Indonesia offers unforgettable experiences for every kind of traveler.",
       content: `
@@ -1443,7 +1443,7 @@ export const posts = [
     },
     {
       slug: "discover-bali",
-      title: "Discover Bali",
+      title: "Bali",
       keywords: "Bali travel guide, Best places in Bali, Bali food, Bali tourist attractions, Bali beaches, Ubud Bali, Bali temples, Bali cultural experiences, Bali souvenirs, Bali nightlife",
       summary: "Bali, the Island of the Gods, is known for its stunning beaches, vibrant culture, lush landscapes, and sacred temples. Whether you’re looking for relaxation, adventure, or cultural immersion, Bali offers something for every traveler.",
       content: `
@@ -1493,7 +1493,7 @@ export const posts = [
     },
     {
       slug: "discover-croatia",
-      title: "Discover Croatia",
+      title: "Croatia",
       keywords: "Croatia travel guide, Best places in Croatia, Croatian food, Croatia tourist attractions, Dubrovnik travel tips, Split beaches, Plitvice Lakes, Croatian souvenirs, Historical sites in Croatia, Istria wine",
       summary: "Croatia, a country blessed with a stunning Adriatic coastline, medieval cities, and scenic landscapes, offers travelers a unique blend of natural beauty, rich history, and delicious cuisine. From the ancient walls of Dubrovnik to the crystal-clear waters of the Dalmatian coast, Croatia is a gem waiting to be discovered.",
       content: `
@@ -1543,7 +1543,7 @@ export const posts = [
     },
     {
       slug: "discover-hvar",
-      title: "Discover Hvar",
+      title: "Hvar",
       keywords: "Hvar travel guide, Best places in Hvar, Hvar food, Hvar tourist attractions, Hvar beaches, Hvar nightlife, Historical sites in Hvar, Hvar island, Hvar culture, Hvar shopping",
       summary: "Hvar, a glamorous island off the coast of Croatia, is known for its crystal-clear waters, vibrant nightlife, historic landmarks, and lavender fields. Whether you're seeking relaxation on pristine beaches or exploring its ancient history, Hvar offers a perfect mix of natural beauty and cultural experiences.",
       content: `
@@ -1592,7 +1592,7 @@ export const posts = [
     },
     {
       slug: "discover-montenegro",
-      title: "Discover Montenegro",
+      title: "Montenegro",
       keywords: "Montenegro travel guide, Best places in Montenegro, Montenegro cuisine, Montenegro historical sites, Montenegro coast, What to eat in Montenegro, Shopping in Montenegro, Montenegro culture, Montenegro mountains, Visit Kotor",
       summary: "Montenegro, a hidden gem in the Balkans, offers a stunning blend of coastal charm, mountainous landscapes, and rich historical heritage. From the Adriatic Sea to medieval towns and scenic national parks, this small country delivers a grand experience for every traveler.",
       content: `
@@ -1641,7 +1641,7 @@ export const posts = [
     },
     {
       slug: "discover-kotor",
-      title: "Discover Kotor",
+      title: "Kotor",
       keywords: "Kotor travel guide, Best places in Kotor, Kotor historical sites, What to eat in Kotor, Things to do in Kotor, Kotor Old Town, Montenegro coastal towns, Kotor souvenirs, Kotor food specialties, Visit Kotor Montenegro",
       summary: "Kotor, a UNESCO-listed town on Montenegro’s Adriatic coast, is famed for its medieval architecture, scenic bay, and mountainous backdrop. From its ancient walls to charming alleyways and delicious coastal cuisine, Kotor promises a uniquely enchanting experience.",
       content: `
@@ -1690,7 +1690,7 @@ export const posts = [
     },
     {
       slug: "discover-tulum",
-      title: "Discover Tulum",
+      title: "Tulum",
       keywords: "Tulum travel guide, Best places in Tulum, Tulum Mayan ruins, What to eat in Tulum, Things to do in Tulum, Tulum beaches, Tulum eco tourism, Tulum souvenirs, Tulum food guide, Visit Tulum Mexico",
       summary: "Tulum, located on Mexico’s Caribbean coast, is a bohemian paradise blending ancient Mayan history with white-sand beaches, lush jungles, and eco-conscious living. Whether you're into yoga retreats, cenote diving, or exploring ruins, Tulum offers something magical for every traveler.",
       content: `
@@ -1739,7 +1739,7 @@ export const posts = [
     },
     {
       slug: "discover-sydney",
-      title: "Discover Sydney",
+      title: "Sydney",
       keywords: "Sydney travel guide, Best places in Sydney, Sydney tourist attractions, What to eat in Sydney, Sydney historical sites, Sydney neighborhoods, Sydney beaches, Australian souvenirs, Sydney food culture, Visit Sydney Australia",
       summary: "Sydney, the sparkling harbour city of Australia, is renowned for its stunning beaches, iconic landmarks, and rich multicultural charm. Whether you're exploring the famous Opera House, relaxing on Bondi Beach, or diving into its diverse culinary scene, Sydney offers an unforgettable blend of natural beauty and vibrant city life.",
       content: `
@@ -1789,7 +1789,7 @@ export const posts = [
     },
     {
       slug: "discover-thailand",
-      title: "Discover Thailand",
+      title: "Thailand",
       keywords: "Thailand travel guide, Best places in Thailand, Things to do in Thailand, Thai food, Thai culture, Historical sites in Thailand, Shopping in Thailand, Thailand beaches, Thailand temples, Thai souvenirs",
       summary: "Thailand, the Land of Smiles, offers a captivating mix of bustling cities, tropical islands, ancient temples, and rich cultural heritage. From the vibrant streets of Bangkok to the serene beaches of the south, Thailand is a destination that enchants every traveler.",
       content: `
@@ -1839,7 +1839,7 @@ export const posts = [
     },    
     {
       slug: "discover-phuket",
-      title: "Discover Phuket",
+      title: "Phuket",
       keywords: "Phuket travel guide, Best places in Phuket, Things to do in Phuket, Phuket beaches, Phuket food, Thai souvenirs, Phuket attractions, Historical places in Phuket, What to eat in Phuket, Shopping in Phuket",
       summary: "Phuket, Thailand’s largest island, is a tropical paradise known for its stunning beaches, vibrant markets, flavorful cuisine, and rich cultural heritage. From sun-soaked coasts to historic temples, Phuket is the perfect blend of relaxation and exploration.",
       content: `
@@ -1889,7 +1889,7 @@ export const posts = [
     },
     {
       slug: "discover-miami",
-      title: "Discover Miami",
+      title: "Miami",
       keywords: "Miami travel guide, Best places in Miami, Things to do in Miami, Miami beaches, Miami Cuban food, Shopping in Miami, Miami culture, Miami nightlife, Historical sites in Miami, Miami tourism",
       summary: "Miami, Florida’s vibrant coastal city, is a colorful blend of Latin culture, beach life, art, and architecture. Known for its lively neighborhoods, beautiful coastlines, and rich Cuban influence, Miami offers a tropical experience with urban sophistication. Explore the city’s top areas, foods, local products, and historical landmarks.",
       content: `
@@ -1939,7 +1939,7 @@ export const posts = [
     },
     {
       slug: "discover-havana",
-      title: "Discover Havana",
+      title: "Havana",
       keywords: "Havana travel guide, Best places in Havana, Things to do in Havana, Cuban food in Havana, Havana historical sites, Old Havana attractions, Havana culture, Shopping in Havana, Cuban cigars, Havana tourism",
       summary: "Havana, the capital of Cuba, is a city frozen in time — where classic cars cruise along colorful streets and the rhythms of salsa echo from every corner. Rich in culture, history, and charm, Havana invites visitors to explore its vibrant neighborhoods, taste its authentic cuisine, and discover its iconic heritage.",
       content: `
@@ -1988,7 +1988,7 @@ export const posts = [
     },
     {
       slug: "discover-vienna",
-      title: "Discover Vienna",
+      title: "Vienna",
       keywords: "Vienna travel guide, Best places to visit in Vienna, Things to do in Vienna, Vienna traditional foods, Vienna historical landmarks, Popular Vienna districts, Shopping in Vienna, Viennese culture, Vienna classical music, Austria tourism",
       summary: "Vienna, the capital of Austria, is a city where imperial history meets modern elegance. Known for its grand palaces, musical heritage, and vibrant cultural scene, Vienna offers an unforgettable journey through art, architecture, and traditional flavors.",
       content: `
@@ -2037,7 +2037,7 @@ export const posts = [
     },
     {
       slug: "discover-istanbul",
-      title: "Discover Istanbul",
+      title: "Istanbul",
       keywords: "Istanbul travel guide, Best places to visit in Istanbul, Things to do in Istanbul, Turkish street food, Istanbul historical landmarks, Popular Istanbul neighborhoods, Shopping in Istanbul, What to eat in Istanbul, Istanbul cultural sites, Istanbul tourist attractions",
       summary: "Istanbul, the vibrant heart of Turkey, bridges two continents and countless centuries of history. From bustling bazaars and grand mosques to modern art galleries and seaside cafes, the city offers an unforgettable blend of East and West.",
       content: `
@@ -2086,7 +2086,7 @@ export const posts = [
     },
     {
       slug: "discover-antalya",
-      title: "Discover Antalya",
+      title: "Antalya",
       keywords: "Antalya travel guide, Best places in Antalya, Things to do in Antalya, Antalya beaches, Antalya historical sites, Turkish cuisine in Antalya, Antalya shopping, Antalya cultural attractions, Antalya old town, Mediterranean Turkey",
       summary: "Antalya, the jewel of Turkey's Mediterranean coast, offers a stunning mix of sun-soaked beaches, ancient ruins, vibrant bazaars, and scenic mountains. With its rich history and modern resorts, Antalya is a perfect destination for both relaxation and exploration.",
       content: `
@@ -2135,7 +2135,7 @@ export const posts = [
     },
     {
       slug: "discover-turkey",
-      title: "Discover Turkey",
+      title: "Turkey",
       keywords: "Turkey travel guide, Best places in Turkey, Turkish food, Historical sites in Turkey, Things to do in Turkey, Turkish souvenirs, Popular Turkish destinations, Culture of Turkey, UNESCO sites in Turkey, Travel Turkey tips",
       summary: "Turkey, where East meets West, is a country full of breathtaking landscapes, ancient civilizations, rich cuisine, and warm hospitality. From its coastal towns to bustling cities and remote mountains, Turkey offers an unforgettable journey through history and culture.",
       content: `
@@ -2186,7 +2186,7 @@ export const posts = [
     },
     {
       slug: "discover-dublin",
-      title: "Discover Dublin",
+      title: "Dublin",
       keywords: "Dublin travel guide, Best places to visit in Dublin, Things to do in Dublin, Irish food in Dublin, Dublin historical landmarks, Popular Dublin neighborhoods, Shopping in Dublin, Irish culture, Dublin pubs, Dublin tourist attractions",
       summary: "Dublin, the lively capital of Ireland, is a city rich in literary history, friendly pubs, Georgian architecture, and cultural charm. With a mix of medieval landmarks and modern city life, Dublin invites you to explore its unique character and welcoming spirit.",
       content: `
@@ -2235,7 +2235,7 @@ export const posts = [
     },
     {
       slug: "discover-ireland",
-      title: "Discover Ireland",
+      title: "Ireland",
       keywords: "Ireland travel guide, Best places in Ireland, Irish food, Historical sites in Ireland, Irish culture, Things to do in Ireland, Irish souvenirs, Wild Atlantic Way, Castles in Ireland, Visit Ireland tips",
       summary: "Ireland, the Emerald Isle, enchants visitors with its rolling green landscapes, rich folklore, lively music, and deep-rooted history. From dramatic coastal cliffs to centuries-old castles, Ireland offers a perfect blend of natural beauty and cultural heritage.",
       content: `
@@ -2285,7 +2285,7 @@ export const posts = [
     },
     {
       slug: "discover-luxembourg",
-      title: "Discover Luxembourg",
+      title: "Luxembourg",
       keywords: "Luxembourg travel guide, Best places in Luxembourg, Things to do in Luxembourg, Luxembourg food, Historical sites in Luxembourg, Luxembourg culture, Luxembourg City highlights, Luxembourg souvenirs, Luxembourg castles, Visit Luxembourg tips",
       summary: "Luxembourg, a small yet culturally rich country in the heart of Europe, offers a blend of medieval charm, modern elegance, and scenic landscapes. From fortified cities and lush valleys to award-winning cuisine, Luxembourg is a hidden gem waiting to be explored.",
       content: `
@@ -2334,7 +2334,7 @@ export const posts = [
     },
     {
       slug: "discover-singapore",
-      title: "Discover Singapore",
+      title: "Singapore",
       keywords: "Singapore travel guide, Best places in Singapore, Things to do in Singapore, Singapore street food, Historical sites in Singapore, Singapore souvenirs, Popular areas in Singapore, Singapore cultural attractions, Singapore heritage sites, Visit Singapore tips",
       summary: "Singapore, a modern island city-state in Southeast Asia, is known for its futuristic skyline, multicultural neighborhoods, and world-class cuisine. Despite its small size, Singapore offers a rich blend of tradition, innovation, and natural beauty.",
       content: `
@@ -2384,7 +2384,7 @@ export const posts = [
     },
     {
       slug: "discover-ho-chi-minh-city",
-      title: "Discover Ho Chi Minh City",
+      title: "Ho Chi Minh City",
       keywords: "Ho Chi Minh City travel guide, Best places in Ho Chi Minh City, Things to do in Saigon, Vietnamese street food, Historical sites in Ho Chi Minh City, Saigon souvenirs, Ben Thanh Market, Saigon culture, Ho Chi Minh attractions, Vietnam urban travel",
       summary: "Ho Chi Minh City, formerly known as Saigon, is Vietnam’s largest and most dynamic metropolis. A city where French colonial architecture meets bustling markets, skyscrapers, and motorbike-filled streets, it offers a captivating blend of history, flavor, and energy.",
       content: `
@@ -2433,7 +2433,7 @@ export const posts = [
     },
     {
       slug: "discover-athens",
-      title: "Discover Athens",
+      title: "Athens",
       keywords: "Athens travel guide, Best areas in Athens, Athens historical sites, Greek food in Athens, Athens souvenirs, Acropolis tour, Plaka district Athens, Greek olive oil, Things to do in Athens, Ancient ruins Greece",
       summary: "Athens, the historic capital of Greece, is a captivating blend of ancient ruins, vibrant neighborhoods, and Mediterranean flavors. With its iconic landmarks and cultural richness, Athens remains a timeless destination for travelers.",
       content: `
@@ -2482,7 +2482,7 @@ export const posts = [
     },
     {
       slug: "discover-split",
-      title: "Discover Split",
+      title: "Split",
       keywords: "Split travel guide, Best areas in Split Croatia, Diocletian’s Palace, Croatian food Split, Souvenirs from Split, Split Old Town, Beaches in Split, Split historical sites, Dalmatian coast cities, What to eat in Split",
       summary: "Split, Croatia’s stunning coastal city, blends ancient Roman history with Adriatic beauty. From Diocletian’s Palace to sun-kissed beaches, Split offers a mix of cultural charm, Mediterranean cuisine, and seaside relaxation.",
       content: `
@@ -2531,7 +2531,7 @@ export const posts = [
     },
     {
       slug: "discover-cancun",
-      title: "Discover Cancun",
+      title: "Cancun",
       keywords: "Cancun travel guide, Best areas in Cancun Mexico, Cancun beaches, Mexican food Cancun, Souvenirs from Cancun, Cancun Hotel Zone, Isla Mujeres, Cancun historical sites, Yucatan Peninsula cities, What to eat in Cancun",
       summary: "Cancun, Mexico’s tropical paradise on the Caribbean coast, combines white-sand beaches with vibrant nightlife and rich Mayan heritage. From the famous Hotel Zone to ancient ruins, Cancun offers a perfect mix of relaxation, adventure, and cultural exploration.",
       content: `
@@ -2580,7 +2580,7 @@ export const posts = [
     },
     {
       slug: "discover-playa-del-carmen",
-      title: "Discover Playa del Carmen",
+      title: "Playa del Carmen",
       keywords: "Playa del Carmen travel guide, Best areas in Playa del Carmen Mexico, Riviera Maya beaches, Mexican food Playa del Carmen, Souvenirs from Playa del Carmen, Quinta Avenida, Xcaret Park, Playa del Carmen historical sites, Yucatan Peninsula cities, What to eat in Playa del Carmen",
       summary: "Playa del Carmen, located along Mexico’s Riviera Maya, offers a blend of white-sand beaches, vibrant nightlife, and access to rich Mayan heritage. From the bustling Quinta Avenida to nearby ancient ruins, it’s a destination full of charm and adventure.",
       content: `
@@ -2629,7 +2629,7 @@ export const posts = [
     },
     {
       slug: "discover-kuala-lumpur",
-      title: "Discover Kuala Lumpur",
+      title: "Kuala Lumpur",
       keywords: "Kuala Lumpur travel guide, Best areas in Kuala Lumpur Malaysia, Kuala Lumpur shopping, Malaysian food Kuala Lumpur, Souvenirs from Kuala Lumpur, Petronas Towers, Batu Caves, Kuala Lumpur historical sites, What to eat in Kuala Lumpur",
       summary: "Kuala Lumpur, Malaysia’s bustling capital, blends modern skyscrapers, colonial architecture, lush parks, and vibrant street markets. From iconic landmarks like the Petronas Towers to traditional Malay cuisine, the city offers a unique mix of cultures and experiences.",
       content: `
@@ -2678,7 +2678,7 @@ export const posts = [
     },
     {
       slug: "discover-mumbai",
-      title: "Discover Mumbai",
+      title: "Mumbai",
       keywords: "Mumbai travel guide, Best areas in Mumbai India, Mumbai shopping, Indian food Mumbai, Souvenirs from Mumbai, Gateway of India, Elephanta Caves, Mumbai historical sites, What to eat in Mumbai",
       summary: "Mumbai, India’s financial and entertainment capital, is a vibrant metropolis where colonial architecture, Bollywood glamour, bustling markets, and street food culture come together in a dazzling mix.",
       content: `
@@ -2727,7 +2727,7 @@ export const posts = [
     },
     {
       slug: "discover-london",
-      title: "Discover London",
+      title: "London",
       keywords: "London travel guide, Best areas in London, London shopping, British food London, Souvenirs from London, Big Ben, Buckingham Palace, Tower of London, London historical sites, What to eat in London",
       summary: "London, the capital of the United Kingdom, blends royal traditions, modern culture, iconic landmarks, and world-class shopping in one of the most visited cities in the world.",
       content: `
@@ -2776,7 +2776,7 @@ export const posts = [
     },
     {
       slug: "discover-stockholm",
-      title: "Discover Stockholm",
+      title: "Stockholm",
       keywords: "Stockholm travel guide, Best areas in Stockholm, Stockholm shopping, Swedish food, Souvenirs from Stockholm, Gamla Stan, Vasa Museum, Royal Palace Stockholm, Stockholm historical sites, What to eat in Stockholm",
       summary: "Stockholm, the capital of Sweden, is a city built on 14 islands connected by bridges, offering a perfect blend of history, Scandinavian design, nature, and modern lifestyle.",
       content: `
@@ -2825,7 +2825,7 @@ export const posts = [
     },
     {
       slug: "discover-brugge",
-      title: "Discover Brugge",
+      title: "Brugge",
       keywords: "Brugge travel guide, Best areas in Bruges Belgium, Bruges canals, Belgian food Bruges, Souvenirs from Bruges, Bruges Old Town, Markt Square, Bruges historical sites, Flemish cities, What to eat in Bruges",
       summary: "Brugge, often called the 'Venice of the North,' is a fairy-tale medieval city in Belgium known for its canals, cobblestone streets, historic buildings, and world-famous chocolate and beer.",
       content: `
@@ -2874,7 +2874,7 @@ export const posts = [
     },
     {
       slug: "discover-bergen",
-      title: "Discover Bergen",
+      title: "Bergen",
       keywords: "Bergen travel guide, Best areas in Bergen Norway, Bergen fjords, Norwegian food Bergen, Souvenirs from Bergen, Bryggen Wharf, Mount Fløyen, Bergen historical sites, Fjord cities, What to eat in Bergen",
       summary: "Bergen, Norway’s picturesque coastal city, is the gateway to the fjords. Known for its colorful wooden houses, maritime history, and vibrant culture, Bergen blends natural beauty with rich traditions.",
       content: `
@@ -2923,7 +2923,7 @@ export const posts = [
     },
     {
       slug: "discover-flam",
-      title: "Discover Flam",
+      title: "Flam",
       keywords: "Flam travel guide, Best areas in Flam Norway, Flam Railway, Norwegian food Flam, Souvenirs from Flam, Aurlandsfjord, Flam historical sites, Fjord villages, What to eat in Flam",
       summary: "Flam, a small village nestled in Norway’s breathtaking Aurlandsfjord, is a gateway to spectacular fjord scenery and authentic Norwegian culture. Known for the world-famous Flam Railway and outdoor adventures, it’s a serene yet vibrant destination.",
       content: `
@@ -2972,7 +2972,7 @@ export const posts = [
     },
     {
       slug: "discover-malaga",
-      title: "Discover Malaga",
+      title: "Malaga",
       keywords: "Malaga travel guide, Best areas in Malaga Spain, Costa del Sol, Spanish food Malaga, Souvenirs from Malaga, Malaga Old Town, Picasso Museum Malaga, Malaga historical sites, Andalusian cities, What to eat in Malaga",
       summary: "Malaga, the vibrant port city of Spain’s Costa del Sol, blends sun-soaked beaches with rich Andalusian culture and history. From the birthplace of Picasso to Moorish fortresses and lively tapas bars, Malaga offers a perfect Mediterranean escape.",
       content: `
@@ -3021,7 +3021,7 @@ export const posts = [
     },
     {
       slug: "discover-prague",
-      title: "Discover Prague",
+      title: "Prague",
       keywords: "Prague travel guide, Best areas in Prague, Czech Republic tourism, Czech food, Souvenirs from Prague, Prague Old Town, Prague Castle, Charles Bridge, Historical sites Prague, What to eat in Prague",
       summary: "Prague, the fairy-tale capital of the Czech Republic, is famous for its cobblestone streets, Gothic architecture, and vibrant culture. From medieval bridges to hearty cuisine, it’s a city where history and modern life blend seamlessly.",
       content: `
@@ -3070,7 +3070,7 @@ export const posts = [
     },
     {
       slug: "discover-ella",
-      title: "Discover Ella",
+      title: "Ella",
       keywords: "Ella travel guide, Best areas in Ella Sri Lanka, Sri Lankan tea plantations, Ella foods, Souvenirs from Ella, Little Adam’s Peak, Nine Arches Bridge, Historical sites Ella, What to eat in Ella, Ella attractions",
       summary: "Ella, a serene mountain town in Sri Lanka, is surrounded by tea plantations, lush green hills, and iconic landmarks. From hiking trails to cultural sites, Ella offers a perfect mix of nature, history, and authentic Sri Lankan lifestyle.",
       content: `
@@ -3119,7 +3119,7 @@ export const posts = [
     },
     {
       slug: "discover-shenzhen",
-      title: "Discover Shenzhen",
+      title: "Shenzhen",
       keywords: "Shenzhen travel guide, Best areas in Shenzhen China, Shenzhen tech city, Chinese food Shenzhen, Souvenirs from Shenzhen, Nanshan district, OCT Loft, Shenzhen historical sites, What to eat in Shenzhen, Guangdong culture",
       summary: "Shenzhen, China’s dynamic tech metropolis, blends futuristic innovation with rich Cantonese culture. From skyscrapers and shopping hubs to temples and coastal parks, Shenzhen offers a fascinating mix of modern life and traditional charm.",
       content: `
@@ -3168,7 +3168,7 @@ export const posts = [
     },
     {
       slug: "discover-kilkenny",
-      title: "Discover Kilkenny",
+      title: "Kilkenny",
       keywords: "Kilkenny travel guide, Best areas in Kilkenny Ireland, Kilkenny Castle, Irish food Kilkenny, Souvenirs from Kilkenny, Medieval Mile, St. Canice’s Cathedral, Kilkenny historical sites, What to eat in Kilkenny, Irish craft products",
       summary: "Kilkenny, Ireland’s medieval gem, blends centuries-old architecture with a lively arts and food scene. From the iconic Kilkenny Castle to cozy pubs and artisan shops, this charming city offers a true taste of Irish heritage and creativity.",
       content: `
@@ -3217,7 +3217,7 @@ export const posts = [
     },
     {
       slug: "discover-hamburg",
-      title: "Discover Hamburg",
+      title: "Hamburg",
       keywords: "Hamburg travel guide, Best areas in Hamburg Germany, Hamburg Port, German food Hamburg, Souvenirs from Hamburg, Reeperbahn, Speicherstadt, Hamburg historical sites, Elbphilharmonie, What to eat in Hamburg",
       summary: "Hamburg, Germany’s gateway to the world, combines maritime charm with modern sophistication. From its bustling port and canals to world-class architecture and hearty German cuisine, Hamburg offers a unique mix of tradition and innovation.",
       content: `
@@ -3266,7 +3266,7 @@ export const posts = [
     },
     {
       slug: "discover-canggu",
-      title: "Discover Canggu",
+      title: "Canggu",
       keywords: "Canggu travel guide, Best areas in Canggu Bali, Bali surf spots, Indonesian food Canggu, Souvenirs from Canggu, Canggu beaches, Tanah Lot Temple, Bali historical sites, Canggu cafes, What to eat in Canggu",
       summary: "Canggu, Bali’s bohemian coastal gem, is a perfect blend of surf culture, rice fields, and vibrant cafes. From trendy beach clubs to sacred temples, Canggu offers a laid-back yet stylish experience that captures the spirit of modern Bali.",
       content: `
@@ -3315,7 +3315,7 @@ export const posts = [
     },
     {
       slug: "discover-sevilla",
-      title: "Discover Sevilla",
+      title: "Sevilla",
       keywords: "Seville travel guide, Best areas in Seville, Sevilla attractions, Andalusian food, Spanish souvenirs, Seville tapas, Flamenco culture, Seville Cathedral, Plaza de España, Alcázar of Seville, What to eat in Seville",
       summary: "Sevilla, the heart of Andalusia, radiates passion, color, and history. From its lively flamenco rhythms to its magnificent Moorish palaces and sun-soaked plazas, this Spanish gem offers a perfect mix of cultural depth and southern charm.",
       content: `
@@ -3364,7 +3364,7 @@ export const posts = [
     },
     {
       slug: "discover-valencia",
-      title: "Discover Valencia",
+      title: "Valencia",
       keywords: "Valencia travel guide, Best areas in Valencia Spain, Valencia beaches, Valencian food, Paella Valencia, Spanish souvenirs, City of Arts and Sciences, Valencia Old Town, Turia Gardens, What to eat in Valencia",
       summary: "Valencia, Spain’s sun-soaked Mediterranean gem, blends futuristic architecture, golden beaches, and ancient history. Famous for its paella, festivals, and lively neighborhoods, Valencia is a captivating destination full of culture, flavor, and coastal charm.",
       content: `
@@ -3413,7 +3413,7 @@ export const posts = [
     },
     {
       slug: "discover-krakow",
-      title: "Discover Krakow",
+      title: "Krakow",
       keywords: "Krakow travel guide, Best areas in Krakow Poland, Wawel Castle, Polish food Krakow, Souvenirs from Krakow, Krakow Old Town, Kazimierz district, Krakow historical sites, Lesser Poland cities, What to eat in Krakow",
       summary: "Krakow, one of Europe’s most enchanting cities, blends medieval architecture, vibrant cultural life, and deep historical significance. From its royal castle to lively squares and traditional Polish cuisine, Krakow offers a captivating journey through time.",
       content: `
@@ -3462,7 +3462,7 @@ export const posts = [
     },
     {
       slug: "discover-cape-town",
-      title: "Discover Cape Town",
+      title: "Cape Town",
       keywords: "Cape Town travel guide, Best areas in Cape Town, Table Mountain, South African food Cape Town, Souvenirs from Cape Town, Cape Town beaches, V&A Waterfront, Cape Town historical sites, Western Cape tourism, What to eat in Cape Town",
       summary: "Cape Town is one of the world’s most scenic cities, famous for its dramatic landscapes, rich cultural heritage, and diverse cuisine. From iconic mountains to historic landmarks and vibrant coastal districts, Cape Town offers an unforgettable travel experience.",
       content: `
@@ -3511,7 +3511,7 @@ export const posts = [
     },
     {
       slug: "discover-boracay",
-      title: "Discover Boracay",
+      title: "Boracay",
       keywords: "Boracay travel guide, Best areas in Boracay Philippines, White Beach Boracay, Boracay island food, Souvenirs from Boracay, Boracay beaches, Ariel’s Point, Boracay historical sites, What to eat in Boracay, Filipino island cuisine",
       summary: "Boracay, one of the Philippines’ most famous tropical islands, is known for its powdery white sand beaches, crystal-clear waters, vibrant nightlife, and laid-back island culture. It is a paradise destination blending relaxation, adventure, and Filipino hospitality.",
       content: `

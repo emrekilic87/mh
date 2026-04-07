@@ -58,8 +58,8 @@ export default async function BlogDetailPage(props: { params: Params }) {
       <div className="text-gray-800 leading-7 mb-6" dangerouslySetInnerHTML={{ __html: post.content }} />
 
       <Widget
-        id="kiwi-taxi-widget"
-        scriptSrc="https://tpwgt.com/content?currency=USD&trs=414250&shmarker=629078&language=en&theme=1&powered_by=true&campaign_id=1&promo_id=1486"
+        id="air-help-widget"
+        scriptSrc="https://tpwgt.com/content?trs=414250&shmarker=629078&lang=en&powered_by=true&campaign_id=120&promo_id=8679"
       />
     </div>
   );
