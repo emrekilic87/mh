@@ -3557,7 +3557,57 @@ export const posts = [
         <p>Whether you're relaxing on White Beach, enjoying fresh seafood by the sea, or watching a breathtaking sunset over the horizon, Boracay delivers an unforgettable tropical island experience filled with beauty and warmth.</p>
       `,
       image: "/images/boracay.jpg"
-    }
+    },
+    {
+      slug: "discover-tbilisi",
+      title: "Tbilisi",
+      keywords: "Tbilisi travel guide, Best areas in Tbilisi Georgia, Tbilisi Old Town, Georgian food Tbilisi, Souvenirs from Tbilisi, Narikala Fortress, Tbilisi historical sites, What to eat in Tbilisi, Georgian wine, Sulfur baths Tbilisi",
+      summary: "Tbilisi, the charming capital of Georgia, blends ancient history, colorful architecture, and vibrant modern culture. From hilltop fortresses to famous sulfur baths and world-class cuisine, Tbilisi offers a unique crossroads of Europe and Asia.",
+      content: `
+        <p><strong>Tbilisi</strong>, set along the banks of the Kura River, is one of the Caucasus region’s most captivating cities. Known for its warm hospitality, eclectic architecture, and deep cultural roots, Tbilisi combines centuries of history with a youthful creative spirit.</p>
+
+        <h2>Popular Areas in Tbilisi</h2>
+        <ul>
+          <li><strong>Old Town (Altstadt):</strong> A maze of narrow streets, colorful balconies, churches, and traditional houses.</li>
+          <li><strong>Abanotubani:</strong> The historic sulfur bath district famous for domed bathhouses and relaxing spa culture.</li>
+          <li><strong>Rustaveli Avenue:</strong> The city’s grand boulevard lined with theaters, museums, cafes, and shops.</li>
+          <li><strong>Mtatsminda:</strong> A hillside district offering panoramic city views and a popular amusement park.</li>
+          <li><strong>Vera & Vake:</strong> Trendy neighborhoods known for nightlife, restaurants, parks, and local lifestyle.</li>
+        </ul>
+
+        <h2>Popular Products from Tbilisi</h2>
+        <ul>
+          <li><strong>Georgian Wine:</strong> Traditional qvevri wines from one of the world’s oldest winemaking cultures.</li>
+          <li><strong>Churchkhela:</strong> A sweet snack made from grape juice and nuts, often called Georgian candy.</li>
+          <li><strong>Enamel Jewelry:</strong> Handmade Georgian cloisonné jewelry with colorful designs.</li>
+          <li><strong>Spices & Sauces:</strong> Svan salt, adjika, and tkemali plum sauce are popular local flavors.</li>
+          <li><strong>Handwoven Textiles:</strong> Traditional scarves, rugs, and wool crafts from Georgian artisans.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Tbilisi</h2>
+        <ul>
+          <li><strong>Khinkali:</strong> Juicy Georgian dumplings filled with meat or cheese.</li>
+          <li><strong>Khachapuri:</strong> Cheese-filled bread, especially the famous Adjarian version with egg and butter.</li>
+          <li><strong>Mtsvadi:</strong> Georgian-style grilled meat skewers served with onions and herbs.</li>
+          <li><strong>Lobio:</strong> A flavorful bean stew often served with cornbread.</li>
+          <li><strong>Badrijani Nigvzit:</strong> Eggplant rolls stuffed with walnut paste and spices.</li>
+        </ul>
+
+        <h2>Special Historical Places in Tbilisi</h2>
+        <ul>
+          <li><strong>Narikala Fortress:</strong> An ancient hilltop fortress overlooking the city, dating back to the 4th century.</li>
+          <li><strong>Holy Trinity Cathedral:</strong> One of the largest Orthodox cathedrals in the world and a symbol of modern Georgia.</li>
+          <li><strong>Metekhi Church:</strong> A historic church perched dramatically above the river.</li>
+          <li><strong>Anchiskhati Basilica:</strong> Tbilisi’s oldest surviving church, built in the 6th century.</li>
+          <li><strong>Bridge of Peace:</strong> A modern architectural landmark connecting old and new Tbilisi.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you're wandering cobbled lanes, tasting legendary Georgian dishes, soaking in sulfur baths, or admiring fortress views, Tbilisi offers a rich and unforgettable cultural journey.</p>
+      `,
+      image: "/images/tbilisi.jpg"
+      }
+
 
   ];
   
