@@ -1,4 +1,5 @@
 import React from "react";
+import { connection } from 'next/server'
 import { posts } from "@/lib/posts";
 import type { Metadata } from "next";
 import HomeClient from "@/components/homeClient";
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Home() {
+export default async function Home() {
+  await connection();
   return (
     <HomeClient posts={posts} />
   );
