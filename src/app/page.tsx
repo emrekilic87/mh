@@ -1,5 +1,4 @@
 import React from "react";
-// import { Suspense } from "react";
 import { posts } from "@/lib/posts";
 import type { Metadata } from "next";
 import HomeClient from "@/components/homeClient";
