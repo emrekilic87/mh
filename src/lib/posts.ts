@@ -3779,6 +3779,55 @@ export const posts = [
           <p><em>Disclaimer:</em> Compensation eligibility depends on local regulations, airline policies, and the circumstances of the delay or cancellation. Always review the latest terms and conditions before submitting a claim.</p>
         `,
         image: "/images/air-help-banner.png"
+      },
+      {
+        slug: "discover-lima",
+        title: "Lima",
+        keywords: "Lima travel guide, Best areas in Lima Peru, Lima food guide, Peruvian cuisine Lima, Souvenirs from Lima, Miraflores Lima, Barranco district, Lima historical sites, What to eat in Lima, Peru travel destinations",
+        summary: "Lima, the vibrant capital of Peru, combines colonial history, world-famous cuisine, and stunning Pacific Ocean views. From colorful artistic districts to ancient ruins and lively markets, Lima offers travelers a rich cultural and culinary experience.",
+        content: `
+          <p><strong>Lima</strong>, located along Peru’s Pacific coast, is a fascinating city where ancient history meets modern urban life. Known as the gastronomic capital of South America, Lima is famous for its incredible food scene, colonial architecture, and diverse neighborhoods filled with culture and creativity.</p>
+
+          <h2>Popular Areas in Lima</h2>
+          <ul>
+            <li><strong>Miraflores:</strong> A modern coastal district known for parks, shopping, oceanfront cliffs, and nightlife.</li>
+            <li><strong>Barranco:</strong> Lima’s bohemian neighborhood filled with colorful streets, art galleries, cafes, and live music.</li>
+            <li><strong>Centro Histórico:</strong> The historic center featuring colonial buildings, plazas, and UNESCO-listed landmarks.</li>
+            <li><strong>San Isidro:</strong> An upscale district known for fine dining, business centers, and beautiful green parks.</li>
+            <li><strong>Callao:</strong> A historic port area with street art, seafood restaurants, and cultural attractions.</li>
+          </ul>
+
+          <h2>Popular Products from Lima</h2>
+          <ul>
+            <li><strong>Alpaca Wool Products:</strong> Soft scarves, sweaters, and blankets made from high-quality alpaca wool.</li>
+            <li><strong>Peruvian Coffee:</strong> Rich, aromatic coffee grown in the Andes and Amazon regions.</li>
+            <li><strong>Silver Jewelry:</strong> Handmade silver accessories crafted by local artisans.</li>
+            <li><strong>Traditional Textiles:</strong> Colorful woven fabrics inspired by Andean culture.</li>
+            <li><strong>Pisco:</strong> Peru’s famous grape brandy, often purchased as a souvenir.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Lima</h2>
+          <ul>
+            <li><strong>Ceviche:</strong> Peru’s national dish made with fresh fish marinated in lime juice, onions, and chili.</li>
+            <li><strong>Lomo Saltado:</strong> Stir-fried beef with onions, tomatoes, soy sauce, and fries.</li>
+            <li><strong>Ají de Gallina:</strong> Shredded chicken in a creamy yellow chili sauce served with rice.</li>
+            <li><strong>Anticuchos:</strong> Grilled skewers of marinated beef heart, a beloved street food.</li>
+            <li><strong>Suspiro Limeño:</strong> A traditional caramel-like dessert topped with meringue.</li>
+          </ul>
+
+          <h2>Special Historical Places in Lima</h2>
+          <ul>
+            <li><strong>Plaza Mayor:</strong> The historic heart of Lima surrounded by colonial buildings and government landmarks.</li>
+            <li><strong>San Francisco Monastery:</strong> Famous for its underground catacombs and beautiful colonial architecture.</li>
+            <li><strong>Huaca Pucllana:</strong> An ancient adobe pyramid built by the Lima civilization long before the Incas.</li>
+            <li><strong>Lima Cathedral:</strong> A grand cathedral located in the historic center dating back to the Spanish colonial era.</li>
+            <li><strong>Bridge of Sighs (Puente de los Suspiros):</strong> A romantic wooden bridge in Barranco rich in local legends and culture.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're tasting world-class Peruvian cuisine, exploring colonial streets, or admiring Pacific sunsets, Lima offers a vibrant and unforgettable journey through the heart of Peru.</p>
+        `,
+        image: "/images/lima.jpg"
       }
 
 
