@@ -3828,6 +3828,55 @@ export const posts = [
           <p>Whether you're tasting world-class Peruvian cuisine, exploring colonial streets, or admiring Pacific sunsets, Lima offers a vibrant and unforgettable journey through the heart of Peru.</p>
         `,
         image: "/images/lima.jpg"
+      },
+      {
+        slug: "discover-fethiye",
+        title: "Fethiye",
+        keywords: "Fethiye travel guide, Best areas in Fethiye Turkey, Ölüdeniz beach, Fethiye food guide, Souvenirs from Fethiye, Lycian ruins, Fethiye historical sites, What to eat in Fethiye, Turkish Riviera, Fethiye attractions",
+        summary: "Fethiye, one of Turkey’s most beautiful coastal destinations, combines turquoise waters, ancient Lycian history, and Mediterranean charm. From the famous Blue Lagoon of Ölüdeniz to historic rock tombs and vibrant bazaars, Fethiye offers an unforgettable blend of nature and culture.",
+        content: `
+          <p><strong>Fethiye</strong>, located on Turkey’s stunning Turquoise Coast, is a paradise known for its crystal-clear waters, scenic mountains, and rich ancient heritage. Once the ancient city of Telmessos, Fethiye today attracts travelers with its beautiful beaches, outdoor adventures, and welcoming Mediterranean atmosphere.</p>
+
+          <h2>Popular Areas in Fethiye</h2>
+          <ul>
+            <li><strong>Ölüdeniz:</strong> Famous for its Blue Lagoon, white-sand beaches, and world-class paragliding opportunities.</li>
+            <li><strong>Çalış Beach:</strong> A long beach known for spectacular sunsets, waterfront restaurants, and relaxed coastal living.</li>
+            <li><strong>Fethiye Marina:</strong> A lively harbor area with yachts, cafes, shops, and seaside promenades.</li>
+            <li><strong>Hisarönü:</strong> A vibrant tourist district offering nightlife, shopping, and easy access to nearby beaches.</li>
+            <li><strong>Kayaköy:</strong> A fascinating abandoned Greek village surrounded by hills and historical ruins.</li>
+          </ul>
+
+          <h2>Popular Products from Fethiye</h2>
+          <ul>
+            <li><strong>Turkish Carpets:</strong> Handmade rugs featuring traditional Anatolian patterns and craftsmanship.</li>
+            <li><strong>Olive Oil:</strong> Premium Mediterranean olive oil produced in the surrounding region.</li>
+            <li><strong>Local Honey:</strong> Pine honey and flower honey sourced from the Muğla province.</li>
+            <li><strong>Handmade Ceramics:</strong> Decorative plates, bowls, and pottery inspired by Turkish designs.</li>
+            <li><strong>Turkish Delight (Lokum):</strong> Traditional sweets available in a variety of flavors and styles.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Fethiye</h2>
+          <ul>
+            <li><strong>Fethiye Köftesi:</strong> Local meatballs seasoned with regional herbs and spices.</li>
+            <li><strong>Fresh Seafood:</strong> Daily catches including sea bass, sea bream, calamari, and octopus.</li>
+            <li><strong>Gözleme:</strong> Traditional Turkish flatbread filled with cheese, spinach, potatoes, or meat.</li>
+            <li><strong>Piyaz:</strong> A refreshing bean salad often served alongside grilled dishes.</li>
+            <li><strong>Baklava:</strong> Layers of flaky pastry filled with nuts and sweet syrup.</li>
+          </ul>
+
+          <h2>Special Historical Places in Fethiye</h2>
+          <ul>
+            <li><strong>Amyntas Rock Tombs:</strong> Magnificent Lycian tombs carved into the cliffs overlooking the city.</li>
+            <li><strong>Kayaköy Ghost Village:</strong> A historic abandoned settlement reflecting the population exchange between Greece and Turkey.</li>
+            <li><strong>Tlos Ancient City:</strong> One of the oldest and most important cities of the Lycian civilization.</li>
+            <li><strong>Telmessos Ancient Theatre:</strong> A Roman-era theater located in the heart of modern Fethiye.</li>
+            <li><strong>Letoon & Xanthos:</strong> UNESCO-listed archaeological sites showcasing the rich heritage of ancient Lycia.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're soaring above Ölüdeniz, exploring Lycian tombs, cruising hidden coves, or enjoying fresh Mediterranean cuisine, Fethiye offers one of Turkey’s most memorable coastal experiences.</p>
+        `,
+        image: "/images/fethiye.jpg"
       }
 
 
