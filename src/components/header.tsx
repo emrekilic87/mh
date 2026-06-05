@@ -26,7 +26,7 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
         {showSearch && (
           <input
             type="text"
-            placeholder="Search post..."
+            placeholder="Search city name"
             className="border px-4 py-2 rounded-lg shadow-sm w-64 mr-4 ml-4"
             onChange={(e) => {
               const event = new CustomEvent("search-change", {

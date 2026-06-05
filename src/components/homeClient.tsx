@@ -49,7 +49,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
   const filteredPosts = useMemo(() => {
     return posts.filter((post) =>
       post.title.toLowerCase().includes(search.toLowerCase())
-    );
+    ).reverse();
   }, [search, posts]);
 
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
