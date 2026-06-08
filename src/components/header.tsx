@@ -6,8 +6,7 @@ type HeaderProps = {
   showSearch?: boolean;
   onSearchChange?: (value: string) => void;
 };
-
-export default function Header({ showSearch = false }: { showSearch?: boolean }) {
+const Header = ({ showSearch = false, onSearchChange }: HeaderProps) => {
   return (
     <header className="sticky top-0 z-50 w-full px-4 py-3 border-b border-gray-200 bg-white backdrop-blur supports-[backdrop-filter]:bg-white/70">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
@@ -49,3 +48,5 @@ export default function Header({ showSearch = false }: { showSearch?: boolean })
     </header>
   );
 }
+
+export default Header

@@ -58,4 +58,4 @@ const RootsLayout = ({ children }: RootsLayoutProps) => {
   );
 }
 
-export default RootsLayout;
+export default RootsLayout

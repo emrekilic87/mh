@@ -1,6 +1,6 @@
 // import Link from "next/link";
 
-export default function Footer() {
+const Footer= () => {
   return (
     <footer className="sticky bottom-0 w-full py-2 border-t border-gray-200 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center space-y-4">
@@ -9,3 +9,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer
