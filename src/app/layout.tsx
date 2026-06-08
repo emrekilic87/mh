@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+interface RootsLayoutProps {
   children: React.ReactNode;
-}>) {
+}
+
+const RootsLayout = ({ children }: RootsLayoutProps) => {
   return (
     <html lang="en">
       <link rel="icon" href="/images/multihats.png" type="image/png" sizes="32x32" />
@@ -57,3 +57,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default RootsLayout;
