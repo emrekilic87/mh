@@ -3926,6 +3926,55 @@ export const posts = [
           <p>Whether you're admiring imperial palaces, cruising along scenic canals, exploring world-class museums, or experiencing the magical White Nights, St. Petersburg offers an unforgettable journey through Russia’s rich cultural and historical heritage.</p>
         `,
         image: "/images/st-petersburg.jpg"
+      },
+      {
+        slug: "discover-capri",
+        title: "Capri",
+        keywords: "Capri travel guide, Best areas in Capri Italy, Blue Grotto Capri, Capri food guide, Souvenirs from Capri, Capri island attractions, Capri historical sites, What to eat in Capri, Amalfi Coast islands, Capri luxury travel",
+        summary: "Capri, one of Italy’s most glamorous islands, is famous for its breathtaking coastal scenery, crystal-clear waters, luxury boutiques, and rich history. From the iconic Blue Grotto to charming piazzas and Mediterranean cuisine, Capri offers an unforgettable island escape.",
+        content: `
+          <p><strong>Capri</strong>, located in the Bay of Naples, has enchanted travelers for centuries with its dramatic cliffs, turquoise waters, and elegant atmosphere. Once a retreat for Roman emperors and now a world-renowned destination, Capri combines natural beauty, luxury, and Italian charm.</p>
+
+          <h2>Popular Areas in Capri</h2>
+          <ul>
+            <li><strong>Capri Town:</strong> The island's vibrant center featuring luxury shops, cafes, and the famous Piazzetta.</li>
+            <li><strong>Anacapri:</strong> A quieter and more traditional area offering panoramic views and authentic local life.</li>
+            <li><strong>Marina Grande:</strong> The main port of Capri where ferries arrive and visitors begin their island adventure.</li>
+            <li><strong>Marina Piccola:</strong> A picturesque beach area known for its clear waters and views of the Faraglioni rocks.</li>
+            <li><strong>Piazzetta di Capri:</strong> The island’s iconic social hub, often called the "living room of the world."</li>
+          </ul>
+
+          <h2>Popular Products from Capri</h2>
+          <ul>
+            <li><strong>Limoncello:</strong> A famous lemon liqueur made from Capri’s fragrant local lemons.</li>
+            <li><strong>Capri Sandals:</strong> Handmade leather sandals crafted by local artisans.</li>
+            <li><strong>Perfumes:</strong> Luxury fragrances inspired by the island's flowers, citrus fruits, and sea breeze.</li>
+            <li><strong>Ceramics:</strong> Colorful hand-painted pottery featuring Mediterranean designs.</li>
+            <li><strong>Lemon Products:</strong> Lemon soaps, creams, candies, and preserves made from local citrus.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Capri</h2>
+          <ul>
+            <li><strong>Insalata Caprese:</strong> The island’s signature salad made with tomatoes, mozzarella, basil, and olive oil.</li>
+            <li><strong>Ravioli Capresi:</strong> Fresh pasta filled with cheese and herbs, served with tomato sauce.</li>
+            <li><strong>Seafood Risotto:</strong> A creamy rice dish featuring fresh Mediterranean seafood.</li>
+            <li><strong>Grilled Octopus:</strong> Tender octopus seasoned with olive oil, lemon, and herbs.</li>
+            <li><strong>Torta Caprese:</strong> A rich flourless chocolate and almond cake originating from Capri.</li>
+          </ul>
+
+          <h2>Special Historical Places in Capri</h2>
+          <ul>
+            <li><strong>Blue Grotto (Grotta Azzurra):</strong> A world-famous sea cave illuminated by a magical blue light.</li>
+            <li><strong>Villa Jovis:</strong> The ruins of Emperor Tiberius’ grand Roman palace overlooking the sea.</li>
+            <li><strong>Augustus Gardens:</strong> Beautiful terraced gardens offering spectacular views of the Faraglioni rocks.</li>
+            <li><strong>Certosa di San Giacomo:</strong> Capri’s oldest monastery, dating back to the 14th century.</li>
+            <li><strong>Phoenician Steps:</strong> An ancient stone staircase connecting Capri and Anacapri with stunning views along the way.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're sailing beneath the Faraglioni, exploring Roman ruins, sipping limoncello in a sunlit piazza, or admiring the beauty of the Blue Grotto, Capri offers a timeless Mediterranean experience filled with elegance and natural wonder.</p>
+        `,
+        image: "/images/capri.jpg"
       }
 
 
