@@ -61,39 +61,47 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-2">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6" role="feed">
         {paginatedPosts.map((post) => (
-          <Card key={post.slug} className="mb-4 h-full flex flex-col justify-between">
-            {post.image && (
-              <Link href={`/blog/${post.slug}`}>
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  width={600}
-                  height={300}
-                  priority
-                  className="w-full h-48 object-cover rounded-t-xl"
-                />
-              </Link>
-            )}
-            <CardContent>
-              <h2 className="text-2xl font-semibold text-center">{post.title}</h2>
-              <p className="mt-2 text-gray-700 line-clamp-3">{post.summary}</p>
-              <div className="mt-6 mb-6 flex justify-center">
+          <article key={post.slug} className="mb-4 h-full flex flex-col justify-between">
+            <Card className="h-full flex flex-col justify-between overflow-hidden">
+              {post.image && (
                 <Link href={`/blog/${post.slug}`}>
-                  <Button className="cursor-pointer bg-blue-600 hover:bg-blue-600">Read More</Button>
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    width={600}
+                    height={300}
+                    priority={currentPage === 1} 
+                    className="w-full h-48 object-cover rounded-t-xl"
+                  />
                 </Link>
-              </div>
-            </CardContent>
-          </Card>
+              )}
+              <CardContent>
+                <h2 className="text-2xl font-semibold text-center">{post.title}</h2>
+                <p className="mt-2 text-gray-700 line-clamp-3">{post.summary}</p>
+                <div className="mt-6 mb-6 flex justify-center">
+                  <Link href={`/blog/${post.slug}`}>
+                    <Button className="cursor-pointer bg-blue-600 hover:bg-blue-600">Read More</Button>
+                  </Link>
+                </div>
+              </CardContent>
+            </Card>
+          </article>
         ))}
       </div>
 
-      <Pagination
-        currentPage={currentPage}
-        totalPages={totalPages}
-        search={search}
-      />
+      {filteredPosts.length === 0 && (
+        <p className="text-center text-black-500 py-10 min-h-screen text-2xl">No articles were found</p>
+      )}
+
+      {totalPages > 1 && (
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          search={search}
+        />
+      )}
     </main>
   );
 }
