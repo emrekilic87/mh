@@ -29,7 +29,7 @@ export async function generateMetadata(props: { params: Params }) {
   };
 }
 
-export default async function BlogDetailPage(props: { params: Params }) {
+const BlogDetailPage = async(props: { params: Params }) => {
   const params = await props.params;
   const slug = params.slug;
   const post = await getPostBySlug(slug);
@@ -64,3 +64,5 @@ export default async function BlogDetailPage(props: { params: Params }) {
     </div>
   );
 }
+
+export default BlogDetailPage;
