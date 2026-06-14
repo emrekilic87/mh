@@ -26,11 +26,11 @@ export default function Pagination({
   }
 
   return (
-    <div className="flex justify-center mt-8 space-x-2 items-center">
+    <div className="flex justify-center mt-8 mb-6 space-x-2 items-center">
       {currentPage > 1 && (
         <Link
           href={getPageHref(1)}
-          className="px-3 py-1 rounded-md border bg-white text-gray-700 hover:bg-gray-100"
+          className="px-3 py-1 rounded-md border bg-white dark:bg-gray-700 text-gray-700 dark:text-white"
         >
           <ChevronLeft size={24} />
         </Link>
@@ -42,8 +42,8 @@ export default function Pagination({
           href={getPageHref(page)}
           className={`px-3 py-1 rounded-md border ${
             currentPage === page
-              ? "bg-black text-white"
-              : "bg-white text-gray-700 hover:bg-gray-100"
+              ? "bg-gray-700 dark:bg-white text-white dark:text-gray-700"
+              : "bg-white dark:bg-gray-700 text-gray-700 dark:text-white"
           }`}
         >
           {page}
@@ -53,7 +53,7 @@ export default function Pagination({
       {currentPage < totalPages && (
         <Link
           href={getPageHref(totalPages)}
-          className="px-3 py-1 rounded-md border bg-white text-gray-700 hover:bg-gray-100"
+          className="px-3 py-1 rounded-md border bg-white dark:bg-gray-700 text-gray-700 dark:text-white"
         >
           <ChevronRight size={24} />
         </Link>

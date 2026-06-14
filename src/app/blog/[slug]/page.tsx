@@ -55,11 +55,11 @@ const BlogDetailPage = async(props: { params: Params }) => {
         scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&locale=en&stops=any&show_hotels=false&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
       />
 
-      <div className="text-gray-800 leading-7 mb-6" dangerouslySetInnerHTML={{ __html: post.content }} />
+      <div className="text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: post.content }} />
 
       <Widget
-        id="air-help-widget"
-        scriptSrc="https://tpwgt.com/content?trs=414250&shmarker=629078&lang=en&powered_by=true&campaign_id=120&promo_id=8679"
+        id="kiwi-search-result-widget"
+        scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&powered_by=true&locale=en&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
       />
     </div>
   );

@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from "next/script";
 import AirhelpBanner from "@/components/affiliate/airhelpBanner";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +24,7 @@ interface RootsLayoutProps {
 
 const RootsLayout = ({ children }: RootsLayoutProps) => {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning className="dark">
       <link rel="icon" href="/images/multihats.png" type="image/png" sizes="32x32" />
       <head>
       <Script
@@ -48,11 +49,17 @@ const RootsLayout = ({ children }: RootsLayoutProps) => {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <HeaderWrapper />
-        <AirhelpBanner />
-        {children}
-        <BackToTop />
-        <Footer />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          disableTransitionOnChange
+        >
+          <HeaderWrapper />
+          <AirhelpBanner />
+            {children}
+          <BackToTop />
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

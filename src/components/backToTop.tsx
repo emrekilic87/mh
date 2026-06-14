@@ -26,7 +26,7 @@ export default function BackToTop() {
     <div className="fixed bottom-6 right-6 z-50">
       <Button
         onClick={scrollToTop}
-        className="rounded-full p-3 shadow-lg bg-black hover:bg-blend-darken text-white cursor-pointer"
+        className="rounded-full p-3 shadow-lg bg-black dark:bg-white text-white dark:text-black cursor-pointer"
         aria-label="Back to top"
       >
         <ArrowUp className="w-5 h-5" />

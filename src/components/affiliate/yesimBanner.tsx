@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const YesimBanner = () => {
   return (
-    <div className="w-full py-2 flex justify-center">
+    <div className="w-full py-6 flex justify-center">
       <Link
         href="https://yesim.tp.st/VhVvw6Nw"
         target="_blank"

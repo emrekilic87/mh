@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AirhelpBanner = () => {
   return (
-    <div className="w-full py-2 flex justify-center">
+    <div className="w-full py-6 flex justify-center">
       <Link
         href="https://airhelp.tp.st/8pFNHmjF"
         target="_blank"

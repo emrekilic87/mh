@@ -79,10 +79,10 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
               )}
               <CardContent>
                 <h2 className="text-2xl font-semibold text-center">{post.title}</h2>
-                <p className="mt-2 text-gray-700 line-clamp-3">{post.summary}</p>
+                <p className="mt-2 text-gray-700 dark:text-white line-clamp-3">{post.summary}</p>
                 <div className="mt-6 mb-6 flex justify-center">
                   <Link href={`/blog/${post.slug}`}>
-                    <Button className="cursor-pointer bg-blue-600 hover:bg-blue-600">Read More</Button>
+                    <Button className="cursor-pointer bg-gray-700 dark:bg-white text-white dark:text-gray-700">Read More</Button>
                   </Link>
                 </div>
               </CardContent>
