@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeaderWrapper from "@/components/headerWrapper";
@@ -7,6 +8,7 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from "next/script";
 import AirhelpBanner from "@/components/affiliate/airhelpBanner";
 import { ThemeProvider } from "@/components/theme-provider";
+import { siteMetadata } from "@/lib/siteMetadata";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +19,41 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+export const metadata: Metadata = {
+  title: {
+    template: `%s | ${siteMetadata.title}`,
+    default: siteMetadata.title
+  },
+  description: siteMetadata.description,
+  openGraph: {
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    url: siteMetadata.siteUrl,
+    siteName: siteMetadata.title,
+    images: [siteMetadata.socialBanner],
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteMetadata.title,
+    images: [siteMetadata.socialBanner],
+  },
+  metadataBase: new URL("https://www.multihats.com"),
+
+};
 
 interface RootsLayoutProps {
   children: React.ReactNode;
