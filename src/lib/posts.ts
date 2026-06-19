@@ -4024,6 +4024,55 @@ export const posts = [
           <p>Whether you're wandering through colorful colonial streets, snorkeling in crystal-clear waters, sampling Caribbean cuisine, or discovering centuries of history, Curaçao offers an unforgettable blend of culture, beauty, and island charm.</p>
         `,
         image: "/images/curacao.jpg"
+      },
+      {
+        slug: "discover-kathmandu",
+        title: "Kathmandu",
+        keywords: "Kathmandu travel guide, Best areas in Kathmandu Nepal, Kathmandu Durbar Square, Nepalese food Kathmandu, Souvenirs from Kathmandu, Thamel Kathmandu, Kathmandu historical sites, What to eat in Kathmandu, Nepal tourism, UNESCO sites Kathmandu",
+        summary: "Kathmandu, the historic capital of Nepal, is a fascinating city of ancient temples, vibrant markets, and Himalayan culture. From UNESCO World Heritage Sites to bustling streets and traditional cuisine, Kathmandu offers a unique blend of spirituality, history, and adventure.",
+        content: `
+          <p><strong>Kathmandu</strong>, nestled in the Kathmandu Valley and surrounded by the Himalayas, is Nepal’s cultural, political, and economic heart. With centuries-old temples, colorful festivals, and a rich blend of Hindu and Buddhist traditions, the city provides travelers with an unforgettable cultural experience.</p>
+
+          <h2>Popular Areas in Kathmandu</h2>
+          <ul>
+            <li><strong>Thamel:</strong> Kathmandu’s most famous tourist district, packed with shops, restaurants, trekking agencies, and nightlife.</li>
+            <li><strong>Durbar Square:</strong> The historic center of the city featuring royal palaces, temples, and traditional Newari architecture.</li>
+            <li><strong>Boudha:</strong> Home to the iconic Boudhanath Stupa, one of the most important Buddhist sites in the world.</li>
+            <li><strong>Patan:</strong> A neighboring historic city known for exquisite temples, courtyards, and artisan workshops.</li>
+            <li><strong>Swayambhunath Area:</strong> A hilltop district surrounding the famous Monkey Temple with panoramic views of the valley.</li>
+          </ul>
+
+          <h2>Popular Products from Kathmandu</h2>
+          <ul>
+            <li><strong>Pashmina Shawls:</strong> Luxurious handmade shawls crafted from fine Himalayan wool.</li>
+            <li><strong>Singing Bowls:</strong> Traditional Tibetan and Nepalese meditation instruments.</li>
+            <li><strong>Handmade Thangka Paintings:</strong> Detailed Buddhist artworks painted on cloth.</li>
+            <li><strong>Nepalese Tea:</strong> High-quality tea grown in the Himalayan foothills.</li>
+            <li><strong>Handcrafted Silver Jewelry:</strong> Artisan-made jewelry featuring traditional Himalayan designs.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Kathmandu</h2>
+          <ul>
+            <li><strong>Momo:</strong> Nepal’s famous dumplings filled with meat or vegetables and served with spicy dipping sauce.</li>
+            <li><strong>Dal Bhat:</strong> The national meal consisting of lentil soup, rice, vegetables, and curry.</li>
+            <li><strong>Newari Khaja Set:</strong> A traditional feast featuring beaten rice, meat dishes, pickles, and lentils.</li>
+            <li><strong>Sel Roti:</strong> A ring-shaped rice bread commonly enjoyed during festivals.</li>
+            <li><strong>Chatamari:</strong> A Nepalese rice flour pancake often topped with meat, eggs, or vegetables.</li>
+          </ul>
+
+          <h2>Special Historical Places in Kathmandu</h2>
+          <ul>
+            <li><strong>Kathmandu Durbar Square:</strong> A UNESCO World Heritage Site showcasing ancient palaces, courtyards, and temples.</li>
+            <li><strong>Swayambhunath Stupa (Monkey Temple):</strong> One of Nepal’s oldest and most sacred Buddhist monuments.</li>
+            <li><strong>Boudhanath Stupa:</strong> A massive Buddhist stupa and an important center of Tibetan Buddhism.</li>
+            <li><strong>Pashupatinath Temple:</strong> Nepal’s holiest Hindu temple dedicated to Lord Shiva.</li>
+            <li><strong>Patan Durbar Square:</strong> A remarkable complex of temples and palaces reflecting Newari craftsmanship.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're exploring ancient temples, shopping for handcrafted treasures, tasting authentic Nepalese cuisine, or preparing for a Himalayan adventure, Kathmandu offers a rich cultural journey unlike anywhere else in the world.</p>
+        `,
+        image: "/images/kathmandu.jpg"
       }
 
 
