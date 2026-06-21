@@ -4073,6 +4073,55 @@ export const posts = [
           <p>Whether you're exploring ancient temples, shopping for handcrafted treasures, tasting authentic Nepalese cuisine, or preparing for a Himalayan adventure, Kathmandu offers a rich cultural journey unlike anywhere else in the world.</p>
         `,
         image: "/images/kathmandu.jpg"
+      },
+      {
+        slug: "discover-madrid",
+        title: "Madrid",
+        keywords: "Madrid travel guide, Best areas in Madrid Spain, Madrid food guide, Spanish cuisine Madrid, Souvenirs from Madrid, Gran Via Madrid, Madrid historical sites, What to eat in Madrid, Spain capital travel, Retiro Park Madrid",
+        summary: "Madrid, Spain’s vibrant capital, blends royal history, world-class art, lively neighborhoods, and unforgettable cuisine. From grand boulevards and historic plazas to tapas bars and elegant palaces, Madrid offers a rich cultural experience at the heart of Spain.",
+        content: `
+          <p><strong>Madrid</strong>, located in the center of Spain, is a city full of energy, elegance, and cultural depth. Known for its royal heritage, famous museums, and dynamic street life, Madrid offers visitors a perfect mix of history, gastronomy, and modern urban charm.</p>
+
+          <h2>Popular Areas in Madrid</h2>
+          <ul>
+            <li><strong>Sol & Plaza Mayor:</strong> The historic heart of Madrid, filled with iconic squares, shops, street performers, and traditional restaurants.</li>
+            <li><strong>Gran Vía:</strong> Madrid’s most famous avenue, lined with theaters, boutiques, rooftop bars, and impressive architecture.</li>
+            <li><strong>Malasaña:</strong> A trendy neighborhood known for vintage shops, nightlife, indie cafes, and creative culture.</li>
+            <li><strong>La Latina:</strong> A charming district of narrow streets, tapas bars, and Sunday markets.</li>
+            <li><strong>Salamanca:</strong> An upscale area famous for luxury shopping, elegant boulevards, and fine dining.</li>
+          </ul>
+
+          <h2>Popular Products from Madrid</h2>
+          <ul>
+            <li><strong>Spanish Olive Oil:</strong> Premium extra virgin olive oil produced across Spain and widely available in Madrid.</li>
+            <li><strong>Ceramics & Tiles:</strong> Decorative Spanish pottery and hand-painted ceramics.</li>
+            <li><strong>Leather Goods:</strong> Handmade belts, bags, shoes, and wallets crafted in Spanish style.</li>
+            <li><strong>Fans (Abanicos):</strong> Traditional Spanish hand fans, both practical and decorative.</li>
+            <li><strong>Jamón Ibérico:</strong> Spain’s prized cured ham, often bought vacuum-packed as a gourmet souvenir.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Madrid</h2>
+          <ul>
+            <li><strong>Cocido Madrileño:</strong> A hearty chickpea and meat stew that is one of Madrid’s signature dishes.</li>
+            <li><strong>Bocadillo de Calamares:</strong> A famous Madrid sandwich made with fried squid rings in crusty bread.</li>
+            <li><strong>Churros con Chocolate:</strong> Fried dough sticks served with thick hot chocolate, especially popular for breakfast or late-night snacks.</li>
+            <li><strong>Tortilla Española:</strong> A classic Spanish omelet made with potatoes and eggs.</li>
+            <li><strong>Patatas Bravas:</strong> Crispy potatoes topped with spicy tomato sauce and often aioli.</li>
+          </ul>
+
+          <h2>Special Historical Places in Madrid</h2>
+          <ul>
+            <li><strong>Royal Palace of Madrid:</strong> One of Europe’s grandest royal residences, showcasing lavish rooms and Spanish history.</li>
+            <li><strong>Plaza Mayor:</strong> A historic square dating back to the Habsburg era, surrounded by elegant arcades.</li>
+            <li><strong>Puerta del Sol:</strong> A central landmark and symbolic heart of Madrid, home to the famous Bear and Strawberry Tree statue.</li>
+            <li><strong>Prado Museum:</strong> One of the world’s greatest art museums, housing masterpieces by Velázquez, Goya, and El Greco.</li>
+            <li><strong>Retiro Park & Crystal Palace:</strong> A historic royal park offering gardens, monuments, and one of Madrid’s most beautiful architectural landmarks.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're strolling through grand plazas, tasting classic Spanish dishes, admiring royal architecture, or enjoying the city’s lively nightlife, Madrid offers a captivating and unforgettable journey through the soul of Spain.</p>
+        `,
+        image: "/images/madrid.jpg"
       }
 
 
