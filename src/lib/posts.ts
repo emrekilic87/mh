@@ -4122,6 +4122,55 @@ export const posts = [
           <p>Whether you're strolling through grand plazas, tasting classic Spanish dishes, admiring royal architecture, or enjoying the city’s lively nightlife, Madrid offers a captivating and unforgettable journey through the soul of Spain.</p>
         `,
         image: "/images/madrid.jpg"
+      },
+      {
+        slug: "discover-rabat",
+        title: "Rabat",
+        keywords: "Rabat travel guide, Best areas in Rabat Morocco, Hassan Tower Rabat, Moroccan food Rabat, Souvenirs from Rabat, Kasbah of the Udayas, Rabat historical sites, What to eat in Rabat, Morocco capital, Rabat attractions",
+        summary: "Rabat, the elegant capital of Morocco, combines centuries of history with modern sophistication. From the iconic Hassan Tower and the charming Kasbah of the Udayas to beautiful gardens and traditional Moroccan cuisine, Rabat offers a peaceful yet culturally rich travel experience.",
+        content: `
+          <p><strong>Rabat</strong>, situated along Morocco's Atlantic coast, is the nation's capital and one of its four Imperial Cities. Known for its well-preserved historical monuments, beautiful gardens, and relaxed atmosphere, Rabat offers visitors an authentic Moroccan experience away from the crowds of larger tourist destinations.</p>
+
+          <h2>Popular Areas in Rabat</h2>
+          <ul>
+            <li><strong>Kasbah of the Udayas:</strong> A picturesque fortress district with blue-and-white streets, ocean views, and traditional Moroccan architecture.</li>
+            <li><strong>Medina of Rabat:</strong> A lively old town featuring traditional souks, artisan shops, and authentic local culture.</li>
+            <li><strong>Hassan District:</strong> Home to major landmarks including Hassan Tower and the Mausoleum of Mohammed V.</li>
+            <li><strong>Agdal:</strong> A modern neighborhood known for its shopping streets, cafes, restaurants, and vibrant nightlife.</li>
+            <li><strong>Bouregreg Marina:</strong> A scenic waterfront area offering restaurants, boat rides, and stunning sunset views.</li>
+          </ul>
+
+          <h2>Popular Products from Rabat</h2>
+          <ul>
+            <li><strong>Handwoven Carpets:</strong> Beautiful Moroccan rugs crafted using traditional Berber techniques.</li>
+            <li><strong>Argan Oil:</strong> Premium-quality natural oil used in cooking, skincare, and beauty products.</li>
+            <li><strong>Traditional Pottery:</strong> Hand-painted ceramic plates, bowls, tagines, and decorative items.</li>
+            <li><strong>Leather Goods:</strong> Handmade slippers, handbags, belts, and wallets crafted from Moroccan leather.</li>
+            <li><strong>Moroccan Spices:</strong> Authentic spice blends such as ras el hanout, cumin, saffron, and paprika.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Rabat</h2>
+          <ul>
+            <li><strong>Tagine:</strong> Morocco's signature slow-cooked dish prepared with meat, vegetables, and aromatic spices.</li>
+            <li><strong>Couscous:</strong> A traditional Friday meal featuring steamed semolina served with vegetables and meat.</li>
+            <li><strong>Pastilla:</strong> A flaky pastry filled with chicken or seafood, almonds, cinnamon, and spices.</li>
+            <li><strong>Harira:</strong> A comforting soup made with tomatoes, lentils, chickpeas, and fresh herbs.</li>
+            <li><strong>Chebakia:</strong> A sesame-coated pastry flavored with honey, commonly enjoyed during Ramadan and festive occasions.</li>
+          </ul>
+
+          <h2>Special Historical Places in Rabat</h2>
+          <ul>
+            <li><strong>Hassan Tower:</strong> The unfinished minaret of a 12th-century mosque and one of Morocco's most recognizable landmarks.</li>
+            <li><strong>Mausoleum of Mohammed V:</strong> An architectural masterpiece housing the tombs of King Mohammed V and members of the royal family.</li>
+            <li><strong>Kasbah of the Udayas:</strong> A UNESCO World Heritage Site offering historic streets, gardens, and panoramic Atlantic Ocean views.</li>
+            <li><strong>Chellah:</strong> An ancient Roman settlement and medieval Islamic necropolis surrounded by peaceful gardens.</li>
+            <li><strong>Royal Palace of Rabat:</strong> The official residence of the King of Morocco, admired for its magnificent gates and elegant architecture.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're wandering through the blue streets of the Kasbah, discovering centuries of history, shopping in traditional markets, or enjoying authentic Moroccan cuisine, Rabat offers a refined blend of culture, history, and coastal beauty that makes it one of Morocco's most rewarding destinations.</p>
+        `,
+        image: "/images/rabat.jpg"
       }
 
 
