@@ -4269,6 +4269,55 @@ export const posts = [
           <p>Whether you're strolling through charming lakeside streets, exploring ancient salt mines, hiking Alpine trails, or savoring traditional Austrian cuisine, Hallstatt offers an enchanting escape into one of Europe's most beautiful and historic mountain villages.</p>
         `,
         image: "/images/hallstatt.jpg"
+      },
+      {
+        slug: "discover-saint-tropez",
+        title: "St. Tropez",
+        keywords: "Saint-Tropez travel guide, Best areas in Saint-Tropez France, French Riviera, Saint-Tropez beaches, Provençal food Saint-Tropez, Souvenirs from Saint-Tropez, Saint-Tropez historical sites, What to eat in Saint-Tropez, Côte d'Azur travel, Port of Saint-Tropez",
+        summary: "Saint-Tropez, the glamorous jewel of the French Riviera, is famous for its luxurious yachts, beautiful beaches, charming old town, and Mediterranean lifestyle. From picturesque harbors to historic landmarks and Provençal cuisine, Saint-Tropez offers an unforgettable blend of elegance and coastal charm.",
+        content: `
+          <p><strong>Saint-Tropez</strong>, located on France's stunning Côte d'Azur, is one of the world's most iconic seaside destinations. Once a quiet fishing village, it became an international hotspot thanks to its golden beaches, luxury lifestyle, artistic heritage, and vibrant nightlife while still preserving its authentic Provençal character.</p>
+
+          <h2>Popular Areas in Saint-Tropez</h2>
+          <ul>
+            <li><strong>Old Port (Vieux Port):</strong> The heart of Saint-Tropez, lined with luxury yachts, waterfront cafés, and colorful historic buildings.</li>
+            <li><strong>La Ponche:</strong> The charming old fishermen's quarter featuring narrow streets, boutique hotels, and authentic Mediterranean atmosphere.</li>
+            <li><strong>Pampelonne Beach:</strong> The region's most famous beach, known for crystal-clear waters, luxury beach clubs, and soft golden sand.</li>
+            <li><strong>Place des Lices:</strong> A lively square surrounded by cafés where locals gather for markets and traditional pétanque games.</li>
+            <li><strong>Citadel District:</strong> A historic hilltop area offering panoramic views of the town and the Mediterranean Sea.</li>
+          </ul>
+
+          <h2>Popular Products from Saint-Tropez</h2>
+          <ul>
+            <li><strong>Provençal Lavender Products:</strong> Fragrant soaps, essential oils, and scented sachets made from local lavender.</li>
+            <li><strong>Rosé Wine:</strong> Premium rosé wines from the Provence region, famous around the world.</li>
+            <li><strong>Handmade Espadrilles:</strong> Stylish Mediterranean canvas shoes crafted by local artisans.</li>
+            <li><strong>Olive Oil:</strong> High-quality extra virgin olive oil produced from Provençal olive groves.</li>
+            <li><strong>French Perfumes:</strong> Elegant fragrances inspired by the nearby perfume capital of Grasse.</li>
+          </ul>
+
+          <h2>Must-Try Foods in Saint-Tropez</h2>
+          <ul>
+            <li><strong>Tarte Tropézienne:</strong> The town's famous brioche pastry filled with rich vanilla and cream filling.</li>
+            <li><strong>Bouillabaisse:</strong> A traditional Provençal seafood stew prepared with fresh Mediterranean fish.</li>
+            <li><strong>Salade Niçoise:</strong> A refreshing salad with tuna, olives, eggs, tomatoes, and fresh vegetables.</li>
+            <li><strong>Moules Marinières:</strong> Fresh mussels cooked with white wine, garlic, and herbs.</li>
+            <li><strong>Socca:</strong> A crispy chickpea pancake popular throughout the French Riviera.</li>
+          </ul>
+
+          <h2>Special Historical Places in Saint-Tropez</h2>
+          <ul>
+            <li><strong>Citadel of Saint-Tropez:</strong> A 17th-century fortress overlooking the town and home to the Maritime History Museum.</li>
+            <li><strong>Église Notre-Dame-de-l'Assomption:</strong> The iconic baroque church recognized by its distinctive ochre-and-yellow bell tower.</li>
+            <li><strong>Musée de l'Annonciade:</strong> A renowned art museum featuring works by Signac, Matisse, and other post-Impressionist masters.</li>
+            <li><strong>La Ponche:</strong> The oldest neighborhood in Saint-Tropez, preserving the atmosphere of its fishing village origins.</li>
+            <li><strong>Place des Lices:</strong> A historic square that has served as the social center of Saint-Tropez for generations.</li>
+          </ul>
+
+          <hr/>
+          <p>Whether you're relaxing on Pampelonne Beach, strolling through the picturesque harbor, savoring Provençal cuisine, or exploring centuries of French Riviera history, Saint-Tropez offers an unforgettable escape where Mediterranean beauty meets timeless elegance.</p>
+        `,
+        image: "/images/saint-tropez.jpg"
       }
 
 
