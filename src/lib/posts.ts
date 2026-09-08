@@ -4504,6 +4504,55 @@ export const posts = [
     <p><strong>Como</strong>, located at the southern end of Lake Como in northern Italy, is one of the region's most enchanting destinations. Surrounded by mountains and sparkling waters, the city is famous for its historic center, centuries-old silk industry, elegant villas, and easy access to some of the most beautiful landscapes in the Italian Lakes.</p> <h2>Popular Areas in Como</h2> <ul> <li><strong>Como Old Town (Centro Storico):</strong> A charming historic district filled with cobblestone streets, boutiques, cafés, restaurants, and beautiful medieval buildings.</li> <li><strong>Piazza Cavour & Lakefront:</strong> The lively waterfront heart of Como, perfect for enjoying lake views, restaurants, and sunset walks.</li> <li><strong>Brunate:</strong> A hilltop village reached by the historic funicular, offering spectacular panoramic views over Lake Como and the Alps.</li> <li><strong>Villa Olmo Area:</strong> A peaceful lakeside area known for elegant gardens, walking paths, and the magnificent Villa Olmo.</li> <li><strong>San Giovanni:</strong> A picturesque lakeside neighborhood with traditional houses, quiet streets, and beautiful views across the lake.</li> </ul> <h2>Popular Products from Como</h2> <ul> <li><strong>Como Silk:</strong> The city is internationally famous for high-quality silk scarves, ties, fabrics, and other luxury textiles.</li> <li><strong>Italian Leather Goods:</strong> Stylish handmade bags, wallets, belts, and accessories produced by Italian artisans.</li> <li><strong>Local Olive Oil:</strong> High-quality olive oil produced around the Lake Como region.</li> <li><strong>Italian Ceramics:</strong> Elegant handcrafted plates, cups, and decorative pieces inspired by traditional Italian designs.</li> <li><strong>Lake Como Food Products:</strong> Local specialties such as cheeses, preserves, chocolates, and regional delicacies make popular souvenirs.</li> </ul> <h2>Must-Try Foods in Como</h2> <ul> <li><strong>Risotto al Pesce Persico:</strong> A classic Lake Como dish featuring creamy risotto served with locally caught perch fillets.</li> <li><strong>Polenta:</strong> A traditional northern Italian staple often served with cheese, mushrooms, meat, or lake fish.</li> <li><strong>Missoltino:</strong> Traditionally preserved Lake Como fish, usually served with polenta.</li> <li><strong>Pizzoccheri:</strong> Buckwheat pasta traditionally prepared with potatoes, cabbage, butter, and local cheese.</li> <li><strong>Cutizza:</strong> A traditional Como-style sweet fritter, often served warm with sugar.</li> </ul> <h2>Special Historical Places in Como</h2> <ul> <li><strong>Como Cathedral (Duomo di Como):</strong> A magnificent Gothic and Renaissance cathedral considered one of the city's most important architectural landmarks.</li> <li><strong>Broletto:</strong> A historic medieval building next to the cathedral that once served as Como's town hall.</li> <li><strong>Tempio Voltiano:</strong> A museum dedicated to Alessandro Volta, the Como-born scientist who invented the electric battery.</li> <li><strong>Villa Olmo:</strong> A grand neoclassical lakeside villa surrounded by beautiful gardens and a significant part of Como's cultural heritage.</li> <li><strong>Basilica of San Fedele:</strong> One of Como's oldest churches, featuring Romanesque architecture and a history dating back centuries.</li> </ul> <hr/> <p>Whether you're wandering through Como's historic streets, riding the funicular to Brunate, discovering the city's legendary silk tradition, or enjoying regional cuisine beside the lake, Como offers an unforgettable Italian escape surrounded by Alpine beauty and timeless elegance.</p>`,
     image: "/images/como.jpg",
   },
+  {
+    slug: "discover-porto",
+    title: "Porto",
+    keywords: "Porto travel guide, Best areas in Porto Portugal, Ribeira Porto, Porto food guide, Portuguese cuisine Porto, Souvenirs from Porto, Porto historical sites, What to eat in Porto, Douro Valley travel, Porto attractions",
+    summary: "Porto, Portugal’s atmospheric northern city, combines colorful riverside streets, historic architecture, world-famous port wine, and delicious Portuguese cuisine. From the UNESCO-listed Ribeira district to grand churches and iconic bridges, Porto offers an unforgettable blend of history, culture, and local charm.",
+    content: `
+      <p><strong>Porto</strong>, located along the Douro River in northern Portugal, is one of the country's most captivating cities. Famous for its historic center, traditional port wine, colorful tiled buildings, and dramatic riverside setting, Porto offers visitors a distinctive mix of Portuguese heritage, gastronomy, and relaxed urban charm.</p>
+
+      <h2>Popular Areas in Porto</h2>
+      <ul>
+        <li><strong>Ribeira:</strong> Porto's iconic riverside district, filled with colorful buildings, traditional restaurants, lively squares, and beautiful views of the Douro River.</li>
+        <li><strong>Baixa:</strong> The central downtown area featuring Avenida dos Aliados, historic buildings, shops, cafés, and major landmarks.</li>
+        <li><strong>Foz do Douro:</strong> A stylish coastal neighborhood where the Douro River meets the Atlantic Ocean, known for beaches, promenades, and seafood restaurants.</li>
+        <li><strong>Vila Nova de Gaia:</strong> Located across the river from Porto and famous for its historic port wine cellars and spectacular city views.</li>
+        <li><strong>Boavista:</strong> A modern district known for Casa da Música, shopping, cultural attractions, and spacious avenues.</li>
+      </ul>
+
+      <h2>Popular Products from Porto</h2>
+      <ul>
+        <li><strong>Port Wine:</strong> Porto's most famous product, with historic wine cellars offering bottles ranging from ruby and tawny to vintage varieties.</li>
+        <li><strong>Portuguese Cork Products:</strong> Stylish bags, wallets, accessories, and home décor made from Portugal's abundant cork.</li>
+        <li><strong>Azulejo Tiles:</strong> Decorative ceramic tiles featuring traditional Portuguese patterns and designs.</li>
+        <li><strong>Portuguese Ceramics:</strong> Handcrafted plates, bowls, and decorative pieces inspired by regional traditions.</li>
+        <li><strong>Filigree Jewelry:</strong> Intricate gold and silver jewelry reflecting Portugal's long-standing artisan craftsmanship.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Porto</h2>
+      <ul>
+        <li><strong>Francesinha:</strong> Porto's legendary sandwich layered with meat, melted cheese, and a rich beer-and-tomato sauce.</li>
+        <li><strong>Bacalhau:</strong> Salted cod prepared in numerous Portuguese styles and one of the country's most iconic foods.</li>
+        <li><strong>Tripas à Moda do Porto:</strong> A traditional Porto stew made with tripe, beans, and meat, reflecting the city's culinary heritage.</li>
+        <li><strong>Pastel de Nata:</strong> A flaky Portuguese custard tart with a creamy center and lightly caramelized top.</li>
+        <li><strong>Caldo Verde:</strong> A comforting Portuguese soup made with potatoes, kale, olive oil, and traditionally chouriço.</li>
+      </ul>
+
+      <h2>Special Historical Places in Porto</h2>
+      <ul>
+        <li><strong>Ribeira Historic District:</strong> A UNESCO World Heritage Site featuring centuries-old buildings, narrow streets, and traditional riverside architecture.</li>
+        <li><strong>São Bento Railway Station:</strong> A spectacular historic railway station famous for its magnificent azulejo panels depicting scenes from Portuguese history.</li>
+        <li><strong>Porto Cathedral (Sé do Porto):</strong> One of the city's oldest monuments, combining Romanesque, Gothic, and Baroque architectural elements.</li>
+        <li><strong>Clérigos Tower:</strong> An iconic 18th-century Baroque landmark offering panoramic views over Porto after climbing its historic staircase.</li>
+        <li><strong>Palácio da Bolsa:</strong> A magnificent 19th-century building known for its richly decorated Arab Room and important role in Porto's commercial history.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're wandering through the colorful streets of Ribeira, tasting authentic Portuguese cuisine, exploring historic churches, or enjoying port wine beside the Douro River, Porto offers an unforgettable journey through the culture and character of northern Portugal.</p>
+    `,
+    image: "/images/porto.jpg"
+  }
 ];
 
 export async function getPostBySlug(slug: string) {
