@@ -119,7 +119,7 @@ export const posts = [
         <h2>Popular Areas in Mexico</h2>
         <ul>
           <li><strong>Mexico City:</strong> The capital blends colonial architecture, vibrant street life, and world-class museums like the National Museum of Anthropology.</li>
-          <li><strong>Cancún:</strong> Known for its beautiful beaches, luxurious resorts, and nightlife on the Yucatán Peninsula.</li>
+          <li><strong>Cancún:</strong> Known for its beautiful beaches, luxurious resorts, and nightlife on the Yucatan Peninsula.</li>
           <li><strong>Guadalajara:</strong> The birthplace of mariachi music and tequila, full of cultural events and historic buildings.</li>
           <li><strong>Oaxaca:</strong> A city rich in indigenous culture, colorful markets, and traditional crafts.</li>
           <li><strong>San Miguel de Allende:</strong> A UNESCO World Heritage Site with charming colonial streets and art galleries.</li>
@@ -146,10 +146,10 @@ export const posts = [
     
         <h2>Special Historical Places in Mexico</h2>
         <ul>
-          <li><strong>Teotihuacán:</strong> Home to the massive Pyramids of the Sun and Moon, built before the Aztecs.</li>
-          <li><strong>Chichén Itzá:</strong> A UNESCO World Heritage Site and one of the New Seven Wonders of the World, showcasing Mayan architecture.</li>
+          <li><strong>Teotihuacan:</strong> Home to the massive Pyramids of the Sun and Moon, built before the Aztecs.</li>
+          <li><strong>Chichén Itza:</strong> A UNESCO World Heritage Site and one of the New Seven Wonders of the World, showcasing Mayan architecture.</li>
           <li><strong>Templo Mayor:</strong> The ruins of a major Aztec temple in the heart of Mexico City.</li>
-          <li><strong>Monte Albán:</strong> Ancient Zapotec city located near Oaxaca with panoramic views and stone carvings.</li>
+          <li><strong>Monte Alban:</strong> Ancient Zapotec city located near Oaxaca with panoramic views and stone carvings.</li>
           <li><strong>Palacio de Bellas Artes:</strong> A cultural icon of Mexico City that hosts art exhibits and performances.</li>
         </ul>
     
@@ -222,7 +222,7 @@ export const posts = [
     
         <h2>Popular Areas in Puerto Vallarta</h2>
         <ul>
-          <li><strong>Zona Romántica (Romantic Zone):</strong> A lively neighborhood with colorful buildings, beach bars, LGBTQ+ friendly venues, and charming boutiques.</li>
+          <li><strong>Zona Romantica (Romantic Zone):</strong> A lively neighborhood with colorful buildings, beach bars, LGBTQ+ friendly venues, and charming boutiques.</li>
           <li><strong>Malecón:</strong> A scenic oceanfront boardwalk lined with sculptures, shops, street performers, and restaurants.</li>
           <li><strong>Marina Vallarta:</strong> A luxurious area with upscale hotels, yachts, golf courses, and fine dining.</li>
           <li><strong>Conchas Chinas:</strong> A quiet, upscale residential area known for beautiful beaches and oceanfront villas.</li>
@@ -895,7 +895,7 @@ export const posts = [
         <ul>
           <li><strong>City Center (Microcentro):</strong> Mendoza’s heart, filled with leafy plazas, cafes, and colonial architecture like Plaza Independencia and Peatonal Sarmiento.</li>
           <li><strong>Maipú:</strong> One of Mendoza's oldest wine-producing regions, home to boutique wineries and traditional bodegas.</li>
-          <li><strong>Luján de Cuyo:</strong> A prestigious wine area known for world-renowned Malbec and high-end vineyards.</li>
+          <li><strong>Lujan de Cuyo:</strong> A prestigious wine area known for world-renowned Malbec and high-end vineyards.</li>
           <li><strong>Valle de Uco:</strong> A picturesque valley at higher altitudes, offering cutting-edge wineries with views of the Andes.</li>
           <li><strong>Parque General San Martín:</strong> A vast green space in the city with a lake, rose garden, zoo, and Cerro de la Gloria monument.</li>
         </ul>
@@ -1019,7 +1019,7 @@ export const posts = [
           <li><strong>Pão de Queijo:</strong> Chewy cheese bread made from cassava flour — a snack loved across the country.</li>
           <li><strong>Moqueca:</strong> A rich seafood stew with coconut milk, peppers, and dendê oil, popular in Bahia.</li>
           <li><strong>Brigadeiro:</strong> A beloved chocolate truffle made with condensed milk, cocoa powder, and chocolate sprinkles.</li>
-          <li><strong>Acarajé:</strong> Deep-fried black-eyed pea fritters filled with shrimp and vatapá, a street food favorite in Salvador.</li>
+          <li><strong>Acarajé:</strong> Deep-fried black-eyed pea fritters filled with shrimp and vatapa, a street food favorite in Salvador.</li>
         </ul>
     
         <h2>Special Historical Places in Brazil</h2>
@@ -1231,7 +1231,7 @@ export const posts = [
         <h2>Special Historical Places in Peru</h2>
         <ul>
           <li><strong>Machu Picchu:</strong> The crowning jewel of Inca civilization, perched high in the Andes and surrounded by breathtaking scenery.</li>
-          <li><strong>Sacsayhuamán (Cusco):</strong> An impressive Incan fortress with massive stone walls near the historic city of Cusco.</li>
+          <li><strong>Sacsayhuaman (Cusco):</strong> An impressive Incan fortress with massive stone walls near the historic city of Cusco.</li>
           <li><strong>Nazca Lines:</strong> Mysterious ancient geoglyphs etched into the desert floor, visible only from the air.</li>
           <li><strong>Chan Chan:</strong> The largest adobe city in the world and a UNESCO site located near Trujillo.</li>
           <li><strong>Qorikancha (Temple of the Sun):</strong> Once the most important temple in the Inca Empire, located in the heart of Cusco.</li>
@@ -1259,7 +1259,7 @@ export const posts = [
           <li><strong>Seville:</strong> Famous for flamenco dancing, Moorish architecture, and its grand cathedral.</li>
           <li><strong>Granada:</strong> Home to the majestic Alhambra palace, blending Islamic and Spanish Renaissance influences.</li>
           <li><strong>Valencia:</strong> A coastal gem known for its futuristic architecture and being the birthplace of paella.</li>
-          <li><strong>San Sebastián:</strong> A Basque city celebrated for its beaches and Michelin-starred cuisine.</li>
+          <li><strong>San Sebastian:</strong> A Basque city celebrated for its beaches and Michelin-starred cuisine.</li>
         </ul>
     
         <h2>Popular Products from Spain</h2>
@@ -1349,16 +1349,16 @@ export const posts = [
     slug: "discover-ecuador",
     title: "Ecuador",
     keywords:
-      "Ecuador travel guide, Best places in Ecuador, What to do in Ecuador, Ecuadorian food, Ecuador souvenirs, Ecuador historical sites, Galápagos Islands travel, Quito Old Town, Ecuadorian markets, Traditional foods in Ecuador",
+      "Ecuador travel guide, Best places in Ecuador, What to do in Ecuador, Ecuadorian food, Ecuador souvenirs, Ecuador historical sites, Galapagos Islands travel, Quito Old Town, Ecuadorian markets, Traditional foods in Ecuador",
     summary:
-      "Ecuador, a small yet incredibly diverse country in South America, offers travelers an extraordinary mix of natural beauty, cultural heritage, and historical significance. From Andean highlands to the Amazon rainforest and the famous Galápagos Islands, Ecuador invites exploration on all levels.",
+      "Ecuador, a small yet incredibly diverse country in South America, offers travelers an extraordinary mix of natural beauty, cultural heritage, and historical significance. From Andean highlands to the Amazon rainforest and the famous Galapagos Islands, Ecuador invites exploration on all levels.",
     content: `
-        <p>Ecuador, a small yet incredibly diverse country in South America, offers travelers an extraordinary mix of natural beauty, cultural heritage, and historical significance. From Andean highlands to the Amazon rainforest and the famous Galápagos Islands, Ecuador invites exploration on all levels.</p>
+        <p>Ecuador, a small yet incredibly diverse country in South America, offers travelers an extraordinary mix of natural beauty, cultural heritage, and historical significance. From Andean highlands to the Amazon rainforest and the famous Galapagos Islands, Ecuador invites exploration on all levels.</p>
     
         <h2>Popular Areas in Ecuador</h2>
         <ul>
           <li><strong>Quito:</strong> The capital city known for its well-preserved colonial architecture and UNESCO-listed Old Town.</li>
-          <li><strong>Galápagos Islands:</strong> A natural wonder filled with unique wildlife, pristine beaches, and volcanic landscapes.</li>
+          <li><strong>Galapagos Islands:</strong> A natural wonder filled with unique wildlife, pristine beaches, and volcanic landscapes.</li>
           <li><strong>Baños:</strong> A small town famous for waterfalls, thermal baths, and adventure sports like zip-lining and rafting.</li>
           <li><strong>Cuenca:</strong> A charming colonial city with cobblestone streets, cathedrals, and vibrant expat culture.</li>
           <li><strong>Otavalo:</strong> Known for its massive indigenous market and breathtaking Andean scenery.</li>
@@ -1443,7 +1443,7 @@ export const posts = [
         </ul>
     
         <hr/>
-        <p>Guayaquil is a dynamic gateway to the Pacific coast and Galápagos Islands, rich in culture, commerce, and community spirit. Whether strolling the Malecón, sampling coastal delicacies, or exploring historic sites, the city reveals a multifaceted and authentic Ecuadorian experience.</p>
+        <p>Guayaquil is a dynamic gateway to the Pacific coast and Galapagos Islands, rich in culture, commerce, and community spirit. Whether strolling the Malecón, sampling coastal delicacies, or exploring historic sites, the city reveals a multifaceted and authentic Ecuadorian experience.</p>
       `,
     image: "/images/guayaquil.jpg",
   },
@@ -1788,9 +1788,9 @@ export const posts = [
         <ul>
           <li><strong>Ceviche:</strong> Fresh fish or shrimp marinated in citrus with tomato, onion, and cilantro — best enjoyed beachside.</li>
           <li><strong>Tacos al Pastor:</strong> Flavorful pork tacos cooked on a vertical spit, served with pineapple and onion.</li>
-          <li><strong>Cochinita Pibil:</strong> A Yucatán specialty — slow-roasted pork marinated in achiote and citrus, wrapped in banana leaves.</li>
+          <li><strong>Cochinita Pibil:</strong> A Yucatan specialty — slow-roasted pork marinated in achiote and citrus, wrapped in banana leaves.</li>
           <li><strong>Chilaquiles:</strong> A traditional Mexican breakfast dish made with fried tortilla chips, salsa, cheese, and eggs or chicken.</li>
-          <li><strong>Agua de Chaya:</strong> A healthy green drink made from chaya leaves, native to the Yucatán Peninsula.</li>
+          <li><strong>Agua de Chaya:</strong> A healthy green drink made from chaya leaves, native to the Yucatan Peninsula.</li>
         </ul>
     
         <h2>Special Historical Places in Tulum</h2>
@@ -2509,7 +2509,7 @@ export const posts = [
         <h2>Must-Try Foods in Ho Chi Minh City</h2>
         <ul>
           <li><strong>Phở:</strong> Vietnam’s most famous noodle soup, usually with beef or chicken, served with fresh herbs.</li>
-          <li><strong>Bánh Mì:</strong> A French-inspired sandwich with pickled veggies, meats, and pate on a crispy baguette.</li>
+          <li><strong>Banh Mì:</strong> A French-inspired sandwich with pickled veggies, meats, and pate on a crispy baguette.</li>
           <li><strong>Cơm Tấm:</strong> Broken rice served with grilled pork, egg, pickles, and fish sauce.</li>
           <li><strong>Gỏi Cuốn:</strong> Fresh spring rolls filled with shrimp, herbs, and vermicelli, served with peanut sauce.</li>
           <li><strong>Hu Tieu:</strong> A Southern Vietnamese noodle soup with clear broth and pork or seafood toppings.</li>
@@ -2639,13 +2639,13 @@ export const posts = [
     summary:
       "Cancun, Mexico’s tropical paradise on the Caribbean coast, combines white-sand beaches with vibrant nightlife and rich Mayan heritage. From the famous Hotel Zone to ancient ruins, Cancun offers a perfect mix of relaxation, adventure, and cultural exploration.",
     content: `
-        <p>Located in the Yucatán Peninsula, Cancun is one of Mexico’s most famous resort cities, attracting millions of visitors each year. With turquoise waters, lively nightlife, and nearby archaeological treasures, it’s a destination where tropical beauty meets ancient history.</p>
+        <p>Located in the Yucatan Peninsula, Cancun is one of Mexico’s most famous resort cities, attracting millions of visitors each year. With turquoise waters, lively nightlife, and nearby archaeological treasures, it’s a destination where tropical beauty meets ancient history.</p>
     
         <h2>Popular Areas in Cancun</h2>
         <ul>
           <li><strong>Hotel Zone (Zona Hotelera):</strong> A 22-kilometer stretch of beaches, luxury resorts, shopping malls, and nightlife.</li>
           <li><strong>Downtown Cancun (El Centro):</strong> A vibrant local area with traditional markets, authentic restaurants, and cultural festivals.</li>
-          <li><strong>Puerto Juárez:</strong> A coastal area known for fresh seafood and ferry access to Isla Mujeres.</li>
+          <li><strong>Puerto Juarez:</strong> A coastal area known for fresh seafood and ferry access to Isla Mujeres.</li>
           <li><strong>Isla Mujeres:</strong> A nearby island paradise, perfect for snorkeling, diving, and relaxing on Playa Norte.</li>
           <li><strong>Playa Delfines:</strong> A public beach famous for its panoramic views and iconic Cancun sign.</li>
         </ul>
@@ -2656,14 +2656,14 @@ export const posts = [
           <li><strong>Tequila and Mezcal:</strong> Authentic Mexican spirits, perfect for gifting or enjoying at home.</li>
           <li><strong>Mayan Handicrafts:</strong> Colorful textiles, pottery, and wooden carvings inspired by Mayan culture.</li>
           <li><strong>Vanilla Products:</strong> Pure Mexican vanilla extract and pods, prized by bakers worldwide.</li>
-          <li><strong>Hammocks:</strong> Brightly colored handmade hammocks, a traditional Yucatán product.</li>
+          <li><strong>Hammocks:</strong> Brightly colored handmade hammocks, a traditional Yucatan product.</li>
         </ul>
     
         <h2>Must-Try Foods in Cancun</h2>
         <ul>
           <li><strong>Tacos al Pastor:</strong> Marinated pork with pineapple, onions, and cilantro served on soft tortillas.</li>
           <li><strong>Ceviche:</strong> Fresh fish or shrimp cured in lime juice with tomatoes, onions, and cilantro.</li>
-          <li><strong>Cochinita Pibil:</strong> Yucatán-style slow-roasted pork marinated in achiote and wrapped in banana leaves.</li>
+          <li><strong>Cochinita Pibil:</strong> Yucatan-style slow-roasted pork marinated in achiote and wrapped in banana leaves.</li>
           <li><strong>Empanadas:</strong> Fried pastries filled with cheese, seafood, or seasoned meat.</li>
           <li><strong>Churros:</strong> Fried dough rolled in cinnamon sugar, often served with chocolate sauce.</li>
         </ul>
@@ -2674,7 +2674,7 @@ export const posts = [
           <li><strong>El Meco Archaeological Site:</strong> Known for its tall pyramid and peaceful surroundings.</li>
           <li><strong>Chichen Itza:</strong> A UNESCO World Heritage Site and one of the New Seven Wonders of the World, located a few hours away.</li>
           <li><strong>Tulum Ruins:</strong> Stunning Mayan ruins perched on cliffs overlooking the Caribbean Sea.</li>
-          <li><strong>Coba Ruins:</strong> Ancient Mayan city with one of the tallest pyramids in the Yucatán, which visitors can still climb.</li>
+          <li><strong>Coba Ruins:</strong> Ancient Mayan city with one of the tallest pyramids in the Yucatan, which visitors can still climb.</li>
         </ul>
     
         <hr/>
@@ -2690,7 +2690,7 @@ export const posts = [
     summary:
       "Playa del Carmen, located along Mexico’s Riviera Maya, offers a blend of white-sand beaches, vibrant nightlife, and access to rich Mayan heritage. From the bustling Quinta Avenida to nearby ancient ruins, it’s a destination full of charm and adventure.",
     content: `
-        <p>Once a small fishing village, Playa del Carmen has grown into one of the Riviera Maya’s most popular vacation spots. With turquoise waters, lively streets, and a relaxed Caribbean vibe, it’s a perfect base for exploring the Yucatán Peninsula.</p>
+        <p>Once a small fishing village, Playa del Carmen has grown into one of the Riviera Maya’s most popular vacation spots. With turquoise waters, lively streets, and a relaxed Caribbean vibe, it’s a perfect base for exploring the Yucatan Peninsula.</p>
     
         <h2>Popular Areas in Playa del Carmen</h2>
         <ul>
@@ -2725,7 +2725,7 @@ export const posts = [
           <li><strong>Xcaret Archaeological Site:</strong> Ancient structures found within the famous eco-park.</li>
           <li><strong>Rio Secreto:</strong> An underground river and cave system with stunning formations.</li>
           <li><strong>Tulum Ruins:</strong> Well-preserved Mayan city on cliffs overlooking the Caribbean Sea, a short drive away.</li>
-          <li><strong>Coba Ruins:</strong> An ancient city with one of the tallest pyramids in the Yucatán, accessible for climbing.</li>
+          <li><strong>Coba Ruins:</strong> An ancient city with one of the tallest pyramids in the Yucatan, accessible for climbing.</li>
         </ul>
     
         <hr/>
@@ -3155,7 +3155,7 @@ export const posts = [
         <ul>
           <li><strong>Old Town (Staré Město):</strong> The heart of Prague with the Astronomical Clock, colorful buildings, and bustling squares.</li>
           <li><strong>Charles Bridge:</strong> The city’s iconic pedestrian bridge lined with statues and artists, connecting Old Town with Lesser Town.</li>
-          <li><strong>Lesser Town (Malá Strana):</strong> A charming district with baroque architecture, gardens, and stunning views of the castle.</li>
+          <li><strong>Lesser Town (Mala Strana):</strong> A charming district with baroque architecture, gardens, and stunning views of the castle.</li>
           <li><strong>Wenceslas Square:</strong> A major shopping and entertainment boulevard filled with history and vibrant nightlife.</li>
           <li><strong>Josefov:</strong> Prague’s historic Jewish Quarter, home to centuries-old synagogues and the Old Jewish Cemetery.</li>
         </ul>
@@ -3171,7 +3171,7 @@ export const posts = [
 
         <h2>Must-Try Foods in Prague</h2>
         <ul>
-          <li><strong>Svíčková:</strong> A creamy beef sirloin dish served with bread dumplings and cranberry sauce.</li>
+          <li><strong>Svíčkova:</strong> A creamy beef sirloin dish served with bread dumplings and cranberry sauce.</li>
           <li><strong>Goulash:</strong> Hearty beef stew with paprika, often paired with bread dumplings.</li>
           <li><strong>Trdelník:</strong> A sweet, cinnamon-coated chimney pastry often filled with chocolate or ice cream.</li>
           <li><strong>Vepřo-knedlo-zelo:</strong> Roast pork with dumplings and sauerkraut, a Czech classic.</li>
@@ -3451,7 +3451,7 @@ export const posts = [
     slug: "discover-sevilla",
     title: "Sevilla",
     keywords:
-      "Seville travel guide, Best areas in Seville, Sevilla attractions, Andalusian food, Spanish souvenirs, Seville tapas, Flamenco culture, Seville Cathedral, Plaza de España, Alcázar of Seville, What to eat in Seville",
+      "Seville travel guide, Best areas in Seville, Sevilla attractions, Andalusian food, Spanish souvenirs, Seville tapas, Flamenco culture, Seville Cathedral, Plaza de España, Alcazar of Seville, What to eat in Seville",
     summary:
       "Sevilla, the heart of Andalusia, radiates passion, color, and history. From its lively flamenco rhythms to its magnificent Moorish palaces and sun-soaked plazas, this Spanish gem offers a perfect mix of cultural depth and southern charm.",
     content: `
@@ -3486,7 +3486,7 @@ export const posts = [
 
         <h2>Special Historical Places in Sevilla</h2>
         <ul>
-          <li><strong>Alcázar of Seville:</strong> A UNESCO World Heritage palace blending Moorish and Christian architecture, originally built by Muslim kings.</li>
+          <li><strong>Alcazar of Seville:</strong> A UNESCO World Heritage palace blending Moorish and Christian architecture, originally built by Muslim kings.</li>
           <li><strong>Seville Cathedral:</strong> One of the largest Gothic cathedrals in the world and the resting place of Christopher Columbus.</li>
           <li><strong>Plaza de España:</strong> A magnificent semi-circular plaza built for the 1929 Ibero-American Exposition, surrounded by canals and bridges.</li>
           <li><strong>Metropol Parasol:</strong> A modern architectural marvel offering panoramic views of the city.</li>
@@ -4280,7 +4280,7 @@ export const posts = [
             <li><strong>Royal Palace of Madrid:</strong> One of Europe’s grandest royal residences, showcasing lavish rooms and Spanish history.</li>
             <li><strong>Plaza Mayor:</strong> A historic square dating back to the Habsburg era, surrounded by elegant arcades.</li>
             <li><strong>Puerta del Sol:</strong> A central landmark and symbolic heart of Madrid, home to the famous Bear and Strawberry Tree statue.</li>
-            <li><strong>Prado Museum:</strong> One of the world’s greatest art museums, housing masterpieces by Velázquez, Goya, and El Greco.</li>
+            <li><strong>Prado Museum:</strong> One of the world’s greatest art museums, housing masterpieces by Velazquez, Goya, and El Greco.</li>
             <li><strong>Retiro Park & Crystal Palace:</strong> A historic royal park offering gardens, monuments, and one of Madrid’s most beautiful architectural landmarks.</li>
           </ul>
 
@@ -4545,14 +4545,65 @@ export const posts = [
         <li><strong>São Bento Railway Station:</strong> A spectacular historic railway station famous for its magnificent azulejo panels depicting scenes from Portuguese history.</li>
         <li><strong>Porto Cathedral (Sé do Porto):</strong> One of the city's oldest monuments, combining Romanesque, Gothic, and Baroque architectural elements.</li>
         <li><strong>Clérigos Tower:</strong> An iconic 18th-century Baroque landmark offering panoramic views over Porto after climbing its historic staircase.</li>
-        <li><strong>Palácio da Bolsa:</strong> A magnificent 19th-century building known for its richly decorated Arab Room and important role in Porto's commercial history.</li>
+        <li><strong>Palacio da Bolsa:</strong> A magnificent 19th-century building known for its richly decorated Arab Room and important role in Porto's commercial history.</li>
       </ul>
 
       <hr/>
       <p>Whether you're wandering through the colorful streets of Ribeira, tasting authentic Portuguese cuisine, exploring historic churches, or enjoying port wine beside the Douro River, Porto offers an unforgettable journey through the culture and character of northern Portugal.</p>
     `,
     image: "/images/porto.jpg"
-  }
+  },
+  {
+    slug: "discover-galapagos",
+    title: "Galapagos",
+    keywords: "Galapagos travel guide, Best areas in Galapagos, Galapagos Islands Ecuador, Galapagos food guide, Galapagos souvenirs, Galapagos wildlife, Galapagos historical sites, What to eat in Galapagos, Galapagos attractions, Ecuador travel",
+    summary: "Discover the Galapagos Islands, a remarkable Ecuadorian destination known for extraordinary wildlife, volcanic landscapes, pristine beaches, and unique island communities shaped by centuries of exploration and conservation.",
+    content: `
+    <p>The Galapagos Islands are one of the world's most extraordinary travel destinations, located in the Pacific Ocean approximately 1,000 kilometers from mainland Ecuador. Famous for giant tortoises, marine iguanas, sea lions, and diverse birdlife, the islands combine dramatic volcanic scenery with secluded beaches and distinctive local traditions. From lively Puerto Ayora to the remote landscapes of Isabela Island, Galapagos offers unforgettable experiences for nature lovers, adventure travelers, and anyone interested in the natural history of the world.</p>
+
+    <h2>Popular Areas in Galapagos</h2>
+    <ul>
+      <li><strong>Puerto Ayora:</strong> The largest town in the Galapagos, located on Santa Cruz Island and known for restaurants, shops, harbor activities, and access to major attractions.</li>
+      <li><strong>Puerto Villamil:</strong> A peaceful coastal town on Isabela Island, famous for its long sandy beaches, lagoons, volcanic landscapes, and relaxed atmosphere.</li>
+      <li><strong>Puerto Baquerizo Moreno:</strong> The capital of Galapagos Province on San Cristóbal Island, offering beautiful coastal scenery, sea lions, and access to important natural sites.</li>
+      <li><strong>Santa Cruz Highlands:</strong> A lush region of Santa Cruz Island where visitors can explore giant tortoise habitats, volcanic formations, farms, and rural landscapes.</li>
+      <li><strong>Puerto Ayora Bay:</strong> A vibrant waterfront area with fishing boats, sea lions, local restaurants, and access to boat trips around Santa Cruz and neighboring islands.</li>
+    </ul>
+
+    <h2>Popular Products from Galapagos</h2>
+    <ul>
+      <li><strong>Galapagos Tortoise Souvenirs:</strong> Decorative items inspired by the islands' iconic giant tortoises are popular reminders of the archipelago.</li>
+      <li><strong>Handmade Jewelry:</strong> Local artisans create distinctive jewelry inspired by marine life, volcanic landscapes, and Ecuadorian traditions.</li>
+      <li><strong>Ecuadorian Chocolate:</strong> Premium chocolate made from Ecuadorian cacao is a popular edible souvenir for visitors.</li>
+      <li><strong>Local Handicrafts:</strong> Handmade bags, textiles, wooden objects, and decorative crafts offer a connection to Ecuadorian and island culture.</li>
+      <li><strong>Galapagos-Themed Artwork:</strong> Paintings, prints, and illustrations featuring sea lions, tortoises, marine iguanas, and island landscapes make memorable souvenirs.</li>
+    </ul>
+
+    <h2>Must-Try Foods in Galapagos</h2>
+    <ul>
+      <li><strong>Encocado de Camarón:</strong> Shrimp cooked in a flavorful coconut-based sauce, reflecting Ecuador's coastal culinary traditions.</li>
+      <li><strong>Ceviche:</strong> A refreshing seafood dish prepared with fresh fish or other seafood, citrus, onions, and herbs.</li>
+      <li><strong>Encebollado:</strong> A traditional Ecuadorian fish and tuna soup served with yuca, tomatoes, onions, and citrus.</li>
+      <li><strong>Patacones:</strong> Green plantains that are sliced, fried, flattened, and fried again, commonly served alongside seafood and other local dishes.</li>
+      <li><strong>Locro de Papa:</strong> A comforting Ecuadorian potato soup traditionally prepared with potatoes, cheese, and avocado.</li>
+    </ul>
+
+    <h2>Special Historical Places in Galapagos</h2>
+    <ul>
+      <li><strong>Charles Darwin Research Station:</strong> Located in Puerto Ayora, this important scientific institution is dedicated to research and conservation in the Galapagos.</li>
+      <li><strong>Wall of Tears:</strong> A historic stone wall near Puerto Villamil, built by prisoners during the former penal colony period and now an important historical site.</li>
+      <li><strong>Interpretation Center of San Cristóbal:</strong> A museum and educational center explaining the natural, cultural, and human history of the Galapagos Islands.</li>
+      <li><strong>Darwin Bay:</strong> A historically significant location associated with Charles Darwin's 1835 visit to the Galapagos during the voyage of HMS Beagle.</li>
+      <li><strong>Las Grietas:</strong> A distinctive geological formation near Puerto Ayora where visitors can see the interaction between volcanic landscapes and the island's marine environment.</li>
+    </ul>
+
+    <hr/>
+    <p>Galapagos is a destination where extraordinary wildlife, volcanic landscapes, local culture, and natural history come together. Whether exploring the islands' towns, discovering traditional Ecuadorian cuisine, visiting conservation centers, or observing unique animals in their natural environment, a journey through Galapagos offers an unforgettable connection with one of the world's most remarkable ecosystems.</p>
+
+    `,
+    image: "/images/galapagos.jpg"
+    }
+
 ];
 
 export async function getPostBySlug(slug: string) {
