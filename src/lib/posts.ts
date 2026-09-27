@@ -4602,6 +4602,55 @@ export const posts = [
 
     `,
     image: "/images/galapagos.jpg"
+    },
+    {
+      slug: "discover-seoul",
+      title: "Seoul",
+      keywords: "Seoul travel guide, Best areas in Seoul South Korea, Seoul food guide, Korean food Seoul, Souvenirs from Seoul, Seoul historical sites, What to eat in Seoul, Bukchon Hanok Village, Gyeongbokgung Palace, Myeongdong Seoul, Hongdae Seoul",
+      summary: "Seoul, South Korea’s dynamic capital, combines centuries-old palaces and traditional neighborhoods with cutting-edge fashion, technology, and vibrant pop culture. From historic royal sites to bustling markets and world-famous Korean cuisine, Seoul offers an exciting blend of tradition and modern city life.",
+      content: `
+        <p><strong>Seoul</strong>, the capital of South Korea, is a fascinating city where ancient traditions meet modern innovation. Surrounded by mountains and crossed by the Han River, Seoul offers visitors historic palaces, traditional hanok neighborhoods, lively shopping districts, contemporary art, and some of Asia's most exciting food and cultural experiences.</p>
+
+        <h2>Popular Areas in Seoul</h2>
+        <ul>
+          <li><strong>Myeongdong:</strong> One of Seoul's most popular shopping districts, known for Korean cosmetics, fashion stores, street food, and bright evening streets.</li>
+          <li><strong>Hongdae:</strong> A youthful and creative neighborhood famous for independent shops, cafés, restaurants, street performances, and nightlife.</li>
+          <li><strong>Gangnam:</strong> A modern and sophisticated district known for shopping, entertainment, restaurants, offices, and contemporary Korean culture.</li>
+          <li><strong>Insadong:</strong> A traditional cultural district filled with tea houses, galleries, handicraft stores, and shops selling Korean souvenirs.</li>
+          <li><strong>Bukchon Hanok Village:</strong> A historic neighborhood featuring traditional Korean hanok houses, narrow streets, cultural workshops, and beautiful city views.</li>
+        </ul>
+
+        <h2>Popular Products from Seoul</h2>
+        <ul>
+          <li><strong>Korean Skincare:</strong> Seoul is famous for innovative cosmetics, skincare products, sheet masks, and beauty treatments.</li>
+          <li><strong>Korean Ceramics:</strong> Elegant handmade pottery inspired by traditional Korean craftsmanship.</li>
+          <li><strong>Hanbok:</strong> Traditional Korean clothing available in both classic and contemporary designs.</li>
+          <li><strong>Korean Tea:</strong> Traditional teas made from ingredients such as green tea, roasted grains, fruits, and herbs.</li>
+          <li><strong>K-Pop Merchandise:</strong> Albums, photo cards, clothing, and collectibles connected to Korea's globally popular music industry.</li>
+        </ul>
+
+        <h2>Must-Try Foods in Seoul</h2>
+        <ul>
+          <li><strong>Korean BBQ:</strong> Thinly sliced or marinated meat grilled at the table and enjoyed with side dishes and dipping sauces.</li>
+          <li><strong>Tteokbokki:</strong> Chewy rice cakes cooked in a spicy and slightly sweet red chili sauce, especially popular as street food.</li>
+          <li><strong>Bibimbap:</strong> A colorful rice dish topped with vegetables, meat, egg, and Korean chili paste.</li>
+          <li><strong>Kimchi Jjigae:</strong> A comforting spicy stew made with fermented kimchi, tofu, vegetables, and often pork.</li>
+          <li><strong>Hotteok:</strong> Sweet Korean pancakes filled with brown sugar, cinnamon, and nuts, commonly enjoyed from street-food stalls.</li>
+        </ul>
+
+        <h2>Special Historical Places in Seoul</h2>
+        <ul>
+          <li><strong>Gyeongbokgung Palace:</strong> The largest of Seoul's Five Grand Palaces and an important symbol of Korea's Joseon Dynasty.</li>
+          <li><strong>Changdeokgung Palace:</strong> A UNESCO World Heritage Site renowned for its traditional architecture and beautiful Secret Garden.</li>
+          <li><strong>Bukchon Hanok Village:</strong> A historic residential area preserving traditional Korean houses and the architectural character of old Seoul.</li>
+          <li><strong>Jongmyo Shrine:</strong> A UNESCO World Heritage Site dedicated to the royal ancestors of the Joseon Dynasty and known for its traditional ceremonies.</li>
+          <li><strong>Sungnyemun Gate:</strong> A historic city gate and one of Seoul's most recognizable surviving landmarks from the Joseon period.</li>
+        </ul>
+
+        <hr/>
+        <p>Whether you're exploring ancient royal palaces, shopping for Korean beauty products, tasting authentic street food, or discovering the city's vibrant neighborhoods, Seoul offers an unforgettable journey where Korea's centuries-old traditions meet the energy of a modern global capital.</p>
+      `,
+      image: "/images/seoul.jpg"
     }
 
 ];
