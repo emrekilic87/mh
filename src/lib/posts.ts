@@ -4651,7 +4651,57 @@ export const posts = [
         <p>Whether you're exploring ancient royal palaces, shopping for Korean beauty products, tasting authentic street food, or discovering the city's vibrant neighborhoods, Seoul offers an unforgettable journey where Korea's centuries-old traditions meet the energy of a modern global capital.</p>
       `,
       image: "/images/seoul.jpg"
-    }
+    },
+    {
+      slug: "discover-penang",
+      title: "Penang",
+      keywords: "Penang travel guide, Best areas in Penang Malaysia, George Town Penang, Penang food guide, Malaysian cuisine Penang, Souvenirs from Penang, Penang historical sites, What to eat in Penang, Penang attractions, George Town UNESCO",
+      summary: "Discover Penang, a vibrant Malaysian destination celebrated for its multicultural heritage, UNESCO-listed George Town, colorful street art, historic architecture, lively markets, and some of Malaysia’s most distinctive street food.",
+      content: `
+      <p><strong>Penang</strong> is one of Malaysia’s most fascinating destinations, combining tropical landscapes with a rich multicultural heritage shaped by Malay, Chinese, Indian, and European influences. The island is best known for historic George Town, colorful shophouses, lively markets, beautiful temples, and an exceptional street-food culture. From heritage neighborhoods to beaches and lush hills, Penang offers a diverse experience for travelers interested in history, culture, food, and local life.</p>
+
+      <h2>Popular Areas in Penang</h2>
+      <ul>
+        <li><strong>George Town:</strong> The cultural heart of Penang, famous for UNESCO-listed heritage buildings, colorful street art, traditional shophouses, cafés, markets, and historic temples.</li>
+        <li><strong>Batu Ferringhi:</strong> A popular coastal area known for sandy beaches, resorts, water activities, restaurants, and evening markets.</li>
+        <li><strong>Little India:</strong> A lively heritage neighborhood filled with Indian restaurants, spice shops, textile stores, colorful temples, and traditional music.</li>
+        <li><strong>Gurney Drive:</strong> A popular waterfront district known for shopping centers, restaurants, street-food options, and views across the coast.</li>
+        <li><strong>Air Itam:</strong> A culturally rich area near Penang Hill, known for temples, local markets, traditional food, and access to some of the island’s best-known attractions.</li>
+      </ul>
+
+      <h2>Popular Products from Penang</h2>
+      <ul>
+        <li><strong>White Coffee:</strong> Smooth Malaysian coffee made from specially roasted beans, a popular drink and souvenir from the region.</li>
+        <li><strong>Nutmeg Products:</strong> Penang is known for nutmeg-based products including preserved fruit, juice, sweets, and traditional remedies.</li>
+        <li><strong>Traditional Batik:</strong> Colorful Malaysian textiles featuring intricate patterns inspired by flowers, nature, and local culture.</li>
+        <li><strong>Handmade Crafts:</strong> Local shops offer traditional decorative objects, artwork, textiles, and handcrafted souvenirs inspired by Penang’s multicultural heritage.</li>
+        <li><strong>Local Spices and Sauces:</strong> Curry pastes, chili sauces, spice blends, and other Malaysian ingredients are popular choices for visitors who want to recreate local dishes at home.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Penang</h2>
+      <ul>
+        <li><strong>Char Kway Teow:</strong> Stir-fried flat rice noodles cooked with prawns, eggs, bean sprouts, and flavorful sauces, widely regarded as one of Penang’s signature dishes.</li>
+        <li><strong>Penang Assam Laksa:</strong> A distinctive sour and spicy noodle soup prepared with fish, tamarind, herbs, vegetables, and rice noodles.</li>
+        <li><strong>Hokkien Mee:</strong> Noodles served in a rich, aromatic broth made with prawns and other seafood ingredients, commonly topped with shrimp and boiled egg.</li>
+        <li><strong>Nasi Kandar:</strong> Fragrant rice served with a variety of curries, sauces, vegetables, and meat or seafood, reflecting Penang’s Indian Muslim culinary heritage.</li>
+        <li><strong>Rojak:</strong> A sweet, savory, and slightly spicy Malaysian salad combining fruits and vegetables with a thick sauce and crushed peanuts.</li>
+      </ul>
+
+      <h2>Special Historical Places in Penang</h2>
+      <ul>
+        <li><strong>George Town UNESCO Heritage Area:</strong> A historic urban district filled with preserved shophouses, religious buildings, colonial architecture, and streets reflecting centuries of multicultural exchange.</li>
+        <li><strong>Fort Cornwallis:</strong> A historic coastal fort in George Town originally constructed by the British and associated with the early colonial history of Penang.</li>
+        <li><strong>Khoo Kongsi:</strong> An elaborate Chinese clanhouse and one of George Town’s most impressive examples of traditional Chinese architecture and craftsmanship.</li>
+        <li><strong>Kapitan Keling Mosque:</strong> A historic mosque in George Town that reflects the long-standing Indian Muslim heritage of Penang.</li>
+        <li><strong>Cheong Fatt Tze Mansion:</strong> A distinctive 19th-century mansion known for its striking blue exterior, Chinese architectural details, and connection to Penang’s merchant history.</li>
+      </ul>
+
+      <hr/>
+      <p>Penang is a destination where history, culture, food, and island life come together. Whether you're wandering through George Town’s heritage streets, tasting famous hawker dishes, exploring historic temples and mansions, or relaxing along the coast, Penang offers a memorable introduction to Malaysia’s rich multicultural character.</p>
+
+      `,
+      image: "/images/penang.jpg"
+      }
 
 ];
 
