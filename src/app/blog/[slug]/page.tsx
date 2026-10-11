@@ -1,6 +1,8 @@
 import { getPostBySlug } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
+import { addInternalLinks, getCountryPost, getRelatedPosts } from "@/lib/destinations";
 import Widget from "@/components/affiliate/widget";
 type Props = {
   params: { slug: string };
@@ -41,8 +43,21 @@ const BlogDetailPage = async(props: { params: Params }) => {
   const post = await getPostBySlug(slug);
   if (!post) return notFound();
 
+  const countryPost = getCountryPost(post);
+  const relatedPosts = getRelatedPosts(post);
+
   return (
     <div id="detail-page" className="max-w-4xl mx-auto p-4">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+        <ol className="flex flex-wrap items-center gap-1">
+          <li><Link href="/" className="hover:underline">Home</Link></li>
+          {countryPost && (
+            <li>› <Link href={`/blog/${countryPost.slug}`} className="hover:underline">{countryPost.title}</Link></li>
+          )}
+          <li aria-current="page">› {post.title}</li>
+        </ol>
+      </nav>
+
       <h1 className="text-4xl font-bold mb-6 text-center">{post.title}</h1>
 
       {post.image && (
@@ -61,7 +76,32 @@ const BlogDetailPage = async(props: { params: Params }) => {
         scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&locale=en&stops=any&show_hotels=false&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
       />
 
-      <div className="text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: post.content }} />
+      <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: addInternalLinks(post) }} />
+
+      {relatedPosts.length > 0 && (
+        <section aria-labelledby="related-destinations" className="mt-10 mb-6">
+          <h2 id="related-destinations">Related Destinations</h2>
+          <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {relatedPosts.map((related) => (
+              <li key={related.slug}>
+                <Link href={`/blog/${related.slug}`} className="group block">
+                  {related.image && (
+                    <Image
+                      src={related.image}
+                      alt={`${related.title} travel guide`}
+                      width={300}
+                      height={180}
+                      sizes="(min-width: 768px) 280px, 50vw"
+                      className="w-full h-28 object-cover rounded-lg"
+                    />
+                  )}
+                  <span className="block mt-2 font-semibold group-hover:underline">{related.title} Travel Guide</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <Widget
         id="kiwi-search-result-widget"

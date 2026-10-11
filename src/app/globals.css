@@ -128,5 +128,11 @@
     hr{
       margin: 10px 0;
     }
+
+    .post-content a {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 600;
+    }
   }
 }
