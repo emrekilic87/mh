@@ -22,7 +22,10 @@ export async function generateMetadata(props: { searchParams: SearchParams }): P
   if (Number(page) > 1) return {};
 
   return {
-    alternates: { canonical: "/" },
+    alternates: {
+      canonical: "/",
+      languages: { en: "/", "x-default": "/" },
+    },
   };
 }
 
@@ -34,7 +37,11 @@ export default async function Home(props: { searchParams: SearchParams }) {
   return (
     <>
       {!q && pageNumber > 1 && (
-        <link rel="canonical" href={`${siteMetadata.siteUrl}/?page=${pageNumber}`} />
+        <>
+          <link rel="canonical" href={`${siteMetadata.siteUrl}/?page=${pageNumber}`} />
+          <link rel="alternate" hrefLang="en" href={`${siteMetadata.siteUrl}/?page=${pageNumber}`} />
+          <link rel="alternate" hrefLang="x-default" href={`${siteMetadata.siteUrl}/?page=${pageNumber}`} />
+        </>
       )}
       <HomeClient posts={posts} currentPage={pageNumber} search={q || ""} />
     </>

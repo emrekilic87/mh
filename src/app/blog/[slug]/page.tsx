@@ -19,6 +19,10 @@ export async function generateMetadata(props: { params: Params }) {
     keywords: post.keywords,
     alternates: {
       canonical: `/blog/${slug}`,
+      languages: {
+        en: `/blog/${slug}`,
+        "x-default": `/blog/${slug}`,
+      },
     },
     openGraph: {
       title: post.title,
