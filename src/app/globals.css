@@ -134,5 +134,16 @@
       text-underline-offset: 3px;
       font-weight: 600;
     }
+
+    .post-content a.map-link {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .post-content a.map-link:hover {
+      text-decoration: underline;
+    }
   }
 }

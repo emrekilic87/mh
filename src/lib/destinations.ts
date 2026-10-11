@@ -157,11 +157,31 @@ export function getRelatedPosts(post: Post, limit = 6): Post[] {
 
 const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+const mapsUrl = (query: string) =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+
+// "Popular Areas" ve "Special Historical Places" listelerindeki her yer adının yanına Google Maps linki ekler.
+function addMapLinks(post: Post, html: string): string {
+  return html.replace(/(<h2>(?:Popular Areas|Special Historical Places)[^<]*<\/h2>\s*<ul>)([\s\S]*?)(<\/ul>)/g, (_, open, items, close) =>
+    open +
+    items.replace(/(<li>\s*<strong>)([^<]+)(<\/strong>)/g, (_: string, before: string, name: string, after: string) => {
+      const place = name.replace(/:\s*$/, "").replace(/&amp;/g, "&").trim();
+      const link = `<a href="${mapsUrl(`${place}, ${post.title}`)}" target="_blank" rel="noopener noreferrer" class="map-link" aria-label="${place} on Google Maps">📍 Map</a>`;
+      return `${before}${name} (${link})${after}`;
+    }) +
+    close
+  );
+}
+
+export function renderPostContent(post: Post): string {
+  return addInternalLinks(post, addMapLinks(post, post.content));
+}
+
 // Aynı ülkedeki diğer destinasyonların içerikteki ilk geçişini linke çevirir.
 // Başlıklar (h1-h6), mevcut linkler ve HTML etiketlerinin içi atlanır.
-export function addInternalLinks(post: Post): string {
+function addInternalLinks(post: Post, html: string): string {
   const country = getCountry(post.slug);
-  if (!country) return post.content;
+  if (!country) return html;
 
   const targets = posts
     .filter((p) => p.slug !== post.slug && getCountry(p.slug) === country)
@@ -175,7 +195,7 @@ export function addInternalLinks(post: Post): string {
     }));
 
   let skipDepth = 0;
-  return post.content
+  return html
     .split(/(<[^>]+>)/)
     .map((part) => {
       if (part.startsWith("<")) {

@@ -2,7 +2,7 @@ import { getPostBySlug } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { addInternalLinks, getCountryPost, getRelatedPosts } from "@/lib/destinations";
+import { getCountryPost, getRelatedPosts, renderPostContent } from "@/lib/destinations";
 import Widget from "@/components/affiliate/widget";
 type Props = {
   params: { slug: string };
@@ -77,7 +77,7 @@ const BlogDetailPage = async(props: { params: Params }) => {
         scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&locale=en&stops=any&show_hotels=false&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
       />
 
-      <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: addInternalLinks(post) }} />
+      <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: renderPostContent(post) }} />
 
       {relatedPosts.length > 0 && (
         <section aria-labelledby="related-destinations" className="mt-10 mb-6">
