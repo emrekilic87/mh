@@ -4656,7 +4656,7 @@ export const posts = [
       slug: "discover-penang",
       title: "Penang",
       keywords: "Penang travel guide, Best areas in Penang Malaysia, George Town Penang, Penang food guide, Malaysian cuisine Penang, Souvenirs from Penang, Penang historical sites, What to eat in Penang, Penang attractions, George Town UNESCO",
-      summary: "Discover Penang, a vibrant Malaysian destination celebrated for its multicultural heritage, UNESCO-listed George Town, colorful street art, historic architecture, lively markets, and some of Malaysia’s most distinctive street food.",
+      summary: "Penang, a vibrant Malaysian destination celebrated for its multicultural heritage, UNESCO-listed George Town, colorful street art, historic architecture, lively markets, and some of Malaysia’s most distinctive street food.",
       content: `
       <p><strong>Penang</strong> is one of Malaysia’s most fascinating destinations, combining tropical landscapes with a rich multicultural heritage shaped by Malay, Chinese, Indian, and European influences. The island is best known for historic George Town, colorful shophouses, lively markets, beautiful temples, and an exceptional street-food culture. From heritage neighborhoods to beaches and lush hills, Penang offers a diverse experience for travelers interested in history, culture, food, and local life.</p>
 
@@ -4701,7 +4701,57 @@ export const posts = [
 
       `,
       image: "/images/penang.jpg"
-      }
+      },
+    {
+      slug: "discover-baku",
+      title: "Baku",
+      keywords: "Baku travel guide, Best areas in Baku Azerbaijan, Baku Old City, Icherisheher, Azerbaijani food Baku, Souvenirs from Baku, Baku historical sites, What to eat in Baku, Flame Towers, Baku Boulevard, Maiden Tower Baku",
+      summary: "Baku, Azerbaijan’s captivating capital on the Caspian Sea, where a UNESCO-listed walled Old City sits beside futuristic skyscrapers, elegant boulevards, lively tea houses, and a rich culinary tradition shaped by the Silk Road.",
+      content: `
+      <p><strong>Baku</strong>, the capital of Azerbaijan, stretches along the shores of the Caspian Sea and is one of the most striking cities in the Caucasus. Known as the “Land of Fire,” Azerbaijan’s capital blends medieval stone streets and centuries-old caravanserais with bold modern architecture like the Flame Towers and the Heydar Aliyev Center. With its seaside boulevard, vibrant tea culture, Persian-influenced cuisine, and warm hospitality, Baku offers travelers a unique meeting point of East and West.</p>
+
+      <h2>Popular Areas in Baku</h2>
+      <ul>
+        <li><strong>Icherisheher (Old City):</strong> The historic walled heart of Baku, filled with narrow lanes, ancient mosques, caravanserais, carpet shops, and atmospheric restaurants.</li>
+        <li><strong>Baku Boulevard:</strong> A long seaside promenade along the Caspian Sea, lined with parks, cafés, fountains, and attractions such as the Baku Eye and the Carpet Museum.</li>
+        <li><strong>Fountains Square:</strong> A lively central square surrounded by shops, restaurants, and pedestrian streets like Nizami Street, perfect for strolling and people-watching.</li>
+        <li><strong>Highland Park (Dagustu Park):</strong> A hilltop area offering panoramic views of the city, the bay, and the illuminated Flame Towers at night.</li>
+        <li><strong>White City:</strong> A modern waterfront development featuring contemporary architecture, green spaces, and a fresh look at Baku’s future.</li>
+      </ul>
+
+      <h2>Popular Products from Baku</h2>
+      <ul>
+        <li><strong>Azerbaijani Carpets:</strong> Handwoven carpets with intricate patterns, recognized by UNESCO as part of Azerbaijan’s intangible cultural heritage.</li>
+        <li><strong>Armudu Glasses and Tea Sets:</strong> Traditional pear-shaped tea glasses that are central to Azerbaijan’s famous tea culture.</li>
+        <li><strong>Kelaghayi:</strong> Elegant silk headscarves decorated with traditional patterns, especially associated with the region of Sheki.</li>
+        <li><strong>Pomegranate Products:</strong> Pomegranate sauce (narsharab), juices, and decorative items celebrating one of Azerbaijan’s national symbols.</li>
+        <li><strong>Local Sweets and Spices:</strong> Pakhlava, shekerbura, saffron, dried fruits, and nuts are popular gifts to bring home.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Baku</h2>
+      <ul>
+        <li><strong>Plov:</strong> Azerbaijan’s signature saffron rice dish, often served with lamb, chestnuts, dried fruits, and herbs, with dozens of regional variations.</li>
+        <li><strong>Dolma:</strong> Grape leaves or vegetables stuffed with minced meat, rice, and herbs, a staple of Azerbaijani home cooking.</li>
+        <li><strong>Qutab:</strong> Thin, crescent-shaped flatbreads filled with herbs, pumpkin, cheese, or meat and cooked on a griddle.</li>
+        <li><strong>Lula Kebab:</strong> Juicy skewers of seasoned minced lamb grilled over an open flame and served with flatbread, onions, and sumac.</li>
+        <li><strong>Dushbara:</strong> Tiny dumplings filled with spiced lamb and served in a fragrant broth, often finished with dried mint and vinegar.</li>
+      </ul>
+
+      <h2>Special Historical Places in Baku</h2>
+      <ul>
+        <li><strong>Maiden Tower:</strong> An iconic 12th-century tower in the Old City, surrounded by legends and offering fine views over the bay.</li>
+        <li><strong>Palace of the Shirvanshahs:</strong> A 15th-century royal complex of palaces, a mosque, and a mausoleum, and one of the finest examples of Azerbaijani architecture.</li>
+        <li><strong>Ateshgah Fire Temple:</strong> A historic fire-worship temple on the outskirts of Baku, connected to the region’s ancient Zoroastrian and Hindu traditions.</li>
+        <li><strong>Gobustan National Park:</strong> A UNESCO World Heritage Site near Baku, home to thousands of prehistoric rock carvings and unusual mud volcanoes.</li>
+        <li><strong>Heydar Aliyev Center:</strong> A modern architectural landmark designed by Zaha Hadid, famous for its flowing curves and cultural exhibitions.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're wandering through the stone streets of the Old City, sipping tea from an armudu glass, tasting a fragrant plov, or watching the Flame Towers glow over the Caspian Sea, Baku offers a memorable journey where ancient heritage meets bold modern ambition.</p>
+
+      `,
+      image: "/images/baku.jpg"
+    }
 
 ];
 

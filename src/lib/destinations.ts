@@ -95,6 +95,7 @@ const countryBySlug: Record<string, string> = {
   "discover-kathmandu": "nepal",
   "discover-rabat": "morocco",
   "discover-helsinki": "finland",
+  "discover-baku": "azerbaijan",
 };
 
 const continentByCountry: Record<string, string> = {
@@ -105,7 +106,7 @@ const continentByCountry: Record<string, string> = {
   montenegro: "europe", turkey: "europe", ireland: "europe", austria: "europe", norway: "europe",
   luxembourg: "europe", greece: "europe", uk: "europe", sweden: "europe", belgium: "europe",
   czechia: "europe", germany: "europe", poland: "europe", georgia: "europe", russia: "europe",
-  finland: "europe",
+  finland: "europe", azerbaijan: "europe",
   mexico: "north-america", usa: "north-america", cuba: "north-america", bahamas: "north-america",
   curacao: "north-america",
   chile: "south-america", argentina: "south-america", brazil: "south-america", peru: "south-america",
