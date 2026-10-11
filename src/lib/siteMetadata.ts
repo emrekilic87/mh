@@ -5,9 +5,9 @@ export const siteMetadata = {
     description: 'Multi Hats is an travel blog that shares travel guides, itineraries, and tips for modern explorers who want to experience the world.',
     language: 'en-us',
     theme: 'dark', // system, dark or light
-    siteUrl: 'https://www.multihatsblog.com/',
-    siteLogo: '/multihats.png',
-    socialBanner: '/multihats.png', // add social banner in the public folder
+    siteUrl: 'https://www.multihatsblog.com',
+    siteLogo: '/images/multihats.png',
+    socialBanner: '/images/multihats.png', // add social banner in the public folder
     email: 'multihatstravel@gmail.com',
     youtube: 'https://www.youtube.com/@multihatsvideo',
     instagram: 'https://www.instagram.com/multi.hats',

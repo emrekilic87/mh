@@ -1,7 +1,6 @@
 import { getPostBySlug } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { BASE_URL } from "@/lib/config";
 import Widget from "@/components/affiliate/widget";
 type Props = {
   params: { slug: string };
@@ -18,10 +17,13 @@ export async function generateMetadata(props: { params: Params }) {
     title: post.title,
     description: post.summary,
     keywords: post.keywords,
+    alternates: {
+      canonical: `/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.summary,
-      url: `${BASE_URL}/blog/${slug}`,
+      url: `/blog/${slug}`,
       images: post.image,
       locale: "en_US",
       type: "website",

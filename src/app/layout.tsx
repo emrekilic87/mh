@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: siteMetadata.title,
     images: [siteMetadata.socialBanner],
   },
-  metadataBase: new URL("https://www.multihats.com"),
+  metadataBase: new URL(siteMetadata.siteUrl),
 
 };
 

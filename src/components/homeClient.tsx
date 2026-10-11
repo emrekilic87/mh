@@ -7,7 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Pagination from "@/components/pagination";
-import { useSearchParams, useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 type Post = {
   slug: string;
@@ -17,21 +17,24 @@ type Post = {
   image?: string;
 };
 
-export default function HomeClient({ posts }: { posts: Post[] }) {
-  const searchParams = useSearchParams();
+type HomeClientProps = {
+  posts: Post[];
+  currentPage: number;
+  search: string;
+};
+
+export default function HomeClient({ posts, currentPage, search }: HomeClientProps) {
   const router = useRouter();
   const pathname = usePathname()
-  const currentPage = Number(searchParams.get("page") || 1);
   const postsPerPage = 20;
-
-  const search = searchParams.get("q") || "";
 
   useEffect(() => {
     const handleSearch = (e: Event) => {
       const customEvent = e as CustomEvent;
       const query = customEvent.detail.toLowerCase();
   
-      const current = new URLSearchParams(searchParams.toString());
+      const current = new URLSearchParams();
+      if (currentPage > 1) current.set("page", String(currentPage));
       if (query) {
         current.set("q", query);
         current.set("page", "1");
@@ -44,7 +47,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
   
     window.addEventListener("search-change", handleSearch);
     return () => window.removeEventListener("search-change", handleSearch);
-  }, [searchParams, router, pathname]);
+  }, [currentPage, router, pathname]);
 
   const filteredPosts = useMemo(() => {
     return posts.filter((post) =>
@@ -82,7 +85,7 @@ export default function HomeClient({ posts }: { posts: Post[] }) {
                 <p className="mt-2 text-gray-700 dark:text-white line-clamp-3">{post.summary}</p>
                 <div className="mt-6 mb-6 flex justify-center">
                   <Link href={`/blog/${post.slug}`}>
-                    <Button className="cursor-pointer bg-gray-700 dark:bg-white text-white dark:text-gray-700">Read More</Button>
+                    <Button className="cursor-pointer bg-gray-700 dark:bg-white text-white dark:text-gray-700 transition-all duration-200 hover:bg-gray-900 dark:hover:bg-gray-200 hover:-translate-y-0.5 hover:shadow-md">Read More</Button>
                   </Link>
                 </div>
               </CardContent>
