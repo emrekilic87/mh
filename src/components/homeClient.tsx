@@ -63,6 +63,9 @@ export default function HomeClient({ posts, currentPage, search }: HomeClientPro
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-2">
+      <h1 className="text-3xl md:text-4xl font-bold text-center mt-4 mb-8">
+        Travel Guides &amp; Tips for Curious Explorers
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6" role="feed">
         {paginatedPosts.map((post) => (
           <article key={post.slug} className="mb-4 h-full flex flex-col justify-between">
