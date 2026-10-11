@@ -7,6 +7,9 @@ import { siteMetadata } from "@/lib/siteMetadata";
 
 type SearchParams = Promise<{ page?: string; q?: string }>
 
+// Client'a sadece kartlarda kullanılan alanlar gönderilir; content payload'a girmez
+const postSummaries = posts.map(({ slug, title, summary, image }) => ({ slug, title, summary, image }));
+
 export async function generateMetadata(props: { searchParams: SearchParams }): Promise<Metadata> {
   const { page, q } = await props.searchParams;
 
@@ -43,7 +46,7 @@ export default async function Home(props: { searchParams: SearchParams }) {
           <link rel="alternate" hrefLang="x-default" href={`${siteMetadata.siteUrl}/?page=${pageNumber}`} />
         </>
       )}
-      <HomeClient posts={posts} currentPage={pageNumber} search={q || ""} />
+      <HomeClient posts={postSummaries} currentPage={pageNumber} search={q || ""} />
     </>
   );
 }

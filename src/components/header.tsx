@@ -16,9 +16,8 @@ const Header = ({ showSearch = false, onSearchChange }: HeaderProps) => {
           <Image
             src="/images/multihats.png"
             alt="Multi Hats Logo"
-            width={0}
-            height={0}
-            sizes="100vw"
+            width={32}
+            height={32}
             priority={true}
             className="w-6 h-6 md:w-8 md:h-8 object-cover"
           />
