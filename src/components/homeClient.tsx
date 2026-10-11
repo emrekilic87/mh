@@ -74,6 +74,7 @@ export default function HomeClient({ posts, currentPage, search }: HomeClientPro
                     alt={post.title}
                     width={600}
                     height={300}
+                    sizes="(min-width: 896px) 420px, (min-width: 768px) calc(50vw - 28px), calc(100vw - 32px)"
                     priority={currentPage === 1} 
                     className="w-full h-48 object-cover rounded-t-xl"
                   />

@@ -64,8 +64,9 @@ const BlogDetailPage = async(props: { params: Params }) => {
         <Image
           src={post.image}
           alt={post.title}
-          width={300}
-          height={600}
+          width={1280}
+          height={853}
+          sizes="(min-width: 896px) 864px, calc(100vw - 32px)"
           priority={true}
           className="w-full object-cover mb-6"
         />
@@ -91,7 +92,7 @@ const BlogDetailPage = async(props: { params: Params }) => {
                       alt={`${related.title} travel guide`}
                       width={300}
                       height={180}
-                      sizes="(min-width: 768px) 280px, 50vw"
+                      sizes="(min-width: 896px) 280px, (min-width: 768px) calc(33vw - 21px), calc(50vw - 24px)"
                       className="w-full h-28 object-cover rounded-lg"
                     />
                   )}
