@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { getCountryPost, getRelatedPosts, renderPostContent } from "@/lib/destinations";
 import Widget from "@/components/affiliate/widget";
+import ShareButtons from "@/components/shareButtons";
+import { siteMetadata } from "@/lib/siteMetadata";
 type Props = {
   params: { slug: string };
 };
@@ -32,7 +34,7 @@ export async function generateMetadata(props: { params: Params }) {
       url: `/blog/${slug}`,
       images: post.image,
       locale: "en_US",
-      type: "website",
+      type: "article",
     },
   };
 }
@@ -46,8 +48,50 @@ const BlogDetailPage = async(props: { params: Params }) => {
   const countryPost = getCountryPost(post);
   const relatedPosts = getRelatedPosts(post);
 
+  const postUrl = `${siteMetadata.siteUrl}/blog/${post.slug}`;
+  const imageUrl = post.image ? `${siteMetadata.siteUrl}${post.image}` : undefined;
+  const breadcrumbs = [
+    { name: "Home", url: siteMetadata.siteUrl },
+    ...(countryPost ? [{ name: countryPost.title, url: `${siteMetadata.siteUrl}/blog/${countryPost.slug}` }] : []),
+    { name: post.title, url: postUrl },
+  ];
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: `${post.title} Travel Guide`,
+      description: post.summary,
+      image: imageUrl,
+      url: postUrl,
+      mainEntityOfPage: postUrl,
+      keywords: post.keywords,
+      inLanguage: "en",
+      author: { "@type": "Organization", name: siteMetadata.author, url: siteMetadata.siteUrl },
+      publisher: {
+        "@type": "Organization",
+        name: siteMetadata.author,
+        url: siteMetadata.siteUrl,
+        logo: { "@type": "ImageObject", url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}` },
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbs.map((crumb, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: crumb.name,
+        item: crumb.url,
+      })),
+    },
+  ];
+
   return (
     <div id="detail-page" className="max-w-4xl mx-auto p-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 dark:text-gray-400 mb-4">
         <ol className="flex flex-wrap items-center gap-1">
           <li><Link href="/" className="hover:underline">Home</Link></li>
@@ -78,6 +122,8 @@ const BlogDetailPage = async(props: { params: Params }) => {
       />
 
       <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: renderPostContent(post) }} />
+
+      <ShareButtons url={postUrl} title={`${post.title} Travel Guide | Multi Hats`} image={imageUrl} />
 
       {relatedPosts.length > 0 && (
         <section aria-labelledby="related-destinations" className="mt-10 mb-6">

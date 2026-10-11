@@ -55,6 +55,27 @@ export const metadata: Metadata = {
 
 };
 
+// Site geneli yapılandırılmış veri; sameAs ile sosyal profiller siteye bağlanır
+const siteJsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteMetadata.author,
+    url: siteMetadata.siteUrl,
+    logo: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}`,
+    email: siteMetadata.email,
+    sameAs: [siteMetadata.instagram, siteMetadata.youtube],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteMetadata.title,
+    url: siteMetadata.siteUrl,
+    inLanguage: "en",
+    publisher: { "@type": "Organization", name: siteMetadata.author },
+  },
+];
+
 interface RootsLayoutProps {
   children: React.ReactNode;
 }
@@ -86,6 +107,10 @@ const RootsLayout = ({ children }: RootsLayoutProps) => {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd).replace(/</g, "\\u003c") }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
