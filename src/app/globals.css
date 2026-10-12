@@ -140,9 +140,6 @@
       font-weight: 500;
       white-space: nowrap;
       text-decoration: none;
-    }
-
-    .post-content a.map-link:hover {
       text-decoration: underline;
     }
   }

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getCountryPost, getRelatedPosts, renderPostContent } from "@/lib/destinations";
 import Widget from "@/components/affiliate/widget";
+import KlookCta from "@/components/affiliate/klookCta";
 import ShareButtons from "@/components/shareButtons";
 import { siteMetadata } from "@/lib/siteMetadata";
 type Props = {
@@ -116,12 +117,14 @@ const BlogDetailPage = async(props: { params: Params }) => {
         />
       )}
 
-      <Widget
+      {/* <Widget
         id="kiwi-flights-widget"
         scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&locale=en&stops=any&show_hotels=false&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
-      />
+      /> */}
 
       <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: renderPostContent(post) }} />
+
+      <KlookCta destination={post.title} slug={post.slug} />
 
       <ShareButtons url={postUrl} title={`${post.title} Travel Guide | Multi Hats`} image={imageUrl} />
 
@@ -149,11 +152,6 @@ const BlogDetailPage = async(props: { params: Params }) => {
           </ul>
         </section>
       )}
-
-      <Widget
-        id="kiwi-search-result-widget"
-        scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&powered_by=true&locale=en&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
-      />
     </div>
   );
 }

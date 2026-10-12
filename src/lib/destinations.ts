@@ -1,4 +1,5 @@
 import { posts } from "@/lib/posts";
+import { AFFILIATE_REL, klookSearchLink } from "@/lib/affiliate";
 
 type Post = (typeof posts)[number];
 
@@ -161,20 +162,30 @@ const mapsUrl = (query: string) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 
 // "Popular Areas" ve "Special Historical Places" listelerindeki her yer adının yanına Google Maps linki ekler.
-function addMapLinks(post: Post, html: string): string {
-  return html.replace(/(<h2>(?:Popular Areas|Special Historical Places)[^<]*<\/h2>\s*<ul>)([\s\S]*?)(<\/ul>)/g, (_, open, items, close) =>
+// Tarihi yerlere ayrıca Klook bilet/tur linki eklenir.
+function addPlaceLinks(post: Post, html: string): string {
+  return html.replace(/(<h2>(Popular Areas|Special Historical Places)[^<]*<\/h2>\s*<ul>)([\s\S]*?)(<\/ul>)/g, (_, open, section, items, close) =>
     open +
     items.replace(/(<li>\s*<strong>)([^<]+)(<\/strong>)/g, (_: string, before: string, name: string, after: string) => {
       const place = name.replace(/:\s*$/, "").replace(/&amp;/g, "&").trim();
-      const link = `<a href="${mapsUrl(`${place}, ${post.title}`)}" target="_blank" rel="noopener noreferrer" class="map-link" aria-label="${place} on Google Maps">📍 Map</a>`;
-      return `${before}${name} (${link})${after}`;
+      // "Fushimi Inari Shrine (Kyoto)" → Klook araması için "Fushimi Inari Shrine"
+      const placeName = place.replace(/\s*\([^)]*\)\s*$/, "");
+      const links = [
+        `<a href="${mapsUrl(`${place}, ${post.title}`)}" target="_blank" rel="noopener noreferrer" class="map-link" aria-label="${place} on Google Maps">📍 Map</a>`,
+      ];
+      if (section === "Special Historical Places") {
+        links.push(
+          `<a href="${klookSearchLink(placeName, post.slug)}" target="_blank" rel="${AFFILIATE_REL}" class="map-link" aria-label="${placeName} tickets and tours on Klook">🎟️ Tickets &amp; Tours</a>`
+        );
+      }
+      return `${before}${name} (${links.join(" · ")})${after}`;
     }) +
     close
   );
 }
 
 export function renderPostContent(post: Post): string {
-  return addInternalLinks(post, addMapLinks(post, post.content));
+  return addInternalLinks(post, addPlaceLinks(post, post.content));
 }
 
 // Aynı ülkedeki diğer destinasyonların içerikteki ilk geçişini linke çevirir.
