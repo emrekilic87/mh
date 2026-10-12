@@ -19,7 +19,7 @@ const AirhelpBanner = () => {
           height={273}
           sizes="(min-width: 532px) 500px, calc(100vw - 32px)"
           className="w-full h-auto"
-          priority
+          loading="eager"
         />
       </Link>
     </div>
