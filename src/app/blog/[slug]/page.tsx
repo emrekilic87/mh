@@ -19,7 +19,7 @@ export async function generateMetadata(props: { params: Params }) {
   if (!post) return {};
   return {
     title: post.title,
-    description: post.summary,
+    description: post.metaDescription,
     keywords: post.keywords,
     alternates: {
       canonical: `/blog/${slug}`,
@@ -30,7 +30,7 @@ export async function generateMetadata(props: { params: Params }) {
     },
     openGraph: {
       title: post.title,
-      description: post.summary,
+      description: post.metaDescription,
       url: `/blog/${slug}`,
       images: post.image,
       locale: "en_US",
