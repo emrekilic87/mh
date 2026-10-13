@@ -97,6 +97,7 @@ const countryBySlug: Record<string, string> = {
   "discover-rabat": "morocco",
   "discover-helsinki": "finland",
   "discover-baku": "azerbaijan",
+  "discover-zagreb": "croatia",
 };
 
 const continentByCountry: Record<string, string> = {

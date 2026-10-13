@@ -4932,6 +4932,58 @@ export const posts = [
 
       `,
       image: "/images/baku.jpg"
+    },
+    {
+      slug: "discover-zagreb",
+      title: "Zagreb",
+      keywords: "Zagreb travel guide, Best areas in Zagreb Croatia, Zagreb Upper Town, Gornji Grad, Croatian food Zagreb, Souvenirs from Zagreb, Zagreb historical sites, What to eat in Zagreb, Dolac Market, Zagreb Cathedral, St. Mark's Church Zagreb, Advent in Zagreb",
+      summary: "Zagreb, Croatia’s charming capital, where a medieval Upper Town of gas-lit lanes and red-roofed churches meets an elegant Austro-Hungarian Lower Town filled with parks, museums, open-air markets, and a lively café culture.",
+      metaDescription: "Zagreb travel guide: medieval Upper Town, St. Mark's Church, Dolac Market, café culture and hearty Croatian food in Croatia's capital.",
+      content: `
+      <p><strong>Zagreb</strong>, the capital of Croatia, is a relaxed and walkable city in the north of the country, set between the slopes of Medvednica mountain and the banks of the Sava River. Often overlooked in favor of the Adriatic coast, Zagreb rewards travelers with a beautifully preserved medieval Upper Town, grand 19th-century boulevards, leafy parks, quirky museums, and one of Europe’s most beloved Advent markets. With its strong coffee culture, hearty continental cuisine, and friendly atmosphere, Zagreb is the perfect introduction to Croatia beyond the beaches.</p>
+
+      <h2>Popular Areas in Zagreb</h2>
+      <ul>
+        <li><strong>Upper Town (Gornji Grad):</strong> The historic hilltop heart of Zagreb, with cobblestone streets, gas lamps lit by hand every evening, baroque palaces, and sweeping views over the city.</li>
+        <li><strong>Ban Jelačić Square:</strong> Zagreb’s main square and favorite meeting point, surrounded by shops, cafés, and trams, linking the Upper and Lower Towns.</li>
+        <li><strong>Tkalčićeva Street:</strong> A colorful pedestrian street lined with bars, restaurants, and terraces, buzzing with locals from morning coffee until late at night.</li>
+        <li><strong>Lower Town (Donji Grad):</strong> An elegant Austro-Hungarian district known for its “Green Horseshoe” of parks, squares, theaters, and museums.</li>
+        <li><strong>Jarun Lake:</strong> A recreational lake on the edge of the city, popular for cycling, swimming, rowing, and summer festivals.</li>
+      </ul>
+
+      <h2>Popular Products from Zagreb</h2>
+      <ul>
+        <li><strong>Licitar Hearts:</strong> Brightly decorated red gingerbread hearts, a traditional symbol of love and recognized by UNESCO as intangible cultural heritage.</li>
+        <li><strong>Cravats:</strong> The necktie originated with Croatian soldiers in the 17th century, and Zagreb’s boutiques sell beautiful silk ties as a nod to this history.</li>
+        <li><strong>Šestine Umbrellas:</strong> Traditional red umbrellas with colorful stripes, originally from the village of Šestine near Zagreb.</li>
+        <li><strong>Croatian Wines and Rakija:</strong> Wines from the nearby Zagorje and Plešivica regions, along with fruit brandies flavored with honey, walnut, or herbs.</li>
+        <li><strong>Kraš Chocolates:</strong> Sweets from Zagreb’s famous confectionery company, including the classic Bajadera nougat pralines.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Zagreb</h2>
+      <ul>
+        <li><strong>Štrukli:</strong> Zagreb’s signature dish of thin dough filled with fresh cheese, served boiled or baked with cream until golden.</li>
+        <li><strong>Zagrebački Odrezak:</strong> A breaded veal or pork cutlet stuffed with ham and cheese, the city’s answer to a schnitzel.</li>
+        <li><strong>Purica s Mlincima:</strong> Roast turkey served with mlinci, a thin baked flatbread soaked in the roasting juices.</li>
+        <li><strong>Kremšnita:</strong> A creamy custard slice with layers of puff pastry, a favorite in Zagreb’s many pastry shops.</li>
+        <li><strong>Burek:</strong> Flaky pastry filled with cheese or meat, a popular quick breakfast from local bakeries.</li>
+      </ul>
+
+      <h2>Special Historical Places in Zagreb</h2>
+      <ul>
+        <li><strong>St. Mark's Church:</strong> Zagreb’s most iconic landmark, famous for its colorful tiled roof displaying the coats of arms of Croatia and the city.</li>
+        <li><strong>Zagreb Cathedral:</strong> The tallest building in Croatia, a neo-Gothic cathedral with twin spires dedicated to the Assumption of Mary.</li>
+        <li><strong>Stone Gate (Kamenita Vrata):</strong> The last surviving medieval city gate, home to a small shrine where locals light candles and pray.</li>
+        <li><strong>Lotrščak Tower:</strong> A 13th-century defensive tower from which a cannon is fired every day at noon, offering great views of the city.</li>
+        <li><strong>Mirogoj Cemetery:</strong> One of Europe’s most beautiful cemeteries, with elegant arcades, domes, and sculptures set among green parkland.</li>
+        <li><strong>Dolac Market:</strong> Zagreb’s central open-air market since 1930, known for its red umbrellas, fresh produce, and local cheeses.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're strolling through the gas-lit lanes of the Upper Town, sipping coffee on a sunny terrace, tasting warm štrukli, or exploring the festive Advent markets, Zagreb offers a delightful mix of history, culture, and everyday charm in the heart of continental Croatia.</p>
+
+      `,
+      image: "/images/zagreb.jpg"
     }
 
 ];
