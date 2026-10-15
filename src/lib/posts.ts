@@ -4984,6 +4984,59 @@ export const posts = [
 
       `,
       image: "/images/zagreb.jpg"
+    },
+    {
+      slug: "discover-tashkent",
+      title: "Tashkent",
+      keywords: "Tashkent travel guide, Best areas in Tashkent Uzbekistan, Chorsu Bazaar, Tashkent Metro, Hazrati Imam Complex, Uzbek food Tashkent, What to eat in Tashkent, Plov Center Tashkent, Souvenirs from Tashkent, Tashkent historical sites, Amir Timur Square, Silk Road Uzbekistan",
+      summary: "Tashkent, Uzbekistan’s vibrant capital, where Silk Road heritage, turquoise-domed madrasas, and bustling bazaars meet wide Soviet-era boulevards, palace-like metro stations, and some of the most generous hospitality in Central Asia.",
+      metaDescription: "Tashkent travel guide: Chorsu Bazaar, Hazrati Imam Complex, the stunning Tashkent Metro, plov and Uzbek cuisine in Uzbekistan's capital.",
+      content: `
+      <p><strong>Tashkent</strong>, the capital of Uzbekistan, is the largest city in Central Asia and the modern gateway to the legendary Silk Road. Once a thriving caravan stop on the routes between China and Europe, the city was largely rebuilt after a devastating earthquake in 1966, giving it a unique blend of ancient Islamic architecture, grand Soviet-era boulevards, and shiny new developments. Today, Tashkent welcomes travelers with leafy parks, lively bazaars, ornate metro stations, and steaming cauldrons of plov, making it the perfect starting point for exploring Samarkand, Bukhara, and Khiva.</p>
+
+      <h2>Popular Areas in Tashkent</h2>
+      <ul>
+        <li><strong>Old City (Eski Shahar):</strong> The historic heart of Tashkent, with narrow mahalla lanes, traditional courtyard homes, mosques, and madrasas around the Hazrati Imam Complex and Chorsu Bazaar.</li>
+        <li><strong>Amir Timur Square:</strong> The city’s central square, featuring an equestrian statue of the 14th-century conqueror Tamerlane, surrounded by green gardens and the Amir Timur Museum with its striking turquoise dome.</li>
+        <li><strong>Broadway (Sayilgoh Street):</strong> A lively pedestrian street filled with street artists, souvenir stalls, cafés, and evening strollers.</li>
+        <li><strong>Independence Square (Mustaqillik Maydoni):</strong> A vast ceremonial square with fountains, monuments, and shady alleys, popular with locals for walks and celebrations.</li>
+        <li><strong>Tashkent City:</strong> The modern business and leisure district, with a large park, musical fountains, shopping malls, and contemporary restaurants.</li>
+      </ul>
+
+      <h2>Popular Products from Tashkent</h2>
+      <ul>
+        <li><strong>Suzani Embroidery:</strong> Hand-stitched textiles with bold floral and celestial patterns, used as wall hangings, bedspreads, and cushion covers.</li>
+        <li><strong>Ikat Silk (Adras and Atlas):</strong> Vibrant fabrics woven with the traditional ikat technique, sold as scarves, robes, and by the meter.</li>
+        <li><strong>Rishtan Ceramics:</strong> Famous blue and turquoise glazed pottery from the Fergana Valley, including plates, bowls, and the classic lyagan serving dishes.</li>
+        <li><strong>Doppi Skullcaps:</strong> Traditional four-sided embroidered hats worn by Uzbek men and women for celebrations and everyday life.</li>
+        <li><strong>Dried Fruits and Nuts:</strong> Sun-dried apricots, raisins, figs, almonds, and pistachios piled high in colorful pyramids at the bazaars.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Tashkent</h2>
+      <ul>
+        <li><strong>Plov (Osh):</strong> Uzbekistan’s national dish of rice cooked with lamb, carrots, onions, and chickpeas in a giant kazan, best enjoyed at lunchtime at the famous Central Asian Plov Center.</li>
+        <li><strong>Samsa:</strong> Flaky pastries filled with minced meat, onion, or pumpkin, baked against the walls of a clay tandoor oven.</li>
+        <li><strong>Lagman:</strong> Hand-pulled noodles served in a rich broth or stir-fried with meat, peppers, and vegetables.</li>
+        <li><strong>Shashlik:</strong> Juicy skewers of lamb, beef, or chicken grilled over charcoal and served with raw onions and fresh bread.</li>
+        <li><strong>Non:</strong> Round, golden Uzbek bread with a stamped center, a sacred staple served at every meal.</li>
+        <li><strong>Manti:</strong> Large steamed dumplings filled with seasoned meat and onions, often topped with yogurt or sour cream.</li>
+      </ul>
+
+      <h2>Special Historical Places in Tashkent</h2>
+      <ul>
+        <li><strong>Hazrati Imam Complex:</strong> The spiritual center of Tashkent, with mosques, madrasas, and the Muyi Muborak Library, home to the 7th-century Uthman Quran, one of the oldest in the world.</li>
+        <li><strong>Chorsu Bazaar:</strong> A giant blue-domed market and one of the oldest trading places in Central Asia, overflowing with spices, bread, fruits, and local life.</li>
+        <li><strong>Kukeldash Madrasa:</strong> A 16th-century madrasa built from yellow brick near Chorsu, one of the largest surviving Islamic schools in Central Asia.</li>
+        <li><strong>Tashkent Metro:</strong> Opened in 1977, the metro is a true underground museum, with stations decorated in marble, chandeliers, mosaics, and cosmic themes.</li>
+        <li><strong>Minor Mosque:</strong> A gleaming white-marble mosque with a turquoise dome on the banks of the Ankhor Canal, especially beautiful at night.</li>
+        <li><strong>Alisher Navoi Opera and Ballet Theatre:</strong> An elegant theater built in the 1940s with halls decorated by craftsmen from across Uzbekistan’s regions.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're wandering through the spice-scented aisles of Chorsu Bazaar, admiring the dazzling metro stations, sharing a plate of plov with new friends, or preparing for a journey along the Silk Road, Tashkent offers a warm and fascinating introduction to the history, culture, and hospitality of Uzbekistan.</p>
+
+      `,
+      image: "/images/tashkent.jpg"
     }
 
 ];

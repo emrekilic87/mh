@@ -98,12 +98,13 @@ const countryBySlug: Record<string, string> = {
   "discover-helsinki": "finland",
   "discover-baku": "azerbaijan",
   "discover-zagreb": "croatia",
+  "discover-tashkent": "uzbekistan",
 };
 
 const continentByCountry: Record<string, string> = {
   japan: "asia", "south-korea": "asia", indonesia: "asia", thailand: "asia", malaysia: "asia",
   singapore: "asia", vietnam: "asia", india: "asia", "sri-lanka": "asia", china: "asia",
-  philippines: "asia", nepal: "asia",
+  philippines: "asia", nepal: "asia", uzbekistan: "asia",
   france: "europe", portugal: "europe", italy: "europe", spain: "europe", croatia: "europe",
   montenegro: "europe", turkey: "europe", ireland: "europe", austria: "europe", norway: "europe",
   luxembourg: "europe", greece: "europe", uk: "europe", sweden: "europe", belgium: "europe",
