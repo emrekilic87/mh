@@ -5090,6 +5090,62 @@ export const posts = [
 
       `,
       image: "/images/blue-lagoon.jpg"
+    },
+    {
+      slug: "discover-tibet",
+      title: "Tibet",
+      keywords: "Tibet travel guide, Lhasa travel, Potala Palace, Jokhang Temple, Barkhor Street, Tibet travel permit, Mount Everest Base Camp Tibet, Namtso Lake, Yamdrok Lake, Tibetan food, Yak butter tea, Momo, Things to do in Tibet, Best time to visit Tibet",
+      summary: "Tibet, the “Roof of the World”, where golden monasteries rise above windswept valleys, prayer flags flutter against snow-capped Himalayan peaks, and ancient Buddhist traditions shape everyday life at more than 3,600 meters above sea level.",
+      metaDescription: "Tibet travel guide: Lhasa, the Potala Palace, Everest Base Camp, sacred lakes, Tibetan food, souvenirs and travel permit tips.",
+      content: `
+      <p><strong>Tibet</strong>, often called the “Roof of the World”, is a vast high plateau in the heart of Asia, bordered by the mighty Himalayas to the south. With an average altitude of over 4,000 meters, it is a land of turquoise lakes, endless grasslands, nomad tents, and some of the most sacred Buddhist sites on Earth. Its capital, Lhasa, sits at about 3,650 meters and is home to the legendary Potala Palace. Foreign travelers need a Tibet Travel Permit, which is arranged through a licensed tour operator together with a guided itinerary, so plan ahead before booking your trip. Give yourself a couple of easy days in Lhasa to adjust to the altitude, drink plenty of water, and avoid heavy exertion at first. The best time to visit is from April to October, when the skies are clear and the weather is mild.</p>
+
+      <h2>Popular Areas in Tibet</h2>
+      <ul>
+        <li><strong>Lhasa:</strong> The spiritual and cultural heart of Tibet, filled with pilgrims, monasteries, bustling markets, and the iconic Potala Palace towering over the city.</li>
+        <li><strong>Shigatse:</strong> Tibet’s second-largest city and the traditional seat of the Panchen Lama, famous for the grand Tashilhunpo Monastery.</li>
+        <li><strong>Gyantse:</strong> A charming old town known for its historic fortress and the unique Kumbum stupa, with its many chapels filled with ancient murals.</li>
+        <li><strong>Everest Base Camp (Tibet side):</strong> Reachable by road, the northern base camp offers breathtaking, close-up views of the north face of Mount Everest, the world’s highest mountain.</li>
+        <li><strong>Nyingchi:</strong> Known as the “Switzerland of Tibet”, a greener, lower region of forests, rivers, peach blossoms in spring, and the dramatic Yarlung Tsangpo Grand Canyon.</li>
+        <li><strong>Ngari (Western Tibet):</strong> A remote and wild region home to sacred Mount Kailash and Lake Manasarovar, a pilgrimage destination for several religions.</li>
+      </ul>
+
+      <h2>Popular Products from Tibet</h2>
+      <ul>
+        <li><strong>Thangka Paintings:</strong> Detailed Buddhist scroll paintings on cotton or silk, hand-painted with natural mineral pigments and rich in spiritual symbolism.</li>
+        <li><strong>Prayer Flags:</strong> Colorful squares of cloth printed with mantras, hung on mountain passes and rooftops to spread blessings with the wind.</li>
+        <li><strong>Singing Bowls:</strong> Handcrafted metal bowls that produce a deep, resonant tone, used for meditation and relaxation.</li>
+        <li><strong>Yak Wool Products:</strong> Soft, warm scarves, shawls, and blankets made from yak wool, perfect for the chilly highland climate.</li>
+        <li><strong>Tibetan Incense:</strong> Natural incense made from Himalayan herbs and plants, traditionally burned in monasteries and homes.</li>
+        <li><strong>Turquoise and Coral Jewelry:</strong> Bold, traditional jewelry pieces worn by Tibetans for centuries as symbols of protection and good fortune.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Tibet</h2>
+      <ul>
+        <li><strong>Momo:</strong> Tibet’s beloved dumplings, filled with yak meat or vegetables, steamed or fried and served with spicy chili sauce.</li>
+        <li><strong>Thukpa:</strong> A hearty noodle soup with meat and vegetables, warming and comforting after a cold day at high altitude.</li>
+        <li><strong>Tsampa:</strong> The Tibetan staple food made of roasted barley flour, usually mixed with butter tea and rolled into small balls by hand.</li>
+        <li><strong>Yak Butter Tea (Po Cha):</strong> A salty, creamy tea made with black tea, yak butter, and salt, offered to every guest and essential for staying warm.</li>
+        <li><strong>Sha Phaley:</strong> Crispy fried bread pockets stuffed with seasoned meat and cabbage, a popular Tibetan snack.</li>
+        <li><strong>Sweet Tea and Chang:</strong> Milky sweet tea served in Lhasa’s busy teahouses, and chang, a mild traditional barley beer enjoyed at festivals.</li>
+      </ul>
+
+      <h2>Special Historical Places in Tibet</h2>
+      <ul>
+        <li><strong>Potala Palace:</strong> A UNESCO World Heritage Site and the former winter residence of the Dalai Lamas, rising thirteen stories above Lhasa with over a thousand rooms full of treasures.</li>
+        <li><strong>Jokhang Temple:</strong> Tibet’s most sacred temple, built in the 7th century, where pilgrims prostrate themselves at the entrance from dawn until dusk.</li>
+        <li><strong>Barkhor Street:</strong> The circular pilgrim route around the Jokhang Temple, lined with shops and stalls, where locals walk clockwise spinning prayer wheels.</li>
+        <li><strong>Sera and Drepung Monasteries:</strong> Two of the great monasteries near Lhasa, famous for the lively afternoon debates of monks at Sera and the vast hillside complex of Drepung.</li>
+        <li><strong>Yamdrok Lake:</strong> A stunning sacred lake of deep turquoise water surrounded by snowy peaks, seen from the Kamba La pass on the way to Gyantse.</li>
+        <li><strong>Namtso Lake:</strong> One of the highest saltwater lakes in the world at about 4,700 meters, with crystal-clear water, prayer flags, and wide open skies.</li>
+        <li><strong>Rongbuk Monastery:</strong> One of the highest monasteries in the world, located near Everest Base Camp with an unforgettable view of the mountain.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're watching pilgrims circle the Jokhang Temple, sipping butter tea in a Lhasa teahouse, gazing at the turquoise waters of Yamdrok Lake, or standing in front of the mighty north face of Everest, Tibet offers a deeply spiritual journey to one of the most remote and breathtaking places on Earth.</p>
+
+      `,
+      image: "/images/tibet.jpg"
     }
 
 ];

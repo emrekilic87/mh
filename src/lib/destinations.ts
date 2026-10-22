@@ -100,6 +100,7 @@ const countryBySlug: Record<string, string> = {
   "discover-zagreb": "croatia",
   "discover-tashkent": "uzbekistan",
   "discover-blue-lagoon": "iceland",
+  "discover-tibet": "china",
 };
 
 const continentByCountry: Record<string, string> = {
