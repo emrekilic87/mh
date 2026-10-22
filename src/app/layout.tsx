@@ -6,7 +6,7 @@ import BackToTop from "@/components/backToTop";
 import Footer from "@/components/footer";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from "next/script";
-import AirhelpBanner from "@/components/affiliate/airhelpBanner";
+import PackingGuideBanner from "@/components/affiliate/packingGuideBanner";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteMetadata } from "@/lib/siteMetadata";
 
@@ -117,7 +117,7 @@ const RootsLayout = ({ children }: RootsLayoutProps) => {
           disableTransitionOnChange
         >
           <HeaderWrapper />
-          <AirhelpBanner />
+          <PackingGuideBanner />
             {children}
           <BackToTop />
           <Footer />
