@@ -62,6 +62,7 @@ const countryBySlug: Record<string, string> = {
   "discover-istanbul": "turkey",
   "discover-antalya": "turkey",
   "discover-fethiye": "turkey",
+  "discover-dalyan": "turkey",
   "discover-ireland": "ireland",
   "discover-dublin": "ireland",
   "discover-kilkenny": "ireland",

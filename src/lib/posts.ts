@@ -5146,6 +5146,60 @@ export const posts = [
 
       `,
       image: "/images/tibet.jpg"
+    },
+    {
+      slug: "discover-dalyan",
+      title: "Dalyan",
+      keywords: "Dalyan travel guide, Dalyan Turkey, Kaunos rock tombs, Iztuzu Beach, Caretta caretta turtles, Dalyan river boat tour, Sultaniye hot springs, Köyceğiz Lake, Dalyan mud baths, Dalyan blue crab, Things to do in Dalyan, Best time to visit Dalyan",
+      summary: "Dalyan, a peaceful riverside town on Turkey’s Aegean–Mediterranean coast, where ancient Lycian rock tombs glow above reed-lined waters, loggerhead turtles nest on a golden beach, and wooden boats drift lazily between lake and sea.",
+      metaDescription: "Dalyan travel guide: Kaunos rock tombs, Iztuzu Turtle Beach, river boat tours, mud baths, local food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Dalyan</strong> is a charming small town in the Muğla province of southwestern Turkey, set on the banks of the Dalyan River, which winds through a maze of reed beds from Köyceğiz Lake to the sea. Its most famous sight is the row of majestic Lycian-style rock tombs carved into the cliffs across the river, beautifully lit at sunset. Life here moves at a slower pace than in the big resorts: there are no high-rise hotels, and the river boats act as the town’s taxis, carrying visitors to the beach, the ruins, and the hot springs. Dalyan is about a 30-minute drive from Dalaman Airport, making it easy to reach, and it pairs perfectly with a trip to nearby Fethiye or Marmaris. The best time to visit is from May to October, while June and July are when the turtles come ashore to nest.</p>
+
+      <h2>Popular Areas in Dalyan</h2>
+      <ul>
+        <li><strong>Dalyan Riverfront:</strong> The heart of the town, lined with restaurants, cafés, and boat cooperatives, offering the classic view of the rock tombs across the water.</li>
+        <li><strong>Iztuzu Beach:</strong> A 4.5-kilometer stretch of golden sand between the river delta and the sea, one of the most important nesting sites for loggerhead sea turtles in the Mediterranean.</li>
+        <li><strong>Köyceğiz Lake:</strong> A large, tranquil lake north of Dalyan, surrounded by mountains, citrus groves, and the rare sweetgum (Liquidambar) forests.</li>
+        <li><strong>Sultaniye Hot Springs:</strong> Thermal springs on the shore of Köyceğiz Lake, known since antiquity, where you can soak in warm mineral-rich water.</li>
+        <li><strong>Dalyan Mud Baths:</strong> Natural mud pools by the river where visitors cover themselves in sulfurous mud, let it dry in the sun, and rinse off in warm springs, said to make you look ten years younger.</li>
+        <li><strong>Ekincik Bay:</strong> A secluded, pine-fringed bay to the west, a lovely spot for swimming and a starting point for boat trips into the delta.</li>
+      </ul>
+
+      <h2>Popular Products from Dalyan</h2>
+      <ul>
+        <li><strong>Pine Honey:</strong> Rich, dark honey from the pine forests of the Muğla region, which produces most of the world’s pine honey.</li>
+        <li><strong>Sweetgum Oil (Sığla Yağı):</strong> A rare, fragrant balm made from the resin of the Liquidambar orientalis trees around Köyceğiz, used traditionally for skin and healing.</li>
+        <li><strong>Citrus Products:</strong> Fresh oranges, mandarins, and homemade marmalades from the orchards around Köyceğiz Lake.</li>
+        <li><strong>Olive Oil and Olive Oil Soap:</strong> Locally produced, natural olive oil and handmade soaps, perfect as gifts.</li>
+        <li><strong>Handwoven Textiles:</strong> Colorful Turkish towels (peshtemal), scarves, and kilims sold in the small shops along the riverfront.</li>
+        <li><strong>Turtle-Themed Souvenirs:</strong> Ceramics, jewelry, and crafts inspired by the famous Caretta caretta turtles of Iztuzu Beach.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Dalyan</h2>
+      <ul>
+        <li><strong>Blue Crab:</strong> Dalyan’s signature dish, caught in the river and lake and served grilled, steamed, or in a buttery casserole.</li>
+        <li><strong>Grilled Fish:</strong> Fresh sea bass, sea bream, and grey mullet from the river and the delta, simply grilled and served with salad and lemon.</li>
+        <li><strong>Gözleme:</strong> Thin, hand-rolled flatbread filled with cheese, spinach, or potato, cooked on a griddle by local women, especially on boat stops and at the market.</li>
+        <li><strong>Meze:</strong> A colorful spread of Aegean appetizers like stuffed vine leaves, haydari yogurt dip, sea beans, and wild herbs dressed in olive oil.</li>
+        <li><strong>Çökertme Kebab:</strong> A beloved dish of the Muğla region, made with thin strips of beef on crispy fried potato sticks, topped with garlic yogurt.</li>
+        <li><strong>Fresh Orange Juice and Turkish Tea:</strong> Freshly squeezed juice from local oranges and endless glasses of tea, enjoyed on the riverfront.</li>
+      </ul>
+
+      <h2>Special Historical Places in Dalyan</h2>
+      <ul>
+        <li><strong>Kaunos Rock Tombs:</strong> Impressive temple-fronted tombs carved into the cliffs in the 4th century BC for the kings of Kaunos, the most iconic sight in Dalyan.</li>
+        <li><strong>Ancient City of Kaunos:</strong> The ruins of a once-thriving port city on the border of Caria and Lycia, with a well-preserved theater, Roman baths, an acropolis, and views over the delta.</li>
+        <li><strong>Kaunos Theater:</strong> A beautiful Hellenistic theater built into the hillside, with seating for around 5,000 people.</li>
+        <li><strong>Caretta Caretta Turtle Conservation Center (DEKAMER):</strong> A sea turtle rescue and rehabilitation center at Iztuzu Beach, where you can learn about the turtles and see some up close.</li>
+        <li><strong>Carian Trail:</strong> A long-distance hiking route through ancient Caria that passes near Dalyan, following old paths past ruins and villages with panoramic views over the river, lake, and sea.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're drifting down the river past ancient rock tombs, watching turtles hatch on Iztuzu Beach, soaking in the Sultaniye hot springs, or sitting down to a plate of blue crab by the water, Dalyan offers a peaceful, nature-filled escape on one of Turkey’s most beautiful coastlines.</p>
+
+      `,
+      image: "/images/dalyan.jpg"
     }
 
 ];
