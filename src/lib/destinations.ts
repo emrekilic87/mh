@@ -96,6 +96,7 @@ const countryBySlug: Record<string, string> = {
   "discover-curacao": "curacao",
   "discover-kathmandu": "nepal",
   "discover-rabat": "morocco",
+  "discover-marrakech": "morocco",
   "discover-helsinki": "finland",
   "discover-baku": "azerbaijan",
   "discover-zagreb": "croatia",

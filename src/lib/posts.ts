@@ -5200,6 +5200,61 @@ export const posts = [
 
       `,
       image: "/images/dalyan.jpg"
+    },
+    {
+      slug: "discover-marrakech",
+      title: "Marrakech",
+      keywords: "Marrakech travel guide, Marrakech Morocco, Jemaa el-Fnaa, Marrakech medina souks, Majorelle Garden, Bahia Palace, Koutoubia Mosque, Moroccan food Marrakech, Marrakech riads, Atlas Mountains day trip, Things to do in Marrakech, Best time to visit Marrakech",
+      summary: "Marrakech, Morocco’s legendary Red City, where snake charmers and storytellers fill Jemaa el-Fnaa, labyrinthine souks glow with lanterns and spices, and tranquil riads and gardens hide behind ancient pink walls at the foot of the snow-capped Atlas Mountains.",
+      metaDescription: "Marrakech travel guide: Jemaa el-Fnaa, medina souks, Majorelle Garden, Bahia Palace, Moroccan food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Marrakech</strong>, known as the "Red City" for the ochre-pink color of its walls and buildings, is one of Morocco’s four Imperial Cities and its most famous travel destination. Founded in 1070 by the Almoravid dynasty, it lies at the foot of the High Atlas Mountains and has been a crossroads of Berber, Arab, and African cultures for nearly a thousand years. At its heart is the UNESCO-listed medina, a maze of narrow alleys, bustling souks, and hidden courtyard houses called riads, while the modern districts of Gueliz and Hivernage offer boutiques, cafés, and stylish restaurants. Marrakech Menara Airport is just 15 minutes from the old town, with direct flights from across Europe. The best time to visit is spring (March to May) and autumn (September to November), when days are warm and sunny; summers can be extremely hot, while winter nights are cool and the Atlas peaks are often dusted with snow.</p>
+
+      <h2>Popular Areas in Marrakech</h2>
+      <ul>
+        <li><strong>Jemaa el-Fnaa:</strong> The city’s legendary main square, filled by day with orange juice stalls, henna artists, and snake charmers, and transformed at dusk into a giant open-air food market with storytellers and musicians.</li>
+        <li><strong>The Medina Souks:</strong> A vast network of covered market streets north of Jemaa el-Fnaa, each section devoted to a craft, from leather and metalwork to spices, carpets, and lanterns.</li>
+        <li><strong>Gueliz:</strong> The modern "Ville Nouvelle" built during the French protectorate, home to art galleries, concept stores, rooftop bars, and contemporary Moroccan restaurants.</li>
+        <li><strong>Kasbah District:</strong> A quieter, historic quarter in the south of the medina, near the Saadian Tombs and the Royal Palace, with local markets and charming riads.</li>
+        <li><strong>Mellah:</strong> The old Jewish quarter, with its spice market, historic synagogues, and the atmospheric Miaara Jewish Cemetery.</li>
+        <li><strong>Palmeraie:</strong> A vast palm grove on the edge of the city, dotted with luxury resorts and villas, popular for camel rides and quad biking at sunset.</li>
+      </ul>
+
+      <h2>Popular Products from Marrakech</h2>
+      <ul>
+        <li><strong>Argan Oil:</strong> The famous "liquid gold" of Morocco, produced by Berber women’s cooperatives and used for cooking, skin, and hair care.</li>
+        <li><strong>Berber Carpets and Rugs:</strong> Handwoven rugs in bold geometric patterns, from the cream-colored Beni Ourain to the colorful Boucherouite rag rugs.</li>
+        <li><strong>Leather Goods:</strong> Babouche slippers, bags, poufs, and jackets made from leather dyed in the city’s traditional tanneries.</li>
+        <li><strong>Moroccan Lanterns:</strong> Intricately pierced brass, copper, and colored-glass lanterns that cast beautiful patterns of light.</li>
+        <li><strong>Spices:</strong> Pyramids of cumin, saffron, paprika, and the signature blend ras el hanout, sold fresh in the souks and the Mellah spice market.</li>
+        <li><strong>Ceramics and Tagines:</strong> Hand-painted plates, bowls, tiles, and traditional clay tagine pots, both decorative and for cooking.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Marrakech</h2>
+      <ul>
+        <li><strong>Tagine:</strong> Morocco’s iconic slow-cooked stew, named after its conical clay pot, made with chicken, preserved lemon and olives, or lamb with prunes and almonds.</li>
+        <li><strong>Couscous:</strong> Fluffy steamed semolina topped with vegetables and tender meat, traditionally served for family lunch on Fridays.</li>
+        <li><strong>Tanjia Marrakchia:</strong> The city’s own specialty, beef or lamb slow-cooked for hours in a clay urn buried in the hot ashes of a hammam furnace.</li>
+        <li><strong>Pastilla:</strong> A flaky pastry pie filled with spiced pigeon or chicken and almonds, dusted with cinnamon and powdered sugar, a perfect balance of sweet and savory.</li>
+        <li><strong>Harira:</strong> A hearty tomato, lentil, and chickpea soup, especially popular for breaking the fast during Ramadan.</li>
+        <li><strong>Mint Tea:</strong> Sweet green tea with fresh mint, poured from a height into small glasses, the symbol of Moroccan hospitality.</li>
+      </ul>
+
+      <h2>Special Historical Places in Marrakech</h2>
+      <ul>
+        <li><strong>Koutoubia Mosque:</strong> The largest mosque in Marrakech, whose 77-meter, 12th-century minaret is the city’s most recognizable landmark and inspired the Giralda in Seville.</li>
+        <li><strong>Bahia Palace:</strong> A 19th-century palace with lavishly decorated rooms, carved cedar ceilings, zellige tilework, and peaceful courtyard gardens.</li>
+        <li><strong>Ben Youssef Madrasa:</strong> Once the largest Islamic college in North Africa, famous for its stunning courtyard of carved stucco, cedar wood, and mosaic tiles.</li>
+        <li><strong>Saadian Tombs:</strong> The richly decorated 16th-century burial place of the Saadian sultans, rediscovered in 1917 after being sealed for centuries.</li>
+        <li><strong>El Badi Palace:</strong> The impressive ruins of a once-magnificent 16th-century palace, with sunken gardens, vast pools, and storks nesting on its walls.</li>
+        <li><strong>Majorelle Garden:</strong> A vibrant botanical garden created by French painter Jacques Majorelle and later restored by Yves Saint Laurent, known for its electric "Majorelle blue" villa, next to the Yves Saint Laurent Museum.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're getting lost in the souks, sipping mint tea on a rooftop as the call to prayer echoes over Jemaa el-Fnaa, relaxing in a traditional hammam, or heading out on a day trip to the Atlas Mountains and the Agafay Desert, Marrakech offers an intoxicating blend of color, history, and hospitality that stays with you long after you leave.</p>
+
+      `,
+      image: "/images/marrakech.jpg"
     }
 
 ];
