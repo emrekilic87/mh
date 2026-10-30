@@ -73,6 +73,7 @@ const countryBySlug: Record<string, string> = {
   "discover-kuala-lumpur": "malaysia",
   "discover-penang": "malaysia",
   "discover-miami": "usa",
+  "discover-los-angeles": "usa",
   "discover-havana": "cuba",
   "discover-luxembourg": "luxembourg",
   "discover-singapore": "singapore",
