@@ -5310,6 +5310,61 @@ export const posts = [
 
       `,
       image: "/images/los-angeles.jpg"
+    },
+    {
+      slug: "discover-ibiza",
+      title: "Ibiza",
+      keywords: "Ibiza travel guide, Ibiza Spain, Dalt Vila, Ibiza beaches, Cala Comte, Es Vedrà, Ibiza nightlife, Sant Antoni sunset, Las Dalias hippy market, Ibiza food, Things to do in Ibiza, Best time to visit Ibiza",
+      summary: "Ibiza, Spain’s legendary White Isle in the Balearic Sea, where a UNESCO-listed fortress town rises above the harbor, turquoise coves hide beneath pine-covered cliffs, and world-famous sunsets and superclubs share an island with quiet farmhouses and hippy markets.",
+      metaDescription: "Ibiza travel guide: Dalt Vila, Cala Comte, Es Vedrà, Sant Antoni sunsets, hippy markets, Ibicencan food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Ibiza</strong>, known in Catalan as Eivissa and nicknamed the "White Isle" for its whitewashed houses, is one of Spain’s Balearic Islands in the western Mediterranean. Founded by the Phoenicians in the 7th century BC, it was later ruled by Carthaginians, Romans, and Moors before becoming part of the Crown of Aragon in 1235. Although it is famous around the world for its nightlife, the island is just as rich in history and nature, with a UNESCO World Heritage Site recognized for both its culture and its biodiversity, more than 200 kilometers of coastline, and a peaceful countryside of olive groves and traditional farmhouses. Ibiza Airport is only about 7 kilometers from Ibiza Town, with direct flights from across Europe in summer, and ferries connect the island with Barcelona, Valencia, and Dénia. Renting a car or scooter is the easiest way to reach the remote coves. The best time to visit is May, June, September, and early October, when the sea is warm and the crowds are smaller; July and August are the hottest and busiest months, and most clubs open only from around May to October.</p>
+
+      <h2>Popular Areas in Ibiza</h2>
+      <ul>
+        <li><strong>Ibiza Town (Eivissa):</strong> The island’s lively capital, where the old fortress of Dalt Vila overlooks a busy harbor, the boutiques and bars of La Marina, and the yachts of Marina Botafoch.</li>
+        <li><strong>Sant Antoni de Portmany:</strong> A buzzing resort town on the west coast, best known for the Sunset Strip, where crowds gather at bars like Café Mambo and Café del Mar to watch the sun sink into the sea.</li>
+        <li><strong>Playa d’en Bossa:</strong> The island’s longest beach and the center of its club scene, lined with hotels and beach bars and home to superclubs like Ushuaïa and Hï Ibiza.</li>
+        <li><strong>Santa Eulària des Riu:</strong> A relaxed, family-friendly town on the east coast, with a palm-lined promenade, a good choice of restaurants, and a calmer pace of life.</li>
+        <li><strong>Santa Gertrudis de Fruitera:</strong> A charming inland village at the heart of the island, with a white church, art galleries, and popular café terraces on its small square.</li>
+        <li><strong>Cala Comte and Cala d’Hort:</strong> Two of the island’s most beautiful beaches, Cala Comte with its shallow turquoise water and Cala d’Hort with its dramatic views of the rocky islet of Es Vedrà.</li>
+      </ul>
+
+      <h2>Popular Products from Ibiza</h2>
+      <ul>
+        <li><strong>Sal de Ibiza:</strong> Natural sea salt harvested in the historic Ses Salines salt pans, sold plain or blended with local herbs and flowers.</li>
+        <li><strong>Hierbas Ibicencas:</strong> The island’s traditional anise-based liqueur, flavored with local herbs such as thyme, rosemary, and fennel.</li>
+        <li><strong>Adlib Fashion:</strong> Flowing white clothing and lace in the island’s signature Moda Adlib style, a bohemian look that dates back to the 1970s.</li>
+        <li><strong>Hippy Market Crafts:</strong> Handmade jewelry, leather sandals, dreamcatchers, and colorful clothing from the famous markets at Las Dalias and Punta Arabí.</li>
+        <li><strong>Local Wine:</strong> Reds and whites made from island-grown grapes and labeled Vi de la Terra Eivissa, a small but growing part of Ibiza’s food scene.</li>
+        <li><strong>Handmade Ceramics:</strong> Pottery and decorative pieces made by local artisans, some inspired by the island’s Punic and Phoenician past.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Ibiza</h2>
+      <ul>
+        <li><strong>Bullit de Peix:</strong> The island’s signature dish, fresh local fish stewed with potatoes and alioli, followed by arroz a banda, rice cooked in the rich fish broth.</li>
+        <li><strong>Sofrit Pagès:</strong> A hearty farmer’s stew of lamb, chicken, potatoes, and local sausages, flavored with garlic and spices.</li>
+        <li><strong>Ensalada Payesa:</strong> A rustic salad of roasted peppers, tomatoes, potatoes, and dried fish, a simple taste of the island’s farming and fishing traditions.</li>
+        <li><strong>Flaó:</strong> Ibiza’s classic dessert, a cheesecake-like tart made with fresh cheese and eggs and flavored with mint and anise.</li>
+        <li><strong>Greixonera:</strong> A sweet, cinnamon-scented pudding made from leftover ensaimada pastries, eggs, and milk.</li>
+        <li><strong>Fresh Seafood and Paella:</strong> Grilled fish, squid, and seafood rice served at simple beach restaurants, or chiringuitos, with a view of the sea.</li>
+      </ul>
+
+      <h2>Special Historical Places in Ibiza</h2>
+      <ul>
+        <li><strong>Dalt Vila:</strong> The walled old town of Ibiza Town and part of a UNESCO World Heritage Site, with cobbled lanes and massive Renaissance bastions built in the 16th century to defend against pirate and Ottoman attacks.</li>
+        <li><strong>Ibiza Cathedral:</strong> The Cathedral of Santa Maria, built at the highest point of Dalt Vila after the Catalan conquest, with far-reaching views over the town, the harbor, and the sea.</li>
+        <li><strong>Puig des Molins:</strong> A remarkably large Phoenician and Punic necropolis with thousands of underground tombs, also part of the UNESCO site, with a museum displaying the treasures found there.</li>
+        <li><strong>Sa Caleta Phoenician Settlement:</strong> The ruins of the earliest Phoenician settlement on the island, dating to the 8th century BC, on the southern coast near Es Codolar.</li>
+        <li><strong>Puig de Missa:</strong> A fortified 16th-century white church on a hilltop in Santa Eulària des Riu, built to protect local people from pirate raids.</li>
+        <li><strong>Torre des Savinar:</strong> A historic coastal watchtower, also known as Torre del Pirata, standing on the cliffs opposite Es Vedrà with one of the most spectacular views on the island.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're exploring the ancient walls of Dalt Vila, swimming in a hidden cove, dancing until sunrise at a legendary club, browsing a hippy market, or watching the sun set behind Es Vedrà, Ibiza offers a rare mix of history, natural beauty, and free-spirited energy that goes far beyond its party reputation.</p>
+
+      `,
+      image: "/images/ibiza.jpg"
     }
 
 ];

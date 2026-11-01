@@ -45,6 +45,7 @@ const countryBySlug: Record<string, string> = {
   "discover-sevilla": "spain",
   "discover-valencia": "spain",
   "discover-madrid": "spain",
+  "discover-ibiza": "spain",
   "discover-ecuador": "ecuador",
   "discover-guayaquil": "ecuador",
   "discover-galapagos": "ecuador",
