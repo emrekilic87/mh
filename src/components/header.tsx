@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Instagram, Youtube } from "lucide-react";
 import Image from "next/image";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -7,6 +6,22 @@ type HeaderProps = {
   showSearch?: boolean;
   onSearchChange?: (value: string) => void;
 };
+
+const YoutubeIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
+    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+  </svg>
+);
+
+const InstagramIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
+    <path
+      fillRule="evenodd"
+      d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zM12 7a5 5 0 1 0 0 10a5 5 0 1 0 0-10zM12 9a3 3 0 1 1 0 6a3 3 0 1 1 0-6zM17.3 5.5a1.2 1.2 0 1 0 0 2.4a1.2 1.2 0 1 0 0-2.4z"
+    />
+  </svg>
+);
+
 const Header = ({ showSearch = false, onSearchChange }: HeaderProps) => {
   return (
     <header className="sticky top-0 z-50 w-full px-4 py-3 border-b border-gray-300 bg-background dark:border-gray-500 dark:bg-background">
@@ -39,10 +54,10 @@ const Header = ({ showSearch = false, onSearchChange }: HeaderProps) => {
 
         <div className="flex items-center space-x-2">
           <Link href="https://www.youtube.com/@multihatsvideo" target="_blank" aria-label="YouTube">
-            <Youtube className="h-4 w-4 md:h-7 md:w-7 text-black dark:text-white hover:text-red-600 dark:hover:text-red-600 transition-colors" />
+            <YoutubeIcon className="h-4 w-4 md:h-6 md:w-6 text-black dark:text-white hover:text-red-600 dark:hover:text-red-600 transition-colors" />
           </Link>
           <Link href="https://www.instagram.com/multi.hats/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <Instagram className="h-4 w-4 md:h-6 md:w-6 text-black dark:text-white hover:text-pink-400 dark:hover:text-pink-400 transition-colors" />
+            <InstagramIcon className="h-4 w-4 md:h-6 md:w-6 text-black dark:text-white hover:text-pink-400 dark:hover:text-pink-400 transition-colors" />
           </Link>
           <ThemeToggle />
         </div>
