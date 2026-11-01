@@ -1,13 +1,12 @@
 "use client";
 
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
 import Pagination from "@/components/pagination";
-import { useRouter, usePathname } from "next/navigation";
 
 type Post = {
   slug: string;
@@ -23,30 +22,7 @@ type HomeClientProps = {
 };
 
 export default function HomeClient({ posts, currentPage, search }: HomeClientProps) {
-  const router = useRouter();
-  const pathname = usePathname()
   const postsPerPage = 20;
-
-  useEffect(() => {
-    const handleSearch = (e: Event) => {
-      const customEvent = e as CustomEvent;
-      const query = customEvent.detail.toLowerCase();
-  
-      const current = new URLSearchParams();
-      if (currentPage > 1) current.set("page", String(currentPage));
-      if (query) {
-        current.set("q", query);
-        current.set("page", "1");
-      } else {
-        current.delete("q");
-      }
-  
-      router.push(`${pathname}?${current.toString()}`);
-    };
-  
-    window.addEventListener("search-change", handleSearch);
-    return () => window.removeEventListener("search-change", handleSearch);
-  }, [currentPage, router, pathname]);
 
   const filteredPosts = useMemo(() => {
     return posts.filter((post) =>

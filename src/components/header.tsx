@@ -1,11 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ThemeToggle } from "./ThemeToggle";
-
-type HeaderProps = {
-  showSearch?: boolean;
-  onSearchChange?: (value: string) => void;
-};
+import SearchInput from "./searchInput";
 
 const YoutubeIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
@@ -22,7 +18,7 @@ const InstagramIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-const Header = ({ showSearch = false, onSearchChange }: HeaderProps) => {
+const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full px-4 py-3 border-b border-gray-300 bg-background dark:border-gray-500 dark:bg-background">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
@@ -38,19 +34,7 @@ const Header = ({ showSearch = false, onSearchChange }: HeaderProps) => {
           />
         </Link>
 
-        {showSearch && (
-          <input
-            type="text"
-            placeholder="Search city name"
-            className="text-xs md:text-sm w-40 h-8 md:w-48 border dark:border-gray-500 px-4 py-2 rounded-lg shadow-sm mr-4 ml-4"
-            onChange={(e) => {
-              const event = new CustomEvent("search-change", {
-                detail: e.target.value,
-              });
-              window.dispatchEvent(event);
-            }}
-          />
-        )}
+        <SearchInput />
 
         <div className="flex items-center space-x-2">
           <Link href="https://www.youtube.com/@multihatsvideo" target="_blank" aria-label="YouTube">
