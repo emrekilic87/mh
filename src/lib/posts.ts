@@ -5476,6 +5476,62 @@ export const posts = [
 
       `,
       image: "/images/lanzhou.jpg"
+    },
+    {
+      slug: "discover-carthage",
+      title: "Carthage",
+      keywords: "Carthage travel guide, Carthage Tunisia, Ancient Carthage, Antonine Baths, Byrsa Hill, Punic Ports, Tophet of Salammbô, Sidi Bou Said, La Marsa, Tunisian food, Things to do in Carthage, Best time to visit Carthage",
+      summary: "Carthage, the legendary city of Queen Dido and Hannibal on the Gulf of Tunis, where the ruins of a great Punic and Roman capital lie among seaside villas, blue-and-white villages, and Mediterranean beaches just outside Tunisia’s capital.",
+      metaDescription: "Carthage travel guide: Byrsa Hill, Antonine Baths, Punic Ports, Roman villas, Sidi Bou Said, Tunisian food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Carthage</strong> is an ancient city on the coast of the Gulf of Tunis, about 15 kilometers northeast of central Tunis, the capital of Tunisia. According to legend it was founded in the 9th century BC by Phoenician settlers from Tyre led by Queen Elissa, better known as Dido, and it grew into the capital of a powerful maritime empire that controlled trade across the western Mediterranean. Carthage fought Rome in the three Punic Wars, producing the famous general Hannibal, who crossed the Alps with his war elephants, before the city was destroyed by the Romans in 146 BC. Julius Caesar and Augustus later rebuilt it as Roman Carthage, which became one of the largest cities of the Roman Empire and an important center of early Christianity. Today the archaeological site is a UNESCO World Heritage Site, spread across a leafy, upscale suburb of villas, gardens, and the presidential palace, so the ruins are scattered among modern streets rather than enclosed in a single park. Tunis–Carthage International Airport is only a few kilometers away, and the TGM light railway connects central Tunis with Carthage, Sidi Bou Said, and La Marsa, with several stations close to the main sites. A single combined ticket covers most of the archaeological sites and museums. The best time to visit is from April to June and September to October, when the weather is warm and sunny but comfortable for walking between the ruins; summers are hot, and the beaches fill with locals.</p>
+
+      <h2>Popular Areas in Carthage</h2>
+      <ul>
+        <li><strong>Byrsa Hill:</strong> The historic heart of ancient Carthage, where the Punic citadel once stood, now home to the Carthage National Museum, Punic house ruins, and sweeping views over the gulf.</li>
+        <li><strong>Carthage Hannibal:</strong> The area around Byrsa Hill and its TGM station, a good starting point for exploring the museum, the cathedral, and the nearby Roman villas.</li>
+        <li><strong>Salammbô:</strong> A coastal neighborhood home to the ancient Punic Ports and the Tophet, as well as the Oceanographic Museum.</li>
+        <li><strong>Sidi Bou Said:</strong> A picturesque clifftop village just north of Carthage, famous for its whitewashed houses, bright blue doors and shutters, artists’ cafés, and views over the sea.</li>
+        <li><strong>La Marsa:</strong> A relaxed seaside town at the end of the TGM line, with a long sandy beach, a lively corniche, cafés, and some of the best restaurants in the Tunis area.</li>
+        <li><strong>Gammarth:</strong> An upscale resort area north of La Marsa, known for its beach hotels, seafood restaurants, and summer nightlife.</li>
+      </ul>
+
+      <h2>Popular Products from Carthage</h2>
+      <ul>
+        <li><strong>Mosaic Replicas:</strong> Handmade copies of the Roman mosaics found in Carthage and across Tunisia, from small tiles to large decorative panels.</li>
+        <li><strong>Sidi Bou Said Birdcages:</strong> Elegant white-and-blue wrought-iron birdcages, a symbol of the nearby village and a popular decorative souvenir.</li>
+        <li><strong>Tunisian Ceramics:</strong> Colorful hand-painted plates, bowls, and tiles, many from the pottery town of Nabeul, decorated with traditional floral and geometric patterns.</li>
+        <li><strong>Olive Oil:</strong> Tunisia is one of the world’s largest olive oil producers, and high-quality extra virgin oil makes an excellent edible gift.</li>
+        <li><strong>Harissa:</strong> The fiery red chili paste that flavors so much of Tunisian cuisine, sold in jars and tins in markets and shops.</li>
+        <li><strong>Chechia and Fouta:</strong> The traditional red felt Tunisian hat, and the lightweight striped cotton fouta towels used at hammams and beaches.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Carthage</h2>
+      <ul>
+        <li><strong>Couscous:</strong> Tunisia’s national dish, steamed semolina served with vegetables and lamb, chicken, or fish in a spicy, aromatic sauce.</li>
+        <li><strong>Brik:</strong> A crispy, paper-thin pastry filled with egg, tuna, parsley, and capers, fried until golden and eaten carefully by hand.</li>
+        <li><strong>Grilled Fish and Seafood:</strong> Fresh catches from the Gulf of Tunis, such as sea bream and sea bass, grilled simply with olive oil and lemon in the seaside restaurants of La Marsa and Gammarth.</li>
+        <li><strong>Lablabi:</strong> A hearty chickpea soup with garlic, cumin, harissa, and pieces of bread, often topped with an egg, a favorite Tunisian breakfast.</li>
+        <li><strong>Salade Méchouia:</strong> A smoky salad of grilled peppers, tomatoes, and onions, mashed with olive oil and garlic and topped with tuna and egg.</li>
+        <li><strong>Bambalouni and Mint Tea:</strong> Sweet fried doughnuts dusted with sugar, a Sidi Bou Said specialty, best enjoyed with a glass of mint tea with pine nuts.</li>
+      </ul>
+
+      <h2>Special Historical Places in Carthage</h2>
+      <ul>
+        <li><strong>Antonine Baths:</strong> The largest Roman bath complex in Africa, built in the 2nd century AD on the seafront, with massive columns and vaulted ruins overlooking the Mediterranean.</li>
+        <li><strong>Carthage National Museum:</strong> A museum on top of Byrsa Hill displaying Punic and Roman artifacts, sculptures, mosaics, and everyday objects from the ancient city.</li>
+        <li><strong>Punic Ports:</strong> The remains of Carthage’s famous harbors, including a circular military port that once sheltered the city’s war fleet, now a pair of quiet lagoons.</li>
+        <li><strong>Tophet of Salammbô:</strong> An ancient Punic sanctuary and burial ground with rows of carved stone stelae dedicated to the gods Baal Hammon and Tanit.</li>
+        <li><strong>Roman Villas:</strong> A hillside park of excavated Roman houses with mosaic floors and columns, including the restored Villa of the Aviary, with views down to the sea.</li>
+        <li><strong>Roman Amphitheatre and Theatre:</strong> The remains of the amphitheatre where early Christian martyrs died, and a restored Roman theatre that hosts the International Festival of Carthage every summer.</li>
+        <li><strong>Saint Louis Cathedral:</strong> A grand 19th-century cathedral on Byrsa Hill, built in a mix of Byzantine and Moorish styles and now used as a cultural venue known as the Acropolium.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're standing among the giant columns of the Antonine Baths, imagining Hannibal’s fleet in the Punic Ports, sipping mint tea on a terrace in Sidi Bou Said, or enjoying grilled fish by the sea in La Marsa, Carthage offers a rare chance to walk through three thousand years of Mediterranean history in one beautiful seaside setting.</p>
+
+      `,
+      image: "/images/carthage.jpg"
     }
 
 ];

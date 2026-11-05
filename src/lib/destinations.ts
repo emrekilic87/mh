@@ -107,6 +107,7 @@ const countryBySlug: Record<string, string> = {
   "discover-tibet": "china",
   "discover-belgrade": "serbia",
   "discover-lanzhou": "china",
+  "discover-carthage": "tunisia",
 };
 
 const continentByCountry: Record<string, string> = {
@@ -122,7 +123,7 @@ const continentByCountry: Record<string, string> = {
   curacao: "north-america",
   chile: "south-america", argentina: "south-america", brazil: "south-america", peru: "south-america",
   ecuador: "south-america", uruguay: "south-america",
-  tanzania: "africa", "south-africa": "africa", morocco: "africa",
+  tanzania: "africa", "south-africa": "africa", morocco: "africa", tunisia: "africa",
   "new-zealand": "oceania", australia: "oceania",
 };
 
