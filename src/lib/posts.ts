@@ -5365,6 +5365,117 @@ export const posts = [
 
       `,
       image: "/images/ibiza.jpg"
+    },
+    {
+      slug: "discover-belgrade",
+      title: "Belgrade",
+      keywords: "Belgrade travel guide, Belgrade Serbia, Kalemegdan Fortress, Skadarlija, Knez Mihailova Street, Belgrade nightlife, splavovi, Zemun, Temple of Saint Sava, Serbian food, Things to do in Belgrade, Best time to visit Belgrade",
+      summary: "Belgrade, Serbia’s energetic capital at the meeting point of the Sava and Danube rivers, where an ancient fortress watches over the water, bohemian cobbled streets fill with music, and legendary river-barge clubs keep the city awake until sunrise.",
+      metaDescription: "Belgrade travel guide: Kalemegdan Fortress, Skadarlija, Zemun, Temple of Saint Sava, river nightlife, Serbian food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Belgrade</strong>, known in Serbian as Beograd, meaning "White City," is the capital and largest city of Serbia, standing where the Sava River flows into the Danube. It is one of the oldest continuously inhabited cities in Europe, first settled by Celtic tribes and later fortified by the Romans as Singidunum. Over the centuries it was fought over by Byzantines, Hungarians, Ottomans, and Austrians, and it is said to have been destroyed and rebuilt dozens of times, leaving behind a fascinating mix of Ottoman, Austro-Hungarian, Yugoslav, and modern architecture. Today Belgrade is known for its warm hospitality, hearty food, café culture, and some of the liveliest nightlife in Europe. Belgrade Nikola Tesla Airport is about 18 kilometers from the city center, and buses, trams, and affordable taxis make getting around easy, while most central sights can be explored on foot. The best time to visit is from April to June and September to October, when the weather is pleasant for walking and sitting by the rivers; summers can be hot, and winters are cold but atmospheric, with festive markets in December.</p>
+
+      <h2>Popular Areas in Belgrade</h2>
+      <ul>
+        <li><strong>Stari Grad (Old Town):</strong> The historic heart of the city, home to Kalemegdan Park, Republic Square, the National Museum, and many of Belgrade’s most important landmarks.</li>
+        <li><strong>Knez Mihailova Street:</strong> Belgrade’s main pedestrian street, lined with elegant 19th-century buildings, shops, cafés, and street performers, leading straight to Kalemegdan.</li>
+        <li><strong>Skadarlija:</strong> The city’s bohemian quarter, a cobbled street of old taverns, or kafanas, where traditional musicians play at the tables and artists and poets once gathered.</li>
+        <li><strong>Zemun:</strong> Once a separate town on the border of the Austro-Hungarian Empire, with a charming riverside promenade, fish restaurants, and narrow streets climbing to the Gardoš Tower.</li>
+        <li><strong>Savamala and Belgrade Waterfront:</strong> A riverside district along the Sava that has transformed from an old industrial area into a hub of bars, cultural spaces, and modern promenades.</li>
+        <li><strong>Dorćol:</strong> A historic neighborhood stretching down toward the Danube, popular for its trendy cafés, craft beer bars, galleries, and relaxed local atmosphere.</li>
+        <li><strong>Ada Ciganlija:</strong> A river island turned lake beach, nicknamed the "Sea of Belgrade," where locals swim, cycle, and play sports throughout the summer.</li>
+      </ul>
+
+      <h2>Popular Products from Belgrade</h2>
+      <ul>
+        <li><strong>Rakija:</strong> Serbia’s beloved fruit brandy, most famously šljivovica made from plums, often sold in decorative bottles and offered to guests as a sign of welcome.</li>
+        <li><strong>Ajvar:</strong> A rich spread of roasted red peppers and sometimes eggplant, a staple of Serbian kitchens and a delicious edible souvenir.</li>
+        <li><strong>Opanci:</strong> Traditional Serbian leather shoes with distinctive curled toes, sold in full size or as small decorative keepsakes.</li>
+        <li><strong>Pirot Kilim:</strong> Handwoven wool rugs with colorful geometric patterns, a traditional Serbian craft with a history of several centuries.</li>
+        <li><strong>Orthodox Icons:</strong> Hand-painted religious icons and church art, reflecting the deep roots of the Serbian Orthodox tradition.</li>
+        <li><strong>Serbian Wine:</strong> Reds and whites from regions such as Fruška Gora, Šumadija, and Negotin, including wines from local grapes like Prokupac.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Belgrade</h2>
+      <ul>
+        <li><strong>Ćevapi:</strong> Small grilled minced-meat sausages served in soft lepinja bread with chopped onions and kajmak, a true Balkan classic.</li>
+        <li><strong>Pljeskavica:</strong> A large, juicy grilled meat patty, often called the Balkan burger, served with salads and spreads on fresh flatbread.</li>
+        <li><strong>Karađorđeva Šnicla:</strong> A rolled, breaded veal or pork steak stuffed with kajmak, created in Belgrade and named after the leader of the First Serbian Uprising.</li>
+        <li><strong>Sarma:</strong> Cabbage leaves stuffed with minced meat and rice, slowly cooked with smoked meat, especially popular in winter.</li>
+        <li><strong>Burek:</strong> Flaky pastry filled with meat, cheese, or spinach, the city’s favorite breakfast, traditionally eaten with a glass of yogurt.</li>
+        <li><strong>Gibanica and Kajmak:</strong> A layered cheese pie made with phyllo pastry, and the creamy dairy spread kajmak that accompanies many Serbian dishes.</li>
+      </ul>
+
+      <h2>Special Historical Places in Belgrade</h2>
+      <ul>
+        <li><strong>Belgrade Fortress (Kalemegdan):</strong> The city’s most iconic landmark, a fortress with layers of Roman, Byzantine, Serbian, Ottoman, and Austrian history, overlooking the confluence of the Sava and Danube and surrounded by a beautiful park.</li>
+        <li><strong>Temple of Saint Sava:</strong> One of the largest Orthodox churches in the world, with a vast white dome and a breathtaking golden mosaic interior.</li>
+        <li><strong>Pobednik (The Victor):</strong> A famous monument standing on a tall column inside the fortress, built to commemorate Serbia’s victories in the Balkan Wars and World War I and a symbol of Belgrade.</li>
+        <li><strong>House of Flowers:</strong> The mausoleum of Josip Broz Tito, part of the Museum of Yugoslavia, offering a fascinating look into the history of the former Yugoslav state.</li>
+        <li><strong>Nikola Tesla Museum:</strong> A museum dedicated to the brilliant inventor, displaying his personal belongings, working models of his inventions, and the urn containing his ashes.</li>
+        <li><strong>Gardoš Tower:</strong> Also known as the Millennium Tower, built in 1896 on a hill in Zemun to celebrate a thousand years of Hungarian settlement, with panoramic views of the Danube and the city.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're watching the sunset over two rivers from the walls of Kalemegdan, listening to traditional music in a Skadarlija kafana, enjoying grilled ćevapi by the Danube, or dancing until dawn on a floating river club, Belgrade offers a bold and unforgettable mix of history, flavor, and nonstop energy.</p>
+
+      `,
+      image: "/images/belgrade.jpg"
+    },
+    {
+      slug: "discover-lanzhou",
+      title: "Lanzhou",
+      keywords: "Lanzhou travel guide, Lanzhou China, Gansu, Yellow River, Lanzhou beef noodles, Zhongshan Bridge, Baita Mountain, Silk Road, Bingling Temple, Mother Yellow River Statue, Things to do in Lanzhou, Best time to visit Lanzhou",
+      summary: "Lanzhou, the capital of China’s Gansu Province and the only provincial capital the Yellow River flows through, a historic Silk Road gateway famous for its hand-pulled beef noodles, riverside parks, and ancient Buddhist grottoes hidden among dramatic canyons.",
+      metaDescription: "Lanzhou travel guide: Yellow River, Zhongshan Bridge, Baita Mountain, Bingling Temple, beef noodles, Gansu food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Lanzhou</strong> is the capital of Gansu Province in northwestern China, stretching along both banks of the Yellow River in a long, narrow valley between rugged loess mountains. For more than two thousand years it was a key stop on the ancient Silk Road, where merchants, monks, and armies crossed the river before heading west through the Hexi Corridor toward Dunhuang and Central Asia. This history gave the city a rich mix of Han Chinese, Hui Muslim, Tibetan, and other cultures, which can still be seen today in its mosques, temples, and especially its food. Lanzhou is best known across China for its hand-pulled beef noodles, enjoyed by locals at breakfast in thousands of small noodle shops. Lanzhou Zhongchuan International Airport is about 70 kilometers north of the city, connected by an airport railway, and high-speed trains link Lanzhou with Xi’an, Xining, Dunhuang, and other major cities, making it a popular starting point for exploring Gansu and the Silk Road. The best time to visit is from May to October, when the weather is warm and dry; winters are cold, while spring can bring dusty winds.</p>
+
+      <h2>Popular Areas in Lanzhou</h2>
+      <ul>
+        <li><strong>Yellow River Scenic Belt:</strong> A long riverside promenade running for kilometers along the Yellow River, lined with parks, sculptures, and walking paths, especially lively in the evenings.</li>
+        <li><strong>Zhengning Road Night Market:</strong> The city’s most famous food street, filled with stalls selling grilled lamb skewers, noodles, sweet drinks, and Hui Muslim snacks late into the night.</li>
+        <li><strong>Baita Mountain Park:</strong> A green hillside park on the north bank of the river, with pavilions, winding stairways, and some of the best views over the city and the Yellow River.</li>
+        <li><strong>Wuquan Mountain Park:</strong> A historic park on the southern side of the city, named after its five springs and home to old temples, gardens, and shady paths.</li>
+        <li><strong>Xiguan and the Old City:</strong> The bustling center around Xiguan Cross, with shopping streets, markets, mosques, and the historic Lanzhou Old Street area.</li>
+        <li><strong>Lanzhou New Area:</strong> A rapidly growing modern district near the airport, with wide boulevards, new parks, and a glimpse of the city’s future.</li>
+      </ul>
+
+      <h2>Popular Products from Lanzhou</h2>
+      <ul>
+        <li><strong>Lanzhou Lily Bulbs:</strong> Sweet, tender lily bulbs grown in the surrounding hills, famous throughout China and sold fresh or dried as a healthy local specialty.</li>
+        <li><strong>Carved Gourds:</strong> Traditional handicrafts made by carving detailed landscapes, figures, and poems onto small dried gourds, a unique Lanzhou art form.</li>
+        <li><strong>Rose Products:</strong> Teas, jams, and sweets made from the fragrant roses of nearby Kushui, one of China’s best-known rose-growing regions.</li>
+        <li><strong>Lanzhou Melons and Dried Fruits:</strong> Sweet melons, jujubes, and dried fruits from Gansu’s dry, sunny climate, popular as snacks and gifts.</li>
+        <li><strong>Taohe Inkstones:</strong> Fine inkstones carved from green stone from the Tao River region, prized by Chinese calligraphers for centuries.</li>
+        <li><strong>Silk Road Crafts:</strong> Replicas of Dunhuang murals, painted ceramics, and copies of the famous Flying Horse of Gansu bronze sculpture.</li>
+      </ul>
+
+      <h2>Must-Try Foods in Lanzhou</h2>
+      <ul>
+        <li><strong>Lanzhou Beef Noodles (Niurou Mian):</strong> The city’s iconic dish, hand-pulled noodles served in a clear beef broth with white radish, red chili oil, and green coriander and garlic sprouts, often described as "one clear, two white, three red, four green."</li>
+        <li><strong>Grilled Lamb Skewers:</strong> Juicy lamb seasoned with cumin and chili, grilled over charcoal and enjoyed at night markets across the city.</li>
+        <li><strong>Hand-Grabbed Mutton (Shouzhua Yangrou):</strong> Tender boiled lamb eaten by hand with salt and garlic, a favorite dish of the region’s Hui and Tibetan communities.</li>
+        <li><strong>Niangpi:</strong> Chilled, chewy wheat or rice noodles dressed with vinegar, garlic, and chili oil, perfect on a hot summer day.</li>
+        <li><strong>Gray Bean Soup (Hui Dou Zi):</strong> A sweet, warming dessert soup made with peas, red dates, and sugar, a classic Lanzhou street snack.</li>
+        <li><strong>Sanpaotai Tea:</strong> The "three-cannon" bowl tea, a sweet brew of green tea with rock sugar, dried longan, goji berries, and red dates, served in a lidded bowl.</li>
+      </ul>
+
+      <h2>Special Historical Places in Lanzhou</h2>
+      <ul>
+        <li><strong>Zhongshan Bridge:</strong> Known as the "First Bridge over the Yellow River," a steel bridge completed in 1909 and the first permanent bridge across the river, now a beloved city symbol.</li>
+        <li><strong>White Pagoda Temple:</strong> A seven-story pagoda on top of Baita Mountain, first built during the Yuan Dynasty and rebuilt in the 15th century, overlooking Zhongshan Bridge.</li>
+        <li><strong>Gansu Provincial Museum:</strong> One of China’s finest regional museums, home to the famous bronze Flying Horse of Gansu and treasures from the Silk Road and ancient Yellow River cultures.</li>
+        <li><strong>Bingling Temple Grottoes:</strong> A spectacular complex of Buddhist caves and carvings set in a remote canyon near the Liujiaxia Reservoir, with a giant seated Buddha and art dating back to the 5th century.</li>
+        <li><strong>Mother Yellow River Statue:</strong> A famous sculpture on the riverbank showing a mother and child, symbolizing the Yellow River as the cradle of Chinese civilization.</li>
+        <li><strong>Waterwheel Garden:</strong> A riverside park featuring giant wooden waterwheels, recreating the traditional irrigation devices once used along the Yellow River in Lanzhou.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're slurping a steaming bowl of beef noodles at dawn, crossing the historic Zhongshan Bridge, exploring Silk Road treasures, or sailing through canyons to the ancient Bingling Temple Grottoes, Lanzhou offers a fascinating gateway to China’s northwest, where history, culture, and flavor flow together along the Yellow River.</p>
+
+      `,
+      image: "/images/lanzhou.jpg"
     }
 
 ];
