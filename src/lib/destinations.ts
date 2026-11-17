@@ -172,10 +172,10 @@ const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\
 const mapsUrl = (query: string) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 
-// "Popular Areas" ve "Special Historical Places" listelerindeki her yer adının yanına Google Maps linki ekler.
+// "Popular Areas" ve "Historical Places" başlıklı listelerdeki her yer adının yanına Google Maps linki ekler.
 // Tarihi yerlere ayrıca Klook bilet/tur linki eklenir.
 function addPlaceLinks(post: Post, html: string): string {
-  return html.replace(/(<h2>(Popular Areas|Special Historical Places)[^<]*<\/h2>\s*<ul>)([\s\S]*?)(<\/ul>)/g, (_, open, section, items, close) =>
+  return html.replace(/(<h2>[^<]*?(Popular Areas|Historical Places)[^<]*<\/h2>\s*<ul>)([\s\S]*?)(<\/ul>)/g, (_, open, section, items, close) =>
     open +
     items.replace(/(<li>\s*<strong>)([^<]+)(<\/strong>)/g, (_: string, before: string, name: string, after: string) => {
       const place = name.replace(/:\s*$/, "").replace(/&amp;/g, "&").trim();
@@ -184,7 +184,7 @@ function addPlaceLinks(post: Post, html: string): string {
       const links = [
         `<a href="${mapsUrl(`${place}, ${post.title}`)}" target="_blank" rel="noopener noreferrer" class="map-link" aria-label="${place} on Google Maps">📍 Map</a>`,
       ];
-      if (section === "Special Historical Places") {
+      if (section === "Historical Places") {
         links.push(
           `<a href="${klookSearchLink(placeName, post.slug)}" target="_blank" rel="${AFFILIATE_REL}" class="map-link" aria-label="${placeName} tickets and tours on Klook">🎟️ Tickets &amp; Tours</a>`
         );
