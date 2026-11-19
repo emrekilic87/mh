@@ -108,6 +108,7 @@ const countryBySlug: Record<string, string> = {
   "discover-belgrade": "serbia",
   "discover-lanzhou": "china",
   "discover-carthage": "tunisia",
+  "discover-monte-carlo": "monaco",
 };
 
 const continentByCountry: Record<string, string> = {
@@ -118,7 +119,7 @@ const continentByCountry: Record<string, string> = {
   montenegro: "europe", turkey: "europe", ireland: "europe", austria: "europe", norway: "europe",
   luxembourg: "europe", greece: "europe", uk: "europe", sweden: "europe", belgium: "europe",
   czechia: "europe", germany: "europe", poland: "europe", georgia: "europe", russia: "europe",
-  finland: "europe", azerbaijan: "europe", iceland: "europe", serbia: "europe",
+  finland: "europe", azerbaijan: "europe", iceland: "europe", serbia: "europe", monaco: "europe",
   mexico: "north-america", usa: "north-america", cuba: "north-america", bahamas: "north-america",
   curacao: "north-america",
   chile: "south-america", argentina: "south-america", brazil: "south-america", peru: "south-america",
@@ -140,6 +141,7 @@ const aliasesBySlug: Record<string, string[]> = {
   "discover-malaga": ["Málaga"],
   "discover-cancun": ["Cancún"],
   "discover-turkey": ["Türkiye"],
+  "discover-monte-carlo": ["Monte-Carlo"],
 };
 
 const getCountry = (slug: string) => countryBySlug[slug];
