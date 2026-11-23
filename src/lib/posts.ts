@@ -5644,6 +5644,62 @@ export const posts = [
 
       `,
       image: "/images/laos.jpg"
+    },
+    {
+      slug: "discover-palawan",
+      title: "Palawan",
+      keywords: "Palawan travel guide, El Nido, Coron, Puerto Princesa, Puerto Princesa Underground River, Bacuit Bay, Kayangan Lake, Tubbataha Reefs, Port Barton, San Vicente Long Beach, Island hopping Palawan, Filipino food, Things to do in Palawan, Best time to visit Palawan",
+      summary: "Palawan, the long, wild island province of the western Philippines, where towering limestone cliffs, hidden lagoons, white-sand beaches, shipwreck dives, and an extraordinary underground river make it one of the most beautiful islands in the world.",
+      metaDescription: "Palawan travel guide: El Nido, Coron, Puerto Princesa Underground River, island hopping, Filipino food, souvenirs and travel tips.",
+      content: `
+      <p><strong>Palawan</strong> is the largest province of the Philippines, a slender island stretching about 450 kilometers between the South China Sea and the Sulu Sea, surrounded by more than 1,700 smaller islands and islets. Often called the Philippines’ “last frontier,” it is famous for its dramatic limestone karst landscapes, crystal-clear lagoons, coral reefs, and some of the richest biodiversity in Southeast Asia. People have lived here for tens of thousands of years, as the ancient remains found in the Tabon Caves show, and the islands were later part of trade networks linking China, Borneo, and the wider Malay world before Spanish and then American colonial rule. Today Palawan is one of Asia’s most celebrated island destinations, home to two UNESCO World Heritage Sites: the Puerto Princesa Subterranean River National Park and the Tubbataha Reefs Natural Park. The main gateway is Puerto Princesa International Airport, with additional flights to El Nido and to Busuanga for Coron, while vans, buses, and ferries connect the main towns. Filipino and English are widely spoken and the currency is the Philippine peso; ATMs can be scarce outside the main towns, so it is wise to carry cash. The best time to visit is the dry season from November to May, with the calmest seas for island hopping from March to May, while the rainy season from June to October can bring rough waters and canceled boat trips.</p>
+
+      <h2>What Are the Most Popular Areas to Visit in Palawan?</h2>
+      <ul>
+        <li><strong>El Nido:</strong> The jewel of northern Palawan, set on Bacuit Bay with soaring limestone cliffs, secret lagoons, and island-hopping tours to beaches such as Seven Commando and Nacpan Beach.</li>
+        <li><strong>Coron:</strong> A town on Busuanga Island and the gateway to Coron Island, known for Kayangan Lake, the twin lagoons, hot springs, and world-class wreck diving on Japanese ships sunk in World War II.</li>
+        <li><strong>Puerto Princesa:</strong> The provincial capital and main entry point, a clean and green city that serves as the base for the Underground River, Honda Bay island hopping, and firefly watching on the Iwahig River.</li>
+        <li><strong>Port Barton:</strong> A quiet, laid-back village on the west coast with simple beachfront stays, snorkeling with sea turtles, and peaceful island-hopping trips away from the crowds.</li>
+        <li><strong>San Vicente:</strong> Home to Long Beach, one of the longest white-sand beaches in the Philippines at around 14 kilometers, still largely undeveloped.</li>
+        <li><strong>Balabac:</strong> A remote group of islands at the southern tip of Palawan, with pink-tinged sandbanks, pristine reefs, and some of the most untouched beaches in the country.</li>
+      </ul>
+
+      <h2>What Are the Best Products to Buy in Palawan?</h2>
+      <ul>
+        <li><strong>South Sea Pearls:</strong> Palawan is known for its high-quality cultured pearls, sold as necklaces, earrings, and bracelets in Puerto Princesa and Coron.</li>
+        <li><strong>Cashew Nuts:</strong> The province is one of the country’s leading cashew producers, and roasted, honey-glazed, or garlic-flavored cashews make a favorite edible souvenir.</li>
+        <li><strong>Woven Handicrafts:</strong> Baskets, mats, and bags woven by indigenous communities such as the Tagbanua and Palaw’an from rattan, pandan, and bamboo.</li>
+        <li><strong>Dried Seafood:</strong> Dried fish, squid, and danggit from local markets, a popular take-home snack for Filipino travelers.</li>
+        <li><strong>Calamansi Products:</strong> Juices, jams, and sweets made from the small Philippine lime, a fresh and tangy taste of the islands.</li>
+        <li><strong>Souvenir Shirts and Crafts:</strong> T-shirts, wooden carvings, and shell crafts from the Baker’s Hill area and souvenir shops in Puerto Princesa.</li>
+      </ul>
+
+      <h2>What Are the Must-Try Foods in Palawan?</h2>
+      <ul>
+        <li><strong>Fresh Seafood:</strong> Grilled fish, prawns, crabs, and lobster are the stars of Palawan cuisine, often cooked right on the beach during island-hopping tours.</li>
+        <li><strong>Kinilaw:</strong> A Filipino ceviche of fresh raw fish cured in vinegar or calamansi juice with ginger, onions, and chili, perfect on a hot day.</li>
+        <li><strong>Tamilok:</strong> Palawan’s most famous adventurous delicacy, woodworms harvested from mangrove trees and eaten raw with vinegar, said to taste like oysters.</li>
+        <li><strong>Chao Long:</strong> A Vietnamese-influenced rice noodle soup that is a Puerto Princesa specialty, brought by Vietnamese refugees who settled in the city.</li>
+        <li><strong>Adobo and Sinigang:</strong> Classic Filipino dishes found everywhere, adobo braised in vinegar and soy sauce, and sinigang, a sour tamarind soup with pork or seafood.</li>
+        <li><strong>Crocodile Sisig:</strong> A local twist on the sizzling Filipino favorite, made with crocodile meat and served in some Puerto Princesa restaurants.</li>
+      </ul>
+
+      <h2>What Are the Best Historical and Natural Places to Visit in Palawan?</h2>
+      <ul>
+        <li><strong>Puerto Princesa Underground River:</strong> A UNESCO World Heritage Site and one of the New 7 Wonders of Nature, a navigable river flowing through a vast limestone cave system directly into the sea, explored by paddle boat.</li>
+        <li><strong>Tabon Caves:</strong> Known as the “Cradle of Philippine Civilization,” a cave complex in Quezon where human remains around 47,000 years old and the famous Manunggul Jar burial vessel were discovered.</li>
+        <li><strong>Plaza Cuartel:</strong> A former Japanese garrison in Puerto Princesa and the site of a tragic World War II massacre of American prisoners of war, now a quiet memorial park.</li>
+        <li><strong>Immaculate Conception Cathedral:</strong> Puerto Princesa’s Gothic-style cathedral with its striking blue and white façade, overlooking the bay.</li>
+        <li><strong>Coron Wrecks:</strong> A fleet of Japanese supply ships sunk by American aircraft in 1944, now one of the world’s top wreck diving sites.</li>
+        <li><strong>Taytay Fort:</strong> Fuerza de Santa Isabel, a Spanish stone fort built in the 17th century on the coast of Taytay, once the capital of the province.</li>
+        <li><strong>Tubbataha Reefs:</strong> A UNESCO-listed marine park far out in the Sulu Sea, reachable only by liveaboard boats between March and June, with spectacular coral walls, sharks, and manta rays.</li>
+      </ul>
+
+      <hr/>
+      <p>Whether you're gliding through the cave of the Underground River, swimming in the hidden lagoons of El Nido, diving among the wrecks of Coron, or enjoying fresh grilled seafood on a white-sand beach at sunset, Palawan offers a unique blend of history, adventure, and tropical beauty that feels like paradise.</p>
+
+      `,
+      image: "/images/palawan.jpg"
     }
 
 ];
