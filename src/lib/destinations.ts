@@ -148,6 +148,9 @@ const aliasesBySlug: Record<string, string[]> = {
 
 const getCountry = (slug: string) => countryBySlug[slug];
 
+// Ülke eşlemesi olmayan yazılar (ör. AirHelp incelemesi) destinasyon rehberi değildir.
+export const isDestinationPost = (post: Post) => Boolean(getCountry(post.slug));
+
 export function getCountryPost(post: Post): Post | undefined {
   const country = getCountry(post.slug);
   if (!country || post.slug === `discover-${country}`) return undefined;
@@ -201,6 +204,16 @@ function addPlaceLinks(post: Post, html: string): string {
 
 export function renderPostContent(post: Post): string {
   return addInternalLinks(post, addPlaceLinks(post, post.content));
+}
+
+// İçeriği, arasına affiliate kutusu konabilecek iki parçaya böler.
+// Tercihen tarihi yerler bölümünden önce (bilet/tur ile en alakalı yer), yoksa ortadaki h2'den önce bölünür.
+export function splitPostContent(html: string): [string, string] {
+  const headings = [...html.matchAll(/<h2>/g)].map((m) => m.index!);
+  if (headings.length < 2) return [html, ""];
+  const historical = html.search(/<h2>[^<]*?Historical/);
+  const at = historical > 0 ? historical : headings[Math.floor(headings.length / 2)];
+  return [html.slice(0, at), html.slice(at)];
 }
 
 // Aynı ülkedeki diğer destinasyonların içerikteki ilk geçişini linke çevirir.

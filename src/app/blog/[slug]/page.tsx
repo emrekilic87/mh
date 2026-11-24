@@ -2,9 +2,11 @@ import { getPostBySlug } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { getCountryPost, getRelatedPosts, renderPostContent } from "@/lib/destinations";
+import { getCountryPost, getRelatedPosts, isDestinationPost, renderPostContent, splitPostContent } from "@/lib/destinations";
 import Widget from "@/components/affiliate/widget";
 import KlookCta from "@/components/affiliate/klookCta";
+import EsimBanner from "@/components/affiliate/esimBanner";
+import AirhelpBanner from "@/components/affiliate/airhelpBanner";
 import ShareButtons from "@/components/shareButtons";
 import { siteMetadata } from "@/lib/siteMetadata";
 type Props = {
@@ -87,6 +89,8 @@ const BlogDetailPage = async(props: { params: Params }) => {
     },
   ];
 
+  const [contentStart, contentEnd] = splitPostContent(renderPostContent(post));
+
   return (
     <div id="detail-page" className="max-w-4xl mx-auto p-4">
       <script
@@ -122,9 +126,29 @@ const BlogDetailPage = async(props: { params: Params }) => {
         scriptSrc="https://tpwgt.com/content?currency=usd&trs=414250&shmarker=629078&locale=en&stops=any&show_hotels=false&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
       /> */}
 
-      <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: renderPostContent(post) }} />
+      {isDestinationPost(post) ? (
+        <>
+          <div className="post-content text-gray-800 dark:text-white leading-7" dangerouslySetInnerHTML={{ __html: contentStart }} />
+          <KlookCta destination={post.title} slug={post.slug} />
+          {contentEnd && (
+            <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: contentEnd }} />
+          )}
+        </>
+      ) : (
+        <div className="post-content text-gray-800 dark:text-white leading-7 mb-6" dangerouslySetInnerHTML={{ __html: renderPostContent(post) }} />
+      )}
 
-      <KlookCta destination={post.title} slug={post.slug} />
+      {isDestinationPost(post) ? (
+        <section aria-labelledby="stay-connected" className="my-8 text-center">
+          <h2 id="stay-connected" className="text-lg font-semibold">Staying connected in {post.title}</h2>
+          <p className="text-sm text-gray-600 dark:text-gray-300">
+            Skip roaming fees with a travel eSIM you can set up before you land.
+          </p>
+          <EsimBanner slug={post.slug} />
+        </section>
+      ) : (
+        <AirhelpBanner />
+      )}
 
       <ShareButtons url={postUrl} title={`${post.title} Travel Guide | Multi Hats`} image={imageUrl} />
 
